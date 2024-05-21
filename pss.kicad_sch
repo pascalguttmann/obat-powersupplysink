@@ -12,6 +12,74 @@
 		(comment 1 "Overview")
 	)
 	(lib_symbols)
+	(sheet
+		(at 144.78 104.14)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6697199f-c368-49fa-870b-05dd67d67cad")
+		(property "Sheetname" "outstage"
+			(at 144.78 103.4284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "outstage.kicad_sch"
+			(at 144.78 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "v_in+" input
+			(at 144.78 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c0aa9f31-06d9-4a11-a3b9-02c7bc858f34")
+		)
+		(pin "v_in-" input
+			(at 144.78 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "232ef063-de3e-4bbe-88d3-ca28efe20459")
+		)
+		(pin "v_out" output
+			(at 170.18 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fa00efa2-e284-4d68-9643-ef37500f3b67")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

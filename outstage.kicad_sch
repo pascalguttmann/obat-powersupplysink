@@ -1,0 +1,51 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "7a3d1d17-5178-4df4-909a-28920645aae7")
+	(paper "A4")
+	(title_block
+		(title "Power Supply Sink")
+		(date "2024-05-22")
+		(rev "0.0.0")
+		(company "Open Battery Tester")
+		(comment 1 "Outstage")
+	)
+	(lib_symbols)
+	(hierarchical_label "v_in-"
+		(shape input)
+		(at 52.07 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "27b98f6b-61eb-418a-9f11-a7b052a3612b")
+	)
+	(hierarchical_label "v_out"
+		(shape output)
+		(at 64.77 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f3adeff6-5bbe-402b-a32b-76683e05dee1")
+	)
+	(hierarchical_label "v_in+"
+		(shape input)
+		(at 52.07 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f7650d37-2490-4aff-a5c1-ff3f0e844a53")
+	)
+)
