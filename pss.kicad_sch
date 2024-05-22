@@ -326,12 +326,8 @@
 		)
 	)
 	(no_connect
-		(at 144.78 113.03)
-		(uuid "50af80b8-49e8-4189-811f-df49b06cfb76")
-	)
-	(no_connect
-		(at 144.78 107.95)
-		(uuid "a269631b-bfa5-4670-8b4f-c30eb6e57c98")
+		(at 105.41 110.49)
+		(uuid "7ba558ae-a92b-48fe-8818-c10cb66f7396")
 	)
 	(no_connect
 		(at 170.18 110.49)
@@ -339,7 +335,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 104.14) (xy 90.17 107.95)
+			(xy 67.31 107.95) (xy 67.31 111.76)
 		)
 		(stroke
 			(width 0)
@@ -349,7 +345,17 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 104.14) (xy 109.22 107.95)
+			(xy 130.81 113.03) (xy 144.78 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d85eb55-d77a-41cc-9a5a-efc565a8f5c5")
+	)
+	(wire
+		(pts
+			(xy 86.36 107.95) (xy 86.36 111.76)
 		)
 		(stroke
 			(width 0)
@@ -357,9 +363,19 @@
 		)
 		(uuid "8a07f0d3-f8ff-4c7d-bd77-e0bbe7bb2931")
 	)
+	(wire
+		(pts
+			(xy 130.81 107.95) (xy 144.78 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae879166-06f6-4b0e-80b5-f1105a62a8a9")
+	)
 	(symbol
 		(lib_id "power:+10V")
-		(at 109.22 104.14 0)
+		(at 86.36 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -368,7 +384,7 @@
 		(fields_autoplaced yes)
 		(uuid "01f379ef-0312-41a8-be02-647e32dd5002")
 		(property "Reference" "#PWR01002"
-			(at 109.22 107.95 0)
+			(at 86.36 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -377,7 +393,7 @@
 			)
 		)
 		(property "Value" "+10V"
-			(at 109.22 99.06 0)
+			(at 86.36 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -385,7 +401,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 104.14 0)
+			(at 86.36 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -394,7 +410,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 104.14 0)
+			(at 86.36 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -403,7 +419,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+10V\""
-			(at 109.22 104.14 0)
+			(at 86.36 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -425,7 +441,7 @@
 	)
 	(symbol
 		(lib_id "power:-5V")
-		(at 90.17 104.14 0)
+		(at 67.31 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -434,7 +450,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc764964-b157-4f80-856f-43e1ff199614")
 		(property "Reference" "#PWR01001"
-			(at 90.17 107.95 0)
+			(at 67.31 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -443,7 +459,7 @@
 			)
 		)
 		(property "Value" "-5V"
-			(at 90.17 99.06 0)
+			(at 67.31 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -451,7 +467,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 104.14 0)
+			(at 67.31 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -460,7 +476,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 104.14 0)
+			(at 67.31 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -469,7 +485,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-5V\""
-			(at 90.17 104.14 0)
+			(at 67.31 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -491,7 +507,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 90.17 107.95 180)
+		(at 67.31 111.76 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -500,7 +516,7 @@
 		(fields_autoplaced yes)
 		(uuid "e04dcd83-7c8e-4450-aa22-4b9347e14146")
 		(property "Reference" "#FLG01001"
-			(at 90.17 109.855 0)
+			(at 67.31 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -509,7 +525,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 90.17 113.03 0)
+			(at 67.31 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -517,7 +533,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 107.95 0)
+			(at 67.31 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -526,7 +542,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 107.95 0)
+			(at 67.31 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -535,7 +551,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 90.17 107.95 0)
+			(at 67.31 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -557,7 +573,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 109.22 107.95 180)
+		(at 86.36 111.76 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -566,7 +582,7 @@
 		(fields_autoplaced yes)
 		(uuid "ebf288cc-cf7f-4332-880c-a99999863c6b")
 		(property "Reference" "#FLG01002"
-			(at 109.22 109.855 0)
+			(at 86.36 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -575,7 +591,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 109.22 113.03 0)
+			(at 86.36 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -583,7 +599,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 107.95 0)
+			(at 86.36 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -592,7 +608,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 107.95 0)
+			(at 86.36 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -601,7 +617,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 109.22 107.95 0)
+			(at 86.36 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -680,6 +696,74 @@
 				(justify right)
 			)
 			(uuid "fa00efa2-e284-4d68-9643-ef37500f3b67")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 104.14)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d9c104a2-4a24-4569-8b40-6d4a705914a4")
+		(property "Sheetname" "bias"
+			(at 105.41 103.4284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bias.kicad_sch"
+			(at 105.41 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "v_out+" output
+			(at 130.81 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c6ff12f3-c139-4f5d-aed0-aa8d08acf25c")
+		)
+		(pin "v_out-" output
+			(at 130.81 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "228a3f71-c4dc-4893-a251-7e1b2da37837")
+		)
+		(pin "v_in" input
+			(at 105.41 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c670e0e2-e81c-4838-9c5d-2f830e40ce06")
 		)
 		(instances
 			(project "pss"
