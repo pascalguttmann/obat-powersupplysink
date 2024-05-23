@@ -1,6 +1,8 @@
 Obat - PowerSupplySink
 ======================
 
+KiCAD Project for the PowerSupplySink.
+
 License
 -------
 
