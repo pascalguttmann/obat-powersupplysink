@@ -7,7 +7,7 @@
 	(title_block
 		(title "Power Supply Sink")
 		(date "2024-05-26")
-		(rev "0.2.0")
+		(rev "0.2.1")
 		(company "Open Battery Tester")
 		(comment 1 "Bias Stage")
 	)
