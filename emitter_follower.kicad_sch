@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Power Supply Sink")
-		(date "2024-05-22")
-		(rev "0.1.0")
+		(date "2024-05-26")
+		(rev "0.2.1")
 		(company "Open Battery Tester")
 		(comment 1 "Emitter Follower")
 	)
@@ -1837,7 +1837,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TIP42C"
+		(property "Value" "DPLS350E"
 			(at 144.78 118.1099 0)
 			(effects
 				(font
@@ -2095,7 +2095,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TIP41C"
+		(property "Value" "DNLS350E"
 			(at 144.78 85.0899 0)
 			(effects
 				(font
