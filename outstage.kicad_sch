@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Power Supply Sink")
-		(date "2024-05-26")
-		(rev "0.2.1")
+		(date "2024-06-02")
+		(rev "0.3.0")
 		(company "Open Battery Tester")
 		(comment 1 "Outstage")
 	)
@@ -1666,10 +1666,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "84e3fef4-e4f1-4807-80b9-93009e0e9cf2")
+			(uuid "84e3fef4-e4f1-4807-80b9-93009e0e9cf3")
 		)
 		(pin "2"
-			(uuid "cd893e9d-9456-4200-9f8a-16a103bdd37e")
+			(uuid "cd893e9d-9456-4200-9f8a-16a103bdd37f")
 		)
 		(instances
 			(project "pss"
