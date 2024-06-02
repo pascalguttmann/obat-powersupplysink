@@ -729,6 +729,176 @@
 				)
 			)
 		)
+		(symbol "pss:THFU3"
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "MC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Clip for press mounting of TO-220 on heatsink"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "THFU3_0_1"
+				(arc
+					(start -0.635 3.175)
+					(mid 0 2.912)
+					(end 0.635 3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.635 -1.905)
+					(mid 0.7439 -3.438)
+					(end 1.905 -4.445)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.905 1.905)
+					(mid 1.533 2.803)
+					(end 0.635 3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "pss:Thermal_Insulator"
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "TI"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Thermal component for electrical insulation of heatsink"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Thermal_Insulator_0_1"
+				(rectangle
+					(start -2.54 3.81)
+					(end 2.54 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.905)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 160.02 116.84)
@@ -1335,6 +1505,114 @@
 				)
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/e69a708c-8469-4c0f-bea8-99e69127895b"
 					(reference "R15002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pss:THFU3")
+		(at 194.31 125.73 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a5d823d-a098-4b0b-ad48-82500e082dd2")
+		(property "Reference" "MC4002"
+			(at 196.85 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 196.85 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Clip for press mounting of TO-220 on heatsink"
+			(at 194.31 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/07a7a2c5-3125-42eb-b7d2-ab9e4fee9435"
+					(reference "MC4002")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/7fb76cf0-9304-4e93-9191-bdb1de3a182a"
+					(reference "MC5002")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/2d405ed7-d8e3-4f0a-8915-f91d206781b5"
+					(reference "MC6002")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/ce06b8f9-1583-4304-8864-af0527b64382"
+					(reference "MC7002")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/fc2ed052-df09-4ddc-ba2c-65813cdfdb98"
+					(reference "MC8002")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/0dc27ff4-0252-41f5-aaba-84a82340be52"
+					(reference "MC9002")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/7dd50d98-f606-45de-b856-f7bc2726e6bb"
+					(reference "MC10002")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/04b10879-c4f7-4aa1-83c0-680d55aeab07"
+					(reference "MC11002")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/15855d7c-f960-446c-a740-04c42b6ce371"
+					(reference "MC12002")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/3ac5bfd4-322b-4b4e-b291-daf0eabe32b3"
+					(reference "MC13002")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/432d4703-970a-49e3-83e4-9ff2241f6220"
+					(reference "MC14002")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/e69a708c-8469-4c0f-bea8-99e69127895b"
+					(reference "MC15002")
 					(unit 1)
 				)
 			)
@@ -2077,6 +2355,114 @@
 		)
 	)
 	(symbol
+		(lib_id "pss:Thermal_Insulator")
+		(at 181.61 125.73 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91413b43-19ae-4537-b9ed-dc4573c45b37")
+		(property "Reference" "TI4002"
+			(at 185.42 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 185.42 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thermal component for electrical insulation of heatsink"
+			(at 181.61 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/07a7a2c5-3125-42eb-b7d2-ab9e4fee9435"
+					(reference "TI4002")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/7fb76cf0-9304-4e93-9191-bdb1de3a182a"
+					(reference "TI5002")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/2d405ed7-d8e3-4f0a-8915-f91d206781b5"
+					(reference "TI6002")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/ce06b8f9-1583-4304-8864-af0527b64382"
+					(reference "TI7002")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/fc2ed052-df09-4ddc-ba2c-65813cdfdb98"
+					(reference "TI8002")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/0dc27ff4-0252-41f5-aaba-84a82340be52"
+					(reference "TI9002")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/7dd50d98-f606-45de-b856-f7bc2726e6bb"
+					(reference "TI10002")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/04b10879-c4f7-4aa1-83c0-680d55aeab07"
+					(reference "TI11002")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/15855d7c-f960-446c-a740-04c42b6ce371"
+					(reference "TI12002")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/3ac5bfd4-322b-4b4e-b291-daf0eabe32b3"
+					(reference "TI13002")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/432d4703-970a-49e3-83e4-9ff2241f6220"
+					(reference "TI14002")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/e69a708c-8469-4c0f-bea8-99e69127895b"
+					(reference "TI15002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:TIP41C")
 		(at 149.86 83.82 0)
 		(mirror y)
@@ -2200,6 +2586,114 @@
 				)
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/e69a708c-8469-4c0f-bea8-99e69127895b"
 					(reference "Q15001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pss:Thermal_Insulator")
+		(at 181.61 74.93 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4f33410-e287-4cac-8198-a3d34c6ce6a2")
+		(property "Reference" "TI4001"
+			(at 185.42 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 185.42 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thermal component for electrical insulation of heatsink"
+			(at 181.61 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/07a7a2c5-3125-42eb-b7d2-ab9e4fee9435"
+					(reference "TI4001")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/7fb76cf0-9304-4e93-9191-bdb1de3a182a"
+					(reference "TI5001")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/2d405ed7-d8e3-4f0a-8915-f91d206781b5"
+					(reference "TI6001")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/ce06b8f9-1583-4304-8864-af0527b64382"
+					(reference "TI7001")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/fc2ed052-df09-4ddc-ba2c-65813cdfdb98"
+					(reference "TI8001")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/0dc27ff4-0252-41f5-aaba-84a82340be52"
+					(reference "TI9001")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/7dd50d98-f606-45de-b856-f7bc2726e6bb"
+					(reference "TI10001")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/04b10879-c4f7-4aa1-83c0-680d55aeab07"
+					(reference "TI11001")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/15855d7c-f960-446c-a740-04c42b6ce371"
+					(reference "TI12001")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/3ac5bfd4-322b-4b4e-b291-daf0eabe32b3"
+					(reference "TI13001")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/432d4703-970a-49e3-83e4-9ff2241f6220"
+					(reference "TI14001")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/e69a708c-8469-4c0f-bea8-99e69127895b"
+					(reference "TI15001")
 					(unit 1)
 				)
 			)
@@ -2563,6 +3057,114 @@
 				)
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/07a7a2c5-3125-42eb-b7d2-ab9e4fee9435"
 					(reference "Q4004")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pss:THFU3")
+		(at 194.31 74.93 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9cd1dc7-fd7c-473d-a894-d8a8bf2b804b")
+		(property "Reference" "MC4001"
+			(at 196.85 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 196.85 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Clip for press mounting of TO-220 on heatsink"
+			(at 194.31 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/07a7a2c5-3125-42eb-b7d2-ab9e4fee9435"
+					(reference "MC4001")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/7fb76cf0-9304-4e93-9191-bdb1de3a182a"
+					(reference "MC5001")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/2d405ed7-d8e3-4f0a-8915-f91d206781b5"
+					(reference "MC6001")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/ce06b8f9-1583-4304-8864-af0527b64382"
+					(reference "MC7001")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/fc2ed052-df09-4ddc-ba2c-65813cdfdb98"
+					(reference "MC8001")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/0dc27ff4-0252-41f5-aaba-84a82340be52"
+					(reference "MC9001")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/7dd50d98-f606-45de-b856-f7bc2726e6bb"
+					(reference "MC10001")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/04b10879-c4f7-4aa1-83c0-680d55aeab07"
+					(reference "MC11001")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/15855d7c-f960-446c-a740-04c42b6ce371"
+					(reference "MC12001")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/3ac5bfd4-322b-4b4e-b291-daf0eabe32b3"
+					(reference "MC13001")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/432d4703-970a-49e3-83e4-9ff2241f6220"
+					(reference "MC14001")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad/e69a708c-8469-4c0f-bea8-99e69127895b"
+					(reference "MC15001")
 					(unit 1)
 				)
 			)

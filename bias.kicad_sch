@@ -624,6 +624,124 @@
 				)
 			)
 		)
+		(symbol "Mechanical:Heatsink_Pad"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "HS"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Heatsink_Pad"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.3048 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0.3048 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Heatsink with electrical connection, 1 pin"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "thermal heat temperature"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Heatsink_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Heatsink_Pad_0_1"
+				(polyline
+					(pts
+						(xy -0.3302 0) (xy -0.9652 0) (xy -0.9652 2.54) (xy -1.6002 2.54) (xy -1.6002 0) (xy -2.2352 0)
+						(xy -2.2352 2.54) (xy -2.8702 2.54) (xy -2.8702 -1.27) (xy -0.9652 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3302 0) (xy -0.3302 2.54) (xy 0.3048 2.54) (xy 0.3048 0) (xy 0.9398 0) (xy 0.9398 2.54)
+						(xy 1.5748 2.54) (xy 1.5748 0) (xy 2.2098 0) (xy 2.2098 2.54) (xy 2.8448 2.54) (xy 2.8448 -1.27)
+						(xy -0.9652 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Heatsink_Pad_1_1"
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Transistor_BJT:TIP41C"
 			(pin_names
 				(offset 0) hide)
@@ -1220,6 +1338,78 @@
 				)
 			)
 		)
+		(symbol "pss:Thermal_Conductor"
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "TC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Thermal component for thermal coupling of heatsink (electrically conductive)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Thermal_Conductor_0_1"
+				(rectangle
+					(start -2.54 3.81)
+					(end 2.54 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.905)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 60.96 101.6)
@@ -1264,10 +1454,22 @@
 		(uuid "77a00ee8-87c0-4d2f-a004-b409d896a5db")
 	)
 	(junction
+		(at 154.94 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91162946-3405-4f9c-9dd8-052bf970b933")
+	)
+	(junction
 		(at 60.96 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ea6661d-d82d-474e-ade6-e44c312a0294")
+	)
+	(junction
+		(at 154.94 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d74bbe1e-6983-4427-8803-06017083957d")
 	)
 	(junction
 		(at 129.54 76.2)
@@ -1324,6 +1526,16 @@
 			(type default)
 		)
 		(uuid "1065275a-e2b9-4fe3-9b54-f38c72a06fa2")
+	)
+	(wire
+		(pts
+			(xy 154.94 144.78) (xy 154.94 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f9a569a-1290-4996-b2c0-de757be51132")
 	)
 	(wire
 		(pts
@@ -1384,6 +1596,16 @@
 			(type default)
 		)
 		(uuid "3453effe-40c5-47e8-837f-2429c77ab45c")
+	)
+	(wire
+		(pts
+			(xy 168.91 152.4) (xy 168.91 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a6c3510-6126-4af5-82f5-827016676d04")
 	)
 	(wire
 		(pts
@@ -1517,6 +1739,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 153.67) (xy 154.94 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79c36a49-628a-48de-b3e5-8f5d2d887e3d")
+	)
+	(wire
+		(pts
 			(xy 154.94 127) (xy 154.94 134.62)
 		)
 		(stroke
@@ -1524,16 +1756,6 @@
 			(type default)
 		)
 		(uuid "880059b7-b1ad-41e7-b557-4448274dc31b")
-	)
-	(wire
-		(pts
-			(xy 154.94 144.78) (xy 154.94 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "883ea89d-e036-4e4b-8789-4330065516fa")
 	)
 	(wire
 		(pts
@@ -1577,7 +1799,27 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 38.1) (xy 154.94 71.12)
+			(xy 154.94 69.85) (xy 154.94 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0a8b1a7-7473-42d9-a1b8-eac5155de6d9")
+	)
+	(wire
+		(pts
+			(xy 154.94 69.85) (xy 168.91 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeff468f-b983-4da0-960b-77808adf7378")
+	)
+	(wire
+		(pts
+			(xy 154.94 38.1) (xy 154.94 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1597,6 +1839,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 153.67) (xy 154.94 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb1e393f-85d1-4055-9ff5-32402fbfbd4a")
+	)
+	(wire
+		(pts
 			(xy 114.3 63.5) (xy 114.3 68.58)
 		)
 		(stroke
@@ -1604,6 +1856,16 @@
 			(type default)
 		)
 		(uuid "bed990c5-3a0d-4fd1-ad4c-c8ed42007496")
+	)
+	(wire
+		(pts
+			(xy 168.91 69.85) (xy 168.91 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfa86cbb-b787-455b-bacf-420affb35363")
 	)
 	(wire
 		(pts
@@ -2046,6 +2308,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Heatsink_Pad")
+		(at 168.91 66.04 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26484765-4c24-460c-846a-a38afa964345")
+		(property "Reference" "HS2001"
+			(at 172.72 64.1349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Heatsink_Pad"
+			(at 172.72 66.6749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 169.2148 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 169.2148 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Heatsink with electrical connection, 1 pin"
+			(at 168.91 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8e0ff0a-1b5b-46df-8c02-d29ee47e66eb")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/d9c104a2-4a24-4569-8b40-6d4a705914a4"
+					(reference "HS2001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:-5V")
 		(at 129.54 177.8 180)
 		(unit 1)
@@ -2106,6 +2435,73 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/d9c104a2-4a24-4569-8b40-6d4a705914a4"
 					(reference "#PWR02012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Heatsink_Pad")
+		(at 168.91 149.86 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "357556e1-94f9-4c0c-9007-d49d201b87ae")
+		(property "Reference" "HS2002"
+			(at 172.72 147.9549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Heatsink_Pad"
+			(at 172.72 150.4949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 169.2148 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 169.2148 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Heatsink with electrical connection, 1 pin"
+			(at 168.91 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8e0ff0a-1b5b-46df-8c02-d29ee47e66eb")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/d9c104a2-4a24-4569-8b40-6d4a705914a4"
+					(reference "HS2002")
 					(unit 1)
 				)
 			)
@@ -2616,6 +3012,70 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/d9c104a2-4a24-4569-8b40-6d4a705914a4"
 					(reference "Q2006")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pss:Thermal_Conductor")
+		(at 168.91 139.7 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50ea97da-5a22-4f38-afe9-6c1e86fb16b0")
+		(property "Reference" "TC2002"
+			(at 172.72 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 172.72 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thermal component for thermal coupling of heatsink (electrically conductive)"
+			(at 168.91 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/d9c104a2-4a24-4569-8b40-6d4a705914a4"
+					(reference "TC2002")
 					(unit 1)
 				)
 			)
@@ -3203,6 +3663,70 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/d9c104a2-4a24-4569-8b40-6d4a705914a4"
 					(reference "#PWR02010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pss:Thermal_Conductor")
+		(at 168.91 55.88 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81dbd396-86b3-484c-91c3-b19845e7462f")
+		(property "Reference" "TC2001"
+			(at 172.72 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 172.72 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thermal component for thermal coupling of heatsink (electrically conductive)"
+			(at 168.91 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/d9c104a2-4a24-4569-8b40-6d4a705914a4"
+					(reference "TC2001")
 					(unit 1)
 				)
 			)
