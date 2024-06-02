@@ -130,6 +130,332 @@
 				)
 			)
 		)
+		(symbol "Motor:Fan"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "M"
+				(at 2.54 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Fan"
+				(at 2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0.254 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fan"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Fan Motor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "PinHeader*P2.54mm* TerminalBlock*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fan_0_1"
+				(arc
+					(start -2.54 -0.508)
+					(mid 0.0028 0.9121)
+					(end 0 3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.2352) (xy 0 -2.6416)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 4.2672) (xy 0 4.6228)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 4.572) (xy 0 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.016)
+					(radius 3.2512)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.81)
+					(mid 0.053 0.921)
+					(end 2.54 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -0.508)
+					(mid 0 1.0618)
+					(end -2.54 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fan_1_1"
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+24V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+24V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+24V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+24V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+24V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -309,7 +635,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 157.48) (xy 153.67 157.48)
+			(xy 124.46 157.48) (xy 132.08 157.48)
 		)
 		(stroke
 			(width 0)
@@ -449,7 +775,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 152.4) (xy 153.67 152.4)
+			(xy 124.46 152.4) (xy 132.08 152.4)
 		)
 		(stroke
 			(width 0)
@@ -609,7 +935,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 147.32) (xy 153.67 147.32)
+			(xy 124.46 147.32) (xy 132.08 147.32)
 		)
 		(stroke
 			(width 0)
@@ -651,7 +977,7 @@
 		(uuid "032cf803-868d-46a9-bdfe-856053d5dc64")
 	)
 	(label "v_in-"
-		(at 153.67 152.4 180)
+		(at 132.08 152.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -904,7 +1230,7 @@
 		(uuid "80de6481-4358-4471-bc28-f19d88542369")
 	)
 	(label "v_in+"
-		(at 153.67 147.32 180)
+		(at 132.08 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -959,7 +1285,7 @@
 		(uuid "8e4d542b-8c6d-41b6-9b87-08cbe173cc29")
 	)
 	(label "v_out"
-		(at 146.05 157.48 0)
+		(at 124.46 157.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1048,7 +1374,7 @@
 	)
 	(hierarchical_label "v_in-"
 		(shape input)
-		(at 146.05 152.4 180)
+		(at 124.46 152.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1060,7 +1386,7 @@
 	)
 	(hierarchical_label "v_out"
 		(shape output)
-		(at 153.67 157.48 0)
+		(at 132.08 157.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1072,7 +1398,7 @@
 	)
 	(hierarchical_label "v_in+"
 		(shape input)
-		(at 146.05 147.32 180)
+		(at 124.46 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1083,17 +1409,87 @@
 		(uuid "f7650d37-2490-4aff-a5c1-ff3f0e844a53")
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 182.88 148.59 0)
+		(lib_id "Motor:Fan")
+		(at 160.02 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "56938886-23d7-4805-b68a-b8a8f5cd8468")
-		(property "Reference" "#PWR03001"
-			(at 182.88 154.94 0)
+		(uuid "1f8ebb42-88b5-43e7-8c9e-999edeacb8a3")
+		(property "Reference" "M3002"
+			(at 165.1 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fan"
+			(at 165.1 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 178.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 178.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fan"
+			(at 160.02 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84e3fef4-e4f1-4807-80b9-93009e0e9cf2")
+		)
+		(pin "2"
+			(uuid "cd893e9d-9456-4200-9f8a-16a103bdd37e")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad"
+					(reference "M3002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 160.02 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23201d36-8298-4c6f-bbf4-fcd8482d69bb")
+		(property "Reference" "#PWR03003"
+			(at 160.02 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1102,7 +1498,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.88 153.67 0)
+			(at 160.02 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1110,7 +1506,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 148.59 0)
+			(at 160.02 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1119,7 +1515,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 148.59 0)
+			(at 160.02 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1128,7 +1524,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 148.59 0)
+			(at 160.02 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c245c997-2cf8-4992-944b-ea6224d2a77d")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad"
+					(reference "#PWR03003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 110.49 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56938886-23d7-4805-b68a-b8a8f5cd8468")
+		(property "Reference" "#PWR03001"
+			(at 110.49 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1149,17 +1611,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:Heatsink_Pad")
-		(at 182.88 146.05 0)
+		(lib_id "Motor:Fan")
+		(at 160.02 166.37 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8a12b70b-eee5-40d1-95b8-70ac552b5a66")
-		(property "Reference" "HS3001"
-			(at 186.69 144.1449 0)
+		(uuid "76f7aaf9-4723-427c-b4f4-49c1f059013a")
+		(property "Reference" "M3001"
+			(at 165.1 165.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1167,8 +1629,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Heatsink_Pad"
-			(at 186.69 146.6849 0)
+		(property "Value" "Fan"
+			(at 165.1 167.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1177,7 +1639,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 183.1848 147.32 0)
+			(at 160.02 166.116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1186,7 +1648,77 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 183.1848 147.32 0)
+			(at 160.02 166.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fan"
+			(at 160.02 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84e3fef4-e4f1-4807-80b9-93009e0e9cf2")
+		)
+		(pin "2"
+			(uuid "cd893e9d-9456-4200-9f8a-16a103bdd37e")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad"
+					(reference "M3001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Heatsink_Pad")
+		(at 110.49 177.8 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a12b70b-eee5-40d1-95b8-70ac552b5a66")
+		(property "Reference" "HS3001"
+			(at 114.3 175.8949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Heatsink_Pad"
+			(at 114.3 178.4349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.7948 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.7948 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1195,7 +1727,7 @@
 			)
 		)
 		(property "Description" "Heatsink with electrical connection, 1 pin"
-			(at 182.88 146.05 0)
+			(at 110.49 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1217,7 +1749,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Heatsink_Pad")
-		(at 205.74 146.05 0)
+		(at 133.35 177.8 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -1226,7 +1758,7 @@
 		(fields_autoplaced yes)
 		(uuid "aea622bc-80b1-4e87-8b52-4280506cdeb2")
 		(property "Reference" "HS3002"
-			(at 209.55 144.1449 0)
+			(at 137.16 175.8949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1235,7 +1767,7 @@
 			)
 		)
 		(property "Value" "Heatsink_Pad"
-			(at 209.55 146.6849 0)
+			(at 137.16 178.4349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1244,7 +1776,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 206.0448 147.32 0)
+			(at 133.6548 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1253,7 +1785,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 206.0448 147.32 0)
+			(at 133.6548 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1262,7 +1794,7 @@
 			)
 		)
 		(property "Description" "Heatsink with electrical connection, 1 pin"
-			(at 205.74 146.05 0)
+			(at 133.35 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1271,7 +1803,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "445117c4-507f-47f5-af5b-712f3ede7767")
+			(uuid "445117c4-507f-47f5-af5b-712f3ede7768")
 		)
 		(instances
 			(project "pss"
@@ -1284,7 +1816,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 205.74 148.59 0)
+		(at 133.35 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1293,7 +1825,7 @@
 		(fields_autoplaced yes)
 		(uuid "c853118e-e657-4cdd-b524-b222455468bc")
 		(property "Reference" "#PWR03002"
-			(at 205.74 154.94 0)
+			(at 133.35 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1302,7 +1834,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 205.74 153.67 0)
+			(at 133.35 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1310,7 +1842,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 148.59 0)
+			(at 133.35 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1319,7 +1851,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 148.59 0)
+			(at 133.35 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1328,7 +1860,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 148.59 0)
+			(at 133.35 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1337,12 +1869,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "960ca882-965a-4d6f-95a8-6463b499b9c0")
+			(uuid "960ca882-965a-4d6f-95a8-6463b499b9c1")
 		)
 		(instances
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad"
 					(reference "#PWR03002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 160.02 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1e393a3-5d32-4ba7-89cf-23634be92f2e")
+		(property "Reference" "#PWR03004"
+			(at 160.02 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 160.02 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 160.02 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a9be2a0-6bd7-47cc-aff6-a19dfcf90339")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6697199f-c368-49fa-870b-05dd67d67cad"
+					(reference "#PWR03004")
 					(unit 1)
 				)
 			)

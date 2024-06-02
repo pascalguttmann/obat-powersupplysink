@@ -2496,7 +2496,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d8e0ff0a-1b5b-46df-8c02-d29ee47e66eb")
+			(uuid "d8e0ff0a-1b5b-46df-8c02-d29ee47e66ec")
 		)
 		(instances
 			(project "pss"
