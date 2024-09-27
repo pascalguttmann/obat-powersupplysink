@@ -1463,6 +1463,15 @@
 				(hide yes)
 			)
 		)
+		(property "VPN" ""
+			(at 160.02 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "84e3fef4-e4f1-4807-80b9-93009e0e9cf2")
 		)
@@ -1665,6 +1674,15 @@
 				(hide yes)
 			)
 		)
+		(property "VPN" ""
+			(at 160.02 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "84e3fef4-e4f1-4807-80b9-93009e0e9cf3")
 		)
@@ -1735,6 +1753,15 @@
 				(hide yes)
 			)
 		)
+		(property "VPN" ""
+			(at 110.49 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "445117c4-507f-47f5-af5b-712f3ede7767")
 		)
@@ -1794,6 +1821,15 @@
 			)
 		)
 		(property "Description" "Heatsink with electrical connection, 1 pin"
+			(at 133.35 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" ""
 			(at 133.35 177.8 0)
 			(effects
 				(font

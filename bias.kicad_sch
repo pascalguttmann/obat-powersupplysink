@@ -2127,6 +2127,15 @@
 				(hide yes)
 			)
 		)
+		(property "VPN" ""
+			(at 129.54 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "65f515a4-098d-4b8e-999c-128ae3d506a7")
 		)
@@ -2199,6 +2208,15 @@
 			)
 		)
 		(property "MPN" ""
+			(at 127 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" ""
 			(at 127 63.5 0)
 			(effects
 				(font
@@ -2289,6 +2307,15 @@
 				(hide yes)
 			)
 		)
+		(property "VPN" ""
+			(at 73.66 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a018d00b-2323-4f4f-af25-86abc2427cc6")
 		)
@@ -2354,6 +2381,15 @@
 			)
 		)
 		(property "Description" "Heatsink with electrical connection, 1 pin"
+			(at 168.91 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" ""
 			(at 168.91 66.04 0)
 			(effects
 				(font
@@ -2487,6 +2523,15 @@
 			)
 		)
 		(property "Description" "Heatsink with electrical connection, 1 pin"
+			(at 168.91 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" ""
 			(at 168.91 149.86 0)
 			(effects
 				(font
@@ -2632,6 +2677,15 @@
 			)
 		)
 		(property "MPN" ""
+			(at 152.4 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" ""
 			(at 152.4 139.7 0)
 			(effects
 				(font
@@ -2854,6 +2908,15 @@
 				(hide yes)
 			)
 		)
+		(property "VPN" ""
+			(at 129.54 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dfbdaf3f-d047-45ca-965d-d8e8cfccf9a4")
 		)
@@ -2999,6 +3062,15 @@
 				(hide yes)
 			)
 		)
+		(property "VPN" ""
+			(at 127 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "664fa6ab-ffb9-4395-a044-44256db10808")
 		)
@@ -3072,6 +3144,15 @@
 				(hide yes)
 			)
 		)
+		(property "VPN" ""
+			(at 168.91 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/d9c104a2-4a24-4569-8b40-6d4a705914a4"
@@ -3137,6 +3218,15 @@
 			)
 		)
 		(property "MPN" ""
+			(at 127 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" ""
 			(at 127 127 0)
 			(effects
 				(font
@@ -3359,6 +3449,15 @@
 				(hide yes)
 			)
 		)
+		(property "VPN" ""
+			(at 60.96 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "39500f5f-bf17-4e89-9b61-aa73da669523")
 		)
@@ -3431,6 +3530,15 @@
 			)
 		)
 		(property "MPN" ""
+			(at 127 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" ""
 			(at 127 88.9 0)
 			(effects
 				(font
@@ -3587,6 +3695,15 @@
 				(hide yes)
 			)
 		)
+		(property "VPN" ""
+			(at 60.96 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "570d73c3-27a2-4461-bc60-dfeb671492ce")
 		)
@@ -3723,6 +3840,15 @@
 				(hide yes)
 			)
 		)
+		(property "VPN" ""
+			(at 168.91 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/d9c104a2-4a24-4569-8b40-6d4a705914a4"
@@ -3788,6 +3914,15 @@
 			)
 		)
 		(property "MPN" ""
+			(at 114.3 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" ""
 			(at 114.3 72.39 0)
 			(effects
 				(font
@@ -3875,6 +4010,15 @@
 				(hide yes)
 			)
 		)
+		(property "VPN" ""
+			(at 76.2 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7e6429a6-b1bc-4800-b380-4347784dce05")
 		)
@@ -3946,6 +4090,15 @@
 			)
 		)
 		(property "MPN" ""
+			(at 114.3 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" ""
 			(at 114.3 161.29 0)
 			(effects
 				(font
@@ -4091,6 +4244,15 @@
 			)
 		)
 		(property "MPN" ""
+			(at 76.2 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" ""
 			(at 76.2 46.99 0)
 			(effects
 				(font
@@ -4310,6 +4472,15 @@
 				(hide yes)
 			)
 		)
+		(property "VPN" ""
+			(at 60.96 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "53b85256-10af-4701-a665-bb91158cf02c")
 		)
@@ -4383,6 +4554,15 @@
 			)
 		)
 		(property "MPN" ""
+			(at 152.4 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" ""
 			(at 152.4 76.2 0)
 			(effects
 				(font
@@ -4539,6 +4719,15 @@
 				(hide yes)
 			)
 		)
+		(property "VPN" ""
+			(at 60.96 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a0786cbd-b787-4779-9234-bb12cbc7885a")
 		)
@@ -4684,6 +4873,15 @@
 				(hide yes)
 			)
 		)
+		(property "VPN" ""
+			(at 60.96 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bb83ee9c-5fb9-4c92-ad77-cae0b58bb920")
 		)
@@ -4755,6 +4953,15 @@
 			)
 		)
 		(property "MPN" ""
+			(at 114.3 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" ""
 			(at 114.3 143.51 0)
 			(effects
 				(font
@@ -4843,6 +5050,15 @@
 				(hide yes)
 			)
 		)
+		(property "VPN" ""
+			(at 73.66 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e104fc7d-d10d-4dc2-a2ea-7dc907e595da")
 		)
@@ -4917,6 +5133,15 @@
 			)
 		)
 		(property "MPN" ""
+			(at 114.3 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" ""
 			(at 114.3 54.61 0)
 			(effects
 				(font

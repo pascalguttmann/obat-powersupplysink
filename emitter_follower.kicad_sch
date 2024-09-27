@@ -1330,6 +1330,15 @@
 				(hide yes)
 			)
 		)
+		(property "VPN" ""
+			(at 130.81 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6e680f79-343c-45fc-a242-032679bd58dc")
 		)
@@ -1451,6 +1460,15 @@
 				(hide yes)
 			)
 		)
+		(property "VPN" ""
+			(at 130.81 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f5ed49dc-709b-4d0e-b344-484201f3575c")
 		)
@@ -1557,6 +1575,15 @@
 			)
 		)
 		(property "Description" "Mounting Clip for press mounting of TO-220 on heatsink"
+			(at 194.31 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" ""
 			(at 194.31 125.73 0)
 			(effects
 				(font
@@ -1792,6 +1819,15 @@
 				(hide yes)
 			)
 		)
+		(property "VPN" ""
+			(at 160.02 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d91ba58c-223f-42b8-9b64-8dc854255351")
 		)
@@ -1907,6 +1943,15 @@
 			)
 		)
 		(property "MPN" ""
+			(at 171.45 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" ""
 			(at 171.45 109.22 0)
 			(effects
 				(font
@@ -2038,6 +2083,15 @@
 				(hide yes)
 			)
 		)
+		(property "VPN" ""
+			(at 171.45 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "60dd4e75-0302-458e-8dc0-b7d6d8fe77ad")
 		)
@@ -2155,6 +2209,15 @@
 			)
 		)
 		(property "MPN" ""
+			(at 149.86 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" ""
 			(at 149.86 116.84 0)
 			(effects
 				(font
@@ -2292,6 +2355,15 @@
 				(hide yes)
 			)
 		)
+		(property "VPN" ""
+			(at 157.48 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "01b5289a-cd3b-42b3-bde9-8c8c41485c0f")
 		)
@@ -2401,6 +2473,15 @@
 			)
 		)
 		(property "Description" "Thermal component for electrical insulation of heatsink"
+			(at 181.61 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" ""
 			(at 181.61 125.73 0)
 			(effects
 				(font
@@ -2529,6 +2610,15 @@
 				(hide yes)
 			)
 		)
+		(property "VPN" ""
+			(at 149.86 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "fe4a809d-7652-41f2-ac4b-76ae5153c78c")
 		)
@@ -2638,6 +2728,15 @@
 			)
 		)
 		(property "Description" "Thermal component for electrical insulation of heatsink"
+			(at 181.61 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" ""
 			(at 181.61 74.93 0)
 			(effects
 				(font
@@ -2873,6 +2972,15 @@
 				(hide yes)
 			)
 		)
+		(property "VPN" ""
+			(at 160.02 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "aba6953d-4a0d-4df1-b2c0-8ba3ff19df2e")
 		)
@@ -3000,6 +3108,15 @@
 				(hide yes)
 			)
 		)
+		(property "VPN" ""
+			(at 157.48 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c0614e0b-9fdb-43fb-a0a8-99a18e14a6eb")
 		)
@@ -3109,6 +3226,15 @@
 			)
 		)
 		(property "Description" "Mounting Clip for press mounting of TO-220 on heatsink"
+			(at 194.31 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" ""
 			(at 194.31 74.93 0)
 			(effects
 				(font
