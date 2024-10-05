@@ -1220,6 +1220,44 @@
 		)
 	)
 	(sheet
+		(at 104.14 125.73)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "663aa7df-ca78-4d48-8732-ebacb327e46a")
+		(property "Sheetname" "limit-logic"
+			(at 104.14 125.0184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "limit-logic.kicad_sch"
+			(at 104.14 139.0146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 182.88 104.14)
 		(size 25.4 12.7)
 		(fields_autoplaced yes)

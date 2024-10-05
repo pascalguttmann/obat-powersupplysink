@@ -680,7 +680,7 @@
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "MPN"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -785,6 +785,10 @@
     [
       "21eb0fb1-fefd-4c89-82ef-938c2711575f",
       "control"
+    ],
+    [
+      "663aa7df-ca78-4d48-8732-ebacb327e46a",
+      "limit-logic"
     ]
   ],
   "text_variables": {}
