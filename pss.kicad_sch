@@ -12,7 +12,7 @@
 		(comment 1 "Overview")
 	)
 	(lib_symbols
-		(symbol "power:+10V"
+		(symbol "pss:+10V"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -132,7 +132,7 @@
 				)
 			)
 		)
-		(symbol "power:+24V"
+		(symbol "pss:+24V"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -252,7 +252,7 @@
 				)
 			)
 		)
-		(symbol "power:-5V"
+		(symbol "pss:-5V"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -348,7 +348,7 @@
 				)
 			)
 		)
-		(symbol "power:GND"
+		(symbol "pss:GND"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -444,7 +444,7 @@
 				)
 			)
 		)
-		(symbol "power:PWR_FLAG"
+		(symbol "pss:PWR_FLAG"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -624,7 +624,7 @@
 		(uuid "f38414a7-8bfc-4868-ba5c-c716176a38e9")
 	)
 	(symbol
-		(lib_id "power:+10V")
+		(lib_id "pss:+10V")
 		(at 46.99 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -690,7 +690,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "pss:GND")
 		(at 36.83 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -756,7 +756,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+24V")
+		(lib_id "pss:+24V")
 		(at 57.15 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -822,7 +822,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
+		(lib_id "pss:PWR_FLAG")
 		(at 36.83 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -888,7 +888,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
+		(lib_id "pss:PWR_FLAG")
 		(at 57.15 111.76 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -954,7 +954,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-5V")
+		(lib_id "pss:-5V")
 		(at 26.67 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1020,7 +1020,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
+		(lib_id "pss:PWR_FLAG")
 		(at 26.67 111.76 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1086,7 +1086,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
+		(lib_id "pss:PWR_FLAG")
 		(at 46.99 111.76 180)
 		(unit 1)
 		(exclude_from_sim no)

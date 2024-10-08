@@ -12,7 +12,223 @@
 		(comment 1 "Control")
 	)
 	(lib_symbols
-		(symbol "Device:C"
+		(symbol "pss:+10V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+10V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+10V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+10V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+10V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "pss:-5V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "-5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"-5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "-5V_0_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "-5V_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+		)
+		(symbol "pss:C"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254)
@@ -148,7 +364,103 @@
 				)
 			)
 		)
-		(symbol "Device:Opamp_Dual"
+		(symbol "pss:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "pss:Opamp_Dual"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -434,7 +746,7 @@
 				)
 			)
 		)
-		(symbol "Device:R"
+		(symbol "pss:R"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -546,318 +858,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:+10V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+10V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+10V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+10V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+10V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:-5V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "-5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"-5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "-5V_0_0"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "-5V_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-		)
-		(symbol "power:GND"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1425,7 +1425,7 @@
 		(uuid "c0d8c721-56b9-4349-8e60-4c9a1fe7795e")
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "pss:R")
 		(at 111.76 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1511,7 +1511,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "pss:GND")
 		(at 104.14 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1577,7 +1577,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:-5V")
+		(lib_id "pss:-5V")
 		(at 88.9 177.8 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1643,7 +1643,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "pss:C")
 		(at 119.38 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1731,7 +1731,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "pss:C")
 		(at 104.14 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1819,7 +1819,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+10V")
+		(lib_id "pss:+10V")
 		(at 88.9 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1885,7 +1885,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "pss:R")
 		(at 171.45 113.03 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1973,7 +1973,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Opamp_Dual")
+		(lib_id "pss:Opamp_Dual")
 		(at 91.44 165.1 0)
 		(unit 3)
 		(exclude_from_sim no)
@@ -2115,7 +2115,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "pss:R")
 		(at 111.76 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2201,7 +2201,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "pss:R")
 		(at 133.35 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2287,7 +2287,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "pss:C")
 		(at 196.85 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2373,7 +2373,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "pss:GND")
 		(at 203.2 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2439,7 +2439,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "pss:C")
 		(at 203.2 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2527,7 +2527,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "pss:GND")
 		(at 119.38 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2593,7 +2593,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "pss:R")
 		(at 184.15 78.74 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2679,7 +2679,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "pss:GND")
 		(at 171.45 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2745,7 +2745,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "pss:GND")
 		(at 120.65 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2811,7 +2811,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Opamp_Dual")
+		(lib_id "pss:Opamp_Dual")
 		(at 132.08 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2951,7 +2951,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "pss:GND")
 		(at 119.38 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3017,7 +3017,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Opamp_Dual")
+		(lib_id "pss:Opamp_Dual")
 		(at 184.15 104.14 0)
 		(mirror x)
 		(unit 2)
@@ -3157,7 +3157,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "pss:R")
 		(at 120.65 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3245,7 +3245,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "pss:C")
 		(at 119.38 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3333,7 +3333,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "pss:GND")
 		(at 104.14 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3399,7 +3399,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "pss:R")
 		(at 158.75 101.6 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3485,7 +3485,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "pss:C")
 		(at 104.14 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3572,7 +3572,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "pss:R")
 		(at 209.55 78.74 270)
 		(unit 1)
 		(exclude_from_sim no)
