@@ -3904,7 +3904,7 @@
 		)
 		(uuid "a877944d-3252-49ce-99f9-5f413f4b4d81")
 	)
-	(label "enable_mode"
+	(label "enable_ok"
 		(at 246.38 160.02 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4092,7 +4092,7 @@
 		)
 		(uuid "440d6368-f1fd-4c8a-8d92-fef734eec07e")
 	)
-	(hierarchical_label "enable_mode"
+	(hierarchical_label "enable_ok"
 		(shape output)
 		(at 262.89 160.02 0)
 		(fields_autoplaced yes)
