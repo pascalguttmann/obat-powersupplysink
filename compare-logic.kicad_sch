@@ -1,0 +1,183 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "bd27915c-05de-4e1f-9041-755f88094272")
+	(paper "A4")
+	(title_block
+		(title "Power Supply Sink")
+		(date "2024-10-11")
+		(rev "0.4.0")
+		(company "Open Battery Tester")
+		(comment 1 "Compare Logic")
+	)
+	(lib_symbols)
+	(hierarchical_label "conf_ucl"
+		(shape input)
+		(at 123.19 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0d40b5a4-41d8-47a8-859c-a907fff2eafb")
+	)
+	(hierarchical_label "conf_lcl"
+		(shape input)
+		(at 123.19 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "20673c85-18cb-42fa-8af0-bce4a8a015e0")
+	)
+	(hierarchical_label "comp_lcle"
+		(shape output)
+		(at 185.42 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d3550ac-2b3c-4ed1-97fa-a35bcd0ebb98")
+	)
+	(hierarchical_label "meas_out_v"
+		(shape input)
+		(at 123.19 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f6f5e7e-ff04-4bdd-be67-48558878262c")
+	)
+	(hierarchical_label "comp_mstt"
+		(shape output)
+		(at 185.42 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "995a0325-b253-438a-8bab-9f9148fa4610")
+	)
+	(hierarchical_label "comp_mgtt"
+		(shape output)
+		(at 185.42 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a1a4c00d-bf14-4cb8-8a82-6bf907110c8e")
+	)
+	(hierarchical_label "comp_ucle"
+		(shape output)
+		(at 185.42 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa6c9d08-1c27-4637-834b-d8a2c6001f85")
+	)
+	(hierarchical_label "comp_uvle"
+		(shape output)
+		(at 185.42 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "adbf13c7-876f-4341-a365-d2c35f003986")
+	)
+	(hierarchical_label "conf_uvl"
+		(shape input)
+		(at 123.19 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b1a10655-bd46-4360-af93-422cf5fd63a9")
+	)
+	(hierarchical_label "conf_lvl"
+		(shape input)
+		(at 123.19 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b73c1787-7211-4aa6-bc12-aedead616a78")
+	)
+	(hierarchical_label "comp_lvle"
+		(shape output)
+		(at 185.42 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b9a706db-276b-41f6-aa3c-482a3d527d78")
+	)
+	(hierarchical_label "conf_vref"
+		(shape input)
+		(at 123.19 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d1ff2456-eec4-46f6-b054-e238f928d2a9")
+	)
+	(hierarchical_label "meas_out_i"
+		(shape input)
+		(at 123.19 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ee990565-f334-4fcb-94fc-135ac6a58973")
+	)
+	(hierarchical_label "conf_iref"
+		(shape input)
+		(at 123.19 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f76c8f8c-acae-4415-b123-e5498f25215f")
+	)
+)

@@ -801,6 +801,10 @@
     [
       "2f3feae7-a9ea-4cb9-8521-c9b88e99d2e7",
       "power-electronics"
+    ],
+    [
+      "854e83c3-d665-4da7-a2c9-4ae5fb1019c9",
+      "compare-logic"
     ]
   ],
   "text_variables": {}
