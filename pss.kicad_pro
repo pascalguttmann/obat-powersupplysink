@@ -727,68 +727,80 @@
       "Root"
     ],
     [
-      "d9c104a2-4a24-4569-8b40-6d4a705914a4",
+      "96925728-5ee9-4a9a-a057-bad7289886a2",
       "bias"
     ],
     [
-      "6697199f-c368-49fa-870b-05dd67d67cad",
+      "fa72958a-5878-4cc9-a5da-a04578e325a8",
       "outstage"
-    ],
-    [
-      "07a7a2c5-3125-42eb-b7d2-ab9e4fee9435",
-      "emitter_follower1"
-    ],
-    [
-      "7fb76cf0-9304-4e93-9191-bdb1de3a182a",
-      "emitter_follower2"
-    ],
-    [
-      "2d405ed7-d8e3-4f0a-8915-f91d206781b5",
-      "emitter_follower3"
-    ],
-    [
-      "ce06b8f9-1583-4304-8864-af0527b64382",
-      "emitter_follower4"
     ],
     [
       "fc2ed052-df09-4ddc-ba2c-65813cdfdb98",
       "emitter_follower5"
     ],
     [
-      "0dc27ff4-0252-41f5-aaba-84a82340be52",
-      "emitter_follower6"
-    ],
-    [
-      "7dd50d98-f606-45de-b856-f7bc2726e6bb",
-      "emitter_follower7"
-    ],
-    [
-      "04b10879-c4f7-4aa1-83c0-680d55aeab07",
-      "emitter_follower8"
-    ],
-    [
-      "15855d7c-f960-446c-a740-04c42b6ce371",
-      "emitter_follower9"
-    ],
-    [
       "3ac5bfd4-322b-4b4e-b291-daf0eabe32b3",
       "emitter_follower10"
-    ],
-    [
-      "432d4703-970a-49e3-83e4-9ff2241f6220",
-      "emitter_follower11"
     ],
     [
       "e69a708c-8469-4c0f-bea8-99e69127895b",
       "emitter_follower12"
     ],
     [
-      "21eb0fb1-fefd-4c89-82ef-938c2711575f",
+      "ce06b8f9-1583-4304-8864-af0527b64382",
+      "emitter_follower4"
+    ],
+    [
+      "0dc27ff4-0252-41f5-aaba-84a82340be52",
+      "emitter_follower6"
+    ],
+    [
+      "432d4703-970a-49e3-83e4-9ff2241f6220",
+      "emitter_follower11"
+    ],
+    [
+      "04b10879-c4f7-4aa1-83c0-680d55aeab07",
+      "emitter_follower8"
+    ],
+    [
+      "7fb76cf0-9304-4e93-9191-bdb1de3a182a",
+      "emitter_follower2"
+    ],
+    [
+      "07a7a2c5-3125-42eb-b7d2-ab9e4fee9435",
+      "emitter_follower1"
+    ],
+    [
+      "7dd50d98-f606-45de-b856-f7bc2726e6bb",
+      "emitter_follower7"
+    ],
+    [
+      "2d405ed7-d8e3-4f0a-8915-f91d206781b5",
+      "emitter_follower3"
+    ],
+    [
+      "15855d7c-f960-446c-a740-04c42b6ce371",
+      "emitter_follower9"
+    ],
+    [
+      "e087d850-f925-4ba4-89de-e843d36ae561",
       "control"
     ],
     [
-      "663aa7df-ca78-4d48-8732-ebacb327e46a",
+      "f0ffd999-21e1-4ecc-97cc-621dfe88791c",
       "limit-logic"
+    ],
+    [
+      "baf2b2d2-d00c-49d3-b247-1b42c69022b3",
+      "control-logic"
+    ],
+    [
+      "411aee83-75fe-4524-984d-fb0946001871",
+      "mode-transition"
+    ],
+    [
+      "2f3feae7-a9ea-4cb9-8521-c9b88e99d2e7",
+      "power-electronics"
     ]
   ],
   "text_variables": {}

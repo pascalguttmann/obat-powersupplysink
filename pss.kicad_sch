@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Power Supply Sink")
-		(date "2024-09-27")
+		(date "2024-10-11")
 		(rev "0.4.0")
 		(company "Open Battery Tester")
 		(comment 1 "Overview")
@@ -541,18 +541,6 @@
 			)
 		)
 	)
-	(no_connect
-		(at 104.14 107.95)
-		(uuid "024f6792-5c9f-41ac-8b97-039b7c67bbcb")
-	)
-	(no_connect
-		(at 104.14 113.03)
-		(uuid "3c8f3862-8dd1-469b-a6ba-280111362a96")
-	)
-	(no_connect
-		(at 208.28 110.49)
-		(uuid "b3cabe8e-1319-4428-bcd0-7bfbf4b6659e")
-	)
 	(wire
 		(pts
 			(xy 36.83 107.95) (xy 36.83 111.76)
@@ -562,16 +550,6 @@
 			(type default)
 		)
 		(uuid "33aa5f33-de42-46f6-944d-69f13ab2799c")
-	)
-	(wire
-		(pts
-			(xy 129.54 110.49) (xy 143.51 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ce14ec4-8187-44f1-894f-b68b02cee724")
 	)
 	(wire
 		(pts
@@ -585,16 +563,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 113.03) (xy 182.88 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d85eb55-d77a-41cc-9a5a-efc565a8f5c5")
-	)
-	(wire
-		(pts
 			(xy 46.99 107.95) (xy 46.99 111.76)
 		)
 		(stroke
@@ -602,16 +570,6 @@
 			(type default)
 		)
 		(uuid "8a07f0d3-f8ff-4c7d-bd77-e0bbe7bb2931")
-	)
-	(wire
-		(pts
-			(xy 168.91 107.95) (xy 182.88 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae879166-06f6-4b0e-80b5-f1105a62a8a9")
 	)
 	(wire
 		(pts
@@ -1152,7 +1110,7 @@
 		)
 	)
 	(sheet
-		(at 104.14 104.14)
+		(at 156.21 97.79)
 		(size 25.4 12.7)
 		(fields_autoplaced yes)
 		(stroke
@@ -1162,9 +1120,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "21eb0fb1-fefd-4c89-82ef-938c2711575f")
-		(property "Sheetname" "control"
-			(at 104.14 103.4284 0)
+		(uuid "2f3feae7-a9ea-4cb9-8521-c9b88e99d2e7")
+		(property "Sheetname" "power-electronics"
+			(at 156.21 97.0784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1172,8 +1130,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "control.kicad_sch"
-			(at 104.14 117.4246 0)
+		(property "Sheetfile" "power-electronics.kicad_sch"
+			(at 156.21 111.0746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1181,46 +1139,16 @@
 				(justify left top)
 			)
 		)
-		(pin "ref" input
-			(at 104.14 107.95 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "88368b63-8348-47dc-8d4e-b1f27ed5ca8a")
-		)
-		(pin "meas" input
-			(at 104.14 113.03 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "1397ea67-0b3a-405c-a71e-64b52da6ef67")
-		)
-		(pin "out" output
-			(at 129.54 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "ebb316b0-27da-4223-8391-4320faa7ec6b")
-		)
 		(instances
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176"
-					(page "16")
+					(page "20")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 104.14 125.73)
+		(at 121.92 97.79)
 		(size 25.4 12.7)
 		(fields_autoplaced yes)
 		(stroke
@@ -1230,9 +1158,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "663aa7df-ca78-4d48-8732-ebacb327e46a")
-		(property "Sheetname" "limit-logic"
-			(at 104.14 125.0184 0)
+		(uuid "baf2b2d2-d00c-49d3-b247-1b42c69022b3")
+		(property "Sheetname" "control-logic"
+			(at 121.92 97.0784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1240,8 +1168,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "limit-logic.kicad_sch"
-			(at 104.14 139.0146 0)
+		(property "Sheetfile" "control-logic.kicad_sch"
+			(at 121.92 111.0746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1252,143 +1180,7 @@
 		(instances
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176"
-					(page "17")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 182.88 104.14)
-		(size 25.4 12.7)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "6697199f-c368-49fa-870b-05dd67d67cad")
-		(property "Sheetname" "outstage"
-			(at 182.88 103.4284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "outstage.kicad_sch"
-			(at 182.88 117.4246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "v_in+" input
-			(at 182.88 107.95 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "c0aa9f31-06d9-4a11-a3b9-02c7bc858f34")
-		)
-		(pin "v_in-" input
-			(at 182.88 113.03 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "232ef063-de3e-4bbe-88d3-ca28efe20459")
-		)
-		(pin "v_out" output
-			(at 208.28 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "fa00efa2-e284-4d68-9643-ef37500f3b67")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 143.51 104.14)
-		(size 25.4 12.7)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "d9c104a2-4a24-4569-8b40-6d4a705914a4")
-		(property "Sheetname" "bias"
-			(at 143.51 103.4284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "bias.kicad_sch"
-			(at 143.51 117.4246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "v_out+" output
-			(at 168.91 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "c6ff12f3-c139-4f5d-aed0-aa8d08acf25c")
-		)
-		(pin "v_out-" output
-			(at 168.91 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "228a3f71-c4dc-4893-a251-7e1b2da37837")
-		)
-		(pin "v_in" input
-			(at 143.51 110.49 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "c670e0e2-e81c-4838-9c5d-2f830e40ce06")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176"
-					(page "2")
+					(page "18")
 				)
 			)
 		)

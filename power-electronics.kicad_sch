@@ -1,0 +1,179 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "71c70e1a-ae24-4a88-91d2-9077a5f09766")
+	(paper "A4")
+	(title_block
+		(title "Power Supply Sink")
+		(date "2024-10-11")
+		(rev "0.4.0")
+		(company "Open Battery Tester")
+		(comment 1 "Power Electronics")
+	)
+	(lib_symbols)
+	(no_connect
+		(at 187.96 95.25)
+		(uuid "576c38e4-9367-4b1f-a78b-c0f4b7f17f98")
+	)
+	(no_connect
+		(at 123.19 95.25)
+		(uuid "e97d0ef6-dc4f-440b-875b-bbf8fcfa4e2d")
+	)
+	(wire
+		(pts
+			(xy 148.59 92.71) (xy 162.56 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a467d4f3-77dd-469d-bd4d-cddb4276da5d")
+	)
+	(wire
+		(pts
+			(xy 148.59 97.79) (xy 162.56 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd63b742-8e72-4846-8659-fc980d266710")
+	)
+	(sheet
+		(at 123.19 88.9)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "96925728-5ee9-4a9a-a057-bad7289886a2")
+		(property "Sheetname" "bias"
+			(at 123.19 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bias.kicad_sch"
+			(at 123.19 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "v_out+" output
+			(at 148.59 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "97c12659-7a62-47f1-a2bb-ee5c64803c59")
+		)
+		(pin "v_out-" output
+			(at 148.59 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dca99907-b91c-4319-89f6-9545c72db0e9")
+		)
+		(pin "v_in" input
+			(at 123.19 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0a60099b-8b09-401c-a707-8426021c7e36")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/2f3feae7-a9ea-4cb9-8521-c9b88e99d2e7"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 162.56 88.9)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fa72958a-5878-4cc9-a5da-a04578e325a8")
+		(property "Sheetname" "outstage"
+			(at 162.56 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "outstage.kicad_sch"
+			(at 162.56 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "v_in+" input
+			(at 162.56 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a4cf525b-c3dc-40ba-9c33-73e37996f939")
+		)
+		(pin "v_in-" input
+			(at 162.56 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "24da6b47-0579-4cfa-97eb-a86495f0c3c8")
+		)
+		(pin "v_out" output
+			(at 187.96 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3e1575ce-2e7b-4c07-997a-23e37ae17c6c")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/2f3feae7-a9ea-4cb9-8521-c9b88e99d2e7"
+					(page "3")
+				)
+			)
+		)
+	)
+)
