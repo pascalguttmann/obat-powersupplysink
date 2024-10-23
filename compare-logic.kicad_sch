@@ -12,6 +12,569 @@
 		(comment 1 "Compare Logic")
 	)
 	(lib_symbols
+		(symbol "pss:+10V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+10V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+10V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+10V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+10V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "pss:-5V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "-5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"-5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "-5V_0_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "-5V_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+		)
+		(symbol "pss:4069"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 2.54 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "4069"
+				(at 2.54 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "4069_0_0"
+				(text "1"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 2.54 2.54)
+						)
+					)
+				)
+			)
+			(symbol "4069_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "4069_1_1"
+				(pin input line
+					(at -8.89 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 8.89 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4069_2_1"
+				(pin input line
+					(at -8.89 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 8.89 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4069_3_1"
+				(pin input line
+					(at -8.89 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 8.89 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4069_4_1"
+				(pin output inverted
+					(at 8.89 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4069_5_1"
+				(pin output inverted
+					(at 8.89 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4069_6_1"
+				(pin output inverted
+					(at 8.89 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 0 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4069_7_0"
+				(pin power_in line
+					(at 0 8.89 270)
+					(length 3.81)
+					(name "Vdd"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -8.89 90)
+					(length 3.81)
+					(name "Vss"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "pss:Opamp_Dual"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -298,10 +861,427 @@
 				)
 			)
 		)
+		(symbol "pss:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 88.9 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e807b39-d8d0-463c-97fc-fb73d9092bdf")
+	)
+	(junction
+		(at 88.9 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2576b0ef-8524-4986-8f28-a06904e48581")
+	)
+	(junction
+		(at 124.46 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e548d2f-6161-428e-9f79-f3cdb4a5b36c")
+	)
+	(junction
+		(at 124.46 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "636658ec-7da9-422b-99cc-3f7e99b99ed4")
+	)
+	(junction
+		(at 143.51 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ce9af07-6857-4cac-86f2-da08aba94d0b")
+	)
+	(junction
+		(at 88.9 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc4c0741-2186-4137-87ae-07ef10e5d223")
+	)
+	(wire
+		(pts
+			(xy 88.9 41.91) (xy 88.9 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23f0beef-66bc-4245-bfeb-04e820013da0")
+	)
+	(wire
+		(pts
+			(xy 137.16 25.4) (xy 143.51 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27dbde20-bac1-4e3a-9fda-7d1d4fd9ff86")
+	)
+	(wire
+		(pts
+			(xy 127 43.18) (xy 88.9 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ae26bb7-8031-4b39-aa66-193e5862b8fd")
+	)
+	(wire
+		(pts
+			(xy 88.9 74.93) (xy 88.9 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "301f01b4-ed19-4a4a-9c4d-d4cef278d701")
+	)
+	(wire
+		(pts
+			(xy 88.9 73.66) (xy 88.9 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33287b97-4d0f-4850-b092-2a6f4524a6f2")
+	)
+	(wire
+		(pts
+			(xy 143.51 72.39) (xy 144.78 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b57d348-9d41-4145-8186-228b91669fb8")
+	)
+	(wire
+		(pts
+			(xy 88.9 74.93) (xy 127 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e49ee62-ee15-4af8-bf6b-5f8f5c4152dd")
+	)
+	(wire
+		(pts
+			(xy 129.54 25.4) (xy 124.46 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71994845-9da1-4fd1-aa56-216e33961ff4")
+	)
+	(wire
+		(pts
+			(xy 88.9 43.18) (xy 88.9 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80949703-6119-46a0-be9a-ed02ee341a99")
+	)
+	(wire
+		(pts
+			(xy 121.92 69.85) (xy 124.46 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88135067-302a-4050-a810-b7d2e25360e9")
+	)
+	(wire
+		(pts
+			(xy 124.46 25.4) (xy 124.46 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c825143-9034-4c2f-af4b-aff1858be5ba")
+	)
+	(wire
+		(pts
+			(xy 88.9 52.07) (xy 88.9 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "924fbdeb-722a-4f6c-a882-1647cfdf4691")
+	)
+	(wire
+		(pts
+			(xy 88.9 83.82) (xy 88.9 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d088279-1434-4a3f-a147-4df18e806b21")
+	)
+	(wire
+		(pts
+			(xy 143.51 40.64) (xy 142.24 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e4d712f-5224-4d85-a6aa-f1596d3b8608")
+	)
+	(wire
+		(pts
+			(xy 76.2 57.15) (xy 88.9 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8105c28-8dec-44df-8b34-faa983633113")
+	)
+	(wire
+		(pts
+			(xy 143.51 25.4) (xy 143.51 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae41dcc4-9292-4800-8b1c-dd0f80c4dfe9")
+	)
+	(wire
+		(pts
+			(xy 137.16 57.15) (xy 143.51 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b15c1976-bd49-47b4-837c-a23b0cde2f5a")
+	)
+	(wire
+		(pts
+			(xy 88.9 57.15) (xy 88.9 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2951149-f80d-44a4-9819-548e2033c46d")
+	)
+	(wire
+		(pts
+			(xy 121.92 38.1) (xy 124.46 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbdfc1f8-9dad-4c64-bd2b-6d1b90f8a910")
+	)
+	(wire
+		(pts
+			(xy 124.46 57.15) (xy 124.46 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7a47dde-21b1-4ea7-8d5a-6945d9287179")
+	)
+	(wire
+		(pts
+			(xy 124.46 69.85) (xy 127 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd8eb676-1a54-4425-bba3-c24f922eb22a")
+	)
+	(wire
+		(pts
+			(xy 143.51 57.15) (xy 143.51 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e32b4fd6-34fa-4239-94c0-4dffa00605c1")
+	)
+	(wire
+		(pts
+			(xy 142.24 72.39) (xy 143.51 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7e4afee-a571-482a-90f0-616bde62b4c8")
+	)
+	(wire
+		(pts
+			(xy 88.9 30.48) (xy 88.9 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9692878-5f72-49ff-81a5-fdcc6cd727fc")
+	)
+	(wire
+		(pts
+			(xy 124.46 38.1) (xy 127 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea033889-fecf-4c49-be44-e3a07cd718e6")
+	)
+	(wire
+		(pts
+			(xy 129.54 57.15) (xy 124.46 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3a2fe64-f99e-49f1-af1b-03ebbb83edff")
 	)
 	(hierarchical_label "conf_ucl"
 		(shape input)
-		(at 60.96 85.09 180)
+		(at 45.72 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -313,7 +1293,7 @@
 	)
 	(hierarchical_label "conf_lcl"
 		(shape input)
-		(at 60.96 82.55 180)
+		(at 45.72 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -337,7 +1317,7 @@
 	)
 	(hierarchical_label "meas_out_v"
 		(shape input)
-		(at 60.96 105.41 180)
+		(at 45.72 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -397,7 +1377,7 @@
 	)
 	(hierarchical_label "conf_uvl"
 		(shape input)
-		(at 60.96 95.25 180)
+		(at 45.72 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -409,7 +1389,7 @@
 	)
 	(hierarchical_label "conf_lvl"
 		(shape input)
-		(at 60.96 92.71 180)
+		(at 45.72 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -433,7 +1413,7 @@
 	)
 	(hierarchical_label "conf_vref"
 		(shape input)
-		(at 60.96 80.01 180)
+		(at 45.72 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -445,7 +1425,7 @@
 	)
 	(hierarchical_label "meas_out_i"
 		(shape input)
-		(at 60.96 107.95 180)
+		(at 45.72 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -457,7 +1437,7 @@
 	)
 	(hierarchical_label "conf_iref"
 		(shape input)
-		(at 60.96 90.17 180)
+		(at 45.72 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -466,6 +1446,266 @@
 			(justify right)
 		)
 		(uuid "f76c8f8c-acae-4415-b123-e5498f25215f")
+	)
+	(symbol
+		(lib_id "pss:R")
+		(at 133.35 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0182a5eb-ae4e-48f9-9ab8-a93d58ed90d2")
+		(property "Reference" "R21007"
+			(at 133.35 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10M"
+			(at 133.35 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+			(at 133.35 27.178 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+			(at 133.35 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 133.35 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC1210FR-0710ML"
+			(at 133.35 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "603-RC1210FR-0710ML"
+			(at 133.35 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56ad26e9-1e54-4b75-b20a-5c8ce76767a6")
+		)
+		(pin "2"
+			(uuid "260502d4-b083-4a58-812b-1d82e482e97c")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/baf2b2d2-d00c-49d3-b247-1b42c69022b3/f0ffd999-21e1-4ecc-97cc-621dfe88791c/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
+					(reference "R21007")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pss:R")
+		(at 118.11 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "061a7f06-d38e-45ac-8f6b-4f06778488e3")
+		(property "Reference" "R21005"
+			(at 118.11 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k3"
+			(at 118.11 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+			(at 118.11 39.878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+			(at 118.11 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 118.11 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC1210FR-071K3L"
+			(at 118.11 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "603-RC1210FR-071K3L"
+			(at 118.11 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02b11bc9-6004-42cf-a7f9-20aa74b4f28f")
+		)
+		(pin "2"
+			(uuid "599aba48-dde8-4579-ab8b-c050b0025b13")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/baf2b2d2-d00c-49d3-b247-1b42c69022b3/f0ffd999-21e1-4ecc-97cc-621dfe88791c/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
+					(reference "R21005")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pss:R")
+		(at 88.9 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0966218f-0fc8-4466-a5bb-b8baf005fa74")
+		(property "Reference" "R21002"
+			(at 91.44 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33"
+			(at 91.44 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+			(at 87.122 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+			(at 88.9 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 88.9 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC1210FR-0733RL"
+			(at 88.9 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "603-RC1210FR-0733RL"
+			(at 88.9 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92965332-4644-474a-b031-47a7a1cec6cc")
+		)
+		(pin "2"
+			(uuid "a78ec6ba-482c-44d9-9c6b-615a8fce98b5")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/baf2b2d2-d00c-49d3-b247-1b42c69022b3/f0ffd999-21e1-4ecc-97cc-621dfe88791c/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
+					(reference "R21002")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "pss:Opamp_Dual")
@@ -610,8 +1850,636 @@
 		)
 	)
 	(symbol
+		(lib_id "pss:R")
+		(at 118.11 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bb5f62a-65f5-4753-a749-04bb46efad97")
+		(property "Reference" "R21006"
+			(at 118.11 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k3"
+			(at 118.11 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+			(at 118.11 71.628 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+			(at 118.11 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 118.11 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC1210FR-071K3L"
+			(at 118.11 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "603-RC1210FR-071K3L"
+			(at 118.11 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3ddaa98-5b50-4955-b9f7-095e8db9ba86")
+		)
+		(pin "2"
+			(uuid "aeb77e35-2fb5-49b9-800f-53ebfe01187a")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/baf2b2d2-d00c-49d3-b247-1b42c69022b3/f0ffd999-21e1-4ecc-97cc-621dfe88791c/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
+					(reference "R21006")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pss:4069")
+		(at 271.78 86.36 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f2470ec-9376-49b8-8f23-c919a1a722b3")
+		(property "Reference" "U21002"
+			(at 271.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4069"
+			(at 271.78 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 273.05 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4069ub.pdf"
+			(at 273.05 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4069UBM96"
+			(at 271.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "595-CD4069UBM96"
+			(at 271.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "fc38f97b-8ed7-421e-bbf2-61876b6536cf")
+		)
+		(pin "11"
+			(uuid "e5f9a3a7-89ae-4ca5-a72f-8372afd858b1")
+		)
+		(pin "8"
+			(uuid "4c8c1d5f-e3e5-4124-aa3b-55cf70387836")
+		)
+		(pin "9"
+			(uuid "68b0089d-3b89-4447-81da-b9a397c7ac0c")
+		)
+		(pin "12"
+			(uuid "9889e7b4-09f8-4bfb-87ae-9a40e563f877")
+		)
+		(pin "2"
+			(uuid "c6a6df6e-1088-4b06-a9d5-6f034e24e6f0")
+		)
+		(pin "4"
+			(uuid "964cc94b-c8dd-47e0-b0c4-e129783e948e")
+		)
+		(pin "1"
+			(uuid "16a169b7-7422-4040-9e99-a497a7dcf105")
+		)
+		(pin "13"
+			(uuid "3bc06a2d-9649-403f-963e-30991a713650")
+		)
+		(pin "10"
+			(uuid "fd0cf1a8-25f1-4655-b813-6111ce32c2aa")
+		)
+		(pin "14"
+			(uuid "005c6bcb-7e67-4189-bf97-573808549a3a")
+		)
+		(pin "3"
+			(uuid "5b3e7d42-6567-459e-804f-559b6b57f692")
+		)
+		(pin "7"
+			(uuid "31ab0e7d-b7b0-40c9-830d-4d73982c460d")
+		)
+		(pin "6"
+			(uuid "2e987352-8f47-451f-a092-03d302e51de2")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/baf2b2d2-d00c-49d3-b247-1b42c69022b3/f0ffd999-21e1-4ecc-97cc-621dfe88791c/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
+					(reference "U21002")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pss:R")
+		(at 88.9 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2831c675-23ca-4fa4-bd6d-7dcef84aecee")
+		(property "Reference" "R21001"
+			(at 91.44 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 91.44 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+			(at 87.122 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+			(at 88.9 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 88.9 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC1210FR-07100KL"
+			(at 88.9 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "603-RC1210FR-07100KL"
+			(at 88.9 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08041773-07b7-48c4-9cbf-855b7940bde2")
+		)
+		(pin "2"
+			(uuid "a0285cd7-d7af-4eae-8ccc-36fce29b6470")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/baf2b2d2-d00c-49d3-b247-1b42c69022b3/f0ffd999-21e1-4ecc-97cc-621dfe88791c/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
+					(reference "R21001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pss:R")
+		(at 88.9 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51c8a981-7fe5-4ee9-80c9-40e6e31a5bf2")
+		(property "Reference" "R21003"
+			(at 91.44 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33"
+			(at 91.44 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+			(at 87.122 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+			(at 88.9 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 88.9 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC1210FR-0733RL"
+			(at 88.9 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "603-RC1210FR-0733RL"
+			(at 88.9 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff582537-897f-4b2b-baf0-4c124ed1d5aa")
+		)
+		(pin "2"
+			(uuid "c48300fb-0a5a-4e17-acf0-e03da38a6ced")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/baf2b2d2-d00c-49d3-b247-1b42c69022b3/f0ffd999-21e1-4ecc-97cc-621dfe88791c/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
+					(reference "R21003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pss:4069")
+		(at 271.78 139.7 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fd7f4bb-c536-4d46-8712-1c41b1e6921f")
+		(property "Reference" "U21002"
+			(at 271.78 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4069"
+			(at 271.78 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 273.05 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4069ub.pdf"
+			(at 273.05 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4069UBM96"
+			(at 271.78 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "595-CD4069UBM96"
+			(at 271.78 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "fc38f97b-8ed7-421e-bbf2-61876b6536d1")
+		)
+		(pin "11"
+			(uuid "de06f543-03b0-451c-8426-d6cc853ffad2")
+		)
+		(pin "8"
+			(uuid "4c8c1d5f-e3e5-4124-aa3b-55cf70387838")
+		)
+		(pin "9"
+			(uuid "68b0089d-3b89-4447-81da-b9a397c7ac0e")
+		)
+		(pin "12"
+			(uuid "9889e7b4-09f8-4bfb-87ae-9a40e563f879")
+		)
+		(pin "2"
+			(uuid "c6a6df6e-1088-4b06-a9d5-6f034e24e6f2")
+		)
+		(pin "4"
+			(uuid "100cd06c-80ab-4ef1-9e88-8a0aec21e49d")
+		)
+		(pin "1"
+			(uuid "16a169b7-7422-4040-9e99-a497a7dcf107")
+		)
+		(pin "13"
+			(uuid "3bc06a2d-9649-403f-963e-30991a713652")
+		)
+		(pin "10"
+			(uuid "5f641c1b-657f-4349-a303-c77b54becd1f")
+		)
+		(pin "14"
+			(uuid "005c6bcb-7e67-4189-bf97-573808549a3c")
+		)
+		(pin "3"
+			(uuid "e5b5b21d-4316-423a-809f-9ca7342bdfeb")
+		)
+		(pin "7"
+			(uuid "31ab0e7d-b7b0-40c9-830d-4d73982c460f")
+		)
+		(pin "6"
+			(uuid "2e987352-8f47-451f-a092-03d302e51de4")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/baf2b2d2-d00c-49d3-b247-1b42c69022b3/f0ffd999-21e1-4ecc-97cc-621dfe88791c/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
+					(reference "U21002")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pss:4069")
+		(at 271.78 104.14 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "619ed022-6721-4177-87f4-4117939b74f5")
+		(property "Reference" "U21002"
+			(at 271.78 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4069"
+			(at 271.78 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 273.05 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4069ub.pdf"
+			(at 273.05 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4069UBM96"
+			(at 271.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "595-CD4069UBM96"
+			(at 271.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "094366cd-f654-4d34-9876-503c304d244a")
+		)
+		(pin "11"
+			(uuid "e5f9a3a7-89ae-4ca5-a72f-8372afd858ad")
+		)
+		(pin "8"
+			(uuid "4c8c1d5f-e3e5-4124-aa3b-55cf70387832")
+		)
+		(pin "9"
+			(uuid "68b0089d-3b89-4447-81da-b9a397c7ac08")
+		)
+		(pin "12"
+			(uuid "9889e7b4-09f8-4bfb-87ae-9a40e563f873")
+		)
+		(pin "2"
+			(uuid "c6a6df6e-1088-4b06-a9d5-6f034e24e6ec")
+		)
+		(pin "4"
+			(uuid "100cd06c-80ab-4ef1-9e88-8a0aec21e497")
+		)
+		(pin "1"
+			(uuid "16a169b7-7422-4040-9e99-a497a7dcf101")
+		)
+		(pin "13"
+			(uuid "3bc06a2d-9649-403f-963e-30991a71364c")
+		)
+		(pin "10"
+			(uuid "fd0cf1a8-25f1-4655-b813-6111ce32c2a6")
+		)
+		(pin "14"
+			(uuid "005c6bcb-7e67-4189-bf97-573808549a36")
+		)
+		(pin "3"
+			(uuid "e5b5b21d-4316-423a-809f-9ca7342bdfe5")
+		)
+		(pin "7"
+			(uuid "31ab0e7d-b7b0-40c9-830d-4d73982c4609")
+		)
+		(pin "6"
+			(uuid "18973e01-dbd3-46a7-9ff6-43205be2b6d7")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/baf2b2d2-d00c-49d3-b247-1b42c69022b3/f0ffd999-21e1-4ecc-97cc-621dfe88791c/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
+					(reference "U21002")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pss:Opamp_Dual")
-		(at 139.7 82.55 0)
+		(at 134.62 72.39 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -620,7 +2488,7 @@
 		(fields_autoplaced yes)
 		(uuid "64b28a2c-666e-435f-afa1-9d0b808b9662")
 		(property "Reference" "U21001"
-			(at 139.7 72.39 0)
+			(at 134.62 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -628,7 +2496,7 @@
 			)
 		)
 		(property "Value" "TLV9352"
-			(at 139.7 74.93 0)
+			(at 134.62 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -636,7 +2504,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 139.7 82.55 0)
+			(at 134.62 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -645,7 +2513,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9352.pdf"
-			(at 139.7 82.55 0)
+			(at 134.62 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -654,7 +2522,7 @@
 			)
 		)
 		(property "Description" "Dual operational amplifier"
-			(at 139.7 82.55 0)
+			(at 134.62 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -663,7 +2531,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 139.7 82.55 0)
+			(at 134.62 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -672,7 +2540,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_opamp_dual"
-			(at 139.7 82.55 0)
+			(at 134.62 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -681,7 +2549,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 139.7 82.55 0)
+			(at 134.62 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -690,7 +2558,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
-			(at 139.7 82.55 0)
+			(at 134.62 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -699,7 +2567,7 @@
 			)
 		)
 		(property "MPN" "TLV9352IDR"
-			(at 139.7 82.55 0)
+			(at 134.62 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -708,7 +2576,7 @@
 			)
 		)
 		(property "VPN" "595-TLV9352IDR"
-			(at 139.7 82.55 0)
+			(at 134.62 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -717,28 +2585,28 @@
 			)
 		)
 		(pin "3"
-			(uuid "0d39d138-0bd5-46e1-841d-54c3d8440ec3")
+			(uuid "0d39d138-0bd5-46e1-841d-54c3d8440ec4")
 		)
 		(pin "6"
-			(uuid "1ccb17ba-ccf7-4582-aa75-e72f9dda922f")
+			(uuid "1ccb17ba-ccf7-4582-aa75-e72f9dda9230")
 		)
 		(pin "8"
-			(uuid "9baac377-8ce0-4ec0-abf0-91909e369506")
+			(uuid "9baac377-8ce0-4ec0-abf0-91909e369507")
 		)
 		(pin "5"
-			(uuid "32e34ea6-5091-4879-8d90-074e34388f2e")
+			(uuid "32e34ea6-5091-4879-8d90-074e34388f2f")
 		)
 		(pin "7"
-			(uuid "3f20adfa-3b63-4046-9112-771e4264c831")
+			(uuid "3f20adfa-3b63-4046-9112-771e4264c832")
 		)
 		(pin "2"
-			(uuid "0fb69355-da22-480c-b1af-1ad6ef6495d3")
+			(uuid "0fb69355-da22-480c-b1af-1ad6ef6495d4")
 		)
 		(pin "4"
-			(uuid "22a2e049-4806-4ae1-8902-eed84f2deca4")
+			(uuid "22a2e049-4806-4ae1-8902-eed84f2deca5")
 		)
 		(pin "1"
-			(uuid "2d7f7838-692c-4c21-92a8-435175392e0d")
+			(uuid "2d7f7838-692c-4c21-92a8-435175392e0e")
 		)
 		(instances
 			(project "pss"
@@ -750,8 +2618,219 @@
 		)
 	)
 	(symbol
+		(lib_id "pss:4069")
+		(at 73.66 179.07 0)
+		(unit 7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75ff44cc-bfdd-4d87-8fa1-22cc4169780c")
+		(property "Reference" "U21002"
+			(at 74.93 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4069"
+			(at 74.93 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 74.93 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4069ub.pdf"
+			(at 74.93 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4069UBM96"
+			(at 73.66 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "595-CD4069UBM96"
+			(at 73.66 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "fc38f97b-8ed7-421e-bbf2-61876b6536ce")
+		)
+		(pin "11"
+			(uuid "e5f9a3a7-89ae-4ca5-a72f-8372afd858b0")
+		)
+		(pin "8"
+			(uuid "4c8c1d5f-e3e5-4124-aa3b-55cf70387835")
+		)
+		(pin "9"
+			(uuid "68b0089d-3b89-4447-81da-b9a397c7ac0b")
+		)
+		(pin "12"
+			(uuid "9889e7b4-09f8-4bfb-87ae-9a40e563f876")
+		)
+		(pin "2"
+			(uuid "c6a6df6e-1088-4b06-a9d5-6f034e24e6ef")
+		)
+		(pin "4"
+			(uuid "100cd06c-80ab-4ef1-9e88-8a0aec21e49a")
+		)
+		(pin "1"
+			(uuid "16a169b7-7422-4040-9e99-a497a7dcf104")
+		)
+		(pin "13"
+			(uuid "3bc06a2d-9649-403f-963e-30991a71364f")
+		)
+		(pin "10"
+			(uuid "fd0cf1a8-25f1-4655-b813-6111ce32c2a9")
+		)
+		(pin "14"
+			(uuid "18fa8c4f-0d94-4a8e-8989-2e8f79a05627")
+		)
+		(pin "3"
+			(uuid "e5b5b21d-4316-423a-809f-9ca7342bdfe8")
+		)
+		(pin "7"
+			(uuid "fb3620c7-ab69-47e4-aae9-1742ebaf3406")
+		)
+		(pin "6"
+			(uuid "2e987352-8f47-451f-a092-03d302e51de1")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/baf2b2d2-d00c-49d3-b247-1b42c69022b3/f0ffd999-21e1-4ecc-97cc-621dfe88791c/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
+					(reference "U21002")
+					(unit 7)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pss:R")
+		(at 88.9 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91536a0f-bfce-41ea-a290-9645ff97076e")
+		(property "Reference" "R21004"
+			(at 91.44 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 91.44 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+			(at 87.122 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+			(at 88.9 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 88.9 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC1210FR-07100KL"
+			(at 88.9 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "603-RC1210FR-07100KL"
+			(at 88.9 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ac24643-2d81-4dbc-bcf4-244deff28982")
+		)
+		(pin "2"
+			(uuid "62b99e97-dd45-456f-a06a-15eb8ed5ec7e")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/baf2b2d2-d00c-49d3-b247-1b42c69022b3/f0ffd999-21e1-4ecc-97cc-621dfe88791c/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
+					(reference "R21004")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pss:Opamp_Dual")
-		(at 139.7 63.5 0)
+		(at 134.62 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -760,7 +2839,7 @@
 		(fields_autoplaced yes)
 		(uuid "a2623a80-aa13-4f60-bc40-908d6d8ab83f")
 		(property "Reference" "U21001"
-			(at 139.7 53.34 0)
+			(at 134.62 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -768,7 +2847,7 @@
 			)
 		)
 		(property "Value" "TLV9352"
-			(at 139.7 55.88 0)
+			(at 134.62 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -776,7 +2855,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 139.7 63.5 0)
+			(at 134.62 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -785,7 +2864,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9352.pdf"
-			(at 139.7 63.5 0)
+			(at 134.62 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -794,7 +2873,7 @@
 			)
 		)
 		(property "Description" "Dual operational amplifier"
-			(at 139.7 63.5 0)
+			(at 134.62 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -803,7 +2882,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 139.7 63.5 0)
+			(at 134.62 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -812,7 +2891,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_opamp_dual"
-			(at 139.7 63.5 0)
+			(at 134.62 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -821,7 +2900,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 139.7 63.5 0)
+			(at 134.62 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -830,7 +2909,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
-			(at 139.7 63.5 0)
+			(at 134.62 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -839,7 +2918,7 @@
 			)
 		)
 		(property "MPN" "TLV9352IDR"
-			(at 139.7 63.5 0)
+			(at 134.62 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -848,7 +2927,7 @@
 			)
 		)
 		(property "VPN" "595-TLV9352IDR"
-			(at 139.7 63.5 0)
+			(at 134.62 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -857,33 +2936,617 @@
 			)
 		)
 		(pin "3"
-			(uuid "0d39d138-0bd5-46e1-841d-54c3d8440ec3")
+			(uuid "0d39d138-0bd5-46e1-841d-54c3d8440ec5")
 		)
 		(pin "6"
-			(uuid "1ccb17ba-ccf7-4582-aa75-e72f9dda922f")
+			(uuid "1ccb17ba-ccf7-4582-aa75-e72f9dda9231")
 		)
 		(pin "8"
-			(uuid "9baac377-8ce0-4ec0-abf0-91909e369506")
+			(uuid "9baac377-8ce0-4ec0-abf0-91909e369508")
 		)
 		(pin "5"
-			(uuid "32e34ea6-5091-4879-8d90-074e34388f2e")
+			(uuid "32e34ea6-5091-4879-8d90-074e34388f30")
 		)
 		(pin "7"
-			(uuid "3f20adfa-3b63-4046-9112-771e4264c831")
+			(uuid "3f20adfa-3b63-4046-9112-771e4264c833")
 		)
 		(pin "2"
-			(uuid "0fb69355-da22-480c-b1af-1ad6ef6495d3")
+			(uuid "0fb69355-da22-480c-b1af-1ad6ef6495d5")
 		)
 		(pin "4"
-			(uuid "22a2e049-4806-4ae1-8902-eed84f2deca4")
+			(uuid "22a2e049-4806-4ae1-8902-eed84f2deca6")
 		)
 		(pin "1"
-			(uuid "2d7f7838-692c-4c21-92a8-435175392e0d")
+			(uuid "2d7f7838-692c-4c21-92a8-435175392e0f")
 		)
 		(instances
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/baf2b2d2-d00c-49d3-b247-1b42c69022b3/f0ffd999-21e1-4ecc-97cc-621dfe88791c/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
 					(reference "U21001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pss:4069")
+		(at 153.67 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4d234b1-c51d-45ea-b48d-32f157639b9b")
+		(property "Reference" "U21002"
+			(at 153.67 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4069"
+			(at 153.67 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 154.94 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4069ub.pdf"
+			(at 154.94 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4069UBM96"
+			(at 153.67 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "595-CD4069UBM96"
+			(at 153.67 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "fc38f97b-8ed7-421e-bbf2-61876b6536cc")
+		)
+		(pin "11"
+			(uuid "e5f9a3a7-89ae-4ca5-a72f-8372afd858ae")
+		)
+		(pin "8"
+			(uuid "4c8c1d5f-e3e5-4124-aa3b-55cf70387833")
+		)
+		(pin "9"
+			(uuid "68b0089d-3b89-4447-81da-b9a397c7ac09")
+		)
+		(pin "12"
+			(uuid "9889e7b4-09f8-4bfb-87ae-9a40e563f874")
+		)
+		(pin "2"
+			(uuid "acc3c981-22ca-410f-bbfb-7d1d20e6eb2b")
+		)
+		(pin "4"
+			(uuid "100cd06c-80ab-4ef1-9e88-8a0aec21e498")
+		)
+		(pin "1"
+			(uuid "375a8a31-e7b7-4b9d-9276-2deeeec4f129")
+		)
+		(pin "13"
+			(uuid "3bc06a2d-9649-403f-963e-30991a71364d")
+		)
+		(pin "10"
+			(uuid "fd0cf1a8-25f1-4655-b813-6111ce32c2a7")
+		)
+		(pin "14"
+			(uuid "005c6bcb-7e67-4189-bf97-573808549a37")
+		)
+		(pin "3"
+			(uuid "e5b5b21d-4316-423a-809f-9ca7342bdfe6")
+		)
+		(pin "7"
+			(uuid "31ab0e7d-b7b0-40c9-830d-4d73982c460a")
+		)
+		(pin "6"
+			(uuid "2e987352-8f47-451f-a092-03d302e51ddf")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/baf2b2d2-d00c-49d3-b247-1b42c69022b3/f0ffd999-21e1-4ecc-97cc-621dfe88791c/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
+					(reference "U21002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pss:4069")
+		(at 271.78 121.92 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b738f9e4-0492-4405-bd5b-c43e89f4d561")
+		(property "Reference" "U21002"
+			(at 271.78 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4069"
+			(at 271.78 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 273.05 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4069ub.pdf"
+			(at 273.05 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4069UBM96"
+			(at 271.78 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "595-CD4069UBM96"
+			(at 271.78 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "fc38f97b-8ed7-421e-bbf2-61876b6536cd")
+		)
+		(pin "11"
+			(uuid "e5f9a3a7-89ae-4ca5-a72f-8372afd858af")
+		)
+		(pin "8"
+			(uuid "3857da68-5b9d-430d-8571-82e9f294c706")
+		)
+		(pin "9"
+			(uuid "a9659f09-1084-4cdf-bb2f-ec373f9f35d8")
+		)
+		(pin "12"
+			(uuid "9889e7b4-09f8-4bfb-87ae-9a40e563f875")
+		)
+		(pin "2"
+			(uuid "c6a6df6e-1088-4b06-a9d5-6f034e24e6ee")
+		)
+		(pin "4"
+			(uuid "100cd06c-80ab-4ef1-9e88-8a0aec21e499")
+		)
+		(pin "1"
+			(uuid "16a169b7-7422-4040-9e99-a497a7dcf103")
+		)
+		(pin "13"
+			(uuid "3bc06a2d-9649-403f-963e-30991a71364e")
+		)
+		(pin "10"
+			(uuid "fd0cf1a8-25f1-4655-b813-6111ce32c2a8")
+		)
+		(pin "14"
+			(uuid "005c6bcb-7e67-4189-bf97-573808549a38")
+		)
+		(pin "3"
+			(uuid "e5b5b21d-4316-423a-809f-9ca7342bdfe7")
+		)
+		(pin "7"
+			(uuid "31ab0e7d-b7b0-40c9-830d-4d73982c460b")
+		)
+		(pin "6"
+			(uuid "2e987352-8f47-451f-a092-03d302e51de0")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/baf2b2d2-d00c-49d3-b247-1b42c69022b3/f0ffd999-21e1-4ecc-97cc-621dfe88791c/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
+					(reference "U21002")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pss:-5V")
+		(at 88.9 87.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c03f99b6-6fb4-4712-b565-7439f5d1f977")
+		(property "Reference" "#PWR021002"
+			(at 88.9 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-5V"
+			(at 88.9 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-5V\""
+			(at 88.9 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4a87440-ceb7-43a0-a1d4-d7feb34cb481")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/baf2b2d2-d00c-49d3-b247-1b42c69022b3/f0ffd999-21e1-4ecc-97cc-621dfe88791c/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
+					(reference "#PWR021002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pss:R")
+		(at 133.35 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c222959f-cb36-4821-8a2b-9843c1ecbf1b")
+		(property "Reference" "R21008"
+			(at 133.35 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10M"
+			(at 133.35 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+			(at 133.35 58.928 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+			(at 133.35 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 133.35 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC1210FR-0710ML"
+			(at 133.35 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "603-RC1210FR-0710ML"
+			(at 133.35 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57cf8c38-1e1b-4461-a8c3-d54bf8e994fb")
+		)
+		(pin "2"
+			(uuid "1cb01eb9-cc9c-429c-81f1-ec69c4dd77a2")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/baf2b2d2-d00c-49d3-b247-1b42c69022b3/f0ffd999-21e1-4ecc-97cc-621dfe88791c/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
+					(reference "R21008")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pss:4069")
+		(at 271.78 157.48 0)
+		(unit 6)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c58a1299-12db-4cb2-abd9-91654f9b840d")
+		(property "Reference" "U21002"
+			(at 271.78 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4069"
+			(at 271.78 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 273.05 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4069ub.pdf"
+			(at 273.05 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4069UBM96"
+			(at 271.78 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "595-CD4069UBM96"
+			(at 271.78 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "fc38f97b-8ed7-421e-bbf2-61876b6536d0")
+		)
+		(pin "11"
+			(uuid "e5f9a3a7-89ae-4ca5-a72f-8372afd858b2")
+		)
+		(pin "8"
+			(uuid "4c8c1d5f-e3e5-4124-aa3b-55cf70387837")
+		)
+		(pin "9"
+			(uuid "68b0089d-3b89-4447-81da-b9a397c7ac0d")
+		)
+		(pin "12"
+			(uuid "db64855c-e93a-466d-94f7-66d16bb3a3c0")
+		)
+		(pin "2"
+			(uuid "c6a6df6e-1088-4b06-a9d5-6f034e24e6f1")
+		)
+		(pin "4"
+			(uuid "100cd06c-80ab-4ef1-9e88-8a0aec21e49c")
+		)
+		(pin "1"
+			(uuid "16a169b7-7422-4040-9e99-a497a7dcf106")
+		)
+		(pin "13"
+			(uuid "8f60f326-ec71-47e9-a0bf-dc800725728a")
+		)
+		(pin "10"
+			(uuid "fd0cf1a8-25f1-4655-b813-6111ce32c2ab")
+		)
+		(pin "14"
+			(uuid "005c6bcb-7e67-4189-bf97-573808549a3b")
+		)
+		(pin "3"
+			(uuid "e5b5b21d-4316-423a-809f-9ca7342bdfea")
+		)
+		(pin "7"
+			(uuid "31ab0e7d-b7b0-40c9-830d-4d73982c460e")
+		)
+		(pin "6"
+			(uuid "2e987352-8f47-451f-a092-03d302e51de3")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/baf2b2d2-d00c-49d3-b247-1b42c69022b3/f0ffd999-21e1-4ecc-97cc-621dfe88791c/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
+					(reference "U21002")
+					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pss:+10V")
+		(at 88.9 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da800523-1fff-4edb-865a-8904c38dd96a")
+		(property "Reference" "#PWR021001"
+			(at 88.9 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+10V"
+			(at 88.9 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+10V\""
+			(at 88.9 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c2ee7a0-ac87-49c1-a57e-c8be05e7d1bb")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/baf2b2d2-d00c-49d3-b247-1b42c69022b3/f0ffd999-21e1-4ecc-97cc-621dfe88791c/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
+					(reference "#PWR021001")
 					(unit 1)
 				)
 			)
