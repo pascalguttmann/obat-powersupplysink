@@ -805,6 +805,10 @@
     [
       "854e83c3-d665-4da7-a2c9-4ae5fb1019c9",
       "compare-logic"
+    ],
+    [
+      "e65c3b78-3b2b-4f8a-bb92-3808512b49dd",
+      "window-comparator"
     ]
   ],
   "text_variables": {}
