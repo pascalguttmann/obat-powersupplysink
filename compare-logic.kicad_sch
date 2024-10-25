@@ -2057,8 +2057,8 @@
 		)
 	)
 	(sheet
-		(at 116.84 63.5)
-		(size 22.86 12.7)
+		(at 116.84 59.69)
+		(size 22.86 16.51)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2069,7 +2069,7 @@
 		)
 		(uuid "e65c3b78-3b2b-4f8a-bb92-3808512b49dd")
 		(property "Sheetname" "window-comparator"
-			(at 116.84 62.7884 0)
+			(at 116.84 58.9784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2097,7 +2097,7 @@
 			(uuid "8a3342a8-7646-4b1c-bee0-1b85968c1f1c")
 		)
 		(pin "ule" output
-			(at 139.7 67.31 0)
+			(at 139.7 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2107,7 +2107,7 @@
 			(uuid "01a955d6-9340-4f55-80dd-aabb1f891fe2")
 		)
 		(pin "meas" input
-			(at 116.84 72.39 180)
+			(at 116.84 63.5 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2116,15 +2116,25 @@
 			)
 			(uuid "0a0dc5d7-7aa2-4106-9bf1-1f27d9046cba")
 		)
-		(pin "ref{slash}lim" input
-			(at 116.84 67.31 180)
+		(pin "ll" input
+			(at 116.84 72.39 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "cbc26876-759a-4f9c-a163-9f2b69afa113")
+			(uuid "7832de6f-1f13-4237-a4aa-e2824cbd107e")
+		)
+		(pin "ul" input
+			(at 116.84 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cb332919-f816-4fb5-9fb5-1ed2c57fcb5e")
 		)
 		(instances
 			(project "pss"
