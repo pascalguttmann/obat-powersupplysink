@@ -809,6 +809,18 @@
     [
       "e65c3b78-3b2b-4f8a-bb92-3808512b49dd",
       "window-comparator"
+    ],
+    [
+      "ff334853-ab60-485c-bb6b-fcb0e80d61f1",
+      "window-comparator1"
+    ],
+    [
+      "1d2742ec-3d10-4ff5-8813-6f202bc18ef7",
+      "window-comparator2"
+    ],
+    [
+      "67b5cc40-0404-44cb-9368-386617de868f",
+      "window-comparator3"
     ]
   ],
   "text_variables": {}

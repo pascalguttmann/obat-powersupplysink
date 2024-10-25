@@ -713,6 +713,18 @@
 		)
 	)
 	(junction
+		(at 124.46 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43479fea-ddda-4d1d-9083-a23b9f2f4944")
+	)
+	(junction
+		(at 124.46 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49be794f-72e4-4699-a3ee-f733b5ebc934")
+	)
+	(junction
 		(at 40.64 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -736,6 +748,56 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 97.79) (xy 154.94 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a41fd91-52df-4ec0-b1b9-a48fc5ca5f39")
+	)
+	(wire
+		(pts
+			(xy 124.46 46.99) (xy 127 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1394450f-a411-40da-a6e7-858da38322fa")
+	)
+	(wire
+		(pts
+			(xy 111.76 118.11) (xy 127 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "195fb39e-d5d2-4632-bda4-d16accec89a2")
+	)
+	(wire
+		(pts
+			(xy 127 76.2) (xy 124.46 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b95c257-4c02-4d85-b012-35db8a9f85c4")
+	)
+	(wire
+		(pts
+			(xy 127 50.8) (xy 124.46 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "277f49b9-2b16-4e35-89e0-d24fc7a77e83")
+	)
+	(wire
+		(pts
 			(xy 40.64 158.75) (xy 40.64 160.02)
 		)
 		(stroke
@@ -746,6 +808,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 97.79) (xy 127 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ea31063-8826-4731-91ee-35094e866311")
+	)
+	(wire
+		(pts
 			(xy 30.48 172.72) (xy 30.48 179.07)
 		)
 		(stroke
@@ -753,6 +825,46 @@
 			(type default)
 		)
 		(uuid "2f84435b-d947-4ae2-b43e-05245c4d18b2")
+	)
+	(wire
+		(pts
+			(xy 149.86 123.19) (xy 154.94 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3147af7f-42db-4faf-8ec8-7621aff84e92")
+	)
+	(wire
+		(pts
+			(xy 121.92 46.99) (xy 124.46 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45c75d14-bfe4-4348-886b-5b6d7045cbfe")
+	)
+	(wire
+		(pts
+			(xy 124.46 72.39) (xy 127 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bcd2adf-4b0c-4f8e-90e3-58fdf6385091")
+	)
+	(wire
+		(pts
+			(xy 121.92 101.6) (xy 127 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ad67fbc-bbdf-4748-9757-26db3fa45a3f")
 	)
 	(wire
 		(pts
@@ -786,6 +898,66 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 76.2) (xy 172.72 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91b3ade8-9b6e-47c7-b5e3-a9bfcfd357ff")
+	)
+	(wire
+		(pts
+			(xy 190.5 160.02) (xy 204.47 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9740b4e9-1543-4437-bfb5-5ff09763238a")
+	)
+	(wire
+		(pts
+			(xy 121.92 72.39) (xy 124.46 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "992644fc-5035-4371-b962-7eb54301519f")
+	)
+	(wire
+		(pts
+			(xy 111.76 41.91) (xy 127 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "add6b5cc-7e72-4a54-a8fa-368a20eaad1e")
+	)
+	(wire
+		(pts
+			(xy 111.76 92.71) (xy 127 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0a405c3-ec8d-4402-a944-1ff2003887c2")
+	)
+	(wire
+		(pts
+			(xy 190.5 127) (xy 196.85 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2ab1796-0a56-4bab-a26f-c72901915995")
+	)
+	(wire
+		(pts
 			(xy 40.64 179.07) (xy 40.64 181.61)
 		)
 		(stroke
@@ -796,13 +968,33 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 72.39) (xy 144.78 72.39)
+			(xy 149.86 50.8) (xy 172.72 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c8a09a2e-c7d2-470c-8d91-9280cd4ad603")
+	)
+	(wire
+		(pts
+			(xy 190.5 162.56) (xy 204.47 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d237d5a6-d27c-4bed-bd34-b344bc926b99")
+	)
+	(wire
+		(pts
+			(xy 111.76 67.31) (xy 127 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7967a98-72d7-4660-9fb7-cdca7f4608fa")
 	)
 	(wire
 		(pts
@@ -814,9 +1006,145 @@
 		)
 		(uuid "db624797-86ed-41ca-93b1-b9d6c13334cf")
 	)
+	(wire
+		(pts
+			(xy 190.5 101.6) (xy 196.85 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbc3da48-d0e0-48c2-a671-c805da0d4daf")
+	)
+	(wire
+		(pts
+			(xy 149.86 101.6) (xy 172.72 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df2cb3d2-4a5b-4668-8e17-90a8c6077d24")
+	)
+	(wire
+		(pts
+			(xy 149.86 127) (xy 172.72 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9a64162-8cef-4915-9461-07845be75fba")
+	)
+	(wire
+		(pts
+			(xy 121.92 123.19) (xy 127 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eabca537-d03d-4b2b-975f-96c28ba6643d")
+	)
+	(wire
+		(pts
+			(xy 124.46 50.8) (xy 124.46 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecf9f84f-e86f-430d-bf45-d7b52f640eaf")
+	)
+	(wire
+		(pts
+			(xy 121.92 127) (xy 127 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee62a697-2667-4e71-88b5-4ba6d5fd6f53")
+	)
+	(wire
+		(pts
+			(xy 124.46 76.2) (xy 124.46 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff7412d3-f25c-4eff-81be-184005972567")
+	)
+	(label "meas_out_v"
+		(at 204.47 160.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4cde0978-9f51-42aa-99ea-65e3870393d6")
+	)
+	(label "meas_out_v"
+		(at 111.76 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5bafafcb-5138-4c27-8b1d-74f8c14a1ae0")
+	)
+	(label "meas_out_i"
+		(at 111.76 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ae3b1ca-26ac-4fef-bbcf-5349de1d4d7f")
+	)
+	(label "meas_out_i"
+		(at 111.76 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b065796-8ca4-41b5-9bc9-94018e3e2550")
+	)
+	(label "meas_out_v"
+		(at 111.76 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aea4da64-5549-48d7-b518-8235320112cd")
+	)
+	(label "meas_out_i"
+		(at 204.47 162.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "efa48616-aba4-47e4-af24-3238344c7a3b")
+	)
 	(hierarchical_label "conf_ucl"
 		(shape input)
-		(at 45.72 52.07 180)
+		(at 121.92 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -828,7 +1156,7 @@
 	)
 	(hierarchical_label "conf_lcl"
 		(shape input)
-		(at 45.72 49.53 180)
+		(at 121.92 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -840,7 +1168,7 @@
 	)
 	(hierarchical_label "comp_lcle"
 		(shape output)
-		(at 241.3 78.74 0)
+		(at 196.85 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -852,7 +1180,7 @@
 	)
 	(hierarchical_label "meas_out_v"
 		(shape input)
-		(at 45.72 72.39 180)
+		(at 190.5 160.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -864,7 +1192,7 @@
 	)
 	(hierarchical_label "comp_mstt"
 		(shape output)
-		(at 241.3 105.41 0)
+		(at 228.6 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -876,7 +1204,7 @@
 	)
 	(hierarchical_label "comp_mgtt"
 		(shape output)
-		(at 241.3 101.6 0)
+		(at 228.6 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -888,7 +1216,7 @@
 	)
 	(hierarchical_label "comp_ucle"
 		(shape output)
-		(at 241.3 83.82 0)
+		(at 154.94 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -900,7 +1228,7 @@
 	)
 	(hierarchical_label "comp_uvle"
 		(shape output)
-		(at 241.3 95.25 0)
+		(at 154.94 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -912,7 +1240,7 @@
 	)
 	(hierarchical_label "conf_uvl"
 		(shape input)
-		(at 45.72 62.23 180)
+		(at 121.92 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -924,7 +1252,7 @@
 	)
 	(hierarchical_label "conf_lvl"
 		(shape input)
-		(at 45.72 59.69 180)
+		(at 121.92 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -936,7 +1264,7 @@
 	)
 	(hierarchical_label "comp_lvle"
 		(shape output)
-		(at 241.3 90.17 0)
+		(at 196.85 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -948,7 +1276,7 @@
 	)
 	(hierarchical_label "conf_vref"
 		(shape input)
-		(at 45.72 46.99 180)
+		(at 121.92 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -960,7 +1288,7 @@
 	)
 	(hierarchical_label "meas_out_i"
 		(shape input)
-		(at 45.72 74.93 180)
+		(at 190.5 162.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -972,7 +1300,7 @@
 	)
 	(hierarchical_label "conf_iref"
 		(shape input)
-		(at 45.72 57.15 180)
+		(at 121.92 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -984,7 +1312,7 @@
 	)
 	(symbol
 		(lib_id "pss:4069")
-		(at 271.78 86.36 0)
+		(at 181.61 76.2 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -993,7 +1321,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f2470ec-9376-49b8-8f23-c919a1a722b3")
 		(property "Reference" "U21002"
-			(at 271.78 76.2 0)
+			(at 181.61 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1001,7 +1329,7 @@
 			)
 		)
 		(property "Value" "4069"
-			(at 271.78 78.74 0)
+			(at 181.61 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1009,7 +1337,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 273.05 86.36 0)
+			(at 182.88 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1018,7 +1346,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4069ub.pdf"
-			(at 273.05 86.36 0)
+			(at 182.88 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1027,7 +1355,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 273.05 86.36 0)
+			(at 182.88 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1036,7 +1364,7 @@
 			)
 		)
 		(property "MPN" "CD4069UBM96"
-			(at 271.78 86.36 0)
+			(at 181.61 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1045,7 +1373,7 @@
 			)
 		)
 		(property "VPN" "595-CD4069UBM96"
-			(at 271.78 86.36 0)
+			(at 181.61 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1238,7 +1566,7 @@
 	)
 	(symbol
 		(lib_id "pss:4069")
-		(at 271.78 139.7 0)
+		(at 162.56 172.72 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1247,7 +1575,7 @@
 		(fields_autoplaced yes)
 		(uuid "5fd7f4bb-c536-4d46-8712-1c41b1e6921f")
 		(property "Reference" "U21002"
-			(at 271.78 129.54 0)
+			(at 162.56 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1255,7 +1583,7 @@
 			)
 		)
 		(property "Value" "4069"
-			(at 271.78 132.08 0)
+			(at 162.56 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1263,7 +1591,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 273.05 139.7 0)
+			(at 163.83 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1272,7 +1600,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4069ub.pdf"
-			(at 273.05 139.7 0)
+			(at 163.83 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1281,7 +1609,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 273.05 139.7 0)
+			(at 163.83 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1290,7 +1618,7 @@
 			)
 		)
 		(property "MPN" "CD4069UBM96"
-			(at 271.78 139.7 0)
+			(at 162.56 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1299,7 +1627,7 @@
 			)
 		)
 		(property "VPN" "595-CD4069UBM96"
-			(at 271.78 139.7 0)
+			(at 162.56 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1360,7 +1688,7 @@
 	)
 	(symbol
 		(lib_id "pss:4069")
-		(at 271.78 104.14 0)
+		(at 181.61 101.6 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1369,7 +1697,7 @@
 		(fields_autoplaced yes)
 		(uuid "619ed022-6721-4177-87f4-4117939b74f5")
 		(property "Reference" "U21002"
-			(at 271.78 93.98 0)
+			(at 181.61 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1377,7 +1705,7 @@
 			)
 		)
 		(property "Value" "4069"
-			(at 271.78 96.52 0)
+			(at 181.61 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1385,7 +1713,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 273.05 104.14 0)
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1394,7 +1722,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4069ub.pdf"
-			(at 273.05 104.14 0)
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1403,7 +1731,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 273.05 104.14 0)
+			(at 182.88 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1412,7 +1740,7 @@
 			)
 		)
 		(property "MPN" "CD4069UBM96"
-			(at 271.78 104.14 0)
+			(at 181.61 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1421,7 +1749,7 @@
 			)
 		)
 		(property "VPN" "595-CD4069UBM96"
-			(at 271.78 104.14 0)
+			(at 181.61 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1692,7 +2020,7 @@
 	)
 	(symbol
 		(lib_id "pss:4069")
-		(at 153.67 72.39 0)
+		(at 181.61 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1701,7 +2029,7 @@
 		(fields_autoplaced yes)
 		(uuid "a4d234b1-c51d-45ea-b48d-32f157639b9b")
 		(property "Reference" "U21002"
-			(at 153.67 62.23 0)
+			(at 181.61 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1709,7 +2037,7 @@
 			)
 		)
 		(property "Value" "4069"
-			(at 153.67 64.77 0)
+			(at 181.61 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1717,7 +2045,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 154.94 72.39 0)
+			(at 182.88 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1726,7 +2054,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4069ub.pdf"
-			(at 154.94 72.39 0)
+			(at 182.88 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1735,7 +2063,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 72.39 0)
+			(at 182.88 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1744,7 +2072,7 @@
 			)
 		)
 		(property "MPN" "CD4069UBM96"
-			(at 153.67 72.39 0)
+			(at 181.61 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1753,7 +2081,7 @@
 			)
 		)
 		(property "VPN" "595-CD4069UBM96"
-			(at 153.67 72.39 0)
+			(at 181.61 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1814,7 +2142,7 @@
 	)
 	(symbol
 		(lib_id "pss:4069")
-		(at 271.78 121.92 0)
+		(at 181.61 127 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1823,7 +2151,7 @@
 		(fields_autoplaced yes)
 		(uuid "b738f9e4-0492-4405-bd5b-c43e89f4d561")
 		(property "Reference" "U21002"
-			(at 271.78 111.76 0)
+			(at 181.61 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1831,7 +2159,7 @@
 			)
 		)
 		(property "Value" "4069"
-			(at 271.78 114.3 0)
+			(at 181.61 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1839,7 +2167,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 273.05 121.92 0)
+			(at 182.88 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1848,7 +2176,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4069ub.pdf"
-			(at 273.05 121.92 0)
+			(at 182.88 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1857,7 +2185,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 273.05 121.92 0)
+			(at 182.88 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1866,7 +2194,7 @@
 			)
 		)
 		(property "MPN" "CD4069UBM96"
-			(at 271.78 121.92 0)
+			(at 181.61 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1875,7 +2203,7 @@
 			)
 		)
 		(property "VPN" "595-CD4069UBM96"
-			(at 271.78 121.92 0)
+			(at 181.61 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1936,7 +2264,7 @@
 	)
 	(symbol
 		(lib_id "pss:4069")
-		(at 271.78 157.48 0)
+		(at 162.56 190.5 0)
 		(unit 6)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1945,7 +2273,7 @@
 		(fields_autoplaced yes)
 		(uuid "c58a1299-12db-4cb2-abd9-91654f9b840d")
 		(property "Reference" "U21002"
-			(at 271.78 147.32 0)
+			(at 162.56 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1953,7 +2281,7 @@
 			)
 		)
 		(property "Value" "4069"
-			(at 271.78 149.86 0)
+			(at 162.56 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1961,7 +2289,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 273.05 157.48 0)
+			(at 163.83 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1970,7 +2298,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4069ub.pdf"
-			(at 273.05 157.48 0)
+			(at 163.83 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1979,7 +2307,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 273.05 157.48 0)
+			(at 163.83 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1988,7 +2316,7 @@
 			)
 		)
 		(property "MPN" "CD4069UBM96"
-			(at 271.78 157.48 0)
+			(at 162.56 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1997,7 +2325,7 @@
 			)
 		)
 		(property "VPN" "595-CD4069UBM96"
-			(at 271.78 157.48 0)
+			(at 162.56 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2057,7 +2385,183 @@
 		)
 	)
 	(sheet
-		(at 116.84 59.69)
+		(at 127 88.9)
+		(size 22.86 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1d2742ec-3d10-4ff5-8813-6f202bc18ef7")
+		(property "Sheetname" "window-comparator2"
+			(at 127 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "window-comparator.kicad_sch"
+			(at 127 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "~{lle}" output
+			(at 149.86 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c3c25e3b-0631-4c01-9a60-980893362a6f")
+		)
+		(pin "ule" output
+			(at 149.86 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5a2639b6-7e7e-4d36-9819-4815bac4dafb")
+		)
+		(pin "meas" input
+			(at 127 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ee1b5af0-2cb2-41c0-ac02-a2f81bcfb566")
+		)
+		(pin "ll" input
+			(at 127 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f0dd3ac6-3f5b-4ee8-82a7-e623ad998ca1")
+		)
+		(pin "ul" input
+			(at 127 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5db7203e-093f-4bf2-8563-ffacd0f8db7e")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/baf2b2d2-d00c-49d3-b247-1b42c69022b3/f0ffd999-21e1-4ecc-97cc-621dfe88791c/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
+					(page "24")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 114.3)
+		(size 22.86 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "67b5cc40-0404-44cb-9368-386617de868f")
+		(property "Sheetname" "window-comparator3"
+			(at 127 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "window-comparator.kicad_sch"
+			(at 127 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "~{lle}" output
+			(at 149.86 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d30956b5-72ba-4b0c-906b-97237bf910b8")
+		)
+		(pin "ule" output
+			(at 149.86 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b77414dc-caa0-4724-869e-b812f876dfd4")
+		)
+		(pin "meas" input
+			(at 127 118.11 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2be9e841-adb2-49d0-89a9-b04561e45284")
+		)
+		(pin "ll" input
+			(at 127 127 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5f244f73-2e37-470d-842b-6ed2d91179ec")
+		)
+		(pin "ul" input
+			(at 127 123.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "592f14cd-721c-4f52-a6a9-a7acdca89b6d")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/baf2b2d2-d00c-49d3-b247-1b42c69022b3/f0ffd999-21e1-4ecc-97cc-621dfe88791c/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
+					(page "25")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 38.1)
 		(size 22.86 16.51)
 		(fields_autoplaced yes)
 		(stroke
@@ -2069,7 +2573,7 @@
 		)
 		(uuid "e65c3b78-3b2b-4f8a-bb92-3808512b49dd")
 		(property "Sheetname" "window-comparator"
-			(at 116.84 58.9784 0)
+			(at 127 37.3884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2078,7 +2582,7 @@
 			)
 		)
 		(property "Sheetfile" "window-comparator.kicad_sch"
-			(at 116.84 76.7846 0)
+			(at 127 55.1946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2087,7 +2591,7 @@
 			)
 		)
 		(pin "~{lle}" output
-			(at 139.7 72.39 0)
+			(at 149.86 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2097,7 +2601,7 @@
 			(uuid "8a3342a8-7646-4b1c-bee0-1b85968c1f1c")
 		)
 		(pin "ule" output
-			(at 139.7 68.58 0)
+			(at 149.86 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2107,7 +2611,7 @@
 			(uuid "01a955d6-9340-4f55-80dd-aabb1f891fe2")
 		)
 		(pin "meas" input
-			(at 116.84 63.5 180)
+			(at 127 41.91 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2117,7 +2621,7 @@
 			(uuid "0a0dc5d7-7aa2-4106-9bf1-1f27d9046cba")
 		)
 		(pin "ll" input
-			(at 116.84 72.39 180)
+			(at 127 50.8 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2127,7 +2631,7 @@
 			(uuid "7832de6f-1f13-4237-a4aa-e2824cbd107e")
 		)
 		(pin "ul" input
-			(at 116.84 68.58 180)
+			(at 127 46.99 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2140,6 +2644,94 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/baf2b2d2-d00c-49d3-b247-1b42c69022b3/f0ffd999-21e1-4ecc-97cc-621dfe88791c/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
 					(page "22")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 63.5)
+		(size 22.86 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ff334853-ab60-485c-bb6b-fcb0e80d61f1")
+		(property "Sheetname" "window-comparator1"
+			(at 127 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "window-comparator.kicad_sch"
+			(at 127 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "~{lle}" output
+			(at 149.86 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8202eb05-72b8-45ac-9d57-6bb5d95f0884")
+		)
+		(pin "ule" output
+			(at 149.86 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8b9657bf-8a54-400c-8b63-a1415f341233")
+		)
+		(pin "meas" input
+			(at 127 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "22e89ebe-97f0-4c83-b1f0-cf1f750f0f3a")
+		)
+		(pin "ll" input
+			(at 127 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "076431f3-6b6f-4a4f-a4e4-500128f3409f")
+		)
+		(pin "ul" input
+			(at 127 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7f0840d7-f960-4c1c-9891-8bc2e92d24f1")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/baf2b2d2-d00c-49d3-b247-1b42c69022b3/f0ffd999-21e1-4ecc-97cc-621dfe88791c/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
+					(page "23")
 				)
 			)
 		)
