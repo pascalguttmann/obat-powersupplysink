@@ -1152,12 +1152,20 @@
 		(uuid "c59a1eaa-bffc-418f-96ce-a22c80e54df5")
 	)
 	(no_connect
+		(at 172.72 190.5)
+		(uuid "57843cf6-55a3-47ef-a391-0d355b9ff57a")
+	)
+	(no_connect
 		(at 218.44 77.47)
 		(uuid "7ba9bfe2-9a97-4ef3-9030-fe6d6b0ec922")
 	)
 	(no_connect
 		(at 218.44 62.23)
 		(uuid "87e539fd-023c-4c7a-a665-a26b2b7df214")
+	)
+	(no_connect
+		(at 172.72 172.72)
+		(uuid "c7932ab5-73a0-49f0-8133-854614ca2295")
 	)
 	(wire
 		(pts
@@ -1208,6 +1216,16 @@
 			(type default)
 		)
 		(uuid "0a41fd91-52df-4ec0-b1b9-a48fc5ca5f39")
+	)
+	(wire
+		(pts
+			(xy 151.13 190.5) (xy 154.94 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aef0de9-8d24-4595-9461-f0779ad9ce19")
 	)
 	(wire
 		(pts
@@ -1428,6 +1446,16 @@
 			(type default)
 		)
 		(uuid "672f5859-cfb4-42c2-9457-b2b90186d936")
+	)
+	(wire
+		(pts
+			(xy 151.13 172.72) (xy 154.94 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6adc0e55-858f-4eed-8264-1aad38e59ab7")
 	)
 	(wire
 		(pts
@@ -2463,6 +2491,73 @@
 		)
 	)
 	(symbol
+		(lib_id "pss:+10V")
+		(at 151.13 190.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36aa1a52-d6c4-4fbf-9965-a8ad0bfe9930")
+		(property "Reference" "#PWR021009"
+			(at 154.94 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+10V"
+			(at 147.32 190.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+10V\""
+			(at 151.13 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24659497-e1aa-4305-b3f2-8a4f46a9abf0")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/baf2b2d2-d00c-49d3-b247-1b42c69022b3/f0ffd999-21e1-4ecc-97cc-621dfe88791c/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
+					(reference "#PWR021009")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pss:-5V")
 		(at 40.64 181.61 180)
 		(unit 1)
@@ -2749,7 +2844,7 @@
 	)
 	(symbol
 		(lib_id "pss:4069")
-		(at 162.56 172.72 0)
+		(at 163.83 172.72 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2758,7 +2853,7 @@
 		(fields_autoplaced yes)
 		(uuid "5fd7f4bb-c536-4d46-8712-1c41b1e6921f")
 		(property "Reference" "U21002"
-			(at 162.56 162.56 0)
+			(at 163.83 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2766,7 +2861,7 @@
 			)
 		)
 		(property "Value" "4069"
-			(at 162.56 165.1 0)
+			(at 163.83 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2774,7 +2869,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 163.83 172.72 0)
+			(at 165.1 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2783,7 +2878,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4069ub.pdf"
-			(at 163.83 172.72 0)
+			(at 165.1 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2792,7 +2887,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 172.72 0)
+			(at 165.1 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2801,7 +2896,7 @@
 			)
 		)
 		(property "MPN" "CD4069UBM96"
-			(at 162.56 172.72 0)
+			(at 163.83 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2810,7 +2905,7 @@
 			)
 		)
 		(property "VPN" "595-CD4069UBM96"
-			(at 162.56 172.72 0)
+			(at 163.83 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3447,7 +3542,7 @@
 	)
 	(symbol
 		(lib_id "pss:4069")
-		(at 162.56 190.5 0)
+		(at 163.83 190.5 0)
 		(unit 6)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3456,7 +3551,7 @@
 		(fields_autoplaced yes)
 		(uuid "c58a1299-12db-4cb2-abd9-91654f9b840d")
 		(property "Reference" "U21002"
-			(at 162.56 180.34 0)
+			(at 163.83 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3464,7 +3559,7 @@
 			)
 		)
 		(property "Value" "4069"
-			(at 162.56 182.88 0)
+			(at 163.83 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3472,7 +3567,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 163.83 190.5 0)
+			(at 165.1 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3481,7 +3576,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4069ub.pdf"
-			(at 163.83 190.5 0)
+			(at 165.1 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3490,7 +3585,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 190.5 0)
+			(at 165.1 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3499,7 +3594,7 @@
 			)
 		)
 		(property "MPN" "CD4069UBM96"
-			(at 162.56 190.5 0)
+			(at 163.83 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3508,7 +3603,7 @@
 			)
 		)
 		(property "VPN" "595-CD4069UBM96"
-			(at 162.56 190.5 0)
+			(at 163.83 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3628,6 +3723,73 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/baf2b2d2-d00c-49d3-b247-1b42c69022b3/f0ffd999-21e1-4ecc-97cc-621dfe88791c/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
 					(reference "#PWR021006")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pss:+10V")
+		(at 151.13 172.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed371b9e-fd49-45cf-9e54-89a2b668cc05")
+		(property "Reference" "#PWR021008"
+			(at 154.94 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+10V"
+			(at 147.32 172.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+10V\""
+			(at 151.13 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c63e733-1b76-4194-92d0-7de8e6f07398")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/baf2b2d2-d00c-49d3-b247-1b42c69022b3/f0ffd999-21e1-4ecc-97cc-621dfe88791c/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
+					(reference "#PWR021008")
 					(unit 1)
 				)
 			)
