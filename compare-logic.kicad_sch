@@ -1178,6 +1178,18 @@
 		)
 		(uuid "3d3550ac-2b3c-4ed1-97fa-a35bcd0ebb98")
 	)
+	(hierarchical_label "conf_refselect_i"
+		(shape input)
+		(at 214.63 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3ec61d7a-df30-4d77-9455-4beae336e559")
+	)
 	(hierarchical_label "meas_out_v"
 		(shape input)
 		(at 190.5 160.02 180)
@@ -1190,9 +1202,21 @@
 		)
 		(uuid "4f6f5e7e-ff04-4bdd-be67-48558878262c")
 	)
+	(hierarchical_label "conf_refselect_v"
+		(shape input)
+		(at 214.63 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8d2ef5aa-17d3-492b-abe7-5ff3712b6424")
+	)
 	(hierarchical_label "comp_mstt"
 		(shape output)
-		(at 228.6 60.96 0)
+		(at 251.46 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1204,7 +1228,7 @@
 	)
 	(hierarchical_label "comp_mgtt"
 		(shape output)
-		(at 228.6 57.15 0)
+		(at 251.46 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
