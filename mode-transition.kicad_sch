@@ -5367,7 +5367,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 273.05 121.92 0)
 			(effects
 				(font
@@ -5376,7 +5376,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4075b.pdf"
 			(at 273.05 121.92 0)
 			(effects
 				(font
@@ -5386,6 +5386,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 273.05 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4075BM96"
+			(at 273.05 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "595-CD4075BM96"
 			(at 273.05 121.92 0)
 			(effects
 				(font
@@ -6169,7 +6187,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 187.96 99.06 0)
 			(effects
 				(font
@@ -6178,7 +6196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4075b.pdf"
 			(at 187.96 99.06 0)
 			(effects
 				(font
@@ -6188,6 +6206,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 187.96 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4075BM96"
+			(at 187.96 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "595-CD4075BM96"
 			(at 187.96 99.06 0)
 			(effects
 				(font
@@ -6769,7 +6805,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 273.05 57.15 0)
 			(effects
 				(font
@@ -6778,7 +6814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4075b.pdf"
 			(at 273.05 57.15 0)
 			(effects
 				(font
@@ -6788,6 +6824,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 273.05 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4075BM96"
+			(at 273.05 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "595-CD4075BM96"
 			(at 273.05 57.15 0)
 			(effects
 				(font
@@ -7185,7 +7239,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 			(at 113.03 176.53 0)
 			(effects
 				(font
@@ -7194,7 +7248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31231.pdf"
 			(at 107.95 179.07 0)
 			(effects
 				(font
@@ -7212,7 +7266,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "DNLS350E-13"
 			(at 107.95 179.07 0)
 			(effects
 				(font
@@ -7221,7 +7275,7 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" ""
+		(property "VPN" "621-DNLS350E-13"
 			(at 107.95 179.07 0)
 			(effects
 				(font
@@ -7889,7 +7943,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 187.96 34.29 0)
 			(effects
 				(font
@@ -7898,7 +7952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4075b.pdf"
 			(at 187.96 34.29 0)
 			(effects
 				(font
@@ -7908,6 +7962,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 187.96 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4075BM96"
+			(at 187.96 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "595-CD4075BM96"
 			(at 187.96 34.29 0)
 			(effects
 				(font
@@ -7993,7 +8065,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 187.96 116.84 0)
 			(effects
 				(font
@@ -8002,7 +8074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4075b.pdf"
 			(at 187.96 116.84 0)
 			(effects
 				(font
@@ -8012,6 +8084,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 187.96 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4075BM96"
+			(at 187.96 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "595-CD4075BM96"
 			(at 187.96 116.84 0)
 			(effects
 				(font
@@ -8163,7 +8253,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 187.96 69.85 0)
 			(effects
 				(font
@@ -8172,7 +8262,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4075b.pdf"
 			(at 187.96 69.85 0)
 			(effects
 				(font
@@ -8182,6 +8272,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 187.96 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4075BM96"
+			(at 187.96 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "595-CD4075BM96"
 			(at 187.96 69.85 0)
 			(effects
 				(font
@@ -9349,7 +9457,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 187.96 52.07 0)
 			(effects
 				(font
@@ -9358,7 +9466,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4075b.pdf"
 			(at 187.96 52.07 0)
 			(effects
 				(font
@@ -9368,6 +9476,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 187.96 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4075BM96"
+			(at 187.96 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "595-CD4075BM96"
 			(at 187.96 52.07 0)
 			(effects
 				(font
@@ -9763,7 +9889,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 187.96 134.62 0)
 			(effects
 				(font
@@ -9772,7 +9898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4075b.pdf"
 			(at 187.96 134.62 0)
 			(effects
 				(font
@@ -9782,6 +9908,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 187.96 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4075BM96"
+			(at 187.96 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "595-CD4075BM96"
 			(at 187.96 134.62 0)
 			(effects
 				(font

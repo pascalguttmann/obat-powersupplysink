@@ -1436,7 +1436,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pss:Fan_SameSky_CFM-5015V"
 			(at 160.02 178.816 0)
 			(effects
 				(font
@@ -1445,7 +1445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/1628/cfm_50v-3508680.pdf"
 			(at 160.02 178.816 0)
 			(effects
 				(font
@@ -1463,7 +1463,16 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" ""
+		(property "VPN" "490-CFM-5015V-172381"
+			(at 160.02 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CFM-5015V-172-381"
 			(at 160.02 179.07 0)
 			(effects
 				(font
@@ -1647,7 +1656,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pss:Fan_SameSky_CFM-5015V"
 			(at 160.02 166.116 0)
 			(effects
 				(font
@@ -1656,7 +1665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/1628/cfm_50v-3508680.pdf"
 			(at 160.02 166.116 0)
 			(effects
 				(font
@@ -1674,7 +1683,16 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" ""
+		(property "VPN" "490-CFM-5015V-172381"
+			(at 160.02 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CFM-5015V-172-381"
 			(at 160.02 166.37 0)
 			(effects
 				(font
@@ -1717,7 +1735,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Heatsink_Pad"
+		(property "Value" "SK499-120 SA"
 			(at 114.3 178.4349 0)
 			(effects
 				(font
@@ -1726,7 +1744,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pss:Heatsink_Fischer_SK499-120_46x120mm_h33mm_Drill3.5mm_ScrewM3"
 			(at 110.7948 179.07 0)
 			(effects
 				(font
@@ -1735,7 +1753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.fischerelektronik.de/web_fischer/en_GB/PR/SK499_/datasheet.xhtml?branch=heatsinks"
 			(at 110.7948 179.07 0)
 			(effects
 				(font
@@ -1754,6 +1772,15 @@
 			)
 		)
 		(property "VPN" ""
+			(at 110.49 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SK499-120 SA"
 			(at 110.49 177.8 0)
 			(effects
 				(font
@@ -1793,7 +1820,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Heatsink_Pad"
+		(property "Value" "SK499-120 SA"
 			(at 137.16 178.4349 0)
 			(effects
 				(font
@@ -1802,7 +1829,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pss:Heatsink_Fischer_SK499-120_46x120mm_h33mm_Drill3.5mm_ScrewM3"
 			(at 133.6548 179.07 0)
 			(effects
 				(font
@@ -1811,7 +1838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.fischerelektronik.de/web_fischer/en_GB/PR/SK499_/datasheet.xhtml?branch=heatsinks"
 			(at 133.6548 179.07 0)
 			(effects
 				(font
@@ -1830,6 +1857,15 @@
 			)
 		)
 		(property "VPN" ""
+			(at 133.35 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SK499-120 SA"
 			(at 133.35 177.8 0)
 			(effects
 				(font

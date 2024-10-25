@@ -1294,7 +1294,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
 			(at 130.81 76.708 90)
 			(effects
 				(font
@@ -1303,7 +1303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734389.pdf"
 			(at 130.81 74.93 0)
 			(effects
 				(font
@@ -1321,7 +1321,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RR03J22RTB"
 			(at 130.81 74.93 0)
 			(effects
 				(font
@@ -1330,7 +1330,7 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" ""
+		(property "VPN" "279-RR03J22RTB"
 			(at 130.81 74.93 0)
 			(effects
 				(font
@@ -1424,7 +1424,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
 			(at 130.81 127.508 90)
 			(effects
 				(font
@@ -1433,7 +1433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734389.pdf"
 			(at 130.81 125.73 0)
 			(effects
 				(font
@@ -1451,7 +1451,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RR03J22RTB"
 			(at 130.81 125.73 0)
 			(effects
 				(font
@@ -1460,7 +1460,7 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" ""
+		(property "VPN" "279-RR03J22RTB"
 			(at 130.81 125.73 0)
 			(effects
 				(font
@@ -1547,7 +1547,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "THFU3"
 			(at 196.85 127.635 0)
 			(effects
 				(font
@@ -1565,7 +1565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://fischerelektronik.de/web_fischer/en_GB/VA/THFU3/datasheet.xhtml;jsessionid=5770B526AEBA62D4497BB978A14949ED?branch=heatsinks"
 			(at 194.31 125.73 0)
 			(effects
 				(font
@@ -1584,6 +1584,15 @@
 			)
 		)
 		(property "VPN" ""
+			(at 194.31 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "THFU 3"
 			(at 194.31 125.73 0)
 			(effects
 				(font
@@ -1783,7 +1792,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
 			(at 158.242 109.22 90)
 			(effects
 				(font
@@ -1792,7 +1801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
 			(at 160.02 109.22 0)
 			(effects
 				(font
@@ -1810,7 +1819,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RR02JR68TB"
 			(at 160.02 109.22 0)
 			(effects
 				(font
@@ -1819,7 +1828,7 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" ""
+		(property "VPN" "279-RR02JR68TB"
 			(at 160.02 109.22 0)
 			(effects
 				(font
@@ -1915,7 +1924,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
 			(at 169.672 109.22 90)
 			(effects
 				(font
@@ -1924,7 +1933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
 			(at 171.45 109.22 0)
 			(effects
 				(font
@@ -1942,7 +1951,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RR02JR68TB"
 			(at 171.45 109.22 0)
 			(effects
 				(font
@@ -1951,7 +1960,7 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" ""
+		(property "VPN" "279-RR02JR68TB"
 			(at 171.45 109.22 0)
 			(effects
 				(font
@@ -2047,7 +2056,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
 			(at 169.672 91.44 90)
 			(effects
 				(font
@@ -2056,7 +2065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
 			(at 171.45 91.44 0)
 			(effects
 				(font
@@ -2074,7 +2083,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RR02JR68TB"
 			(at 171.45 91.44 0)
 			(effects
 				(font
@@ -2083,7 +2092,7 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" ""
+		(property "VPN" "279-RR02JR68TB"
 			(at 171.45 91.44 0)
 			(effects
 				(font
@@ -2178,7 +2187,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 			(at 143.51 114.935 0)
 			(effects
 				(font
@@ -2189,7 +2198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=TIP42.PDF"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31230.pdf"
 			(at 149.86 116.84 0)
 			(effects
 				(font
@@ -2208,7 +2217,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "DPLS350E-13"
 			(at 149.86 116.84 0)
 			(effects
 				(font
@@ -2217,7 +2226,7 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" ""
+		(property "VPN" "621-DPLS350E-13"
 			(at 149.86 116.84 0)
 			(effects
 				(font
@@ -2346,7 +2355,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "TIP41C"
 			(at 157.48 74.93 0)
 			(effects
 				(font
@@ -2355,7 +2364,7 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" ""
+		(property "VPN" "511-TIP41C"
 			(at 157.48 74.93 0)
 			(effects
 				(font
@@ -2445,7 +2454,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "5000-ins"
 			(at 185.42 127.635 0)
 			(effects
 				(font
@@ -2463,7 +2472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/987/THS_DS_TGARD5000_032515-1634123.pdf"
 			(at 181.61 125.73 0)
 			(effects
 				(font
@@ -2481,7 +2490,16 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" ""
+		(property "VPN" "739-A15037003"
+			(at 181.61 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "A15037003"
 			(at 181.61 125.73 0)
 			(effects
 				(font
@@ -2571,7 +2589,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 			(at 143.51 85.725 0)
 			(effects
 				(font
@@ -2582,7 +2600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31231.pdf"
 			(at 149.86 83.82 0)
 			(effects
 				(font
@@ -2601,7 +2619,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "DNLS350E-13"
 			(at 149.86 83.82 0)
 			(effects
 				(font
@@ -2610,7 +2628,7 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" ""
+		(property "VPN" "621-DNLS350E-13"
 			(at 149.86 83.82 0)
 			(effects
 				(font
@@ -2700,7 +2718,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "5000-ins"
 			(at 185.42 76.835 0)
 			(effects
 				(font
@@ -2718,7 +2736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/987/THS_DS_TGARD5000_032515-1634123.pdf"
 			(at 181.61 74.93 0)
 			(effects
 				(font
@@ -2736,7 +2754,16 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" ""
+		(property "VPN" "739-A15037003"
+			(at 181.61 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "A15037003"
 			(at 181.61 74.93 0)
 			(effects
 				(font
@@ -2936,7 +2963,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
 			(at 158.242 91.44 90)
 			(effects
 				(font
@@ -2945,7 +2972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
 			(at 160.02 91.44 0)
 			(effects
 				(font
@@ -2963,7 +2990,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RR02JR68TB"
 			(at 160.02 91.44 0)
 			(effects
 				(font
@@ -2972,7 +2999,7 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" ""
+		(property "VPN" "279-RR02JR68TB"
 			(at 160.02 91.44 0)
 			(effects
 				(font
@@ -3099,7 +3126,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "TIP42C"
 			(at 157.48 125.73 0)
 			(effects
 				(font
@@ -3108,7 +3135,7 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" ""
+		(property "VPN" "511-TIP42C"
 			(at 157.48 125.73 0)
 			(effects
 				(font
@@ -3198,7 +3225,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "THFU3"
 			(at 196.85 76.835 0)
 			(effects
 				(font
@@ -3216,7 +3243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://fischerelektronik.de/web_fischer/en_GB/VA/THFU3/datasheet.xhtml;jsessionid=5770B526AEBA62D4497BB978A14949ED?branch=heatsinks"
 			(at 194.31 74.93 0)
 			(effects
 				(font
@@ -3235,6 +3262,15 @@
 			)
 		)
 		(property "VPN" ""
+			(at 194.31 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "THFU 3"
 			(at 194.31 74.93 0)
 			(effects
 				(font
