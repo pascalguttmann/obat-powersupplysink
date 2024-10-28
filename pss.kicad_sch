@@ -1207,6 +1207,26 @@
 				(justify left top)
 			)
 		)
+		(pin "v_in" input
+			(at 156.21 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "333be2de-ae5a-45a9-b021-3a3ac320ade7")
+		)
+		(pin "v_out" output
+			(at 181.61 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8edeb3f8-c5e3-497f-b22e-65d581798347")
+		)
 		(instances
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176"

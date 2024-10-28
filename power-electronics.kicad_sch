@@ -12,13 +12,15 @@
 		(comment 1 "Power Electronics")
 	)
 	(lib_symbols)
-	(no_connect
-		(at 187.96 95.25)
-		(uuid "576c38e4-9367-4b1f-a78b-c0f4b7f17f98")
-	)
-	(no_connect
-		(at 123.19 95.25)
-		(uuid "e97d0ef6-dc4f-440b-875b-bbf8fcfa4e2d")
+	(wire
+		(pts
+			(xy 114.3 95.25) (xy 123.19 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72f28901-4b41-4168-b79c-fd7c9d338abc")
 	)
 	(wire
 		(pts
@@ -32,6 +34,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 95.25) (xy 196.85 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bebef9c1-50ef-40fe-8727-2fe49c9c7345")
+	)
+	(wire
+		(pts
 			(xy 148.59 97.79) (xy 162.56 97.79)
 		)
 		(stroke
@@ -39,6 +51,30 @@
 			(type default)
 		)
 		(uuid "dd63b742-8e72-4846-8659-fc980d266710")
+	)
+	(hierarchical_label "v_out"
+		(shape output)
+		(at 196.85 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2450e9ac-90ce-495b-94c8-52dd757d0a88")
+	)
+	(hierarchical_label "v_in"
+		(shape input)
+		(at 114.3 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "78baaaf8-19bc-410d-8804-e45149b6d3b9")
 	)
 	(sheet
 		(at 123.19 88.9)
