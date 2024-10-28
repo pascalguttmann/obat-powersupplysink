@@ -783,16 +783,12 @@
       "emitter_follower9"
     ],
     [
-      "e087d850-f925-4ba4-89de-e843d36ae561",
+      "0261998d-8bfa-449f-a2ab-b88f7edeef81",
       "control"
     ],
     [
-      "f0ffd999-21e1-4ecc-97cc-621dfe88791c",
+      "50b9fa8c-588a-4f7c-8a85-883889c8b2d1",
       "limit-logic"
-    ],
-    [
-      "baf2b2d2-d00c-49d3-b247-1b42c69022b3",
-      "control-logic"
     ],
     [
       "411aee83-75fe-4524-984d-fb0946001871",
