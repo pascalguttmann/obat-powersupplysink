@@ -1404,7 +1404,7 @@
 				)
 			)
 		)
-		(property "Value" "10M"
+		(property "Value" "1M"
 			(at 161.29 60.96 90)
 			(effects
 				(font
@@ -1439,7 +1439,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC1210FR-0710ML"
+		(property "MPN" "RC1210FR-071ML"
 			(at 161.29 64.77 0)
 			(effects
 				(font
@@ -1448,7 +1448,7 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" "603-RC1210FR-0710ML"
+		(property "VPN" "603-RC1210FR-071ML"
 			(at 161.29 64.77 0)
 			(effects
 				(font
@@ -1779,7 +1779,7 @@
 				)
 			)
 		)
-		(property "Value" "1k3"
+		(property "Value" "130"
 			(at 146.05 105.41 90)
 			(effects
 				(font
@@ -1814,7 +1814,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC1210FR-071K3L"
+		(property "MPN" "RC1210FR-07130RL"
 			(at 146.05 109.22 0)
 			(effects
 				(font
@@ -1823,7 +1823,7 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" "603-RC1210FR-071K3L"
+		(property "VPN" "603-RC1210FR-07130RL"
 			(at 146.05 109.22 0)
 			(effects
 				(font
@@ -1955,7 +1955,7 @@
 				)
 			)
 		)
-		(property "Value" "10M"
+		(property "Value" "1M"
 			(at 161.29 92.71 90)
 			(effects
 				(font
@@ -1990,7 +1990,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC1210FR-0710ML"
+		(property "MPN" "RC1210FR-071ML"
 			(at 161.29 96.52 0)
 			(effects
 				(font
@@ -1999,7 +1999,7 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" "603-RC1210FR-0710ML"
+		(property "VPN" "603-RC1210FR-071ML"
 			(at 161.29 96.52 0)
 			(effects
 				(font
@@ -2253,7 +2253,7 @@
 				)
 			)
 		)
-		(property "Value" "1k3"
+		(property "Value" "130"
 			(at 146.05 73.66 90)
 			(effects
 				(font
@@ -2288,7 +2288,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC1210FR-071K3L"
+		(property "MPN" "RC1210FR-07130RL"
 			(at 146.05 77.47 0)
 			(effects
 				(font
@@ -2297,7 +2297,7 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" "603-RC1210FR-071K3L"
+		(property "VPN" "603-RC1210FR-07130RL"
 			(at 146.05 77.47 0)
 			(effects
 				(font
