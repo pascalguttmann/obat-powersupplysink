@@ -5586,14 +5586,14 @@
 	(symbol
 		(lib_id "pss:4081")
 		(at 39.37 160.02 0)
-		(unit 4)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "132c8291-3d5c-4789-93d3-55046ee7aa65")
-		(property "Reference" "U19002"
+		(property "Reference" "U19003"
 			(at 39.37 149.86 0)
 			(effects
 				(font
@@ -5699,8 +5699,8 @@
 		(instances
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/50b9fa8c-588a-4f7c-8a85-883889c8b2d1/411aee83-75fe-4524-984d-fb0946001871"
-					(reference "U19002")
-					(unit 4)
+					(reference "U19003")
+					(unit 3)
 				)
 			)
 		)
@@ -7976,7 +7976,7 @@
 	(symbol
 		(lib_id "pss:4081")
 		(at 97.79 69.85 0)
-		(unit 3)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8090,7 +8090,7 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/50b9fa8c-588a-4f7c-8a85-883889c8b2d1/411aee83-75fe-4524-984d-fb0946001871"
 					(reference "U19002")
-					(unit 3)
+					(unit 2)
 				)
 			)
 		)
@@ -8164,7 +8164,7 @@
 	(symbol
 		(lib_id "pss:4081")
 		(at 81.28 99.06 0)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -8278,7 +8278,7 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/50b9fa8c-588a-4f7c-8a85-883889c8b2d1/411aee83-75fe-4524-984d-fb0946001871"
 					(reference "U19003")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -8822,14 +8822,14 @@
 	(symbol
 		(lib_id "pss:4081")
 		(at 97.79 134.62 0)
-		(unit 3)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67b21ad2-0b8e-4562-9404-865f68548481")
-		(property "Reference" "U19003"
+		(property "Reference" "U19002"
 			(at 97.79 124.46 0)
 			(effects
 				(font
@@ -8935,8 +8935,8 @@
 		(instances
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/50b9fa8c-588a-4f7c-8a85-883889c8b2d1/411aee83-75fe-4524-984d-fb0946001871"
-					(reference "U19003")
-					(unit 3)
+					(reference "U19002")
+					(unit 4)
 				)
 			)
 		)
@@ -10910,7 +10910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8fbf098-7e72-448d-96d6-6086483115f5")
-		(property "Reference" "U19002"
+		(property "Reference" "U19003"
 			(at 81.28 24.13 0)
 			(effects
 				(font
@@ -11016,7 +11016,7 @@
 		(instances
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/50b9fa8c-588a-4f7c-8a85-883889c8b2d1/411aee83-75fe-4524-984d-fb0946001871"
-					(reference "U19002")
+					(reference "U19003")
 					(unit 1)
 				)
 			)
@@ -11827,14 +11827,14 @@
 	(symbol
 		(lib_id "pss:4081")
 		(at 97.79 116.84 0)
-		(unit 2)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e20157ce-44ca-4667-8fdd-44150925b7b4")
-		(property "Reference" "U19003"
+		(property "Reference" "U19002"
 			(at 97.79 106.68 0)
 			(effects
 				(font
@@ -11940,8 +11940,8 @@
 		(instances
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/50b9fa8c-588a-4f7c-8a85-883889c8b2d1/411aee83-75fe-4524-984d-fb0946001871"
-					(reference "U19003")
-					(unit 2)
+					(reference "U19002")
+					(unit 3)
 				)
 			)
 		)
@@ -12255,7 +12255,7 @@
 	(symbol
 		(lib_id "pss:4081")
 		(at 97.79 52.07 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -12369,7 +12369,7 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/50b9fa8c-588a-4f7c-8a85-883889c8b2d1/411aee83-75fe-4524-984d-fb0946001871"
 					(reference "U19002")
-					(unit 2)
+					(unit 1)
 				)
 			)
 		)
