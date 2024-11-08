@@ -1,0 +1,207 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "76339bf6-45b3-4f14-9fc3-56861b058cbc")
+	(paper "A4")
+	(title_block
+		(title "Power Supply Sink")
+		(date "2024-11-07")
+		(rev "0.5.3")
+		(company "Open Battery Tester")
+		(comment 1 "Multiplexer")
+	)
+	(lib_symbols)
+	(hierarchical_label "meas_out_i"
+		(shape input)
+		(at 76.2 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07d8f4d7-cf1a-4886-a037-871e087c0c31")
+	)
+	(hierarchical_label "mode_lvlc"
+		(shape input)
+		(at 76.2 148.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0b66f627-8c9a-4d9a-875d-10370c762133")
+	)
+	(hierarchical_label "mode_uvlc"
+		(shape input)
+		(at 76.2 153.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0bf9e6a4-4c74-42a5-b882-3514e52c1cdc")
+	)
+	(hierarchical_label "mux_ref"
+		(shape output)
+		(at 228.6 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1012e209-2736-4231-a3e7-d9cfff9a3808")
+	)
+	(hierarchical_label "mux_meas"
+		(shape output)
+		(at 228.6 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1e7aa1a3-ffd8-492f-90db-4d4a52068928")
+	)
+	(hierarchical_label "conf_lvl"
+		(shape input)
+		(at 76.2 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "20a15e06-0398-4307-a408-9c45717aaafe")
+	)
+	(hierarchical_label "conf_vref"
+		(shape input)
+		(at 76.2 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "97b18169-285d-45db-96ab-70a7ef3ca51e")
+	)
+	(hierarchical_label "mode_vc"
+		(shape input)
+		(at 76.2 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9baf7f68-f251-494f-80b5-ea18e344607b")
+	)
+	(hierarchical_label "conf_uvl"
+		(shape input)
+		(at 76.2 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9c8d70c1-f7ea-49b9-90f3-3027f756c8b7")
+	)
+	(hierarchical_label "meas_out_v"
+		(shape input)
+		(at 76.2 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a1c1b549-97c1-4bd7-8ef4-b709dd0d13bb")
+	)
+	(hierarchical_label "mode_cc"
+		(shape input)
+		(at 76.2 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "accaf6e1-fc67-4556-a035-8e5a1a003e13")
+	)
+	(hierarchical_label "conf_lcl"
+		(shape input)
+		(at 76.2 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c7fb8452-a5a4-491c-83eb-2e983c901e1a")
+	)
+	(hierarchical_label "mode_lclc"
+		(shape input)
+		(at 76.2 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c881fc7d-b684-4c6b-aed3-34abaa22f38c")
+	)
+	(hierarchical_label "conf_ucl"
+		(shape input)
+		(at 76.2 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d9d73c6a-e18b-48f4-9d53-a30b682467d4")
+	)
+	(hierarchical_label "mode_uclc"
+		(shape input)
+		(at 76.2 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e7e9cfc3-124c-4954-8222-0b7179112034")
+	)
+	(hierarchical_label "conf_iref"
+		(shape input)
+		(at 76.2 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f34fac3c-411e-4fd8-90bc-905f78b53cc8")
+	)
+)
