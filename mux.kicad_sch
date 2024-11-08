@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "76339bf6-45b3-4f14-9fc3-56861b058cbc")
+	(uuid "d754944e-4cf5-4a3f-954e-547532c3145b")
 	(paper "A4")
 	(title_block
 		(title "Power Supply Sink")
@@ -11,10 +11,803 @@
 		(company "Open Battery Tester")
 		(comment 1 "Multiplexer")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "pss:4066"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "4066"
+				(at -7.62 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Quad Analog Switches"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "CMOS SWITCH"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP?14*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "4066_1_0"
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 2.54) (xy 2.54 -2.54) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy 2.54 0) (xy -2.54 -2.54) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 7.62 270)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4066_2_0"
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 2.54) (xy 2.54 -2.54) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy 2.54 0) (xy -2.54 -2.54) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 7.62 270)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4066_3_0"
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 2.54) (xy 2.54 -2.54) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy 2.54 0) (xy -2.54 -2.54) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 0 7.62 270)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4066_4_0"
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 2.54) (xy 2.54 -2.54) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy 2.54 0) (xy -2.54 -2.54) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 7.62 270)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4066_5_0"
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4066_5_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 76.2 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12bb446f-8aac-42da-be17-39c1535c0c02")
+	)
+	(junction
+		(at 76.2 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "228aed25-314b-490a-ad54-56e21845787d")
+	)
+	(junction
+		(at 139.7 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58fadf2d-c16e-46c6-bbd4-23edb8ff1b21")
+	)
+	(junction
+		(at 76.2 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a940dbc1-344d-4881-aed9-f3328b9096a6")
+	)
+	(junction
+		(at 76.2 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8abf551-de8e-4c2a-8b24-9e0b04e5452e")
+	)
+	(junction
+		(at 76.2 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8dfade5-c377-4f60-8683-de430c5df854")
+	)
+	(wire
+		(pts
+			(xy 134.62 146.05) (xy 139.7 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "164c204a-b540-418a-b244-5522e90b0a2c")
+	)
+	(wire
+		(pts
+			(xy 76.2 107.95) (xy 76.2 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ebcec80-9e9b-4fb9-8f52-7a407323bbcf")
+	)
+	(wire
+		(pts
+			(xy 71.12 44.45) (xy 76.2 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a8990ab-519a-4345-8ac3-ab9dd0530500")
+	)
+	(wire
+		(pts
+			(xy 50.8 95.25) (xy 55.88 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33686657-757f-4d2d-8679-5253c1cebd62")
+	)
+	(wire
+		(pts
+			(xy 50.8 146.05) (xy 55.88 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f0bf65e-303b-4e36-956b-3427b3d2b2e2")
+	)
+	(wire
+		(pts
+			(xy 114.3 146.05) (xy 119.38 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "557597b3-85e4-41f5-89ef-e9758ba73bf4")
+	)
+	(wire
+		(pts
+			(xy 76.2 120.65) (xy 76.2 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f607445-de1c-41a2-b74a-f1a845dc33dc")
+	)
+	(wire
+		(pts
+			(xy 152.4 158.75) (xy 139.7 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d2d7725-5369-4cbe-84d5-8d3d88b4a68e")
+	)
+	(wire
+		(pts
+			(xy 71.12 69.85) (xy 76.2 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84b589a9-383c-427f-83bb-84a354670e6b")
+	)
+	(wire
+		(pts
+			(xy 71.12 171.45) (xy 76.2 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8516d5f2-592b-43af-9dda-61f5f2e2f363")
+	)
+	(wire
+		(pts
+			(xy 139.7 158.75) (xy 139.7 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c59f298-185e-4487-8c4c-3b6552f0d134")
+	)
+	(wire
+		(pts
+			(xy 71.12 95.25) (xy 76.2 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9155bf03-a703-45d5-8027-5a3f723a7109")
+	)
+	(wire
+		(pts
+			(xy 76.2 107.95) (xy 88.9 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a6f701f-07e8-482f-9bdd-a83f9b7b99f4")
+	)
+	(wire
+		(pts
+			(xy 71.12 146.05) (xy 76.2 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ff2cc83-8b62-41c7-a2e4-8263b1f2b504")
+	)
+	(wire
+		(pts
+			(xy 50.8 69.85) (xy 55.88 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3432899-d041-4b60-8047-c7d97c680033")
+	)
+	(wire
+		(pts
+			(xy 76.2 107.95) (xy 76.2 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a49191c6-dafc-4293-affd-6bb53ea068ec")
+	)
+	(wire
+		(pts
+			(xy 76.2 44.45) (xy 76.2 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b07e34ea-63de-456e-8a45-55bdf807e9b5")
+	)
+	(wire
+		(pts
+			(xy 76.2 146.05) (xy 76.2 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b958e9e2-9f7a-4324-98ad-437e1ca5088d")
+	)
+	(wire
+		(pts
+			(xy 139.7 158.75) (xy 139.7 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bffdeb55-d08b-4930-beae-3a4679b35d2a")
+	)
+	(wire
+		(pts
+			(xy 114.3 171.45) (xy 119.38 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c407a7c7-4ed6-492f-a4a9-c29f06732cf8")
+	)
+	(wire
+		(pts
+			(xy 76.2 69.85) (xy 76.2 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d36b15a2-3997-4956-8476-1df16bef68a6")
+	)
+	(wire
+		(pts
+			(xy 71.12 120.65) (xy 76.2 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d564dd0e-e842-49f2-8e75-a6cc4350c575")
+	)
+	(wire
+		(pts
+			(xy 50.8 120.65) (xy 55.88 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f73b26e6-0373-40e5-aed6-9ff8bdd6bbd3")
+	)
+	(wire
+		(pts
+			(xy 50.8 44.45) (xy 55.88 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb76e21f-2e39-4f1e-bc9d-54751e815047")
+	)
+	(wire
+		(pts
+			(xy 134.62 171.45) (xy 139.7 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fee80c66-74a1-4d94-b75a-d2b3ad814de2")
+	)
+	(wire
+		(pts
+			(xy 50.8 171.45) (xy 55.88 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fef455cc-ea4f-4af4-9f50-733e0c3c75aa")
+	)
 	(hierarchical_label "meas_out_i"
 		(shape input)
-		(at 76.2 109.22 180)
+		(at 114.3 171.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -26,7 +819,7 @@
 	)
 	(hierarchical_label "mode_lvlc"
 		(shape input)
-		(at 76.2 148.59 180)
+		(at 170.18 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -38,7 +831,7 @@
 	)
 	(hierarchical_label "mode_uvlc"
 		(shape input)
-		(at 76.2 153.67 180)
+		(at 170.18 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -50,7 +843,7 @@
 	)
 	(hierarchical_label "mux_ref"
 		(shape output)
-		(at 228.6 93.98 0)
+		(at 88.9 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -62,7 +855,7 @@
 	)
 	(hierarchical_label "mux_meas"
 		(shape output)
-		(at 228.6 96.52 0)
+		(at 152.4 158.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -74,7 +867,7 @@
 	)
 	(hierarchical_label "conf_lvl"
 		(shape input)
-		(at 76.2 100.33 180)
+		(at 50.8 171.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -86,7 +879,7 @@
 	)
 	(hierarchical_label "conf_vref"
 		(shape input)
-		(at 76.2 88.9 180)
+		(at 50.8 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -98,7 +891,7 @@
 	)
 	(hierarchical_label "mode_vc"
 		(shape input)
-		(at 76.2 127 180)
+		(at 170.18 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -110,7 +903,7 @@
 	)
 	(hierarchical_label "conf_uvl"
 		(shape input)
-		(at 76.2 102.87 180)
+		(at 50.8 146.05 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -122,7 +915,7 @@
 	)
 	(hierarchical_label "meas_out_v"
 		(shape input)
-		(at 76.2 106.68 180)
+		(at 114.3 146.05 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -134,7 +927,7 @@
 	)
 	(hierarchical_label "mode_cc"
 		(shape input)
-		(at 76.2 143.51 180)
+		(at 170.18 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -146,7 +939,7 @@
 	)
 	(hierarchical_label "conf_lcl"
 		(shape input)
-		(at 76.2 95.25 180)
+		(at 50.8 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -158,7 +951,7 @@
 	)
 	(hierarchical_label "mode_lclc"
 		(shape input)
-		(at 76.2 132.08 180)
+		(at 170.18 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -170,7 +963,7 @@
 	)
 	(hierarchical_label "conf_ucl"
 		(shape input)
-		(at 76.2 97.79 180)
+		(at 50.8 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -182,7 +975,7 @@
 	)
 	(hierarchical_label "mode_uclc"
 		(shape input)
-		(at 76.2 137.16 180)
+		(at 170.18 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -194,7 +987,7 @@
 	)
 	(hierarchical_label "conf_iref"
 		(shape input)
-		(at 76.2 91.44 180)
+		(at 50.8 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -203,5 +996,1229 @@
 			(justify right)
 		)
 		(uuid "f34fac3c-411e-4fd8-90bc-905f78b53cc8")
+	)
+	(symbol
+		(lib_id "pss:4066")
+		(at 63.5 146.05 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b7ad15a-c471-4ebe-9cca-9eb66987f449")
+		(property "Reference" "U24002"
+			(at 63.5 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4066"
+			(at 63.5 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 63.5 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 63.5 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Analog Switches"
+			(at 63.5 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4066BM96"
+			(at 63.5 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "595-CD4066BM96"
+			(at 63.5 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "88a2e5c0-cf36-4b0e-94c5-3efdfe4e430f")
+		)
+		(pin "1"
+			(uuid "ec78f0b9-c7f5-4bf7-892b-b7e7e09c61d9")
+		)
+		(pin "5"
+			(uuid "d1c7df2e-9c37-45d1-9740-acdae6ef62cf")
+		)
+		(pin "12"
+			(uuid "c9201e09-a5ba-4ad4-a797-37ac56ee0e58")
+		)
+		(pin "3"
+			(uuid "db028667-e9dc-4b8b-b247-03d3f60d023e")
+		)
+		(pin "2"
+			(uuid "dc03b735-c241-4b62-817c-faabe4db759f")
+		)
+		(pin "4"
+			(uuid "c76de27c-3b8d-4a81-b8ed-6f42ed1ddea3")
+		)
+		(pin "6"
+			(uuid "3f32bfdd-f4a3-4b40-8720-e6d222a67a68")
+		)
+		(pin "10"
+			(uuid "9eaa6a82-c666-4cfc-a7e0-752a1e58092c")
+		)
+		(pin "13"
+			(uuid "ae713f1e-887b-4004-822f-a77c751bb5d1")
+		)
+		(pin "8"
+			(uuid "882dbb96-b048-4de4-9bce-bbd31b793724")
+		)
+		(pin "11"
+			(uuid "7e4a120d-4889-4da5-9298-703251619153")
+		)
+		(pin "9"
+			(uuid "c31dbfc2-1ec5-4d6b-998c-30791dcb08ae")
+		)
+		(pin "14"
+			(uuid "15799c36-e474-419e-9a45-e28ea034c76c")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/edd130f8-6d8c-4786-9c45-2e5306ef5419"
+					(reference "U24002")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pss:4066")
+		(at 63.5 69.85 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34555b20-99ba-4f17-8521-22b9f5d4dd0b")
+		(property "Reference" "U24003"
+			(at 63.5 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4066"
+			(at 63.5 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 63.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 63.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Analog Switches"
+			(at 63.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4066BM96"
+			(at 63.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "595-CD4066BM96"
+			(at 63.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "88a2e5c0-cf36-4b0e-94c5-3efdfe4e430f")
+		)
+		(pin "1"
+			(uuid "ec78f0b9-c7f5-4bf7-892b-b7e7e09c61d9")
+		)
+		(pin "5"
+			(uuid "d1c7df2e-9c37-45d1-9740-acdae6ef62cf")
+		)
+		(pin "12"
+			(uuid "c9201e09-a5ba-4ad4-a797-37ac56ee0e58")
+		)
+		(pin "3"
+			(uuid "db028667-e9dc-4b8b-b247-03d3f60d023e")
+		)
+		(pin "2"
+			(uuid "dc03b735-c241-4b62-817c-faabe4db759f")
+		)
+		(pin "4"
+			(uuid "c76de27c-3b8d-4a81-b8ed-6f42ed1ddea3")
+		)
+		(pin "6"
+			(uuid "3f32bfdd-f4a3-4b40-8720-e6d222a67a68")
+		)
+		(pin "10"
+			(uuid "9eaa6a82-c666-4cfc-a7e0-752a1e58092c")
+		)
+		(pin "13"
+			(uuid "ae713f1e-887b-4004-822f-a77c751bb5d1")
+		)
+		(pin "8"
+			(uuid "882dbb96-b048-4de4-9bce-bbd31b793724")
+		)
+		(pin "11"
+			(uuid "7e4a120d-4889-4da5-9298-703251619153")
+		)
+		(pin "9"
+			(uuid "c31dbfc2-1ec5-4d6b-998c-30791dcb08ae")
+		)
+		(pin "14"
+			(uuid "15799c36-e474-419e-9a45-e28ea034c76c")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/edd130f8-6d8c-4786-9c45-2e5306ef5419"
+					(reference "U24003")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pss:4066")
+		(at 219.71 99.06 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55a2e7fd-66bd-4a51-8292-76ed726b67d7")
+		(property "Reference" "U24002"
+			(at 226.06 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4066"
+			(at 226.06 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 219.71 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 219.71 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Analog Switches"
+			(at 219.71 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4066BM96"
+			(at 219.71 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "595-CD4066BM96"
+			(at 219.71 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "88a2e5c0-cf36-4b0e-94c5-3efdfe4e430f")
+		)
+		(pin "1"
+			(uuid "ec78f0b9-c7f5-4bf7-892b-b7e7e09c61d9")
+		)
+		(pin "5"
+			(uuid "d1c7df2e-9c37-45d1-9740-acdae6ef62cf")
+		)
+		(pin "12"
+			(uuid "c9201e09-a5ba-4ad4-a797-37ac56ee0e58")
+		)
+		(pin "3"
+			(uuid "db028667-e9dc-4b8b-b247-03d3f60d023e")
+		)
+		(pin "2"
+			(uuid "dc03b735-c241-4b62-817c-faabe4db759f")
+		)
+		(pin "4"
+			(uuid "c76de27c-3b8d-4a81-b8ed-6f42ed1ddea3")
+		)
+		(pin "6"
+			(uuid "3f32bfdd-f4a3-4b40-8720-e6d222a67a68")
+		)
+		(pin "10"
+			(uuid "9eaa6a82-c666-4cfc-a7e0-752a1e58092c")
+		)
+		(pin "13"
+			(uuid "ae713f1e-887b-4004-822f-a77c751bb5d1")
+		)
+		(pin "8"
+			(uuid "882dbb96-b048-4de4-9bce-bbd31b793724")
+		)
+		(pin "11"
+			(uuid "7e4a120d-4889-4da5-9298-703251619153")
+		)
+		(pin "9"
+			(uuid "c31dbfc2-1ec5-4d6b-998c-30791dcb08ae")
+		)
+		(pin "14"
+			(uuid "15799c36-e474-419e-9a45-e28ea034c76c")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/edd130f8-6d8c-4786-9c45-2e5306ef5419"
+					(reference "U24002")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pss:4066")
+		(at 127 146.05 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "606d36be-e423-401e-a4be-8bf606b23d55")
+		(property "Reference" "U24002"
+			(at 127 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4066"
+			(at 127 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 127 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 127 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Analog Switches"
+			(at 127 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4066BM96"
+			(at 127 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "595-CD4066BM96"
+			(at 127 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "88a2e5c0-cf36-4b0e-94c5-3efdfe4e430f")
+		)
+		(pin "1"
+			(uuid "ec78f0b9-c7f5-4bf7-892b-b7e7e09c61d9")
+		)
+		(pin "5"
+			(uuid "d1c7df2e-9c37-45d1-9740-acdae6ef62cf")
+		)
+		(pin "12"
+			(uuid "c9201e09-a5ba-4ad4-a797-37ac56ee0e58")
+		)
+		(pin "3"
+			(uuid "db028667-e9dc-4b8b-b247-03d3f60d023e")
+		)
+		(pin "2"
+			(uuid "dc03b735-c241-4b62-817c-faabe4db759f")
+		)
+		(pin "4"
+			(uuid "c76de27c-3b8d-4a81-b8ed-6f42ed1ddea3")
+		)
+		(pin "6"
+			(uuid "3f32bfdd-f4a3-4b40-8720-e6d222a67a68")
+		)
+		(pin "10"
+			(uuid "9eaa6a82-c666-4cfc-a7e0-752a1e58092c")
+		)
+		(pin "13"
+			(uuid "ae713f1e-887b-4004-822f-a77c751bb5d1")
+		)
+		(pin "8"
+			(uuid "882dbb96-b048-4de4-9bce-bbd31b793724")
+		)
+		(pin "11"
+			(uuid "7e4a120d-4889-4da5-9298-703251619153")
+		)
+		(pin "9"
+			(uuid "c31dbfc2-1ec5-4d6b-998c-30791dcb08ae")
+		)
+		(pin "14"
+			(uuid "15799c36-e474-419e-9a45-e28ea034c76c")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/edd130f8-6d8c-4786-9c45-2e5306ef5419"
+					(reference "U24002")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pss:4066")
+		(at 127 171.45 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73c7a9fc-9d26-468d-be3b-307b909e05ca")
+		(property "Reference" "U24003"
+			(at 127 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4066"
+			(at 127 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 127 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 127 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Analog Switches"
+			(at 127 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4066BM96"
+			(at 127 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "595-CD4066BM96"
+			(at 127 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "88a2e5c0-cf36-4b0e-94c5-3efdfe4e430f")
+		)
+		(pin "1"
+			(uuid "ec78f0b9-c7f5-4bf7-892b-b7e7e09c61d9")
+		)
+		(pin "5"
+			(uuid "d1c7df2e-9c37-45d1-9740-acdae6ef62cf")
+		)
+		(pin "12"
+			(uuid "c9201e09-a5ba-4ad4-a797-37ac56ee0e58")
+		)
+		(pin "3"
+			(uuid "db028667-e9dc-4b8b-b247-03d3f60d023e")
+		)
+		(pin "2"
+			(uuid "dc03b735-c241-4b62-817c-faabe4db759f")
+		)
+		(pin "4"
+			(uuid "c76de27c-3b8d-4a81-b8ed-6f42ed1ddea3")
+		)
+		(pin "6"
+			(uuid "3f32bfdd-f4a3-4b40-8720-e6d222a67a68")
+		)
+		(pin "10"
+			(uuid "9eaa6a82-c666-4cfc-a7e0-752a1e58092c")
+		)
+		(pin "13"
+			(uuid "ae713f1e-887b-4004-822f-a77c751bb5d1")
+		)
+		(pin "8"
+			(uuid "882dbb96-b048-4de4-9bce-bbd31b793724")
+		)
+		(pin "11"
+			(uuid "7e4a120d-4889-4da5-9298-703251619153")
+		)
+		(pin "9"
+			(uuid "c31dbfc2-1ec5-4d6b-998c-30791dcb08ae")
+		)
+		(pin "14"
+			(uuid "15799c36-e474-419e-9a45-e28ea034c76c")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/edd130f8-6d8c-4786-9c45-2e5306ef5419"
+					(reference "U24003")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pss:4066")
+		(at 63.5 171.45 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7dbe19be-8272-436f-80ff-83f5e3621cd7")
+		(property "Reference" "U24002"
+			(at 63.5 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4066"
+			(at 63.5 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 63.5 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 63.5 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Analog Switches"
+			(at 63.5 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4066BM96"
+			(at 63.5 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "595-CD4066BM96"
+			(at 63.5 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "88a2e5c0-cf36-4b0e-94c5-3efdfe4e430f")
+		)
+		(pin "1"
+			(uuid "ec78f0b9-c7f5-4bf7-892b-b7e7e09c61d9")
+		)
+		(pin "5"
+			(uuid "d1c7df2e-9c37-45d1-9740-acdae6ef62cf")
+		)
+		(pin "12"
+			(uuid "c9201e09-a5ba-4ad4-a797-37ac56ee0e58")
+		)
+		(pin "3"
+			(uuid "db028667-e9dc-4b8b-b247-03d3f60d023e")
+		)
+		(pin "2"
+			(uuid "dc03b735-c241-4b62-817c-faabe4db759f")
+		)
+		(pin "4"
+			(uuid "c76de27c-3b8d-4a81-b8ed-6f42ed1ddea3")
+		)
+		(pin "6"
+			(uuid "3f32bfdd-f4a3-4b40-8720-e6d222a67a68")
+		)
+		(pin "10"
+			(uuid "9eaa6a82-c666-4cfc-a7e0-752a1e58092c")
+		)
+		(pin "13"
+			(uuid "ae713f1e-887b-4004-822f-a77c751bb5d1")
+		)
+		(pin "8"
+			(uuid "882dbb96-b048-4de4-9bce-bbd31b793724")
+		)
+		(pin "11"
+			(uuid "7e4a120d-4889-4da5-9298-703251619153")
+		)
+		(pin "9"
+			(uuid "c31dbfc2-1ec5-4d6b-998c-30791dcb08ae")
+		)
+		(pin "14"
+			(uuid "15799c36-e474-419e-9a45-e28ea034c76c")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/edd130f8-6d8c-4786-9c45-2e5306ef5419"
+					(reference "U24002")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pss:4066")
+		(at 252.73 99.06 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83340174-bbf0-420b-81f7-7b624aae67dc")
+		(property "Reference" "U24003"
+			(at 259.08 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4066"
+			(at 259.08 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 252.73 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 252.73 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Analog Switches"
+			(at 252.73 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4066BM96"
+			(at 252.73 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "595-CD4066BM96"
+			(at 252.73 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "88a2e5c0-cf36-4b0e-94c5-3efdfe4e430f")
+		)
+		(pin "1"
+			(uuid "ec78f0b9-c7f5-4bf7-892b-b7e7e09c61d9")
+		)
+		(pin "5"
+			(uuid "d1c7df2e-9c37-45d1-9740-acdae6ef62cf")
+		)
+		(pin "12"
+			(uuid "c9201e09-a5ba-4ad4-a797-37ac56ee0e58")
+		)
+		(pin "3"
+			(uuid "db028667-e9dc-4b8b-b247-03d3f60d023e")
+		)
+		(pin "2"
+			(uuid "dc03b735-c241-4b62-817c-faabe4db759f")
+		)
+		(pin "4"
+			(uuid "c76de27c-3b8d-4a81-b8ed-6f42ed1ddea3")
+		)
+		(pin "6"
+			(uuid "3f32bfdd-f4a3-4b40-8720-e6d222a67a68")
+		)
+		(pin "10"
+			(uuid "9eaa6a82-c666-4cfc-a7e0-752a1e58092c")
+		)
+		(pin "13"
+			(uuid "ae713f1e-887b-4004-822f-a77c751bb5d1")
+		)
+		(pin "8"
+			(uuid "882dbb96-b048-4de4-9bce-bbd31b793724")
+		)
+		(pin "11"
+			(uuid "7e4a120d-4889-4da5-9298-703251619153")
+		)
+		(pin "9"
+			(uuid "c31dbfc2-1ec5-4d6b-998c-30791dcb08ae")
+		)
+		(pin "14"
+			(uuid "15799c36-e474-419e-9a45-e28ea034c76c")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/edd130f8-6d8c-4786-9c45-2e5306ef5419"
+					(reference "U24003")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pss:4066")
+		(at 63.5 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d80397f-a926-45d7-bbc7-7876b7ec03d1")
+		(property "Reference" "U24003"
+			(at 63.5 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4066"
+			(at 63.5 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 63.5 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 63.5 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Analog Switches"
+			(at 63.5 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4066BM96"
+			(at 63.5 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "595-CD4066BM96"
+			(at 63.5 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "88a2e5c0-cf36-4b0e-94c5-3efdfe4e430f")
+		)
+		(pin "1"
+			(uuid "ec78f0b9-c7f5-4bf7-892b-b7e7e09c61d9")
+		)
+		(pin "5"
+			(uuid "d1c7df2e-9c37-45d1-9740-acdae6ef62cf")
+		)
+		(pin "12"
+			(uuid "c9201e09-a5ba-4ad4-a797-37ac56ee0e58")
+		)
+		(pin "3"
+			(uuid "db028667-e9dc-4b8b-b247-03d3f60d023e")
+		)
+		(pin "2"
+			(uuid "dc03b735-c241-4b62-817c-faabe4db759f")
+		)
+		(pin "4"
+			(uuid "c76de27c-3b8d-4a81-b8ed-6f42ed1ddea3")
+		)
+		(pin "6"
+			(uuid "3f32bfdd-f4a3-4b40-8720-e6d222a67a68")
+		)
+		(pin "10"
+			(uuid "9eaa6a82-c666-4cfc-a7e0-752a1e58092c")
+		)
+		(pin "13"
+			(uuid "ae713f1e-887b-4004-822f-a77c751bb5d1")
+		)
+		(pin "8"
+			(uuid "882dbb96-b048-4de4-9bce-bbd31b793724")
+		)
+		(pin "11"
+			(uuid "7e4a120d-4889-4da5-9298-703251619153")
+		)
+		(pin "9"
+			(uuid "c31dbfc2-1ec5-4d6b-998c-30791dcb08ae")
+		)
+		(pin "14"
+			(uuid "15799c36-e474-419e-9a45-e28ea034c76c")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/edd130f8-6d8c-4786-9c45-2e5306ef5419"
+					(reference "U24003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pss:4066")
+		(at 63.5 95.25 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de35e7fd-f5d5-41f3-b0be-12a2aa4b7f17")
+		(property "Reference" "U24003"
+			(at 63.5 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4066"
+			(at 63.5 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 63.5 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 63.5 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Analog Switches"
+			(at 63.5 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4066BM96"
+			(at 63.5 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "595-CD4066BM96"
+			(at 63.5 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "88a2e5c0-cf36-4b0e-94c5-3efdfe4e430f")
+		)
+		(pin "1"
+			(uuid "ec78f0b9-c7f5-4bf7-892b-b7e7e09c61d9")
+		)
+		(pin "5"
+			(uuid "d1c7df2e-9c37-45d1-9740-acdae6ef62cf")
+		)
+		(pin "12"
+			(uuid "c9201e09-a5ba-4ad4-a797-37ac56ee0e58")
+		)
+		(pin "3"
+			(uuid "db028667-e9dc-4b8b-b247-03d3f60d023e")
+		)
+		(pin "2"
+			(uuid "dc03b735-c241-4b62-817c-faabe4db759f")
+		)
+		(pin "4"
+			(uuid "c76de27c-3b8d-4a81-b8ed-6f42ed1ddea3")
+		)
+		(pin "6"
+			(uuid "3f32bfdd-f4a3-4b40-8720-e6d222a67a68")
+		)
+		(pin "10"
+			(uuid "9eaa6a82-c666-4cfc-a7e0-752a1e58092c")
+		)
+		(pin "13"
+			(uuid "ae713f1e-887b-4004-822f-a77c751bb5d1")
+		)
+		(pin "8"
+			(uuid "882dbb96-b048-4de4-9bce-bbd31b793724")
+		)
+		(pin "11"
+			(uuid "7e4a120d-4889-4da5-9298-703251619153")
+		)
+		(pin "9"
+			(uuid "c31dbfc2-1ec5-4d6b-998c-30791dcb08ae")
+		)
+		(pin "14"
+			(uuid "15799c36-e474-419e-9a45-e28ea034c76c")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/edd130f8-6d8c-4786-9c45-2e5306ef5419"
+					(reference "U24003")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pss:4066")
+		(at 63.5 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe57e099-364d-43e0-98c0-37e6b27e5d24")
+		(property "Reference" "U24002"
+			(at 63.5 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4066"
+			(at 63.5 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 63.5 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 63.5 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad Analog Switches"
+			(at 63.5 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CD4066BM96"
+			(at 63.5 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "595-CD4066BM96"
+			(at 63.5 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "88a2e5c0-cf36-4b0e-94c5-3efdfe4e430f")
+		)
+		(pin "1"
+			(uuid "ec78f0b9-c7f5-4bf7-892b-b7e7e09c61d9")
+		)
+		(pin "5"
+			(uuid "d1c7df2e-9c37-45d1-9740-acdae6ef62cf")
+		)
+		(pin "12"
+			(uuid "c9201e09-a5ba-4ad4-a797-37ac56ee0e58")
+		)
+		(pin "3"
+			(uuid "db028667-e9dc-4b8b-b247-03d3f60d023e")
+		)
+		(pin "2"
+			(uuid "dc03b735-c241-4b62-817c-faabe4db759f")
+		)
+		(pin "4"
+			(uuid "c76de27c-3b8d-4a81-b8ed-6f42ed1ddea3")
+		)
+		(pin "6"
+			(uuid "3f32bfdd-f4a3-4b40-8720-e6d222a67a68")
+		)
+		(pin "10"
+			(uuid "9eaa6a82-c666-4cfc-a7e0-752a1e58092c")
+		)
+		(pin "13"
+			(uuid "ae713f1e-887b-4004-822f-a77c751bb5d1")
+		)
+		(pin "8"
+			(uuid "882dbb96-b048-4de4-9bce-bbd31b793724")
+		)
+		(pin "11"
+			(uuid "7e4a120d-4889-4da5-9298-703251619153")
+		)
+		(pin "9"
+			(uuid "c31dbfc2-1ec5-4d6b-998c-30791dcb08ae")
+		)
+		(pin "14"
+			(uuid "15799c36-e474-419e-9a45-e28ea034c76c")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/edd130f8-6d8c-4786-9c45-2e5306ef5419"
+					(reference "U24002")
+					(unit 1)
+				)
+			)
+		)
 	)
 )
