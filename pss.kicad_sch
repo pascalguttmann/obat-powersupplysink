@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Power Supply Sink")
-		(date "2024-11-07")
-		(rev "0.5.3")
+		(date "2024-11-12")
+		(rev "0.6.0")
 		(company "Open Battery Tester")
 		(comment 1 "Overview")
 	)
@@ -1449,6 +1449,204 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176"
 					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 64.77 91.44)
+		(size 45.72 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "edd130f8-6d8c-4786-9c45-2e5306ef5419")
+		(property "Sheetname" "mux"
+			(at 64.77 90.7284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mux.kicad_sch"
+			(at 64.77 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "meas_out_i" input
+			(at 64.77 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "aad63e61-c66f-4318-8178-62b5b1e32946")
+		)
+		(pin "conf_uvl" input
+			(at 64.77 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "373d3a3a-3d31-40d6-a569-4280a92c0a2d")
+		)
+		(pin "meas_out_v" input
+			(at 64.77 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "40f7c364-682d-449a-b722-a15b69491c0a")
+		)
+		(pin "conf_ucl" input
+			(at 64.77 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "36ed225c-faff-4a8c-9005-ae9d6f9c4484")
+		)
+		(pin "conf_lvl" input
+			(at 64.77 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cbb388fe-ec0c-41a9-84fd-873c82b63e55")
+		)
+		(pin "mode_lvlc" input
+			(at 86.36 116.84 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "558a28a5-96ea-4d3d-b982-b7360eff5239")
+		)
+		(pin "mode_cc" input
+			(at 90.17 116.84 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "19af6df6-82cb-418b-b250-479ebc8a9a68")
+		)
+		(pin "mode_lclc" input
+			(at 95.25 116.84 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b143f123-93c3-44f5-8059-e95f50ce6522")
+		)
+		(pin "mode_uclc" input
+			(at 92.71 116.84 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "20b7738c-d526-4303-ad0d-d04381651d93")
+		)
+		(pin "mode_uvlc" input
+			(at 83.82 116.84 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6f3772b6-3111-4315-b357-ddf85010c1e7")
+		)
+		(pin "mode_vc" input
+			(at 81.28 116.84 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8a355fad-27a3-4ac1-b306-73bc6b2599e9")
+		)
+		(pin "conf_iref" input
+			(at 64.77 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4c1d92f5-e873-46fc-a6ec-b79b8694bc58")
+		)
+		(pin "conf_vref" input
+			(at 64.77 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1de37332-4ccf-443f-a748-fada82730022")
+		)
+		(pin "conf_lcl" input
+			(at 64.77 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "393ece75-3a14-4c47-b781-12f14372c8ab")
+		)
+		(pin "mux_meas" output
+			(at 110.49 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d645abd0-f0b7-493f-9f51-5bfa14ad671f")
+		)
+		(pin "mux_ref" output
+			(at 110.49 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "79ede5dd-a20c-4204-b6de-233713fcc677")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176"
+					(page "25")
 				)
 			)
 		)
