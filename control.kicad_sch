@@ -881,12 +881,6 @@
 		(uuid "1688f78b-b56a-4b6d-b0d2-e19b9c1407db")
 	)
 	(junction
-		(at 203.2 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "330604ce-5348-4678-bb4c-1cdec3972953")
-	)
-	(junction
 		(at 43.18 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -941,10 +935,22 @@
 		(uuid "a845562f-a0a4-44a0-a54f-4d3249724cc3")
 	)
 	(junction
+		(at 146.05 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d39f315c-2524-49fb-a927-e97b46d8d4ca")
+	)
+	(junction
 		(at 101.6 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1ad1790-f4e9-4727-96ab-eac83414d9a0")
+	)
+	(junction
+		(at 171.45 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1c7b672-3a7b-44ea-a40b-f214a310584a")
 	)
 	(wire
 		(pts
@@ -958,7 +964,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 63.5) (xy 222.25 63.5)
+			(xy 162.56 50.8) (xy 222.25 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1015,16 +1021,6 @@
 			(type default)
 		)
 		(uuid "1dfa3a04-0f16-40bb-8a7f-00633722041f")
-	)
-	(wire
-		(pts
-			(xy 203.2 86.36) (xy 203.2 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2005c0dd-7832-4f0b-a34f-e00b8ccb6944")
 	)
 	(wire
 		(pts
@@ -1178,13 +1174,23 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 76.2) (xy 205.74 76.2)
+			(xy 219.71 76.2) (xy 222.25 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5e6af2a5-7348-4016-af6b-f082152cb2fe")
+	)
+	(wire
+		(pts
+			(xy 162.56 76.2) (xy 171.45 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62cf31c8-75be-4301-8665-4db147202255")
 	)
 	(wire
 		(pts
@@ -1208,7 +1214,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 63.5) (xy 101.6 63.5)
+			(xy 154.94 50.8) (xy 101.6 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1298,26 +1304,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 76.2) (xy 203.2 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89a49b24-807b-45f9-99eb-eb9eadf0361e")
-	)
-	(wire
-		(pts
-			(xy 222.25 76.2) (xy 213.36 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b7c6ec5-c7f8-4294-9e6d-79e84e232922")
-	)
-	(wire
-		(pts
 			(xy 120.65 76.2) (xy 129.54 76.2)
 		)
 		(stroke
@@ -1335,6 +1321,16 @@
 			(type default)
 		)
 		(uuid "a3e0739d-3abf-48a1-841b-0ee3e9033fd3")
+	)
+	(wire
+		(pts
+			(xy 146.05 76.2) (xy 154.94 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a88c5844-112f-4a73-93ec-67623ea102bb")
 	)
 	(wire
 		(pts
@@ -1358,7 +1354,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 63.5) (xy 222.25 76.2)
+			(xy 222.25 50.8) (xy 222.25 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1408,7 +1404,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 63.5) (xy 101.6 76.2)
+			(xy 101.6 50.8) (xy 101.6 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1438,17 +1434,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 76.2) (xy 203.2 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea1ab9ef-7257-4a4e-b72d-ce753a7742fa")
-	)
-	(wire
-		(pts
-			(xy 187.96 76.2) (xy 193.04 76.2)
+			(xy 187.96 76.2) (xy 212.09 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2396,7 +2382,7 @@
 	)
 	(symbol
 		(lib_id "pss:C")
-		(at 196.85 76.2 90)
+		(at 158.75 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2405,15 +2391,15 @@
 		(fields_autoplaced yes)
 		(uuid "33d4c948-e2cd-49b1-a6f1-2ccb5968abd5")
 		(property "Reference" "C16005"
-			(at 196.85 68.58 90)
+			(at 158.75 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100p"
-			(at 196.85 71.12 90)
+		(property "Value" "470p"
+			(at 158.75 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2421,7 +2407,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 200.66 75.2348 0)
+			(at 162.56 75.2348 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2430,7 +2416,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1003_C0G_SMD-3316496.pdf"
-			(at 196.85 76.2 0)
+			(at 158.75 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2439,7 +2425,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 196.85 76.2 0)
+			(at 158.75 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2447,8 +2433,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0805C101J5GACTU"
-			(at 196.85 76.2 0)
+		(property "MPN" "C0805C471J5GACTU"
+			(at 158.75 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2456,8 +2442,8 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" "80-C0805C101J5G"
-			(at 196.85 76.2 0)
+		(property "VPN" "80-C0805C471J5G"
+			(at 158.75 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2475,72 +2461,6 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/0261998d-8bfa-449f-a2ab-b88f7edeef81"
 					(reference "C16005")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pss:GND")
-		(at 203.2 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "49562d50-f5bf-414f-9bc3-3098df9347b6")
-		(property "Reference" "#PWR016009"
-			(at 203.2 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 203.2 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1cedda10-3365-4c08-a287-f9b8fadf7661")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/0261998d-8bfa-449f-a2ab-b88f7edeef81"
-					(reference "#PWR016009")
 					(unit 1)
 				)
 			)
@@ -2636,7 +2556,7 @@
 	)
 	(symbol
 		(lib_id "pss:C")
-		(at 203.2 82.55 0)
+		(at 215.9 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2645,25 +2565,23 @@
 		(fields_autoplaced yes)
 		(uuid "4d9b2df4-d0a2-4172-ba25-cb2d30d061ab")
 		(property "Reference" "C16006"
-			(at 207.01 81.2799 0)
+			(at 215.9 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "100p"
-			(at 207.01 83.8199 0)
+			(at 215.9 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 204.1652 86.36 0)
+			(at 219.71 75.2348 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2672,7 +2590,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1003_C0G_SMD-3316496.pdf"
-			(at 203.2 82.55 0)
+			(at 215.9 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2681,7 +2599,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 203.2 82.55 0)
+			(at 215.9 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2690,7 +2608,7 @@
 			)
 		)
 		(property "MPN" "C0805C101J5GACTU"
-			(at 203.2 82.55 0)
+			(at 215.9 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2699,7 +2617,7 @@
 			)
 		)
 		(property "VPN" "80-C0805C101J5G"
-			(at 203.2 82.55 0)
+			(at 215.9 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3662,7 +3580,7 @@
 	)
 	(symbol
 		(lib_id "pss:R")
-		(at 158.75 63.5 90)
+		(at 158.75 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3671,7 +3589,7 @@
 		(fields_autoplaced yes)
 		(uuid "d46692ec-9b74-41f3-bd20-dd87600e8725")
 		(property "Reference" "R16010"
-			(at 158.75 57.15 90)
+			(at 158.75 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3679,7 +3597,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 158.75 59.69 90)
+			(at 158.75 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3687,7 +3605,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 158.75 65.278 90)
+			(at 158.75 52.578 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3696,7 +3614,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
-			(at 158.75 63.5 0)
+			(at 158.75 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3705,7 +3623,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 158.75 63.5 0)
+			(at 158.75 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3714,7 +3632,7 @@
 			)
 		)
 		(property "MPN" "RC1210FR-071ML"
-			(at 158.75 63.5 0)
+			(at 158.75 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3723,7 +3641,7 @@
 			)
 		)
 		(property "VPN" "603-RC1210FR-071ML"
-			(at 158.75 63.5 0)
+			(at 158.75 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4001,92 +3919,6 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/0261998d-8bfa-449f-a2ab-b88f7edeef81"
 					(reference "C16001")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pss:R")
-		(at 209.55 76.2 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f66fc0a9-9d00-4d2f-8848-a3a732274109")
-		(property "Reference" "R16008"
-			(at 209.55 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k2"
-			(at 209.55 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 209.55 74.422 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
-			(at 209.55 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 209.55 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC1210FR-071K2L"
-			(at 209.55 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VPN" "603-RC1210FR-071K2L"
-			(at 209.55 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e7e97e0-9bc2-4dd7-b64d-28f569f42633")
-		)
-		(pin "2"
-			(uuid "ad4f3c8e-4998-4090-80c6-2184ccaa25f5")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/0261998d-8bfa-449f-a2ab-b88f7edeef81"
-					(reference "R16008")
 					(unit 1)
 				)
 			)
