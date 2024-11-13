@@ -3075,15 +3075,15 @@
 	(symbol
 		(lib_id "pss:Opamp_Dual")
 		(at 132.08 101.6 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9cd85f14-21cf-4dd6-a241-09a386e65bdd")
 		(property "Reference" "U16001"
-			(at 132.08 91.44 0)
+			(at 132.08 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3091,7 +3091,7 @@
 			)
 		)
 		(property "Value" "OPA2810"
-			(at 132.08 93.98 0)
+			(at 132.08 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
