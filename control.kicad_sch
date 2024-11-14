@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Power Supply Sink")
-		(date "2024-11-13")
-		(rev "0.6.1")
+		(date "2024-11-14")
+		(rev "0.6.2")
 		(company "Open Battery Tester")
 		(comment 1 "Control")
 	)
@@ -4583,7 +4583,7 @@
 				)
 			)
 		)
-		(property "Value" "1k2"
+		(property "Value" "2k"
 			(at 180.34 97.79 90)
 			(effects
 				(font
@@ -4618,7 +4618,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC1210FR-071K2L"
+		(property "MPN" "RC1210FR-072KL"
 			(at 180.34 101.6 0)
 			(effects
 				(font
@@ -4627,7 +4627,7 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" "603-RC1210FR-071K2L"
+		(property "VPN" "603-RC1210FR-072KL"
 			(at 180.34 101.6 0)
 			(effects
 				(font
@@ -6027,7 +6027,7 @@
 				)
 			)
 		)
-		(property "Value" "240"
+		(property "Value" "390"
 			(at 158.75 123.19 90)
 			(effects
 				(font
@@ -6062,7 +6062,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC1210FR-07240RL"
+		(property "MPN" "RC1210FR-07390RL"
 			(at 158.75 127 0)
 			(effects
 				(font
@@ -6071,7 +6071,7 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" "603-RC1210FR-07240RL"
+		(property "VPN" "603-RC1210FR-07390RL"
 			(at 158.75 127 0)
 			(effects
 				(font
