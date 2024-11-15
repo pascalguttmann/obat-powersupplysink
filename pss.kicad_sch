@@ -1454,6 +1454,44 @@
 		)
 	)
 	(sheet
+		(at 194.31 97.79)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d3bf8153-c190-4dc7-8124-72a5a17990b7")
+		(property "Sheetname" "measurement"
+			(at 194.31 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "measurement.kicad_sch"
+			(at 194.31 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176"
+					(page "26")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 64.77 91.44)
 		(size 45.72 25.4)
 		(fields_autoplaced yes)
