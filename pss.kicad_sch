@@ -1483,6 +1483,46 @@
 				(justify left top)
 			)
 		)
+		(pin "meas_out_v" output
+			(at 219.71 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ff4510de-424b-4435-a332-9086758719b8")
+		)
+		(pin "meas_out_i" output
+			(at 219.71 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c132b129-44f9-4476-866a-20e2bea7df75")
+		)
+		(pin "in" input
+			(at 194.31 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7eef7109-9953-46fa-b794-207508b87eac")
+		)
+		(pin "out" output
+			(at 219.71 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "307995ef-79ca-4b28-8005-beeb1908db7b")
+		)
 		(instances
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176"
