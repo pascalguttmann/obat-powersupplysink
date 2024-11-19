@@ -1178,6 +1178,74 @@
 		)
 	)
 	(sheet
+		(at 231.14 97.79)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "20918679-4743-4169-a60e-19637ed5d643")
+		(property "Sheetname" "relay"
+			(at 231.14 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "relay.kicad_sch"
+			(at 231.14 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "in" input
+			(at 231.14 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fa1855b8-1ca0-4afc-9294-57ff1d06424a")
+		)
+		(pin "out" output
+			(at 256.54 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "dfec761d-2dba-47a2-af8c-3c2d65181b41")
+		)
+		(pin "relay_connect" input
+			(at 231.14 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0d6d945f-f5f5-4557-bae1-a7f7d3a2b66d")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176"
+					(page "27")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 156.21 97.79)
 		(size 25.4 12.7)
 		(fields_autoplaced yes)
