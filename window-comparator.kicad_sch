@@ -1391,9 +1391,9 @@
 		(at 161.29 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0ba06a1a-cbf0-4d81-bc73-5e636438f0fc")
 		(property "Reference" "R22007"
@@ -1779,7 +1779,7 @@
 				)
 			)
 		)
-		(property "Value" "130"
+		(property "Value" "0"
 			(at 146.05 105.41 90)
 			(effects
 				(font
@@ -1814,7 +1814,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC1210FR-07130RL"
+		(property "MPN" "RC1210JR-070RL"
 			(at 146.05 109.22 0)
 			(effects
 				(font
@@ -1823,7 +1823,7 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" "603-RC1210FR-07130RL"
+		(property "VPN" "603-RC1210JR-070RL"
 			(at 146.05 109.22 0)
 			(effects
 				(font
@@ -1942,9 +1942,9 @@
 		(at 161.29 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "72887f2f-ebfe-4b6f-8386-dc4944233856")
 		(property "Reference" "R22008"
@@ -2253,7 +2253,7 @@
 				)
 			)
 		)
-		(property "Value" "130"
+		(property "Value" "0"
 			(at 146.05 73.66 90)
 			(effects
 				(font
@@ -2288,7 +2288,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC1210FR-07130RL"
+		(property "MPN" "RC1210JR-070RL"
 			(at 146.05 77.47 0)
 			(effects
 				(font
@@ -2297,7 +2297,7 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" "603-RC1210FR-07130RL"
+		(property "VPN" "603-RC1210JR-070RL"
 			(at 146.05 77.47 0)
 			(effects
 				(font
