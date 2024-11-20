@@ -1404,19 +1404,19 @@
 		)
 	)
 	(junction
-		(at 209.55 76.2)
+		(at 209.55 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "05b841d3-21a7-426b-8976-7ec9e8bcfa12")
 	)
 	(junction
-		(at 234.95 76.2)
+		(at 234.95 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16044ed4-ebcf-4709-962b-92853f2d18ef")
 	)
 	(junction
-		(at 171.45 127)
+		(at 171.45 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1678a63b-3e7a-4f05-9e93-93c3dd43dea8")
@@ -1428,19 +1428,19 @@
 		(uuid "1688f78b-b56a-4b6d-b0d2-e19b9c1407db")
 	)
 	(junction
-		(at 209.55 50.8)
+		(at 209.55 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30638b23-50ea-4a52-87a4-9b1e9b3c67d0")
 	)
 	(junction
-		(at 234.95 50.8)
+		(at 234.95 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3216d34e-1d59-4431-9d0e-5114d06b6fac")
 	)
 	(junction
-		(at 193.04 88.9)
+		(at 193.04 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "371aade6-a05b-4c08-a445-8f743d773856")
@@ -1452,25 +1452,31 @@
 		(uuid "430f0026-0fda-4ae3-803c-33cf4bbb1ce7")
 	)
 	(junction
-		(at 247.65 76.2)
+		(at 101.6 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4713f9d4-8c8a-4e64-8a78-a97265b638c1")
+	)
+	(junction
+		(at 247.65 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55ae8822-bc19-40c5-93f4-d532239450d8")
 	)
 	(junction
-		(at 120.65 101.6)
+		(at 120.65 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5911b8e6-788c-4f8c-adec-a4eaec220330")
 	)
 	(junction
-		(at 222.25 50.8)
+		(at 222.25 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c831cf3-168d-4858-a3bf-111b94be55b7")
 	)
 	(junction
-		(at 193.04 101.6)
+		(at 193.04 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71e6897c-72f9-44d5-bbc9-7a60248f624c")
@@ -1482,40 +1488,34 @@
 		(uuid "77606af2-144a-436e-bc9c-4dbf00cfe952")
 	)
 	(junction
-		(at 222.25 63.5)
+		(at 222.25 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "776935d0-0fe2-4afb-9f33-817767542cc1")
 	)
 	(junction
-		(at 247.65 88.9)
+		(at 247.65 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78bb6f6e-140d-44dd-970d-f312c201b4a1")
 	)
 	(junction
-		(at 247.65 63.5)
+		(at 247.65 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c3f33db-7ead-42c2-8742-cddbb3c7d8aa")
 	)
 	(junction
-		(at 234.95 88.9)
+		(at 234.95 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e193bf3-ce89-4b5c-9eea-7a4917e2631e")
 	)
 	(junction
-		(at 247.65 101.6)
+		(at 247.65 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98a58920-d774-4191-b0ba-0c68fe5cf918")
-	)
-	(junction
-		(at 101.6 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9d5fb0f2-dde2-4a31-bf38-54838689604e")
 	)
 	(junction
 		(at 27.94 146.05)
@@ -1524,92 +1524,86 @@
 		(uuid "9f1dfedc-e0f5-46c5-9263-426f1e3d731f")
 	)
 	(junction
-		(at 222.25 76.2)
+		(at 222.25 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f3c2850-0c14-4e82-b00c-23c8c052343e")
 	)
 	(junction
-		(at 146.05 127)
+		(at 146.05 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a378a18b-d187-463e-8e78-e19c9a6bf8b7")
 	)
 	(junction
-		(at 247.65 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a43ba62f-40bc-406c-b6a4-05e7b48df69b")
-	)
-	(junction
-		(at 120.65 129.54)
+		(at 120.65 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a845562f-a0a4-44a0-a54f-4d3249724cc3")
 	)
 	(junction
-		(at 247.65 129.54)
+		(at 247.65 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aadc7e86-e904-4d61-81e6-a6b9c01d17b7")
 	)
 	(junction
-		(at 222.25 88.9)
+		(at 222.25 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4200e32-9ffa-4672-8cd0-29414b63a07c")
 	)
 	(junction
-		(at 193.04 63.5)
+		(at 193.04 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1b212e5-04bc-4d93-b9c7-0cdb6f98a468")
 	)
 	(junction
-		(at 193.04 76.2)
+		(at 193.04 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1de5af8-c37d-4c60-bffe-49eb7f5d7a47")
 	)
 	(junction
-		(at 209.55 88.9)
+		(at 209.55 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d14683e8-8193-46b3-a681-51158a1e38fb")
 	)
 	(junction
-		(at 146.05 101.6)
+		(at 146.05 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d39f315c-2524-49fb-a927-e97b46d8d4ca")
 	)
 	(junction
-		(at 101.6 101.6)
+		(at 101.6 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1ad1790-f4e9-4727-96ab-eac83414d9a0")
 	)
 	(junction
-		(at 171.45 101.6)
+		(at 171.45 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1c7b672-3a7b-44ea-a40b-f214a310584a")
 	)
 	(junction
-		(at 234.95 63.5)
+		(at 234.95 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e907728f-170c-4308-b982-bc1c0dcbbec0")
 	)
 	(junction
-		(at 209.55 63.5)
+		(at 209.55 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2f2f801-3fd1-42f6-8471-f6c833afc98b")
 	)
 	(wire
 		(pts
-			(xy 184.15 101.6) (xy 193.04 101.6)
+			(xy 184.15 86.36) (xy 193.04 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1619,17 +1613,27 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 129.54) (xy 107.95 129.54)
+			(xy 101.6 114.3) (xy 101.6 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0ee583fe-7149-4cff-9216-bc32a4688712")
+		(uuid "01ebce6e-dbcd-4b2d-8a22-beece09513f7")
 	)
 	(wire
 		(pts
-			(xy 234.95 76.2) (xy 232.41 76.2)
+			(xy 154.94 156.21) (xy 101.6 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c5ccd6b-080d-4b3d-9274-7285fb0e5faf")
+	)
+	(wire
+		(pts
+			(xy 234.95 60.96) (xy 232.41 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1639,7 +1643,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 76.2) (xy 222.25 88.9)
+			(xy 222.25 60.96) (xy 222.25 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1649,7 +1653,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 124.46) (xy 124.46 124.46)
+			(xy 120.65 109.22) (xy 124.46 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1669,7 +1673,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 88.9) (xy 234.95 88.9)
+			(xy 232.41 73.66) (xy 234.95 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1689,7 +1693,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 88.9) (xy 247.65 88.9)
+			(xy 245.11 73.66) (xy 247.65 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1699,7 +1703,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 101.6) (xy 115.57 101.6)
+			(xy 120.65 86.36) (xy 115.57 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1709,7 +1713,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 50.8) (xy 212.09 50.8)
+			(xy 209.55 35.56) (xy 212.09 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1719,7 +1723,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 129.54) (xy 124.46 129.54)
+			(xy 120.65 114.3) (xy 124.46 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1729,7 +1733,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 101.6) (xy 146.05 101.6)
+			(xy 137.16 86.36) (xy 146.05 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1739,7 +1743,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 127) (xy 176.53 127)
+			(xy 171.45 111.76) (xy 176.53 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1749,7 +1753,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 50.8) (xy 209.55 50.8)
+			(xy 207.01 35.56) (xy 209.55 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1769,7 +1773,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 76.2) (xy 234.95 76.2)
+			(xy 237.49 60.96) (xy 234.95 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1779,7 +1783,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 101.6) (xy 101.6 101.6)
+			(xy 88.9 86.36) (xy 101.6 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1789,7 +1793,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 88.9) (xy 222.25 88.9)
+			(xy 219.71 73.66) (xy 222.25 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1819,7 +1823,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 63.5) (xy 234.95 63.5)
+			(xy 232.41 48.26) (xy 234.95 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1829,7 +1833,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 129.54) (xy 254 129.54)
+			(xy 247.65 114.3) (xy 254 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1839,7 +1843,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 101.6) (xy 218.44 101.6)
+			(xy 193.04 86.36) (xy 218.44 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1849,7 +1853,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 101.6) (xy 171.45 101.6)
+			(xy 176.53 86.36) (xy 171.45 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1869,7 +1873,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 63.5) (xy 193.04 50.8)
+			(xy 193.04 48.26) (xy 193.04 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1879,7 +1883,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 139.7) (xy 101.6 142.24)
+			(xy 101.6 95.25) (xy 101.6 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1889,7 +1893,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 76.2) (xy 247.65 76.2)
+			(xy 245.11 60.96) (xy 247.65 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1899,7 +1903,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 76.2) (xy 209.55 88.9)
+			(xy 209.55 60.96) (xy 209.55 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1909,7 +1913,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 127) (xy 146.05 127)
+			(xy 139.7 111.76) (xy 146.05 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1919,7 +1923,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 50.8) (xy 234.95 63.5)
+			(xy 234.95 35.56) (xy 234.95 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1929,7 +1933,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 101.6) (xy 171.45 127)
+			(xy 171.45 86.36) (xy 171.45 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1939,7 +1943,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 88.9) (xy 209.55 88.9)
+			(xy 207.01 73.66) (xy 209.55 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1949,7 +1953,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 129.54) (xy 120.65 137.16)
+			(xy 120.65 114.3) (xy 120.65 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1969,7 +1973,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 88.9) (xy 199.39 88.9)
+			(xy 193.04 73.66) (xy 199.39 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1979,7 +1983,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 101.6) (xy 247.65 101.6)
+			(xy 226.06 86.36) (xy 247.65 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1989,7 +1993,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 101.6) (xy 171.45 101.6)
+			(xy 162.56 86.36) (xy 171.45 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1999,7 +2003,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 127) (xy 171.45 127)
+			(xy 162.56 111.76) (xy 171.45 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2009,7 +2013,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 88.9) (xy 193.04 101.6)
+			(xy 193.04 73.66) (xy 193.04 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2019,7 +2023,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 88.9) (xy 237.49 88.9)
+			(xy 234.95 73.66) (xy 237.49 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2029,7 +2033,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 144.78) (xy 120.65 152.4)
+			(xy 120.65 129.54) (xy 120.65 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2039,7 +2043,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 50.8) (xy 224.79 50.8)
+			(xy 222.25 35.56) (xy 224.79 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2049,7 +2053,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 63.5) (xy 247.65 76.2)
+			(xy 247.65 48.26) (xy 247.65 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2059,23 +2063,13 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 50.8) (xy 222.25 63.5)
+			(xy 222.25 35.56) (xy 222.25 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "753b021a-4cd0-4563-bfe1-a62bb6914855")
-	)
-	(wire
-		(pts
-			(xy 154.94 38.1) (xy 101.6 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7594faa2-329e-4df9-bee8-212080cc3aef")
 	)
 	(wire
 		(pts
@@ -2089,7 +2083,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 63.5) (xy 222.25 63.5)
+			(xy 219.71 48.26) (xy 222.25 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2099,7 +2093,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 132.08) (xy 171.45 137.16)
+			(xy 171.45 116.84) (xy 171.45 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2109,7 +2103,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 76.2) (xy 222.25 76.2)
+			(xy 219.71 60.96) (xy 222.25 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2129,7 +2123,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 88.9) (xy 224.79 88.9)
+			(xy 222.25 73.66) (xy 224.79 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2139,7 +2133,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 129.54) (xy 247.65 101.6)
+			(xy 247.65 114.3) (xy 247.65 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2149,7 +2143,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 129.54) (xy 120.65 129.54)
+			(xy 115.57 114.3) (xy 120.65 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2159,7 +2153,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 101.6) (xy 120.65 124.46)
+			(xy 120.65 86.36) (xy 120.65 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2169,13 +2163,23 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 101.6) (xy 107.95 101.6)
+			(xy 101.6 86.36) (xy 107.95 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "80401d31-db58-44af-ab1b-285309fa21cb")
+	)
+	(wire
+		(pts
+			(xy 247.65 156.21) (xy 247.65 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8180c207-f7b2-429e-a2ab-8ad985c2e0a1")
 	)
 	(wire
 		(pts
@@ -2189,7 +2193,17 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 50.8) (xy 237.49 50.8)
+			(xy 162.56 156.21) (xy 247.65 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "868b50a1-c64d-461a-b151-fc7e689ff8d8")
+	)
+	(wire
+		(pts
+			(xy 234.95 35.56) (xy 237.49 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2199,7 +2213,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 88.9) (xy 247.65 101.6)
+			(xy 247.65 73.66) (xy 247.65 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2209,7 +2223,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 101.6) (xy 129.54 101.6)
+			(xy 120.65 86.36) (xy 129.54 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2219,7 +2233,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 129.54) (xy 101.6 132.08)
+			(xy 101.6 86.36) (xy 101.6 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2229,7 +2243,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 101.6) (xy 154.94 101.6)
+			(xy 146.05 86.36) (xy 154.94 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2249,7 +2263,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 144.78) (xy 171.45 152.4)
+			(xy 171.45 129.54) (xy 171.45 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2259,17 +2273,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 38.1) (xy 247.65 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac6626b1-f5b5-4050-8755-f22d0ec34cba")
-	)
-	(wire
-		(pts
-			(xy 146.05 127) (xy 154.94 127)
+			(xy 146.05 111.76) (xy 154.94 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2279,7 +2283,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 129.54) (xy 101.6 129.54)
+			(xy 88.9 114.3) (xy 101.6 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2289,7 +2293,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 50.8) (xy 222.25 50.8)
+			(xy 219.71 35.56) (xy 222.25 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2299,7 +2303,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 63.5) (xy 199.39 63.5)
+			(xy 193.04 48.26) (xy 199.39 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2309,7 +2313,17 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 76.2) (xy 209.55 76.2)
+			(xy 101.6 114.3) (xy 107.95 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9a62682-10dc-4352-82b6-ade39d1f5f41")
+	)
+	(wire
+		(pts
+			(xy 212.09 60.96) (xy 209.55 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2319,7 +2333,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 50.8) (xy 247.65 50.8)
+			(xy 245.11 35.56) (xy 247.65 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2329,7 +2343,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 149.86) (xy 101.6 152.4)
+			(xy 101.6 104.14) (xy 101.6 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2339,7 +2353,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 63.5) (xy 237.49 63.5)
+			(xy 234.95 48.26) (xy 237.49 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2349,7 +2363,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 76.2) (xy 224.79 76.2)
+			(xy 222.25 60.96) (xy 224.79 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2359,7 +2373,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 76.2) (xy 207.01 76.2)
+			(xy 209.55 60.96) (xy 207.01 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2369,7 +2383,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 76.2) (xy 247.65 88.9)
+			(xy 247.65 60.96) (xy 247.65 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2389,17 +2403,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 38.1) (xy 101.6 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da4c0190-8f95-4dce-919e-07a2f05dc717")
-	)
-	(wire
-		(pts
-			(xy 234.95 76.2) (xy 234.95 88.9)
+			(xy 234.95 60.96) (xy 234.95 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2409,7 +2413,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 76.2) (xy 193.04 63.5)
+			(xy 193.04 60.96) (xy 193.04 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2419,7 +2423,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 76.2) (xy 199.39 76.2)
+			(xy 193.04 60.96) (xy 199.39 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2429,7 +2433,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 63.5) (xy 247.65 63.5)
+			(xy 245.11 48.26) (xy 247.65 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2439,7 +2443,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 50.8) (xy 209.55 63.5)
+			(xy 209.55 35.56) (xy 209.55 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2449,7 +2453,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 132.08) (xy 171.45 132.08)
+			(xy 176.53 116.84) (xy 171.45 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2469,7 +2473,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 129.54) (xy 247.65 129.54)
+			(xy 191.77 114.3) (xy 247.65 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2479,7 +2483,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 63.5) (xy 212.09 63.5)
+			(xy 209.55 48.26) (xy 212.09 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2489,17 +2493,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 38.1) (xy 247.65 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef932524-e9f6-4b45-b00c-89a333cc2b6b")
-	)
-	(wire
-		(pts
-			(xy 232.41 50.8) (xy 234.95 50.8)
+			(xy 232.41 35.56) (xy 234.95 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2519,7 +2513,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 76.2) (xy 193.04 88.9)
+			(xy 193.04 60.96) (xy 193.04 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2529,7 +2523,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 50.8) (xy 199.39 50.8)
+			(xy 193.04 35.56) (xy 199.39 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2549,7 +2543,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 101.6) (xy 146.05 127)
+			(xy 146.05 86.36) (xy 146.05 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2559,7 +2553,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 88.9) (xy 209.55 88.9)
+			(xy 212.09 73.66) (xy 209.55 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2569,7 +2563,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 50.8) (xy 247.65 63.5)
+			(xy 247.65 35.56) (xy 247.65 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2579,7 +2573,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 63.5) (xy 224.79 63.5)
+			(xy 222.25 48.26) (xy 224.79 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2599,7 +2593,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 63.5) (xy 209.55 63.5)
+			(xy 207.01 48.26) (xy 209.55 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2609,7 +2603,7 @@
 	)
 	(hierarchical_label "meas"
 		(shape input)
-		(at 88.9 129.54 180)
+		(at 88.9 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2621,7 +2615,7 @@
 	)
 	(hierarchical_label "out"
 		(shape output)
-		(at 254 129.54 0)
+		(at 254 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2633,7 +2627,7 @@
 	)
 	(hierarchical_label "ref"
 		(shape input)
-		(at 88.9 101.6 180)
+		(at 88.9 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2645,7 +2639,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 215.9 50.8 180)
+		(at 215.9 35.56 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2654,7 +2648,7 @@
 		(fields_autoplaced yes)
 		(uuid "01ee5f1b-736f-4853-9d55-b6bbd407fa99")
 		(property "Reference" "D16002"
-			(at 215.9 44.45 0)
+			(at 215.9 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2662,7 +2656,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 215.9 46.99 0)
+			(at 215.9 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2670,7 +2664,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 215.9 50.8 0)
+			(at 215.9 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2679,7 +2673,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/115/ds30086-3214660.pdf"
-			(at 215.9 50.8 0)
+			(at 215.9 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2688,7 +2682,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 215.9 50.8 0)
+			(at 215.9 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2697,7 +2691,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 215.9 50.8 0)
+			(at 215.9 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2706,7 +2700,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 215.9 50.8 0)
+			(at 215.9 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2715,7 +2709,7 @@
 			)
 		)
 		(property "MPN" "1N4148W-7-F"
-			(at 215.9 50.8 0)
+			(at 215.9 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2724,7 +2718,7 @@
 			)
 		)
 		(property "VPN" "621-1N4148W-F"
-			(at 215.9 50.8 0)
+			(at 215.9 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2749,7 +2743,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 241.3 88.9 0)
+		(at 241.3 73.66 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -2757,7 +2751,7 @@
 		(dnp no)
 		(uuid "02bd913b-c6c8-4cf0-b4df-0d3808be1c54")
 		(property "Reference" "JP16008"
-			(at 241.3 85.09 0)
+			(at 241.3 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2765,7 +2759,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Bridged"
-			(at 179.07 83.82 0)
+			(at 179.07 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2774,7 +2768,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 88.9 0)
+			(at 241.3 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2783,7 +2777,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 241.3 88.9 0)
+			(at 241.3 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2792,7 +2786,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 241.3 88.9 0)
+			(at 241.3 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3037,7 +3031,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 241.3 63.5 0)
+		(at 241.3 48.26 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -3045,7 +3039,7 @@
 		(dnp no)
 		(uuid "0e57a2a8-1038-4b7c-96bb-e07b2a74b72d")
 		(property "Reference" "JP16004"
-			(at 241.3 59.69 0)
+			(at 241.3 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3053,7 +3047,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Bridged"
-			(at 179.07 58.42 0)
+			(at 179.07 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3062,7 +3056,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 63.5 0)
+			(at 241.3 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3071,7 +3065,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 241.3 63.5 0)
+			(at 241.3 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3080,7 +3074,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 241.3 63.5 0)
+			(at 241.3 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3259,7 +3253,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 228.6 88.9 0)
+		(at 228.6 73.66 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -3267,7 +3261,7 @@
 		(dnp no)
 		(uuid "18cfc607-b829-4c12-9c6c-c1500f6ec876")
 		(property "Reference" "JP16007"
-			(at 228.6 85.09 0)
+			(at 228.6 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3275,7 +3269,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Bridged"
-			(at 179.07 81.28 0)
+			(at 179.07 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3284,7 +3278,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 88.9 0)
+			(at 228.6 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3293,7 +3287,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 88.9 0)
+			(at 228.6 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3302,7 +3296,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 228.6 88.9 0)
+			(at 228.6 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3327,7 +3321,7 @@
 	)
 	(symbol
 		(lib_id "pss:R")
-		(at 171.45 140.97 180)
+		(at 171.45 125.73 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3336,7 +3330,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ce3b62f-206e-46f9-b050-7b95a4f67321")
 		(property "Reference" "R16006"
-			(at 173.99 139.6999 0)
+			(at 173.99 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3344,8 +3338,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "330"
-			(at 173.99 142.2399 0)
+		(property "Value" "390"
+			(at 173.99 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3354,7 +3348,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 173.228 140.97 90)
+			(at 173.228 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3363,7 +3357,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
-			(at 171.45 140.97 0)
+			(at 171.45 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3372,7 +3366,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 171.45 140.97 0)
+			(at 171.45 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3380,8 +3374,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC1210FR-07330RL"
-			(at 171.45 140.97 0)
+		(property "MPN" "RC1210FR-07390RL"
+			(at 171.45 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3389,8 +3383,8 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" "603-RC1210FR-07330RL"
-			(at 171.45 140.97 0)
+		(property "VPN" "603-RC1210FR-07390RL"
+			(at 171.45 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3415,7 +3409,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Bridged")
-		(at 215.9 88.9 0)
+		(at 215.9 73.66 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -3423,7 +3417,7 @@
 		(dnp no)
 		(uuid "1d9741ed-af52-4cc9-85a9-18d27f2dbd81")
 		(property "Reference" "JP16006"
-			(at 215.9 85.09 0)
+			(at 215.9 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3431,7 +3425,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Bridged"
-			(at 179.07 78.74 0)
+			(at 179.07 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3440,7 +3434,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 88.9 0)
+			(at 215.9 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3449,7 +3443,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 88.9 0)
+			(at 215.9 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3458,7 +3452,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
-			(at 215.9 88.9 0)
+			(at 215.9 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3625,7 +3619,7 @@
 	)
 	(symbol
 		(lib_id "pss:C")
-		(at 158.75 101.6 90)
+		(at 158.75 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3634,7 +3628,7 @@
 		(fields_autoplaced yes)
 		(uuid "33d4c948-e2cd-49b1-a6f1-2ccb5968abd5")
 		(property "Reference" "C16005"
-			(at 158.75 93.98 90)
+			(at 158.75 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3642,7 +3636,7 @@
 			)
 		)
 		(property "Value" "470p"
-			(at 158.75 96.52 90)
+			(at 158.75 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3650,7 +3644,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 162.56 100.6348 0)
+			(at 162.56 85.3948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3659,7 +3653,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1003_C0G_SMD-3316496.pdf"
-			(at 158.75 101.6 0)
+			(at 158.75 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3668,7 +3662,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 158.75 101.6 0)
+			(at 158.75 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3677,7 +3671,7 @@
 			)
 		)
 		(property "MPN" "C0805C471J5GACTU"
-			(at 158.75 101.6 0)
+			(at 158.75 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3686,7 +3680,7 @@
 			)
 		)
 		(property "VPN" "80-C0805C471J5G"
-			(at 158.75 101.6 0)
+			(at 158.75 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3711,7 +3705,7 @@
 	)
 	(symbol
 		(lib_id "pss:R")
-		(at 133.35 101.6 270)
+		(at 133.35 86.36 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3720,7 +3714,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a26a823-893f-4045-ad6f-4b570c43ee90")
 		(property "Reference" "R16004"
-			(at 133.35 95.25 90)
+			(at 133.35 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3728,7 +3722,7 @@
 			)
 		)
 		(property "Value" "2k"
-			(at 133.35 97.79 90)
+			(at 133.35 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3736,7 +3730,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 133.35 99.822 90)
+			(at 133.35 84.582 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3745,7 +3739,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
-			(at 133.35 101.6 0)
+			(at 133.35 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3754,7 +3748,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 133.35 101.6 0)
+			(at 133.35 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3763,7 +3757,7 @@
 			)
 		)
 		(property "MPN" "RC1210FR-072KL"
-			(at 133.35 101.6 0)
+			(at 133.35 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3772,7 +3766,7 @@
 			)
 		)
 		(property "VPN" "603-RC1210FR-072KL"
-			(at 133.35 101.6 0)
+			(at 133.35 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3797,7 +3791,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 241.3 76.2 0)
+		(at 241.3 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3806,7 +3800,7 @@
 		(fields_autoplaced yes)
 		(uuid "431d243e-3e4b-48d4-8eb8-49a604dc1797")
 		(property "Reference" "D16008"
-			(at 241.3 69.85 0)
+			(at 241.3 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3814,7 +3808,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 241.3 72.39 0)
+			(at 241.3 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3822,7 +3816,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 241.3 76.2 0)
+			(at 241.3 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3831,7 +3825,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/115/ds30086-3214660.pdf"
-			(at 241.3 76.2 0)
+			(at 241.3 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3840,7 +3834,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 241.3 76.2 0)
+			(at 241.3 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3849,7 +3843,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 241.3 76.2 0)
+			(at 241.3 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3858,7 +3852,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 241.3 76.2 0)
+			(at 241.3 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3867,7 +3861,7 @@
 			)
 		)
 		(property "MPN" "1N4148W-7-F"
-			(at 241.3 76.2 0)
+			(at 241.3 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3876,7 +3870,7 @@
 			)
 		)
 		(property "VPN" "621-1N4148W-F"
-			(at 241.3 76.2 0)
+			(at 241.3 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3901,7 +3895,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 228.6 63.5 0)
+		(at 228.6 48.26 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -3909,7 +3903,7 @@
 		(dnp no)
 		(uuid "47ef25ca-c335-4fe9-adfb-e66ff941ce23")
 		(property "Reference" "JP16003"
-			(at 228.6 59.69 0)
+			(at 228.6 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3917,7 +3911,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 177.8 55.88 0)
+			(at 177.8 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3926,7 +3920,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 63.5 0)
+			(at 228.6 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3935,7 +3929,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 63.5 0)
+			(at 228.6 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3944,7 +3938,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 228.6 63.5 0)
+			(at 228.6 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3969,7 +3963,7 @@
 	)
 	(symbol
 		(lib_id "pss:R")
-		(at 111.76 101.6 270)
+		(at 111.76 86.36 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3978,7 +3972,7 @@
 		(fields_autoplaced yes)
 		(uuid "48c769ff-1467-4108-b13c-7e010bb2f9a2")
 		(property "Reference" "R16001"
-			(at 111.76 95.25 90)
+			(at 111.76 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3986,7 +3980,7 @@
 			)
 		)
 		(property "Value" "2k"
-			(at 111.76 97.79 90)
+			(at 111.76 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3994,7 +3988,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 111.76 99.822 90)
+			(at 111.76 84.582 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4003,7 +3997,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
-			(at 111.76 101.6 0)
+			(at 111.76 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4012,7 +4006,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 111.76 101.6 0)
+			(at 111.76 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4021,7 +4015,7 @@
 			)
 		)
 		(property "MPN" "RC1210FR-072KL"
-			(at 111.76 101.6 0)
+			(at 111.76 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4030,7 +4024,7 @@
 			)
 		)
 		(property "VPN" "603-RC1210FR-072KL"
-			(at 111.76 101.6 0)
+			(at 111.76 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4055,7 +4049,7 @@
 	)
 	(symbol
 		(lib_id "pss:R")
-		(at 101.6 135.89 0)
+		(at 101.6 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4064,7 +4058,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ca2f576-a120-47e4-b985-c90b814bf000")
 		(property "Reference" "R16009"
-			(at 104.14 134.6199 0)
+			(at 104.14 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4073,7 +4067,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 104.14 137.1599 0)
+			(at 104.14 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4082,7 +4076,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 99.822 135.89 90)
+			(at 99.822 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4091,7 +4085,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
-			(at 101.6 135.89 0)
+			(at 101.6 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4100,7 +4094,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 101.6 135.89 0)
+			(at 101.6 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4109,7 +4103,7 @@
 			)
 		)
 		(property "MPN" "RC1210FR-071ML"
-			(at 101.6 135.89 0)
+			(at 101.6 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4118,7 +4112,7 @@
 			)
 		)
 		(property "VPN" "603-RC1210FR-071ML"
-			(at 101.6 135.89 0)
+			(at 101.6 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4143,7 +4137,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 203.2 76.2 0)
+		(at 203.2 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4152,7 +4146,7 @@
 		(fields_autoplaced yes)
 		(uuid "4cb9b6b2-b3f6-4c4a-88f0-721a8c76d40c")
 		(property "Reference" "D16005"
-			(at 203.2 69.85 0)
+			(at 203.2 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4160,7 +4154,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 203.2 72.39 0)
+			(at 203.2 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4168,7 +4162,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 203.2 76.2 0)
+			(at 203.2 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4177,7 +4171,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/115/ds30086-3214660.pdf"
-			(at 203.2 76.2 0)
+			(at 203.2 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4186,7 +4180,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 203.2 76.2 0)
+			(at 203.2 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4195,7 +4189,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 203.2 76.2 0)
+			(at 203.2 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4204,7 +4198,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 203.2 76.2 0)
+			(at 203.2 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4213,7 +4207,7 @@
 			)
 		)
 		(property "MPN" "1N4148W-7-F"
-			(at 203.2 76.2 0)
+			(at 203.2 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4222,7 +4216,7 @@
 			)
 		)
 		(property "VPN" "621-1N4148W-F"
-			(at 203.2 76.2 0)
+			(at 203.2 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4247,7 +4241,7 @@
 	)
 	(symbol
 		(lib_id "pss:C")
-		(at 222.25 101.6 90)
+		(at 222.25 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4256,7 +4250,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d9b2df4-d0a2-4172-ba25-cb2d30d061ab")
 		(property "Reference" "C16006"
-			(at 222.25 93.98 90)
+			(at 222.25 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4264,7 +4258,7 @@
 			)
 		)
 		(property "Value" "100p"
-			(at 222.25 96.52 90)
+			(at 222.25 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4272,7 +4266,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 226.06 100.6348 0)
+			(at 226.06 85.3948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4281,7 +4275,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1003_C0G_SMD-3316496.pdf"
-			(at 222.25 101.6 0)
+			(at 222.25 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4290,7 +4284,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 222.25 101.6 0)
+			(at 222.25 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4299,7 +4293,7 @@
 			)
 		)
 		(property "MPN" "C0805C101J5GACTU"
-			(at 222.25 101.6 0)
+			(at 222.25 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4308,7 +4302,7 @@
 			)
 		)
 		(property "VPN" "80-C0805C101J5G"
-			(at 222.25 101.6 0)
+			(at 222.25 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4333,7 +4327,7 @@
 	)
 	(symbol
 		(lib_id "pss:GND")
-		(at 101.6 152.4 0)
+		(at 101.6 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4342,7 +4336,7 @@
 		(fields_autoplaced yes)
 		(uuid "513a6498-4875-45fe-a00a-c9591e5ecd17")
 		(property "Reference" "#PWR016010"
-			(at 101.6 158.75 0)
+			(at 101.6 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4351,7 +4345,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.6 157.48 0)
+			(at 101.6 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4359,7 +4353,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 152.4 0)
+			(at 101.6 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4368,7 +4362,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 152.4 0)
+			(at 101.6 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4377,7 +4371,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 152.4 0)
+			(at 101.6 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4465,7 +4459,7 @@
 	)
 	(symbol
 		(lib_id "pss:R")
-		(at 180.34 101.6 270)
+		(at 180.34 86.36 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4474,7 +4468,7 @@
 		(fields_autoplaced yes)
 		(uuid "61a836bb-b7e7-4d0a-8372-fffbb0c89dad")
 		(property "Reference" "R16007"
-			(at 180.34 95.25 90)
+			(at 180.34 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4482,7 +4476,7 @@
 			)
 		)
 		(property "Value" "2k"
-			(at 180.34 97.79 90)
+			(at 180.34 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4490,7 +4484,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 180.34 99.822 90)
+			(at 180.34 84.582 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4499,7 +4493,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
-			(at 180.34 101.6 0)
+			(at 180.34 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4508,7 +4502,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 180.34 101.6 0)
+			(at 180.34 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4517,7 +4511,7 @@
 			)
 		)
 		(property "MPN" "RC1210FR-072KL"
-			(at 180.34 101.6 0)
+			(at 180.34 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4526,7 +4520,7 @@
 			)
 		)
 		(property "VPN" "603-RC1210FR-072KL"
-			(at 180.34 101.6 0)
+			(at 180.34 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4551,7 +4545,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 228.6 76.2 0)
+		(at 228.6 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4560,7 +4554,7 @@
 		(fields_autoplaced yes)
 		(uuid "63d1601e-18a5-4267-b98b-8fec94a93bce")
 		(property "Reference" "D16007"
-			(at 228.6 69.85 0)
+			(at 228.6 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4568,7 +4562,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 228.6 72.39 0)
+			(at 228.6 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4576,7 +4570,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 228.6 76.2 0)
+			(at 228.6 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4585,7 +4579,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/115/ds30086-3214660.pdf"
-			(at 228.6 76.2 0)
+			(at 228.6 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4594,7 +4588,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 228.6 76.2 0)
+			(at 228.6 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4603,7 +4597,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 228.6 76.2 0)
+			(at 228.6 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4612,7 +4606,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 228.6 76.2 0)
+			(at 228.6 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4621,7 +4615,7 @@
 			)
 		)
 		(property "MPN" "1N4148W-7-F"
-			(at 228.6 76.2 0)
+			(at 228.6 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4630,7 +4624,7 @@
 			)
 		)
 		(property "VPN" "621-1N4148W-F"
-			(at 228.6 76.2 0)
+			(at 228.6 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4655,7 +4649,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 241.3 50.8 180)
+		(at 241.3 35.56 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4664,7 +4658,7 @@
 		(fields_autoplaced yes)
 		(uuid "75957f02-83dc-46d8-a0de-616011f7c5ca")
 		(property "Reference" "D16004"
-			(at 241.3 44.45 0)
+			(at 241.3 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4672,7 +4666,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 241.3 46.99 0)
+			(at 241.3 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4680,7 +4674,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 241.3 50.8 0)
+			(at 241.3 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4689,7 +4683,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/115/ds30086-3214660.pdf"
-			(at 241.3 50.8 0)
+			(at 241.3 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4698,7 +4692,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 241.3 50.8 0)
+			(at 241.3 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4707,7 +4701,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 241.3 50.8 0)
+			(at 241.3 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4716,7 +4710,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 241.3 50.8 0)
+			(at 241.3 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4725,7 +4719,7 @@
 			)
 		)
 		(property "MPN" "1N4148W-7-F"
-			(at 241.3 50.8 0)
+			(at 241.3 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4734,7 +4728,7 @@
 			)
 		)
 		(property "VPN" "621-1N4148W-F"
-			(at 241.3 50.8 0)
+			(at 241.3 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4759,7 +4753,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 228.6 50.8 180)
+		(at 228.6 35.56 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4768,7 +4762,7 @@
 		(fields_autoplaced yes)
 		(uuid "7778c6a8-15b3-46ac-b14e-11641f5c1815")
 		(property "Reference" "D16003"
-			(at 228.6 44.45 0)
+			(at 228.6 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4776,7 +4770,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 228.6 46.99 0)
+			(at 228.6 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4784,7 +4778,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 228.6 50.8 0)
+			(at 228.6 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4793,7 +4787,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/115/ds30086-3214660.pdf"
-			(at 228.6 50.8 0)
+			(at 228.6 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4802,7 +4796,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 228.6 50.8 0)
+			(at 228.6 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4811,7 +4805,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 228.6 50.8 0)
+			(at 228.6 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4820,7 +4814,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 228.6 50.8 0)
+			(at 228.6 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4829,7 +4823,7 @@
 			)
 		)
 		(property "MPN" "1N4148W-7-F"
-			(at 228.6 50.8 0)
+			(at 228.6 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4838,7 +4832,7 @@
 			)
 		)
 		(property "VPN" "621-1N4148W-F"
-			(at 228.6 50.8 0)
+			(at 228.6 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4863,7 +4857,7 @@
 	)
 	(symbol
 		(lib_id "pss:GND")
-		(at 171.45 152.4 0)
+		(at 171.45 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4872,7 +4866,7 @@
 		(fields_autoplaced yes)
 		(uuid "797320b6-09e8-4875-bf76-0531ffbd6171")
 		(property "Reference" "#PWR016008"
-			(at 171.45 158.75 0)
+			(at 171.45 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4881,7 +4875,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.45 157.48 0)
+			(at 171.45 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4889,7 +4883,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 152.4 0)
+			(at 171.45 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4898,7 +4892,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 152.4 0)
+			(at 171.45 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4907,7 +4901,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 152.4 0)
+			(at 171.45 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4929,7 +4923,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 203.2 50.8 180)
+		(at 203.2 35.56 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4938,7 +4932,7 @@
 		(fields_autoplaced yes)
 		(uuid "80e1cfe2-74c9-4ea5-b75c-7c21a0dbaaae")
 		(property "Reference" "D16001"
-			(at 203.2 44.45 0)
+			(at 203.2 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4946,7 +4940,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 203.2 46.99 0)
+			(at 203.2 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4954,7 +4948,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 203.2 50.8 0)
+			(at 203.2 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4963,7 +4957,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/115/ds30086-3214660.pdf"
-			(at 203.2 50.8 0)
+			(at 203.2 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4972,7 +4966,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 203.2 50.8 0)
+			(at 203.2 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4981,7 +4975,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 203.2 50.8 0)
+			(at 203.2 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4990,7 +4984,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 203.2 50.8 0)
+			(at 203.2 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4999,7 +4993,7 @@
 			)
 		)
 		(property "MPN" "1N4148W-7-F"
-			(at 203.2 50.8 0)
+			(at 203.2 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5008,7 +5002,7 @@
 			)
 		)
 		(property "VPN" "621-1N4148W-F"
-			(at 203.2 50.8 0)
+			(at 203.2 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5033,7 +5027,7 @@
 	)
 	(symbol
 		(lib_id "pss:GND")
-		(at 120.65 152.4 0)
+		(at 120.65 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5042,7 +5036,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a82f0a9-67cc-4149-b023-c957988601bc")
 		(property "Reference" "#PWR016007"
-			(at 120.65 158.75 0)
+			(at 120.65 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5051,7 +5045,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 120.65 157.48 0)
+			(at 120.65 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5059,7 +5053,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 152.4 0)
+			(at 120.65 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5068,7 +5062,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 152.4 0)
+			(at 120.65 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5077,7 +5071,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 152.4 0)
+			(at 120.65 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5099,7 +5093,7 @@
 	)
 	(symbol
 		(lib_id "pss:Opamp_Dual")
-		(at 132.08 127 0)
+		(at 132.08 111.76 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5108,7 +5102,7 @@
 		(dnp no)
 		(uuid "9cd85f14-21cf-4dd6-a241-09a386e65bdd")
 		(property "Reference" "U16001"
-			(at 132.08 119.38 0)
+			(at 132.08 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5116,7 +5110,7 @@
 			)
 		)
 		(property "Value" "OPA2810"
-			(at 132.08 116.84 0)
+			(at 132.08 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5124,7 +5118,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 132.08 127 0)
+			(at 132.08 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5133,7 +5127,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/opa2810"
-			(at 132.08 127 0)
+			(at 132.08 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5142,7 +5136,7 @@
 			)
 		)
 		(property "Description" "Dual operational amplifier"
-			(at 132.08 127 0)
+			(at 132.08 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5151,7 +5145,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 132.08 127 0)
+			(at 132.08 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5160,7 +5154,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_opamp_dual"
-			(at 132.08 127 0)
+			(at 132.08 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5169,7 +5163,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 132.08 127 0)
+			(at 132.08 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5178,7 +5172,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
-			(at 132.08 127 0)
+			(at 132.08 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5187,7 +5181,7 @@
 			)
 		)
 		(property "VPN" "595-OPA2810IDR"
-			(at 132.08 127 0)
+			(at 132.08 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5196,7 +5190,7 @@
 			)
 		)
 		(property "MPN" "OPA2810IDR"
-			(at 132.08 127 0)
+			(at 132.08 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5239,7 +5233,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 215.9 63.5 0)
+		(at 215.9 48.26 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -5247,7 +5241,7 @@
 		(dnp no)
 		(uuid "a7e09ff6-ed27-43bc-a35d-b704a4ea6b3f")
 		(property "Reference" "JP16002"
-			(at 215.9 59.69 0)
+			(at 215.9 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5255,7 +5249,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 177.8 53.34 0)
+			(at 177.8 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5264,7 +5258,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 63.5 0)
+			(at 215.9 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5273,7 +5267,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 63.5 0)
+			(at 215.9 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5282,7 +5276,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 215.9 63.5 0)
+			(at 215.9 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5373,7 +5367,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 203.2 88.9 0)
+		(at 203.2 73.66 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -5381,7 +5375,7 @@
 		(dnp no)
 		(uuid "ac400362-3b09-4473-aaaa-14b3e592044e")
 		(property "Reference" "JP16005"
-			(at 203.2 85.09 0)
+			(at 203.2 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5389,7 +5383,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 177.8 76.2 0)
+			(at 177.8 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5398,7 +5392,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 88.9 0)
+			(at 203.2 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5407,7 +5401,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 88.9 0)
+			(at 203.2 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5416,7 +5410,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 203.2 88.9 0)
+			(at 203.2 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5441,7 +5435,7 @@
 	)
 	(symbol
 		(lib_id "pss:R")
-		(at 120.65 140.97 0)
+		(at 120.65 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5450,7 +5444,7 @@
 		(fields_autoplaced yes)
 		(uuid "b3e3f44f-881a-428e-a3a8-ca0a11bfdfae")
 		(property "Reference" "R16003"
-			(at 123.19 139.6999 0)
+			(at 123.19 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5459,7 +5453,7 @@
 			)
 		)
 		(property "Value" "2k"
-			(at 123.19 142.2399 0)
+			(at 123.19 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5468,7 +5462,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 118.872 140.97 90)
+			(at 118.872 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5477,7 +5471,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
-			(at 120.65 140.97 0)
+			(at 120.65 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5486,7 +5480,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 120.65 140.97 0)
+			(at 120.65 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5495,7 +5489,7 @@
 			)
 		)
 		(property "MPN" "RC1210FR-072KL"
-			(at 120.65 140.97 0)
+			(at 120.65 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5504,7 +5498,7 @@
 			)
 		)
 		(property "VPN" "603-RC1210FR-072KL"
-			(at 120.65 140.97 0)
+			(at 120.65 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5529,7 +5523,7 @@
 	)
 	(symbol
 		(lib_id "pss:Opamp_Dual")
-		(at 184.15 129.54 0)
+		(at 184.15 114.3 0)
 		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
@@ -5538,7 +5532,7 @@
 		(dnp no)
 		(uuid "c452e469-34b6-4359-a732-4a1f2a2e96fc")
 		(property "Reference" "U16001"
-			(at 184.15 119.38 0)
+			(at 184.15 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5546,7 +5540,7 @@
 			)
 		)
 		(property "Value" "OPA2810"
-			(at 184.15 121.92 0)
+			(at 184.15 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5554,7 +5548,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 184.15 129.54 0)
+			(at 184.15 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5563,7 +5557,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/opa2810"
-			(at 184.15 129.54 0)
+			(at 184.15 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5572,7 +5566,7 @@
 			)
 		)
 		(property "Description" "Dual operational amplifier"
-			(at 184.15 129.54 0)
+			(at 184.15 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5581,7 +5575,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 184.15 129.54 0)
+			(at 184.15 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5590,7 +5584,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_opamp_dual"
-			(at 184.15 129.54 0)
+			(at 184.15 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5599,7 +5593,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 184.15 129.54 0)
+			(at 184.15 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5608,7 +5602,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
-			(at 184.15 129.54 0)
+			(at 184.15 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5617,7 +5611,7 @@
 			)
 		)
 		(property "VPN" "595-OPA2810IDR"
-			(at 184.15 129.54 0)
+			(at 184.15 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5626,7 +5620,7 @@
 			)
 		)
 		(property "MPN" "OPA2810IDR"
-			(at 184.15 129.54 0)
+			(at 184.15 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5823,7 +5817,7 @@
 	)
 	(symbol
 		(lib_id "pss:R")
-		(at 158.75 38.1 90)
+		(at 158.75 156.21 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5832,7 +5826,7 @@
 		(fields_autoplaced yes)
 		(uuid "d46692ec-9b74-41f3-bd20-dd87600e8725")
 		(property "Reference" "R16010"
-			(at 158.75 31.75 90)
+			(at 158.75 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5840,7 +5834,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 158.75 34.29 90)
+			(at 158.75 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5848,7 +5842,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 158.75 39.878 90)
+			(at 158.75 157.988 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5857,7 +5851,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
-			(at 158.75 38.1 0)
+			(at 158.75 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5866,7 +5860,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 158.75 38.1 0)
+			(at 158.75 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5875,7 +5869,7 @@
 			)
 		)
 		(property "MPN" "RC1210FR-071ML"
-			(at 158.75 38.1 0)
+			(at 158.75 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5884,7 +5878,7 @@
 			)
 		)
 		(property "VPN" "603-RC1210FR-071ML"
-			(at 158.75 38.1 0)
+			(at 158.75 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5909,7 +5903,7 @@
 	)
 	(symbol
 		(lib_id "pss:R")
-		(at 158.75 127 270)
+		(at 158.75 111.76 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5918,7 +5912,7 @@
 		(fields_autoplaced yes)
 		(uuid "d5d963f2-5e00-4584-a881-9e905c011b30")
 		(property "Reference" "R16005"
-			(at 158.75 120.65 90)
+			(at 158.75 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5926,7 +5920,7 @@
 			)
 		)
 		(property "Value" "390"
-			(at 158.75 123.19 90)
+			(at 158.75 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5934,7 +5928,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 158.75 125.222 90)
+			(at 158.75 109.982 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5943,7 +5937,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
-			(at 158.75 127 0)
+			(at 158.75 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5952,7 +5946,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 158.75 127 0)
+			(at 158.75 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5961,7 +5955,7 @@
 			)
 		)
 		(property "MPN" "RC1210FR-07390RL"
-			(at 158.75 127 0)
+			(at 158.75 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5970,7 +5964,7 @@
 			)
 		)
 		(property "VPN" "603-RC1210FR-07390RL"
-			(at 158.75 127 0)
+			(at 158.75 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5995,7 +5989,7 @@
 	)
 	(symbol
 		(lib_id "pss:R")
-		(at 111.76 129.54 270)
+		(at 111.76 114.3 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6004,7 +5998,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8548b39-a3f9-4754-b73e-c1227938d476")
 		(property "Reference" "R16002"
-			(at 111.76 123.19 90)
+			(at 111.76 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6012,7 +6006,7 @@
 			)
 		)
 		(property "Value" "2k"
-			(at 111.76 125.73 90)
+			(at 111.76 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6020,7 +6014,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 111.76 127.762 90)
+			(at 111.76 112.522 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6029,7 +6023,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
-			(at 111.76 129.54 0)
+			(at 111.76 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6038,7 +6032,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 111.76 129.54 0)
+			(at 111.76 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6047,7 +6041,7 @@
 			)
 		)
 		(property "MPN" "RC1210FR-072KL"
-			(at 111.76 129.54 0)
+			(at 111.76 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6056,7 +6050,7 @@
 			)
 		)
 		(property "VPN" "603-RC1210FR-072KL"
-			(at 111.76 129.54 0)
+			(at 111.76 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6081,7 +6075,7 @@
 	)
 	(symbol
 		(lib_id "pss:C")
-		(at 101.6 146.05 0)
+		(at 101.6 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6089,7 +6083,7 @@
 		(dnp no)
 		(uuid "e2143c9e-d3bc-489c-9991-11c1d32c1e3e")
 		(property "Reference" "C16007"
-			(at 105.41 144.7799 0)
+			(at 105.41 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6098,7 +6092,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 105.41 147.3199 0)
+			(at 105.41 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6107,7 +6101,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 102.5652 149.86 0)
+			(at 102.5652 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6116,7 +6110,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1003_C0G_SMD-3316496.pdf"
-			(at 101.6 146.05 0)
+			(at 101.6 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6125,7 +6119,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 101.6 146.05 0)
+			(at 101.6 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6134,7 +6128,7 @@
 			)
 		)
 		(property "MPN" "C0805C103J5GACTU"
-			(at 101.6 146.05 0)
+			(at 101.6 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6143,7 +6137,7 @@
 			)
 		)
 		(property "VPN" "80-C0805C103J5G"
-			(at 101.6 146.05 0)
+			(at 101.6 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6168,7 +6162,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 215.9 76.2 0)
+		(at 215.9 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6177,7 +6171,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8fbbbff-0bf4-4ca6-9e0c-a1cd08ce05c2")
 		(property "Reference" "D16006"
-			(at 215.9 69.85 0)
+			(at 215.9 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6185,7 +6179,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 215.9 72.39 0)
+			(at 215.9 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6193,7 +6187,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 215.9 76.2 0)
+			(at 215.9 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6202,7 +6196,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/115/ds30086-3214660.pdf"
-			(at 215.9 76.2 0)
+			(at 215.9 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6211,7 +6205,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 215.9 76.2 0)
+			(at 215.9 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6220,7 +6214,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 215.9 76.2 0)
+			(at 215.9 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6229,7 +6223,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 215.9 76.2 0)
+			(at 215.9 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6238,7 +6232,7 @@
 			)
 		)
 		(property "MPN" "1N4148W-7-F"
-			(at 215.9 76.2 0)
+			(at 215.9 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6247,7 +6241,7 @@
 			)
 		)
 		(property "VPN" "621-1N4148W-F"
-			(at 215.9 76.2 0)
+			(at 215.9 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6359,7 +6353,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 203.2 63.5 0)
+		(at 203.2 48.26 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -6367,7 +6361,7 @@
 		(dnp no)
 		(uuid "f232de79-7779-469a-8407-5fba6c64f468")
 		(property "Reference" "JP16001"
-			(at 203.2 59.69 0)
+			(at 203.2 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6375,7 +6369,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 177.8 50.8 0)
+			(at 177.8 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6384,7 +6378,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 63.5 0)
+			(at 203.2 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6393,7 +6387,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 63.5 0)
+			(at 203.2 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6402,7 +6396,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 203.2 63.5 0)
+			(at 203.2 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
