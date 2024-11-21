@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "021f5608-3cec-4cfd-9b6c-7a62fd54eebd")
+	(uuid "48596ef7-e3c1-461a-9301-100a2cfb118a")
 	(paper "A4")
 	(title_block
 		(title "Power Supply Sink")
@@ -5644,7 +5644,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "18"
 			(at 194.31 58.4199 0)
 			(effects
 				(font
@@ -5680,7 +5680,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" " RC1210FR-0710RL"
+		(property "MPN" " RC1210FR-0718RL"
 			(at 191.77 57.15 0)
 			(effects
 				(font
@@ -5689,7 +5689,7 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" "603-RC1210FR-0710RL"
+		(property "VPN" "603-RC1210FR-0718RL"
 			(at 191.77 57.15 0)
 			(effects
 				(font
