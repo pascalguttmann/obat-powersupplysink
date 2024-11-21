@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Power Supply Sink")
-		(date "2024-11-19")
+		(date "2024-11-21")
 		(rev "0.8.0")
 		(company "Open Battery Tester")
 		(comment 1 "Overview")
@@ -1110,74 +1110,6 @@
 		)
 	)
 	(sheet
-		(at 119.38 97.79)
-		(size 25.4 12.7)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "0261998d-8bfa-449f-a2ab-b88f7edeef81")
-		(property "Sheetname" "control"
-			(at 119.38 97.0784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "control.kicad_sch"
-			(at 119.38 111.0746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "ref" input
-			(at 119.38 101.6 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "e12c4e6e-d13a-4478-9bee-1bd35f4cdbb5")
-		)
-		(pin "meas" input
-			(at 119.38 106.68 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "e2b32ff3-2f29-4828-a81f-d5e2e44d1181")
-		)
-		(pin "out" output
-			(at 144.78 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "b31ff34a-5f16-419a-8283-23636c05b143")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176"
-					(page "16")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 231.14 97.79)
 		(size 25.4 12.7)
 		(fields_autoplaced yes)
@@ -1517,6 +1449,74 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176"
 					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 97.79)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9583a5be-aa47-498c-925d-8eb6a3aa0d01")
+		(property "Sheetname" "control-var"
+			(at 121.92 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "control-var.kicad_sch"
+			(at 121.92 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ref" input
+			(at 121.92 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cdca74ac-b71d-4199-87c9-a6c82176b26e")
+		)
+		(pin "meas" input
+			(at 121.92 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cdb7dbc0-a561-49f8-a2a2-0091aa64dd57")
+		)
+		(pin "out" output
+			(at 147.32 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "82d1e80e-6202-47b6-94fc-56b3af00a672")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176"
+					(page "28")
 				)
 			)
 		)
