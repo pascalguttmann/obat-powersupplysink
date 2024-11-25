@@ -680,7 +680,7 @@
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Value"
+      "sort_field": "MPN"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -783,10 +783,6 @@
       "emitter_follower9"
     ],
     [
-      "0261998d-8bfa-449f-a2ab-b88f7edeef81",
-      "control"
-    ],
-    [
       "50b9fa8c-588a-4f7c-8a85-883889c8b2d1",
       "limit-logic"
     ],
@@ -829,6 +825,14 @@
     [
       "20918679-4743-4169-a60e-19637ed5d643",
       "relay"
+    ],
+    [
+      "9583a5be-aa47-498c-925d-8eb6a3aa0d01",
+      "control-var"
+    ],
+    [
+      "c359617c-0633-415c-bb52-bb3a3fee3c94",
+      "diode-network"
     ]
   ],
   "text_variables": {}

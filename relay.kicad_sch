@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Power Supply Sink")
-		(date "2024-11-19")
-		(rev "0.8.0")
+		(date "2024-11-25")
+		(rev "0.8.1")
 		(company "Open Battery Tester")
 		(comment 1 "Relay")
 	)
@@ -1669,7 +1669,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "94b87011-88d4-4506-943b-4450d5c04063")
+			(uuid "94b87011-88d4-4506-943b-4450d5c04064")
 		)
 		(instances
 			(project "pss"

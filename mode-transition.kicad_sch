@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Power Supply Sink")
-		(date "2024-11-19")
-		(rev "0.8.0")
+		(date "2024-11-25")
+		(rev "0.8.1")
 		(company "Open Battery Tester")
 		(comment 1 "Mode Transition")
 	)
