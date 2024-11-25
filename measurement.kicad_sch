@@ -3844,7 +3844,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PVG5H102C03B00"
+		(property "MPN" "PVG5A102C03B00"
 			(at 101.6 168.91 0)
 			(effects
 				(font
@@ -3853,7 +3853,7 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" "81-PVG5H102C03B00"
+		(property "VPN" "81-PVG5A102C03B00"
 			(at 101.6 168.91 0)
 			(effects
 				(font
