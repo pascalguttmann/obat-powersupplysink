@@ -1178,6 +1178,94 @@
 		)
 	)
 	(sheet
+		(at 194.31 120.65)
+		(size 22.86 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2c843779-6372-445d-93a0-61df61e4217d")
+		(property "Sheetname" "adc"
+			(at 194.31 119.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "adc.kicad_sch"
+			(at 194.31 133.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AIN_P" input
+			(at 217.17 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c5d11b1d-9f52-4b47-807c-e7a5ac56434c")
+		)
+		(pin "SDO-0" output
+			(at 194.31 130.81 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e97b7b65-17b3-486b-b425-380f6965d528")
+		)
+		(pin "SDI" input
+			(at 194.31 128.27 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4cc39303-745c-42b4-b8aa-04cce2312109")
+		)
+		(pin "SCKL" input
+			(at 194.31 125.73 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9bdf93dc-2097-4f6f-b69c-49daf4923fcc")
+		)
+		(pin "CONVST{slash}~{CS}" input
+			(at 194.31 123.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "eac69555-54d6-4430-bf87-b0490428055f")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 156.21 97.79)
 		(size 25.4 12.7)
 		(fields_autoplaced yes)
@@ -1971,6 +2059,94 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176"
 					(page "29")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 194.31 139.7)
+		(size 22.86 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fe6e657f-8cbe-4801-b8df-4392026dbf94")
+		(property "Sheetname" "adc1"
+			(at 194.31 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "adc.kicad_sch"
+			(at 194.31 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AIN_P" input
+			(at 217.17 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "42c9dd6d-0c3a-4d09-927d-baa1ebcba0ad")
+		)
+		(pin "SDO-0" output
+			(at 194.31 149.86 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "944e872e-d53d-4fc2-8b98-fd589e6ff8b6")
+		)
+		(pin "SDI" input
+			(at 194.31 147.32 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7eca7d10-de0d-45bb-a43e-e4b27571b908")
+		)
+		(pin "SCKL" input
+			(at 194.31 144.78 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d8566b9d-f4a6-4076-9475-983be571c811")
+		)
+		(pin "CONVST{slash}~{CS}" input
+			(at 194.31 142.24 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "169241d4-a7ab-420d-9878-76105e272893")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176"
+					(page "18")
 				)
 			)
 		)
