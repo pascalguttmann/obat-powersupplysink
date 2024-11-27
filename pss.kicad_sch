@@ -1799,7 +1799,7 @@
 	)
 	(sheet
 		(at 34.29 91.44)
-		(size 19.05 25.4)
+		(size 19.05 31.75)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1819,7 +1819,7 @@
 			)
 		)
 		(property "Sheetfile" "conf.kicad_sch"
-			(at 34.29 117.4246 0)
+			(at 34.29 123.7746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1866,6 +1866,106 @@
 				(justify left)
 			)
 			(uuid "d3d850eb-6910-45a5-a278-d59941b20fa5")
+		)
+		(pin "conf_ok" output
+			(at 53.34 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "813ac2c0-3293-4318-a5ba-5b383dd1a4d3")
+		)
+		(pin "~{relay_connect}" output
+			(at 53.34 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a849d21a-2ad5-497c-b8ed-85573285b431")
+		)
+		(pin "conf_lvl" output
+			(at 53.34 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5c185e1f-cd43-42b4-a7e8-64534dc8bf33")
+		)
+		(pin "conf_ucl" output
+			(at 53.34 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "29f0c80b-c72e-4910-96bf-83a5a3d646ee")
+		)
+		(pin "conf_lcl" output
+			(at 53.34 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1a730433-c476-4006-9169-f6fa1310b064")
+		)
+		(pin "conf_uvl" output
+			(at 53.34 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fc4afcda-ec33-429b-ab5d-efb7941d24e8")
+		)
+		(pin "conf_iref" output
+			(at 53.34 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "653b0c3f-1baf-453e-89a5-e8d14d3d46f7")
+		)
+		(pin "conf_vref" output
+			(at 53.34 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d5c839b8-b693-467d-8d33-d78a72d18ec2")
+		)
+		(pin "conf_refselect_i" output
+			(at 53.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "46e65c6b-78ee-4b8d-b372-d8079e3fc8ce")
+		)
+		(pin "conf_refselect_v" output
+			(at 53.34 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f382117e-2583-487a-8348-1c1bba94d9cb")
 		)
 		(instances
 			(project "pss"
