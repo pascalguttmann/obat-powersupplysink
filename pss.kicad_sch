@@ -1827,6 +1827,46 @@
 				(justify left top)
 			)
 		)
+		(pin "SDO" output
+			(at 34.29 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "91b267c8-8787-45a0-8bae-0aa54be1035b")
+		)
+		(pin "~{SCLK}" input
+			(at 34.29 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "29d77353-9825-413b-82a0-37c7b70c2ed9")
+		)
+		(pin "SDI" input
+			(at 34.29 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3b8ff5b0-6738-4d5f-b538-f2eade5b45e2")
+		)
+		(pin "~{CS}" input
+			(at 34.29 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d3d850eb-6910-45a5-a278-d59941b20fa5")
+		)
 		(instances
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176"

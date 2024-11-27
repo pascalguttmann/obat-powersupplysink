@@ -4068,7 +4068,7 @@
 				)
 			)
 			(pin input line
-				(at -13.97 8.89 0)
+				(at -13.97 11.43 0)
 				(length 2.54)
 				(name "~{SYNC}"
 					(effects
@@ -4086,7 +4086,7 @@
 				)
 			)
 			(pin input line
-				(at -13.97 11.43 0)
+				(at -13.97 8.89 0)
 				(length 2.54)
 				(name "SCLK"
 					(effects
