@@ -1159,15 +1159,15 @@
 			)
 			(uuid "dfec761d-2dba-47a2-af8c-3c2d65181b41")
 		)
-		(pin "relay_connect" input
-			(at 231.14 109.22 180)
+		(pin "~{relay_connect}" input
+			(at 231.14 107.95 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0d6d945f-f5f5-4557-bae1-a7f7d3a2b66d")
+			(uuid "54dc3e4b-b846-4725-951b-dcf5bae0f78e")
 		)
 		(instances
 			(project "pss"
