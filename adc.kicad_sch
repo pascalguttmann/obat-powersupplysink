@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "986a5377-d084-4e31-ada1-4a0f07acb8ea")
+	(uuid "41a3795b-bd5d-437a-9479-eb02dc5bc867")
 	(paper "A4")
 	(title_block
 		(title "Power Supply Sink")
@@ -2688,7 +2688,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ADS866x"
+		(property "Value" "ADS8665IPWR"
 			(at 146.9741 78.74 0)
 			(effects
 				(font
@@ -2717,6 +2717,24 @@
 		)
 		(property "Description" "12-Bit, 500-kSPS/1.25-MSPS, 1-Channels, Single-Supply, SAR ADC with Programmable Input Range, TSSOP-14"
 			(at 137.16 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ADS8665IPWR"
+			(at 137.16 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "595-ADS8665IPWR"
+			(at 137.16 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)

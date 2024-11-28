@@ -845,6 +845,10 @@
     [
       "c359617c-0633-415c-bb52-bb3a3fee3c94",
       "diode-network"
+    ],
+    [
+      "07c1abbb-a625-4c44-bef8-8e7c07c13d28",
+      "digital-interface"
     ]
   ],
   "text_variables": {}
