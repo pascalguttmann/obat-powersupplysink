@@ -783,8 +783,16 @@
       "emitter_follower9"
     ],
     [
+      "2c843779-6372-445d-93a0-61df61e4217d",
+      "adc"
+    ],
+    [
       "50b9fa8c-588a-4f7c-8a85-883889c8b2d1",
       "limit-logic"
+    ],
+    [
+      "fe6e657f-8cbe-4801-b8df-4392026dbf94",
+      "adc1"
     ],
     [
       "411aee83-75fe-4524-984d-fb0946001871",
@@ -831,8 +839,16 @@
       "control-var"
     ],
     [
+      "f75e51d2-5460-438c-a342-b8538fe1bc28",
+      "conf"
+    ],
+    [
       "c359617c-0633-415c-bb52-bb3a3fee3c94",
       "diode-network"
+    ],
+    [
+      "07c1abbb-a625-4c44-bef8-8e7c07c13d28",
+      "digital-interface"
     ]
   ],
   "text_variables": {}
