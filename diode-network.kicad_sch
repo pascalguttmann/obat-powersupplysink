@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Power Supply Sink")
-		(date "2024-11-25")
-		(rev "0.8.2")
+		(date "2024-11-29")
+		(rev "0.9.0")
 		(company "Open Battery Tester")
 	)
 	(lib_symbols
