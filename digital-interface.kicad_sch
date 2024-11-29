@@ -3612,7 +3612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.silabs.com/documents/public/data-sheets/si864x-datasheet.pdf"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/472/si864x_datasheet-2507790.pdf"
 			(at 147.32 60.96 0)
 			(effects
 				(font
