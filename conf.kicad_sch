@@ -5494,6 +5494,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "SN74LVC1G04DBVR"
+			(at 43.18 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "595-SN74LVC1G04DBVR"
+			(at 43.18 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d7e417b4-c73e-4e00-8ec5-f5620af4d104")
 		)

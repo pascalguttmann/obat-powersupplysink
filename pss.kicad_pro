@@ -849,6 +849,10 @@
     [
       "07c1abbb-a625-4c44-bef8-8e7c07c13d28",
       "digital-interface"
+    ],
+    [
+      "47b904fe-7b48-475f-afcd-ec09dce08719",
+      "power"
     ]
   ],
   "text_variables": {}
