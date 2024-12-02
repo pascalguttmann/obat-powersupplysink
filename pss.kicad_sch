@@ -374,6 +374,16 @@
 				(justify left top)
 			)
 		)
+		(pin "power_ok" output
+			(at 118.11 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "23248bb7-d5ba-424d-97f5-ff2267553ef0")
+		)
 		(instances
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176"
