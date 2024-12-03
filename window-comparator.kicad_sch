@@ -173,7 +173,7 @@
 				)
 			)
 		)
-		(symbol "pss:+10V"
+		(symbol "pss:+10V_compare-logic"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -190,7 +190,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+10V"
+			(property "Value" "+10V_compare-logic"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -216,7 +216,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+10V\""
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -234,7 +234,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+10V_0_1"
+			(symbol "+10V_compare-logic_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -272,7 +272,7 @@
 					)
 				)
 			)
-			(symbol "+10V_1_1"
+			(symbol "+10V_compare-logic_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -293,7 +293,7 @@
 				)
 			)
 		)
-		(symbol "pss:-5V"
+		(symbol "pss:-5V_compare-logic"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -310,7 +310,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "-5V"
+			(property "Value" "-5V_compare-logic"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -336,7 +336,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"-5V\""
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -354,7 +354,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "-5V_0_0"
+			(symbol "-5V_compare-logic_0_0"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -374,7 +374,7 @@
 					)
 				)
 			)
-			(symbol "-5V_0_1"
+			(symbol "-5V_compare-logic_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
@@ -1728,7 +1728,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:+10V")
+		(lib_id "pss:+10V_compare-logic")
 		(at 50.8 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1736,7 +1736,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1fbbb81f-96a6-4748-ae06-6e9e902708d5")
+		(uuid "1686f2cb-d518-44da-b886-7ab7d9348920")
 		(property "Reference" "#PWR022001"
 			(at 50.8 156.21 0)
 			(effects
@@ -1746,7 +1746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+10V"
+		(property "Value" "+10V_compare-logic"
 			(at 50.8 147.32 0)
 			(effects
 				(font
@@ -1772,7 +1772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+10V\""
+		(property "Description" ""
 			(at 50.8 152.4 0)
 			(effects
 				(font
@@ -1782,7 +1782,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f7d41321-5364-4921-a7dc-c4527e011e35")
+			(uuid "19223328-3ab4-49d9-9784-1916306d91a2")
 		)
 		(instances
 			(project "pss"
@@ -1799,7 +1799,7 @@
 					(unit 1)
 				)
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/50b9fa8c-588a-4f7c-8a85-883889c8b2d1/854e83c3-d665-4da7-a2c9-4ae5fb1019c9/67b5cc40-0404-44cb-9368-386617de868f"
-					(reference "#PWR025001")
+					(reference "#PWR026005")
 					(unit 1)
 				)
 			)
@@ -2005,6 +2005,84 @@
 		)
 	)
 	(symbol
+		(lib_id "pss:-5V_compare-logic")
+		(at 116.84 139.7 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "639da335-4b80-403d-a3d1-ea9054be9b35")
+		(property "Reference" "#PWR022004"
+			(at 116.84 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-5V_compare-logic"
+			(at 116.84 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5dc40784-314b-42b0-abd3-c1239a5ca45e")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/50b9fa8c-588a-4f7c-8a85-883889c8b2d1/854e83c3-d665-4da7-a2c9-4ae5fb1019c9/e65c3b78-3b2b-4f8a-bb92-3808512b49dd"
+					(reference "#PWR022004")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/50b9fa8c-588a-4f7c-8a85-883889c8b2d1/854e83c3-d665-4da7-a2c9-4ae5fb1019c9/ff334853-ab60-485c-bb6b-fcb0e80d61f1"
+					(reference "#PWR023004")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/50b9fa8c-588a-4f7c-8a85-883889c8b2d1/854e83c3-d665-4da7-a2c9-4ae5fb1019c9/1d2742ec-3d10-4ff5-8813-6f202bc18ef7"
+					(reference "#PWR024004")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/50b9fa8c-588a-4f7c-8a85-883889c8b2d1/854e83c3-d665-4da7-a2c9-4ae5fb1019c9/67b5cc40-0404-44cb-9368-386617de868f"
+					(reference "#PWR026009")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pss:R")
 		(at 146.05 121.92 90)
 		(unit 1)
@@ -2097,84 +2175,6 @@
 				)
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/50b9fa8c-588a-4f7c-8a85-883889c8b2d1/854e83c3-d665-4da7-a2c9-4ae5fb1019c9/67b5cc40-0404-44cb-9368-386617de868f"
 					(reference "R25006")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pss:-5V")
-		(at 116.84 139.7 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "71574975-5683-41dd-817e-392471c45fa7")
-		(property "Reference" "#PWR022004"
-			(at 116.84 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-5V"
-			(at 116.84 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-5V\""
-			(at 116.84 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e38b4052-ea23-4661-95da-21a9e195b5dd")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/50b9fa8c-588a-4f7c-8a85-883889c8b2d1/854e83c3-d665-4da7-a2c9-4ae5fb1019c9/e65c3b78-3b2b-4f8a-bb92-3808512b49dd"
-					(reference "#PWR022004")
-					(unit 1)
-				)
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/50b9fa8c-588a-4f7c-8a85-883889c8b2d1/854e83c3-d665-4da7-a2c9-4ae5fb1019c9/ff334853-ab60-485c-bb6b-fcb0e80d61f1"
-					(reference "#PWR023004")
-					(unit 1)
-				)
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/50b9fa8c-588a-4f7c-8a85-883889c8b2d1/854e83c3-d665-4da7-a2c9-4ae5fb1019c9/1d2742ec-3d10-4ff5-8813-6f202bc18ef7"
-					(reference "#PWR024004")
-					(unit 1)
-				)
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/50b9fa8c-588a-4f7c-8a85-883889c8b2d1/854e83c3-d665-4da7-a2c9-4ae5fb1019c9/67b5cc40-0404-44cb-9368-386617de868f"
-					(reference "#PWR025004")
 					(unit 1)
 				)
 			)
@@ -2729,7 +2729,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:-5V")
+		(lib_id "pss:-5V_compare-logic")
 		(at 50.8 177.8 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2737,7 +2737,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "be65d230-fbce-4ca1-b573-740031c70326")
+		(uuid "b1c9f75c-f68f-4633-aac7-ef896e87c7c2")
 		(property "Reference" "#PWR022002"
 			(at 50.8 173.99 0)
 			(effects
@@ -2747,7 +2747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "-5V"
+		(property "Value" "-5V_compare-logic"
 			(at 50.8 182.88 0)
 			(effects
 				(font
@@ -2773,7 +2773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"-5V\""
+		(property "Description" ""
 			(at 50.8 177.8 0)
 			(effects
 				(font
@@ -2783,7 +2783,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ac250fcd-5079-4f85-8a15-28953cd403f0")
+			(uuid "61bceec2-78fd-4cca-9e4a-14d7ad0f824f")
 		)
 		(instances
 			(project "pss"
@@ -2800,7 +2800,7 @@
 					(unit 1)
 				)
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/50b9fa8c-588a-4f7c-8a85-883889c8b2d1/854e83c3-d665-4da7-a2c9-4ae5fb1019c9/67b5cc40-0404-44cb-9368-386617de868f"
-					(reference "#PWR025002")
+					(reference "#PWR026006")
 					(unit 1)
 				)
 			)
@@ -3319,7 +3319,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:+10V")
+		(lib_id "pss:+10V_compare-logic")
 		(at 116.84 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3327,7 +3327,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fbdea4b5-78b7-49dc-b7a2-fd3c0c5332f5")
+		(uuid "f0d89747-364d-4e1c-b2c7-34a4b1876dc1")
 		(property "Reference" "#PWR022003"
 			(at 116.84 59.69 0)
 			(effects
@@ -3337,7 +3337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+10V"
+		(property "Value" "+10V_compare-logic"
 			(at 116.84 50.8 0)
 			(effects
 				(font
@@ -3363,7 +3363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+10V\""
+		(property "Description" ""
 			(at 116.84 55.88 0)
 			(effects
 				(font
@@ -3373,7 +3373,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "75fd3eb2-4ad7-4325-b8c7-7f95050967ab")
+			(uuid "66abbeae-1088-4b20-8c30-cedb64fa84e6")
 		)
 		(instances
 			(project "pss"
@@ -3390,7 +3390,7 @@
 					(unit 1)
 				)
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/50b9fa8c-588a-4f7c-8a85-883889c8b2d1/854e83c3-d665-4da7-a2c9-4ae5fb1019c9/67b5cc40-0404-44cb-9368-386617de868f"
-					(reference "#PWR025003")
+					(reference "#PWR026001")
 					(unit 1)
 				)
 			)
