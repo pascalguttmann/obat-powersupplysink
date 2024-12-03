@@ -3180,7 +3180,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at -12.7 0 0)
 				(length 7.62)
 				(name "~"
@@ -3236,7 +3236,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at -12.7 0 0)
 				(length 7.62)
 				(name "~"
@@ -3256,7 +3256,7 @@
 			)
 		)
 		(symbol "4041_3_1"
-			(pin output line
+			(pin input line
 				(at -12.7 0 0)
 				(length 7.62)
 				(name "~"
@@ -3348,7 +3348,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at -12.7 0 0)
 				(length 7.62)
 				(name "~"
