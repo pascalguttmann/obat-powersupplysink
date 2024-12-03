@@ -2059,7 +2059,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 27.94) (xy 111.76 27.94)
+			(xy 97.79 27.94) (xy 111.76 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2459,7 +2459,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 33.02) (xy 97.79 33.02)
+			(xy 88.9 33.02) (xy 90.17 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2889,7 +2889,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 27.94) (xy 97.79 27.94)
+			(xy 88.9 27.94) (xy 90.17 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2899,7 +2899,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 30.48) (xy 111.76 30.48)
+			(xy 97.79 30.48) (xy 111.76 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2919,7 +2919,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 35.56) (xy 97.79 35.56)
+			(xy 88.9 35.56) (xy 90.17 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3289,7 +3289,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 35.56) (xy 111.76 35.56)
+			(xy 97.79 35.56) (xy 111.76 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3339,7 +3339,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 33.02) (xy 111.76 33.02)
+			(xy 97.79 33.02) (xy 111.76 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3349,7 +3349,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 30.48) (xy 97.79 30.48)
+			(xy 88.9 30.48) (xy 90.17 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3430,7 +3430,7 @@
 		(uuid "04884553-2c4a-49b0-83a0-ee8e73ac0277")
 	)
 	(label "SCKL"
-		(at 91.44 30.48 0)
+		(at 105.41 30.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3617,7 +3617,7 @@
 		(uuid "55ce13c4-6aca-4c08-b496-5298ad638d53")
 	)
 	(label "~{CS}"
-		(at 91.44 27.94 0)
+		(at 105.41 27.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3661,7 +3661,7 @@
 		(uuid "70c9eed6-ccc1-40cc-b162-08d1cedd570f")
 	)
 	(label "SDI"
-		(at 91.44 33.02 0)
+		(at 105.41 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3848,7 +3848,7 @@
 		(uuid "c0099636-91d2-4453-8903-a50ad578f30a")
 	)
 	(label "SDO"
-		(at 91.44 35.56 0)
+		(at 105.41 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4956,7 +4956,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 101.6 27.94 0)
+		(at 93.98 27.94 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -4964,7 +4964,7 @@
 		(dnp no)
 		(uuid "6e5620f1-27f4-48bd-887a-3e27707480b7")
 		(property "Reference" "JP1013"
-			(at 106.68 26.67 0)
+			(at 99.06 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4972,7 +4972,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 76.2 15.24 0)
+			(at 68.58 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4981,7 +4981,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 27.94 0)
+			(at 93.98 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4990,7 +4990,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 27.94 0)
+			(at 93.98 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4999,7 +4999,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 101.6 27.94 0)
+			(at 93.98 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5024,7 +5024,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 101.6 33.02 0)
+		(at 93.98 33.02 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -5032,7 +5032,7 @@
 		(dnp no)
 		(uuid "890ebf1c-52e1-4732-a7e3-005dccd53172")
 		(property "Reference" "JP1015"
-			(at 106.68 31.75 0)
+			(at 99.06 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5040,7 +5040,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 76.2 20.32 0)
+			(at 68.58 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5049,7 +5049,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 33.02 0)
+			(at 93.98 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5058,7 +5058,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 33.02 0)
+			(at 93.98 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5067,7 +5067,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 101.6 33.02 0)
+			(at 93.98 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6100,7 +6100,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 101.6 30.48 0)
+		(at 93.98 30.48 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -6108,7 +6108,7 @@
 		(dnp no)
 		(uuid "d8951d63-5af4-4cfb-8d15-2549b26609ef")
 		(property "Reference" "JP1014"
-			(at 106.68 29.21 0)
+			(at 99.06 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6116,7 +6116,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 76.2 17.78 0)
+			(at 68.58 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6125,7 +6125,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 30.48 0)
+			(at 93.98 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6134,7 +6134,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 30.48 0)
+			(at 93.98 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6143,7 +6143,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 101.6 30.48 0)
+			(at 93.98 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6236,7 +6236,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 101.6 35.56 0)
+		(at 93.98 35.56 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -6244,7 +6244,7 @@
 		(dnp no)
 		(uuid "e3b377ff-9e35-485a-a1b7-b4617796b379")
 		(property "Reference" "JP1016"
-			(at 106.68 34.29 0)
+			(at 99.06 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6252,7 +6252,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 76.2 22.86 0)
+			(at 68.58 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6261,7 +6261,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 35.56 0)
+			(at 93.98 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6270,7 +6270,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 35.56 0)
+			(at 93.98 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6279,7 +6279,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 101.6 35.56 0)
+			(at 93.98 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7576,16 +7576,6 @@
 			)
 			(uuid "91b267c8-8787-45a0-8bae-0aa54be1035b")
 		)
-		(pin "~{SCLK}" input
-			(at 144.78 30.48 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "29d77353-9825-413b-82a0-37c7b70c2ed9")
-		)
 		(pin "SDI" input
 			(at 144.78 33.02 180)
 			(effects
@@ -7705,6 +7695,16 @@
 				(justify right)
 			)
 			(uuid "f382117e-2583-487a-8348-1c1bba94d9cb")
+		)
+		(pin "SCLK" input
+			(at 144.78 30.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "64afde41-b7be-4f01-b556-69613d25bd8c")
 		)
 		(instances
 			(project "pss"
