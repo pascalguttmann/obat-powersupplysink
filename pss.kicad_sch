@@ -3946,6 +3946,17 @@
 		)
 		(uuid "f4625b4d-e725-47b1-aa8c-61fe79eb41d7")
 	)
+	(label "~{relay_connect}"
+		(at 200.66 101.6 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f88e0f15-aaf2-4f2c-b802-82bef5b4fe76")
+	)
 	(label "SDO"
 		(at 129.54 35.56 0)
 		(fields_autoplaced yes)

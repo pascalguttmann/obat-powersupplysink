@@ -1794,16 +1794,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 101.6) (xy 171.45 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7255c694-b735-451c-ad88-504d8f7b197a")
-	)
-	(wire
-		(pts
 			(xy 163.83 101.6) (xy 171.45 101.6)
 		)
 		(stroke
@@ -1861,16 +1851,6 @@
 			(type default)
 		)
 		(uuid "83611b4a-b43d-428a-9ef4-6bf0218116d4")
-	)
-	(wire
-		(pts
-			(xy 181.61 99.06) (xy 181.61 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85f2d06b-ce7f-44f9-a398-ed9022d6de35")
 	)
 	(wire
 		(pts
@@ -2729,72 +2709,6 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/47b904fe-7b48-475f-afcd-ec09dce08719"
 					(reference "R33001")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pss:PWR_FLAG")
-		(at 181.61 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5276c826-4866-4392-b1f1-e9d4d01cadc4")
-		(property "Reference" "#FLG033006"
-			(at 181.61 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 181.61 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 181.61 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a984fe3d-6b3c-43c4-8c1e-1de5b854f8f3")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/47b904fe-7b48-475f-afcd-ec09dce08719"
-					(reference "#FLG033006")
 					(unit 1)
 				)
 			)

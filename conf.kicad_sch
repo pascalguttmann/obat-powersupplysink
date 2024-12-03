@@ -4106,6 +4106,10 @@
 		(uuid "a1cd47ff-39a8-43f4-be68-b5a2bb1ac2ba")
 	)
 	(no_connect
+		(at 266.7 41.91)
+		(uuid "c2b1456a-4514-4313-991a-c1c2b5c931f2")
+	)
+	(no_connect
 		(at 114.3 134.62)
 		(uuid "ead5c5f4-ec7c-45fa-a1a2-74bbef3c4440")
 	)
