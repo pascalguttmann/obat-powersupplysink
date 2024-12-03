@@ -1664,6 +1664,102 @@
 				)
 			)
 		)
+		(symbol "pss:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "pss:R"
 			(pin_numbers hide)
 			(pin_names
@@ -1793,6 +1889,12 @@
 		(uuid "0a138893-8bc6-4d1e-9798-f38ae66c71c9")
 	)
 	(junction
+		(at 255.27 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2642ddf7-5672-4f2e-bde1-914975040316")
+	)
+	(junction
 		(at 62.23 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1815,6 +1917,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e67ec5b-f5ee-462d-8328-00c66c8ddcfb")
+	)
+	(junction
+		(at 255.27 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60590646-e144-4bd1-a5a3-edc4bc9d1f1f")
 	)
 	(junction
 		(at 60.96 41.91)
@@ -1941,6 +2049,16 @@
 	(no_connect
 		(at 229.87 68.58)
 		(uuid "d1263355-d820-4d39-8180-b9ff0d75c56a")
+	)
+	(wire
+		(pts
+			(xy 255.27 27.94) (xy 257.81 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00c51df5-8cb7-4476-86ec-e0a8a8e820aa")
 	)
 	(wire
 		(pts
@@ -2604,6 +2722,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 20.32) (xy 257.81 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60aafc60-b9c1-499b-a6e5-f6cc4f4b49e6")
+	)
+	(wire
+		(pts
 			(xy 62.23 184.15) (xy 76.2 184.15)
 		)
 		(stroke
@@ -2954,7 +3082,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 25.4) (xy 252.73 25.4)
+			(xy 246.38 27.94) (xy 255.27 27.94)
 		)
 		(stroke
 			(width 0)
@@ -3504,7 +3632,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 20.32) (xy 252.73 20.32)
+			(xy 246.38 20.32) (xy 255.27 20.32)
 		)
 		(stroke
 			(width 0)
@@ -3564,7 +3692,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 25.4) (xy 238.76 25.4)
+			(xy 237.49 27.94) (xy 238.76 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5549,7 +5677,7 @@
 	)
 	(symbol
 		(lib_id "pss:-5V")
-		(at 237.49 25.4 90)
+		(at 237.49 27.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5558,7 +5686,7 @@
 		(fields_autoplaced yes)
 		(uuid "35977916-f793-46bb-8a1e-54ef5bd21854")
 		(property "Reference" "#PWR017017"
-			(at 241.3 25.4 0)
+			(at 241.3 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5567,7 +5695,7 @@
 			)
 		)
 		(property "Value" "-5V"
-			(at 236.22 22.86 90)
+			(at 236.22 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5575,7 +5703,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 25.4 0)
+			(at 237.49 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5584,7 +5712,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 25.4 0)
+			(at 237.49 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5593,7 +5721,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-5V\""
-			(at 237.49 25.4 0)
+			(at 237.49 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5770,7 +5898,7 @@
 	)
 	(symbol
 		(lib_id "pss:-5V_limit-logic")
-		(at 252.73 25.4 270)
+		(at 257.81 27.94 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5779,7 +5907,7 @@
 		(fields_autoplaced yes)
 		(uuid "45f27298-9ddf-41bf-b982-42365a864757")
 		(property "Reference" "#PWR017002"
-			(at 248.92 25.4 0)
+			(at 254 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5788,7 +5916,7 @@
 			)
 		)
 		(property "Value" "-5V_limit-logic"
-			(at 256.54 25.3999 90)
+			(at 261.62 27.9399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5797,7 +5925,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 25.4 0)
+			(at 257.81 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5806,7 +5934,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 25.4 0)
+			(at 257.81 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5815,7 +5943,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 252.73 25.4 0)
+			(at 257.81 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6140,6 +6268,72 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/50b9fa8c-588a-4f7c-8a85-883889c8b2d1"
 					(reference "JP17005")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pss:PWR_FLAG")
+		(at 255.27 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a06cc45-eefc-456a-9e9f-426bcdcd1669")
+		(property "Reference" "#FLG017002"
+			(at 255.27 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 255.27 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 255.27 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05857625-5a4f-4606-b6eb-5156495757b0")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/50b9fa8c-588a-4f7c-8a85-883889c8b2d1"
+					(reference "#FLG017002")
 					(unit 1)
 				)
 			)
@@ -7892,7 +8086,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 242.57 25.4 0)
+		(at 242.57 27.94 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -7900,7 +8094,7 @@
 		(dnp no)
 		(uuid "be0cc418-6645-4912-a22b-dfcf78d2078f")
 		(property "Reference" "JP17021"
-			(at 247.65 24.13 0)
+			(at 247.65 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7908,7 +8102,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 217.17 12.7 0)
+			(at 217.17 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7917,7 +8111,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 25.4 0)
+			(at 242.57 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7926,7 +8120,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 242.57 25.4 0)
+			(at 242.57 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7935,7 +8129,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 242.57 25.4 0)
+			(at 242.57 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8151,6 +8345,72 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/50b9fa8c-588a-4f7c-8a85-883889c8b2d1"
 					(reference "#PWR017012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pss:PWR_FLAG")
+		(at 255.27 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbca613c-b6e1-4022-be02-1bf0136490cb")
+		(property "Reference" "#FLG017001"
+			(at 255.27 18.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 255.27 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 255.27 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98cb777a-3e23-4c24-bb93-509868c1aeac")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/50b9fa8c-588a-4f7c-8a85-883889c8b2d1"
+					(reference "#FLG017001")
 					(unit 1)
 				)
 			)
@@ -8379,7 +8639,7 @@
 	)
 	(symbol
 		(lib_id "pss:+10V_limit-logic")
-		(at 252.73 20.32 270)
+		(at 257.81 20.32 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8388,7 +8648,7 @@
 		(fields_autoplaced yes)
 		(uuid "d679fdf4-189b-4664-8fb5-6a33d5eefb7e")
 		(property "Reference" "#PWR017006"
-			(at 248.92 20.32 0)
+			(at 254 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8397,7 +8657,7 @@
 			)
 		)
 		(property "Value" "+10V_limit-logic"
-			(at 256.54 20.3199 90)
+			(at 261.62 20.3199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8406,7 +8666,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 20.32 0)
+			(at 257.81 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8415,7 +8675,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 20.32 0)
+			(at 257.81 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8424,7 +8684,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 252.73 20.32 0)
+			(at 257.81 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)

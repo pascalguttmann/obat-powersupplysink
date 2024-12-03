@@ -1762,6 +1762,102 @@
 				)
 			)
 		)
+		(symbol "pss:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "pss:Q_PNP_BCE"
 			(pin_names
 				(offset 0) hide)
@@ -2081,6 +2177,12 @@
 		(uuid "37bc6043-71d4-48b7-a569-0a409e457134")
 	)
 	(junction
+		(at 261.62 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67cf9a6b-3d6c-45ee-a8a1-0d2b3e871dfe")
+	)
+	(junction
 		(at 184.15 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2091,6 +2193,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94360afc-0af3-487c-abba-9e027cf4d090")
+	)
+	(junction
+		(at 261.62 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6d796c4-7779-4175-9700-3477e3b0946e")
 	)
 	(junction
 		(at 196.85 127)
@@ -2136,6 +2244,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 29.21) (xy 262.89 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08e5b3f3-9ff2-474a-900d-3ca982b04a98")
+	)
+	(wire
+		(pts
 			(xy 116.84 118.11) (xy 116.84 127)
 		)
 		(stroke
@@ -2166,7 +2284,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 34.29) (xy 245.11 34.29)
+			(xy 243.84 36.83) (xy 245.11 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2246,7 +2364,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 29.21) (xy 259.08 29.21)
+			(xy 252.73 29.21) (xy 261.62 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2366,6 +2484,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 36.83) (xy 262.89 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c873e393-4174-4d3e-92a9-e60a6fb5e450")
+	)
+	(wire
+		(pts
 			(xy 203.2 127) (xy 215.9 127)
 		)
 		(stroke
@@ -2386,7 +2514,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 34.29) (xy 259.08 34.29)
+			(xy 252.73 36.83) (xy 261.62 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2940,8 +3068,74 @@
 		)
 	)
 	(symbol
+		(lib_id "pss:PWR_FLAG")
+		(at 261.62 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45f300d3-aff0-458c-b3ee-47e6ad83c31e")
+		(property "Reference" "#FLG028001"
+			(at 261.62 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 261.62 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 261.62 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc2138f3-b242-4443-8a68-8707a6449e9e")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/20918679-4743-4169-a60e-19637ed5d643"
+					(reference "#FLG028001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pss:-5V_relay")
-		(at 259.08 34.29 270)
+		(at 262.89 36.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2950,7 +3144,7 @@
 		(fields_autoplaced yes)
 		(uuid "47481450-e6d7-4e09-bdd5-0305fb032062")
 		(property "Reference" "#PWR028036"
-			(at 255.27 34.29 0)
+			(at 259.08 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2959,7 +3153,7 @@
 			)
 		)
 		(property "Value" "-5V_relay"
-			(at 262.89 34.2899 90)
+			(at 266.7 36.8299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2968,7 +3162,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 34.29 0)
+			(at 262.89 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2977,7 +3171,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 34.29 0)
+			(at 262.89 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2986,7 +3180,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 259.08 34.29 0)
+			(at 262.89 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3322,7 +3516,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 248.92 34.29 0)
+		(at 248.92 36.83 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -3330,7 +3524,7 @@
 		(dnp no)
 		(uuid "9088f0d8-c0ae-4f58-b193-54d1fde98c7e")
 		(property "Reference" "JP28003"
-			(at 254 33.02 0)
+			(at 254 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3338,7 +3532,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 223.52 21.59 0)
+			(at 223.52 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3347,7 +3541,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 34.29 0)
+			(at 248.92 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3356,7 +3550,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 248.92 34.29 0)
+			(at 248.92 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3365,7 +3559,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 248.92 34.29 0)
+			(at 248.92 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3383,6 +3577,72 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/20918679-4743-4169-a60e-19637ed5d643"
 					(reference "JP28003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pss:PWR_FLAG")
+		(at 261.62 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97b3bbf4-4c6c-4e05-9d35-83e8595b4136")
+		(property "Reference" "#FLG028002"
+			(at 261.62 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 261.62 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 261.62 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be19f2b5-ea03-4576-9c76-9595390209e8")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/20918679-4743-4169-a60e-19637ed5d643"
+					(reference "#FLG028002")
 					(unit 1)
 				)
 			)
@@ -3720,7 +3980,7 @@
 	)
 	(symbol
 		(lib_id "pss:+10V_relay")
-		(at 259.08 29.21 270)
+		(at 262.89 29.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3729,7 +3989,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6e4b04f-a12d-460b-898e-8c489cf8225b")
 		(property "Reference" "#PWR028044"
-			(at 255.27 29.21 0)
+			(at 259.08 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3738,7 +3998,7 @@
 			)
 		)
 		(property "Value" "+10V_relay"
-			(at 262.89 29.2099 90)
+			(at 266.7 29.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3747,7 +4007,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 29.21 0)
+			(at 262.89 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3756,7 +4016,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 29.21 0)
+			(at 262.89 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3765,7 +4025,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 259.08 29.21 0)
+			(at 262.89 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3787,7 +4047,7 @@
 	)
 	(symbol
 		(lib_id "pss:-5V")
-		(at 243.84 34.29 90)
+		(at 243.84 36.83 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3796,7 +4056,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce26145f-3417-44bb-a413-d2d6eda511a3")
 		(property "Reference" "#PWR028014"
-			(at 247.65 34.29 0)
+			(at 247.65 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3805,7 +4065,7 @@
 			)
 		)
 		(property "Value" "-5V"
-			(at 242.57 31.75 90)
+			(at 242.57 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3813,7 +4073,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 34.29 0)
+			(at 243.84 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3822,7 +4082,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 34.29 0)
+			(at 243.84 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3831,7 +4091,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-5V\""
-			(at 243.84 34.29 0)
+			(at 243.84 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)

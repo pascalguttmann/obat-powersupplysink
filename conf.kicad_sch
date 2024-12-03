@@ -3341,6 +3341,102 @@
 				)
 			)
 		)
+		(symbol "pss:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "pss:Q_NPN_BCE"
 			(pin_names
 				(offset 0) hide)
@@ -3980,6 +4076,12 @@
 		(uuid "00f3532a-6e64-4b19-9b4c-319fbe466f5d")
 	)
 	(junction
+		(at 46.99 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0dfe7821-3f8e-476b-a2ae-3b5b6064ef94")
+	)
+	(junction
 		(at 139.7 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4014,6 +4116,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40f52b77-982e-4ec5-a94f-8cbe4f4c6ba2")
+	)
+	(junction
+		(at 46.99 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42d48443-ecec-45f9-aea6-49489dd76842")
+	)
+	(junction
+		(at 46.99 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "493b3e41-8e74-4075-9d6f-90b9fb4a0563")
 	)
 	(junction
 		(at 116.84 157.48)
@@ -4335,7 +4449,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 193.04) (xy 31.75 193.04)
+			(xy 29.21 194.31) (xy 31.75 194.31)
 		)
 		(stroke
 			(width 0)
@@ -4395,6 +4509,26 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 181.61) (xy 48.26 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "260bb5f9-b5f5-4d62-9de6-b676b83a0b04")
+	)
+	(wire
+		(pts
+			(xy 46.99 194.31) (xy 48.26 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "284bf317-a355-4db7-973f-aaa0abb5cf49")
+	)
+	(wire
+		(pts
 			(xy 152.4 143.51) (xy 167.64 143.51)
 		)
 		(stroke
@@ -4435,7 +4569,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 182.88) (xy 48.26 182.88)
+			(xy 39.37 181.61) (xy 46.99 181.61)
 		)
 		(stroke
 			(width 0)
@@ -4462,6 +4596,16 @@
 			(type default)
 		)
 		(uuid "2ea1f1b9-f21c-43e9-9610-91e7cc80ae3f")
+	)
+	(wire
+		(pts
+			(xy 46.99 187.96) (xy 48.26 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3769c128-ea89-4c56-b116-e2f899673836")
 	)
 	(wire
 		(pts
@@ -4765,7 +4909,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 193.04) (xy 48.26 193.04)
+			(xy 39.37 194.31) (xy 46.99 194.31)
 		)
 		(stroke
 			(width 0)
@@ -4845,7 +4989,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 187.96) (xy 48.26 187.96)
+			(xy 39.37 187.96) (xy 46.99 187.96)
 		)
 		(stroke
 			(width 0)
@@ -5145,7 +5289,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 182.88) (xy 31.75 182.88)
+			(xy 29.21 181.61) (xy 31.75 181.61)
 		)
 		(stroke
 			(width 0)
@@ -6542,7 +6686,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 35.56 182.88 0)
+		(at 35.56 181.61 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -6550,7 +6694,7 @@
 		(dnp no)
 		(uuid "0cd66d64-d327-47ac-8bb1-ce826a7f4968")
 		(property "Reference" "JP31001"
-			(at 40.64 181.61 0)
+			(at 40.64 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6558,7 +6702,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 10.16 170.18 0)
+			(at 10.16 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6567,7 +6711,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 182.88 0)
+			(at 35.56 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6576,7 +6720,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 182.88 0)
+			(at 35.56 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6585,7 +6729,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 35.56 182.88 0)
+			(at 35.56 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8001,6 +8145,72 @@
 		)
 	)
 	(symbol
+		(lib_id "pss:PWR_FLAG")
+		(at 46.99 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3257f997-feea-4ce6-805c-5e93e1f65adc")
+		(property "Reference" "#FLG031001"
+			(at 46.99 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 46.99 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 46.99 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4843a575-4153-47a5-85e7-72ef7bd13059")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/f75e51d2-5460-438c-a342-b8538fe1bc28"
+					(reference "#FLG031001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pss:C")
 		(at 71.12 36.83 180)
 		(unit 1)
@@ -8353,7 +8563,7 @@
 	)
 	(symbol
 		(lib_id "pss:+10V")
-		(at 29.21 182.88 90)
+		(at 29.21 181.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8362,7 +8572,7 @@
 		(fields_autoplaced yes)
 		(uuid "45878a24-73b3-4fec-8907-9a91530da0ec")
 		(property "Reference" "#PWR031028"
-			(at 33.02 182.88 0)
+			(at 33.02 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8371,7 +8581,7 @@
 			)
 		)
 		(property "Value" "+10V"
-			(at 25.4 182.8799 90)
+			(at 25.4 181.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8380,7 +8590,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 182.88 0)
+			(at 29.21 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8389,7 +8599,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 182.88 0)
+			(at 29.21 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8398,7 +8608,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+10V\""
-			(at 29.21 182.88 0)
+			(at 29.21 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8693,7 +8903,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 35.56 193.04 0)
+		(at 35.56 194.31 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -8701,7 +8911,7 @@
 		(dnp no)
 		(uuid "524c152c-3456-490f-8873-16fe3f596e74")
 		(property "Reference" "JP31003"
-			(at 40.64 191.77 0)
+			(at 40.64 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8709,7 +8919,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 10.16 180.34 0)
+			(at 10.16 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8718,7 +8928,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 193.04 0)
+			(at 35.56 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8727,7 +8937,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 35.56 193.04 0)
+			(at 35.56 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8736,7 +8946,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 35.56 193.04 0)
+			(at 35.56 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8820,6 +9030,72 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/f75e51d2-5460-438c-a342-b8538fe1bc28"
 					(reference "#PWR031020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pss:PWR_FLAG")
+		(at 46.99 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c60b936-36d1-4478-b8e4-79d85a6825b8")
+		(property "Reference" "#FLG031002"
+			(at 46.99 186.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 46.99 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 46.99 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79da31f6-1f55-4391-a1c1-e7c97ca89bbc")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/f75e51d2-5460-438c-a342-b8538fe1bc28"
+					(reference "#FLG031002")
 					(unit 1)
 				)
 			)
@@ -9206,7 +9482,7 @@
 	)
 	(symbol
 		(lib_id "pss:+10V_conf")
-		(at 48.26 182.88 270)
+		(at 48.26 181.61 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9215,7 +9491,7 @@
 		(fields_autoplaced yes)
 		(uuid "66ce2b8f-dfd9-40c9-b115-018558b4fffc")
 		(property "Reference" "#PWR031024"
-			(at 44.45 182.88 0)
+			(at 44.45 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9224,7 +9500,7 @@
 			)
 		)
 		(property "Value" "+10V_conf"
-			(at 52.07 182.8799 90)
+			(at 52.07 181.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9233,7 +9509,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 182.88 0)
+			(at 48.26 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9242,7 +9518,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 182.88 0)
+			(at 48.26 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9251,7 +9527,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 182.88 0)
+			(at 48.26 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10149,7 +10425,7 @@
 	)
 	(symbol
 		(lib_id "pss:-5V")
-		(at 29.21 193.04 90)
+		(at 29.21 194.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10158,7 +10434,7 @@
 		(fields_autoplaced yes)
 		(uuid "812e76f6-69d5-488b-bac0-b02c401bddde")
 		(property "Reference" "#PWR031027"
-			(at 33.02 193.04 0)
+			(at 33.02 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10167,7 +10443,7 @@
 			)
 		)
 		(property "Value" "-5V"
-			(at 25.4 193.0399 90)
+			(at 25.4 194.3099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10176,7 +10452,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 193.04 0)
+			(at 29.21 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10185,7 +10461,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 193.04 0)
+			(at 29.21 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10194,7 +10470,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-5V\""
-			(at 29.21 193.04 0)
+			(at 29.21 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11225,7 +11501,7 @@
 	)
 	(symbol
 		(lib_id "pss:-5V_conf")
-		(at 48.26 193.04 270)
+		(at 48.26 194.31 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11234,7 +11510,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5971bfb-4f36-4a6b-bb44-a5b3b397400a")
 		(property "Reference" "#PWR031025"
-			(at 44.45 193.04 0)
+			(at 44.45 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11243,7 +11519,7 @@
 			)
 		)
 		(property "Value" "-5V_conf"
-			(at 52.07 193.0399 90)
+			(at 52.07 194.3099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11252,7 +11528,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 48.26 193.04 0)
+			(at 48.26 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11261,7 +11537,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 193.04 0)
+			(at 48.26 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11270,7 +11546,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 193.04 0)
+			(at 48.26 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12251,6 +12527,72 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/f75e51d2-5460-438c-a342-b8538fe1bc28"
 					(reference "R28019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pss:PWR_FLAG")
+		(at 46.99 194.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3549dbb-fc3b-473e-9171-cee698c55023")
+		(property "Reference" "#FLG031003"
+			(at 46.99 192.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 46.99 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 46.99 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63add665-f32d-47a1-a13f-5b0bc80aeed7")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/f75e51d2-5460-438c-a342-b8538fe1bc28"
+					(reference "#FLG031003")
 					(unit 1)
 				)
 			)
