@@ -12,7 +12,7 @@
 		(comment 1 "Outstage")
 	)
 	(lib_symbols
-		(symbol "pss:+24V"
+		(symbol "pss:+10V"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -29,7 +29,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+24V"
+			(property "Value" "+10V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -55,7 +55,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(property "Description" "Power symbol creates a global label with name \"+10V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -73,7 +73,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+24V_0_1"
+			(symbol "+10V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -111,7 +111,7 @@
 					)
 				)
 			)
-			(symbol "+24V_1_1"
+			(symbol "+10V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -635,7 +635,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 157.48) (xy 132.08 157.48)
+			(xy 104.14 157.48) (xy 111.76 157.48)
 		)
 		(stroke
 			(width 0)
@@ -775,7 +775,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 152.4) (xy 132.08 152.4)
+			(xy 104.14 152.4) (xy 111.76 152.4)
 		)
 		(stroke
 			(width 0)
@@ -935,7 +935,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 147.32) (xy 132.08 147.32)
+			(xy 104.14 147.32) (xy 111.76 147.32)
 		)
 		(stroke
 			(width 0)
@@ -977,7 +977,7 @@
 		(uuid "032cf803-868d-46a9-bdfe-856053d5dc64")
 	)
 	(label "v_in-"
-		(at 132.08 152.4 180)
+		(at 111.76 152.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1230,7 +1230,7 @@
 		(uuid "80de6481-4358-4471-bc28-f19d88542369")
 	)
 	(label "v_in+"
-		(at 132.08 147.32 180)
+		(at 111.76 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1285,7 +1285,7 @@
 		(uuid "8e4d542b-8c6d-41b6-9b87-08cbe173cc29")
 	)
 	(label "v_out"
-		(at 124.46 157.48 0)
+		(at 104.14 157.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1374,7 +1374,7 @@
 	)
 	(hierarchical_label "v_in-"
 		(shape input)
-		(at 124.46 152.4 180)
+		(at 104.14 152.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1386,7 +1386,7 @@
 	)
 	(hierarchical_label "v_out"
 		(shape output)
-		(at 132.08 157.48 0)
+		(at 111.76 157.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1398,7 +1398,7 @@
 	)
 	(hierarchical_label "v_in+"
 		(shape input)
-		(at 124.46 147.32 180)
+		(at 104.14 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1564,7 +1564,7 @@
 	)
 	(symbol
 		(lib_id "pss:GND")
-		(at 110.49 180.34 0)
+		(at 90.17 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1573,7 +1573,7 @@
 		(fields_autoplaced yes)
 		(uuid "56938886-23d7-4805-b68a-b8a8f5cd8468")
 		(property "Reference" "#PWR03001"
-			(at 110.49 186.69 0)
+			(at 90.17 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1582,7 +1582,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 110.49 185.42 0)
+			(at 90.17 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1590,7 +1590,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 180.34 0)
+			(at 90.17 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1599,7 +1599,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 180.34 0)
+			(at 90.17 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1608,7 +1608,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 110.49 180.34 0)
+			(at 90.17 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1630,7 +1630,7 @@
 	)
 	(symbol
 		(lib_id "pss:Fan")
-		(at 160.02 166.37 0)
+		(at 139.7 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1639,7 +1639,7 @@
 		(fields_autoplaced yes)
 		(uuid "76f7aaf9-4723-427c-b4f4-49c1f059013a")
 		(property "Reference" "M3001"
-			(at 165.1 165.0999 0)
+			(at 144.78 177.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1648,7 +1648,7 @@
 			)
 		)
 		(property "Value" "Fan"
-			(at 165.1 167.6399 0)
+			(at 144.78 180.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1657,7 +1657,7 @@
 			)
 		)
 		(property "Footprint" "pss:Fan_SameSky_CFM-5015V"
-			(at 160.02 166.116 0)
+			(at 139.7 178.816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1666,7 +1666,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/1628/cfm_50v-3508680.pdf"
-			(at 160.02 166.116 0)
+			(at 139.7 178.816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1675,7 +1675,7 @@
 			)
 		)
 		(property "Description" "Fan"
-			(at 160.02 166.37 0)
+			(at 139.7 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1684,7 +1684,7 @@
 			)
 		)
 		(property "VPN" "490-CFM-5015V-172381"
-			(at 160.02 166.37 0)
+			(at 139.7 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1693,7 +1693,7 @@
 			)
 		)
 		(property "MPN" "CFM-5015V-172-381"
-			(at 160.02 166.37 0)
+			(at 139.7 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1718,7 +1718,7 @@
 	)
 	(symbol
 		(lib_id "pss:Heatsink_Pad")
-		(at 110.49 177.8 0)
+		(at 90.17 177.8 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -1727,7 +1727,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a12b70b-eee5-40d1-95b8-70ac552b5a66")
 		(property "Reference" "HS3001"
-			(at 114.3 175.8949 0)
+			(at 93.98 175.8949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1736,7 +1736,7 @@
 			)
 		)
 		(property "Value" "SK499-120 SA"
-			(at 114.3 178.4349 0)
+			(at 93.98 178.4349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1745,7 +1745,7 @@
 			)
 		)
 		(property "Footprint" "pss:Heatsink_Fischer_SK499-120_46x120mm_h33mm_Drill3.5mm_ScrewM3"
-			(at 110.7948 179.07 0)
+			(at 90.4748 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1754,7 +1754,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.fischerelektronik.de/web_fischer/en_GB/PR/SK499_/datasheet.xhtml?branch=heatsinks"
-			(at 110.7948 179.07 0)
+			(at 90.4748 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1763,7 +1763,7 @@
 			)
 		)
 		(property "Description" "Heatsink with electrical connection, 1 pin"
-			(at 110.49 177.8 0)
+			(at 90.17 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1772,7 +1772,7 @@
 			)
 		)
 		(property "VPN" ""
-			(at 110.49 177.8 0)
+			(at 90.17 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1781,7 +1781,7 @@
 			)
 		)
 		(property "MPN" "SK499-120 SA"
-			(at 110.49 177.8 0)
+			(at 90.17 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1802,8 +1802,140 @@
 		)
 	)
 	(symbol
+		(lib_id "pss:GND")
+		(at 139.7 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9df2319f-b2cd-4b3d-b126-e9ffb6ad0592")
+		(property "Reference" "#PWR03003"
+			(at 139.7 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "192c9bab-c79c-4725-b78b-6bf322c4a7b1")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/2f3feae7-a9ea-4cb9-8521-c9b88e99d2e7/fa72958a-5878-4cc9-a5da-a04578e325a8"
+					(reference "#PWR03003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pss:+10V")
+		(at 160.02 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f5b20d3-76c4-471c-9e36-edbd91aa6d85")
+		(property "Reference" "#PWR03006"
+			(at 160.02 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+10V"
+			(at 160.02 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+10V\""
+			(at 160.02 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb22c8ea-c537-4615-a8a3-938401fd890f")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/2f3feae7-a9ea-4cb9-8521-c9b88e99d2e7/fa72958a-5878-4cc9-a5da-a04578e325a8"
+					(reference "#PWR03006")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pss:Heatsink_Pad")
-		(at 133.35 177.8 0)
+		(at 113.03 177.8 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -1812,7 +1944,7 @@
 		(fields_autoplaced yes)
 		(uuid "aea622bc-80b1-4e87-8b52-4280506cdeb2")
 		(property "Reference" "HS3002"
-			(at 137.16 175.8949 0)
+			(at 116.84 175.8949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1821,7 +1953,7 @@
 			)
 		)
 		(property "Value" "SK499-120 SA"
-			(at 137.16 178.4349 0)
+			(at 116.84 178.4349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1830,7 +1962,7 @@
 			)
 		)
 		(property "Footprint" "pss:Heatsink_Fischer_SK499-120_46x120mm_h33mm_Drill3.5mm_ScrewM3"
-			(at 133.6548 179.07 0)
+			(at 113.3348 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1839,7 +1971,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.fischerelektronik.de/web_fischer/en_GB/PR/SK499_/datasheet.xhtml?branch=heatsinks"
-			(at 133.6548 179.07 0)
+			(at 113.3348 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1848,7 +1980,7 @@
 			)
 		)
 		(property "Description" "Heatsink with electrical connection, 1 pin"
-			(at 133.35 177.8 0)
+			(at 113.03 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1857,7 +1989,7 @@
 			)
 		)
 		(property "VPN" ""
-			(at 133.35 177.8 0)
+			(at 113.03 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1866,7 +1998,7 @@
 			)
 		)
 		(property "MPN" "SK499-120 SA"
-			(at 133.35 177.8 0)
+			(at 113.03 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1887,17 +2019,17 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:GND")
-		(at 133.35 180.34 0)
+		(lib_id "pss:+10V")
+		(at 139.7 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c853118e-e657-4cdd-b524-b222455468bc")
-		(property "Reference" "#PWR03002"
-			(at 133.35 186.69 0)
+		(uuid "aee6ba1e-3300-4319-868c-dffa6faadbe4")
+		(property "Reference" "#PWR03005"
+			(at 139.7 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1905,8 +2037,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 133.35 185.42 0)
+		(property "Value" "+10V"
+			(at 139.7 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1914,7 +2046,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 180.34 0)
+			(at 139.7 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1923,7 +2055,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 180.34 0)
+			(at 139.7 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+10V\""
+			(at 139.7 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb22c8ea-c537-4615-a8a3-938401fd890f")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/2f3feae7-a9ea-4cb9-8521-c9b88e99d2e7/fa72958a-5878-4cc9-a5da-a04578e325a8"
+					(reference "#PWR03005")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pss:GND")
+		(at 113.03 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c853118e-e657-4cdd-b524-b222455468bc")
+		(property "Reference" "#PWR03002"
+			(at 113.03 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1932,7 +2130,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 180.34 0)
+			(at 113.03 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1947,72 +2145,6 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/2f3feae7-a9ea-4cb9-8521-c9b88e99d2e7/fa72958a-5878-4cc9-a5da-a04578e325a8"
 					(reference "#PWR03002")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pss:+24V")
-		(at 160.02 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1e393a3-5d32-4ba7-89cf-23634be92f2e")
-		(property "Reference" "#PWR03003"
-			(at 160.02 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+24V"
-			(at 160.02 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 160.02 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "77b9e1a4-cbd4-428f-811b-71f9aa42f5d1")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/2f3feae7-a9ea-4cb9-8521-c9b88e99d2e7/fa72958a-5878-4cc9-a5da-a04578e325a8"
-					(reference "#PWR03003")
 					(unit 1)
 				)
 			)
