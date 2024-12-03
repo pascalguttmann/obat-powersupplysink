@@ -3585,7 +3585,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Dual_Series_AKC_Split")
-		(at 114.3 59.69 90)
+		(at 114.3 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3593,7 +3593,7 @@
 		(dnp no)
 		(uuid "169ee018-4eed-482d-831b-87c54531ffae")
 		(property "Reference" "D32004"
-			(at 110.49 64.77 0)
+			(at 110.49 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3602,7 +3602,7 @@
 			)
 		)
 		(property "Value" "NUP1301215"
-			(at 107.95 68.58 0)
+			(at 107.95 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3611,7 +3611,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 116.84 62.23 0)
+			(at 116.84 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3620,7 +3620,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/NUP1301.pdf"
-			(at 116.84 62.23 0)
+			(at 116.84 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3629,7 +3629,7 @@
 			)
 		)
 		(property "Description" "Dual diode, anode/cathode/center"
-			(at 114.3 59.69 0)
+			(at 114.3 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3638,7 +3638,7 @@
 			)
 		)
 		(property "MPN" "NUP1301,215"
-			(at 114.3 59.69 0)
+			(at 114.3 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3647,7 +3647,7 @@
 			)
 		)
 		(property "VPN" "771-NUP1301215"
-			(at 114.3 59.69 0)
+			(at 114.3 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4025,7 +4025,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Dual_Series_AKC_Split")
-		(at 76.2 85.09 270)
+		(at 76.2 59.69 270)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4033,7 +4033,7 @@
 		(dnp no)
 		(uuid "2d889c53-9382-40ad-bdeb-9d1c109cfa89")
 		(property "Reference" "D32001"
-			(at 72.39 88.9 0)
+			(at 72.39 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4042,7 +4042,7 @@
 			)
 		)
 		(property "Value" "NUP1301215"
-			(at 69.85 88.9 0)
+			(at 69.85 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4051,7 +4051,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 73.66 82.55 0)
+			(at 73.66 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4060,7 +4060,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/NUP1301.pdf"
-			(at 73.66 82.55 0)
+			(at 73.66 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4069,7 +4069,7 @@
 			)
 		)
 		(property "Description" "Dual diode, anode/cathode/center"
-			(at 76.2 85.09 0)
+			(at 76.2 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4078,7 +4078,7 @@
 			)
 		)
 		(property "MPN" "NUP1301,215"
-			(at 76.2 85.09 0)
+			(at 76.2 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4087,7 +4087,7 @@
 			)
 		)
 		(property "VPN" "771-NUP1301215"
-			(at 76.2 85.09 0)
+			(at 76.2 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4115,7 +4115,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Dual_Series_AKC_Split")
-		(at 88.9 85.09 270)
+		(at 88.9 59.69 270)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4123,7 +4123,7 @@
 		(dnp no)
 		(uuid "32ee16cc-c95e-4980-a6e0-188aabc1478e")
 		(property "Reference" "D32002"
-			(at 85.09 88.9 0)
+			(at 85.09 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4132,7 +4132,7 @@
 			)
 		)
 		(property "Value" "NUP1301215"
-			(at 82.55 88.9 0)
+			(at 82.55 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4141,7 +4141,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 86.36 82.55 0)
+			(at 86.36 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4150,7 +4150,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/NUP1301.pdf"
-			(at 86.36 82.55 0)
+			(at 86.36 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4159,7 +4159,7 @@
 			)
 		)
 		(property "Description" "Dual diode, anode/cathode/center"
-			(at 88.9 85.09 0)
+			(at 88.9 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4168,7 +4168,7 @@
 			)
 		)
 		(property "MPN" "NUP1301,215"
-			(at 88.9 85.09 0)
+			(at 88.9 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4177,7 +4177,7 @@
 			)
 		)
 		(property "VPN" "771-NUP1301215"
-			(at 88.9 85.09 0)
+			(at 88.9 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4292,7 +4292,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Dual_Series_AKC_Split")
-		(at 114.3 85.09 270)
+		(at 114.3 59.69 270)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4300,7 +4300,7 @@
 		(dnp no)
 		(uuid "4179f6a9-ee23-49bc-a9d0-220250cfb346")
 		(property "Reference" "D32004"
-			(at 110.49 88.9 0)
+			(at 110.49 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4309,7 +4309,7 @@
 			)
 		)
 		(property "Value" "NUP1301215"
-			(at 107.95 88.9 0)
+			(at 107.95 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4318,7 +4318,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 111.76 82.55 0)
+			(at 111.76 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4327,7 +4327,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/NUP1301.pdf"
-			(at 111.76 82.55 0)
+			(at 111.76 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4336,7 +4336,7 @@
 			)
 		)
 		(property "Description" "Dual diode, anode/cathode/center"
-			(at 114.3 85.09 0)
+			(at 114.3 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4345,7 +4345,7 @@
 			)
 		)
 		(property "MPN" "NUP1301,215"
-			(at 114.3 85.09 0)
+			(at 114.3 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4354,7 +4354,7 @@
 			)
 		)
 		(property "VPN" "771-NUP1301215"
-			(at 114.3 85.09 0)
+			(at 114.3 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4818,7 +4818,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Dual_Series_AKC_Split")
-		(at 88.9 59.69 90)
+		(at 88.9 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4826,7 +4826,7 @@
 		(dnp no)
 		(uuid "9331d7d2-ac84-4df4-b591-6a71bbc7f768")
 		(property "Reference" "D32002"
-			(at 85.09 64.77 0)
+			(at 85.09 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4835,7 +4835,7 @@
 			)
 		)
 		(property "Value" "NUP1301215"
-			(at 82.55 68.58 0)
+			(at 82.55 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4844,7 +4844,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 91.44 62.23 0)
+			(at 91.44 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4853,7 +4853,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/NUP1301.pdf"
-			(at 91.44 62.23 0)
+			(at 91.44 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4862,7 +4862,7 @@
 			)
 		)
 		(property "Description" "Dual diode, anode/cathode/center"
-			(at 88.9 59.69 0)
+			(at 88.9 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4871,7 +4871,7 @@
 			)
 		)
 		(property "MPN" "NUP1301,215"
-			(at 88.9 59.69 0)
+			(at 88.9 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4880,7 +4880,7 @@
 			)
 		)
 		(property "VPN" "771-NUP1301215"
-			(at 88.9 59.69 0)
+			(at 88.9 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5036,7 +5036,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Dual_Series_AKC_Split")
-		(at 101.6 59.69 90)
+		(at 101.6 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5044,7 +5044,7 @@
 		(dnp no)
 		(uuid "a1e4c5a3-540b-454f-9072-5457fba38f59")
 		(property "Reference" "D32003"
-			(at 97.79 64.77 0)
+			(at 97.79 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5053,7 +5053,7 @@
 			)
 		)
 		(property "Value" "NUP1301215"
-			(at 95.25 68.58 0)
+			(at 95.25 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5062,7 +5062,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 104.14 62.23 0)
+			(at 104.14 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5071,7 +5071,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/NUP1301.pdf"
-			(at 104.14 62.23 0)
+			(at 104.14 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5080,7 +5080,7 @@
 			)
 		)
 		(property "Description" "Dual diode, anode/cathode/center"
-			(at 101.6 59.69 0)
+			(at 101.6 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5089,7 +5089,7 @@
 			)
 		)
 		(property "MPN" "NUP1301,215"
-			(at 101.6 59.69 0)
+			(at 101.6 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5098,7 +5098,7 @@
 			)
 		)
 		(property "VPN" "771-NUP1301215"
-			(at 101.6 59.69 0)
+			(at 101.6 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5543,7 +5543,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Dual_Series_AKC_Split")
-		(at 76.2 59.69 90)
+		(at 76.2 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5551,7 +5551,7 @@
 		(dnp no)
 		(uuid "ce1295d5-42ff-4c82-a1f9-39154c04ebdd")
 		(property "Reference" "D32001"
-			(at 72.39 64.77 0)
+			(at 72.39 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5560,7 +5560,7 @@
 			)
 		)
 		(property "Value" "NUP1301215"
-			(at 69.85 68.58 0)
+			(at 69.85 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5569,7 +5569,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 78.74 62.23 0)
+			(at 78.74 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5578,7 +5578,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/NUP1301.pdf"
-			(at 78.74 62.23 0)
+			(at 78.74 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5587,7 +5587,7 @@
 			)
 		)
 		(property "Description" "Dual diode, anode/cathode/center"
-			(at 76.2 59.69 0)
+			(at 76.2 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5596,7 +5596,7 @@
 			)
 		)
 		(property "MPN" "NUP1301,215"
-			(at 76.2 59.69 0)
+			(at 76.2 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5605,7 +5605,7 @@
 			)
 		)
 		(property "VPN" "771-NUP1301215"
-			(at 76.2 59.69 0)
+			(at 76.2 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5633,7 +5633,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Dual_Series_AKC_Split")
-		(at 101.6 85.09 270)
+		(at 101.6 59.69 270)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5641,7 +5641,7 @@
 		(dnp no)
 		(uuid "e3893c43-65f4-4b2c-ba81-b223695b1c4c")
 		(property "Reference" "D32003"
-			(at 97.79 88.9 0)
+			(at 97.79 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5650,7 +5650,7 @@
 			)
 		)
 		(property "Value" "NUP1301215"
-			(at 95.25 88.9 0)
+			(at 95.25 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5659,7 +5659,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 99.06 82.55 0)
+			(at 99.06 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5668,7 +5668,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/NUP1301.pdf"
-			(at 99.06 82.55 0)
+			(at 99.06 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5677,7 +5677,7 @@
 			)
 		)
 		(property "Description" "Dual diode, anode/cathode/center"
-			(at 101.6 85.09 0)
+			(at 101.6 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5686,7 +5686,7 @@
 			)
 		)
 		(property "MPN" "NUP1301,215"
-			(at 101.6 85.09 0)
+			(at 101.6 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5695,7 +5695,7 @@
 			)
 		)
 		(property "VPN" "771-NUP1301215"
-			(at 101.6 85.09 0)
+			(at 101.6 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
