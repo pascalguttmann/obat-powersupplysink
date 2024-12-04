@@ -2255,7 +2255,7 @@
 		(instances
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/8c067982-1bdd-455d-9e35-2bb5ebdf1fda"
-					(reference "TP28003")
+					(reference "TP3503")
 					(unit 1)
 				)
 			)
@@ -2321,7 +2321,7 @@
 		(instances
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/8c067982-1bdd-455d-9e35-2bb5ebdf1fda"
-					(reference "#PWR028020")
+					(reference "#PWR03503")
 					(unit 1)
 				)
 			)
@@ -2408,7 +2408,7 @@
 		(instances
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/8c067982-1bdd-455d-9e35-2bb5ebdf1fda"
-					(reference "D28001")
+					(reference "D3501")
 					(unit 1)
 				)
 			)
@@ -2514,7 +2514,7 @@
 		(instances
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/8c067982-1bdd-455d-9e35-2bb5ebdf1fda"
-					(reference "D27001")
+					(reference "D3502")
 					(unit 1)
 				)
 			)
@@ -2602,7 +2602,7 @@
 		(instances
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/8c067982-1bdd-455d-9e35-2bb5ebdf1fda"
-					(reference "R27001")
+					(reference "R3502")
 					(unit 1)
 				)
 			)
@@ -2668,7 +2668,7 @@
 		(instances
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/8c067982-1bdd-455d-9e35-2bb5ebdf1fda"
-					(reference "#PWR028030")
+					(reference "#PWR03504")
 					(unit 1)
 				)
 			)
@@ -2762,7 +2762,7 @@
 		(instances
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/8c067982-1bdd-455d-9e35-2bb5ebdf1fda"
-					(reference "K27001")
+					(reference "K3501")
 					(unit 1)
 				)
 			)
@@ -2828,7 +2828,7 @@
 		(instances
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/8c067982-1bdd-455d-9e35-2bb5ebdf1fda"
-					(reference "#PWR028064")
+					(reference "#PWR03505")
 					(unit 1)
 				)
 			)
@@ -2916,7 +2916,7 @@
 		(instances
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/8c067982-1bdd-455d-9e35-2bb5ebdf1fda"
-					(reference "D28002")
+					(reference "D3503")
 					(unit 1)
 				)
 			)
@@ -2982,7 +2982,7 @@
 		(instances
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/8c067982-1bdd-455d-9e35-2bb5ebdf1fda"
-					(reference "#PWR028028")
+					(reference "#PWR03501")
 					(unit 1)
 				)
 			)
@@ -3067,7 +3067,7 @@
 		(instances
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/8c067982-1bdd-455d-9e35-2bb5ebdf1fda"
-					(reference "TP28001")
+					(reference "TP3501")
 					(unit 1)
 				)
 			)
@@ -3159,7 +3159,7 @@
 		(instances
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/8c067982-1bdd-455d-9e35-2bb5ebdf1fda"
-					(reference "Q27001")
+					(reference "Q3501")
 					(unit 1)
 				)
 			)
@@ -3244,7 +3244,7 @@
 		(instances
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/8c067982-1bdd-455d-9e35-2bb5ebdf1fda"
-					(reference "F28001")
+					(reference "F3501")
 					(unit 1)
 				)
 			)
@@ -3331,7 +3331,7 @@
 		(instances
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/8c067982-1bdd-455d-9e35-2bb5ebdf1fda"
-					(reference "R28031")
+					(reference "R3501")
 					(unit 1)
 				)
 			)
@@ -3397,7 +3397,7 @@
 		(instances
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/8c067982-1bdd-455d-9e35-2bb5ebdf1fda"
-					(reference "#PWR028019")
+					(reference "#PWR03502")
 					(unit 1)
 				)
 			)
@@ -3458,7 +3458,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" " RC1210FR-0722RL"
+		(property "MPN" "RC1210FR-0722RL"
 			(at 142.24 93.98 0)
 			(effects
 				(font
@@ -3485,7 +3485,7 @@
 		(instances
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/8c067982-1bdd-455d-9e35-2bb5ebdf1fda"
-					(reference "R27003")
+					(reference "R3504")
 					(unit 1)
 				)
 			)
@@ -3571,7 +3571,7 @@
 		(instances
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/8c067982-1bdd-455d-9e35-2bb5ebdf1fda"
-					(reference "R27002")
+					(reference "R3503")
 					(unit 1)
 				)
 			)
@@ -3655,7 +3655,7 @@
 		(instances
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/8c067982-1bdd-455d-9e35-2bb5ebdf1fda"
-					(reference "TP28002")
+					(reference "TP3502")
 					(unit 1)
 				)
 			)
@@ -3741,7 +3741,7 @@
 		(instances
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/8c067982-1bdd-455d-9e35-2bb5ebdf1fda"
-					(reference "F28002")
+					(reference "F3502")
 					(unit 1)
 				)
 			)
