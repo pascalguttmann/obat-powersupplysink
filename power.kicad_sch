@@ -5707,7 +5707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00af693f-777a-45ac-af68-dad30852c336")
-		(property "Reference" "#PWR033021"
+		(property "Reference" "#PWR01735"
 			(at 130.81 160.02 0)
 			(effects
 				(font
@@ -5772,7 +5772,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "030015ad-d615-4d62-863f-bbaf4c4c0c68")
-		(property "Reference" "JP33007"
+		(property "Reference" "JP1711"
 			(at 91.44 158.75 0)
 			(effects
 				(font
@@ -5789,7 +5789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 86.36 160.02 0)
 			(effects
 				(font
@@ -5840,7 +5840,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "047c78ea-fce8-4972-9c1b-8e131e4b9718")
-		(property "Reference" "TP33006"
+		(property "Reference" "TP1701"
 			(at 52.07 59.69 0)
 			(effects
 				(font
@@ -5924,7 +5924,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "05629e6f-4c95-4f55-872e-798092988432")
-		(property "Reference" "JP33018"
+		(property "Reference" "JP1716"
 			(at 137.16 135.89 0)
 			(effects
 				(font
@@ -5941,7 +5941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 132.08 137.16 0)
 			(effects
 				(font
@@ -5993,7 +5993,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05ed0dbb-10cc-495f-973d-37e95d6de95c")
-		(property "Reference" "#PWR033026"
+		(property "Reference" "#PWR01736"
 			(at 130.81 167.64 0)
 			(effects
 				(font
@@ -6059,7 +6059,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07614112-50c3-4380-a385-2a3dc992cc66")
-		(property "Reference" "#PWR033036"
+		(property "Reference" "#PWR01718"
 			(at 45.72 182.88 0)
 			(effects
 				(font
@@ -6126,7 +6126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08d34693-6c26-44b9-b01c-8d76f23542b9")
-		(property "Reference" "#FLG033006"
+		(property "Reference" "#FLG01705"
 			(at 48.26 150.495 0)
 			(effects
 				(font
@@ -6192,7 +6192,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c903f9d-1119-448c-916c-43fc016e3a96")
-		(property "Reference" "D33002"
+		(property "Reference" "D1701"
 			(at 78.74 55.8799 90)
 			(effects
 				(font
@@ -6210,7 +6210,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "pss:D_SOD-323_HandSoldering"
 			(at 76.2 57.15 0)
 			(effects
 				(font
@@ -6279,7 +6279,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d019185-1354-49c1-b2f9-5d86c311ecf6")
-		(property "Reference" "JP33003"
+		(property "Reference" "JP1717"
 			(at 137.16 143.51 0)
 			(effects
 				(font
@@ -6296,7 +6296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 132.08 144.78 0)
 			(effects
 				(font
@@ -6348,7 +6348,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1135a9c6-0052-47a4-9268-aabfb807457e")
-		(property "Reference" "#PWR033038"
+		(property "Reference" "#PWR01747"
 			(at 142.24 182.88 0)
 			(effects
 				(font
@@ -6414,7 +6414,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11af3112-d2b7-48be-b4bc-13e752fdce61")
-		(property "Reference" "JP33013"
+		(property "Reference" "JP1709"
 			(at 40.64 181.61 0)
 			(effects
 				(font
@@ -6431,7 +6431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 35.56 182.88 0)
 			(effects
 				(font
@@ -6483,7 +6483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "129b5f4f-5ab7-4a5f-944f-4ea4189ee49d")
-		(property "Reference" "#PWR033016"
+		(property "Reference" "#PWR01734"
 			(at 130.81 152.4 0)
 			(effects
 				(font
@@ -6548,7 +6548,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14f71939-61e7-4232-a23f-05e5baa11789")
-		(property "Reference" "#PWR033042"
+		(property "Reference" "#PWR01732"
 			(at 130.81 137.16 0)
 			(effects
 				(font
@@ -6613,7 +6613,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c7d48b5-71ee-4b95-97b6-e2803167dafc")
-		(property "Reference" "TP33004"
+		(property "Reference" "TP1702"
 			(at 77.47 46.99 0)
 			(effects
 				(font
@@ -6698,7 +6698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ea297ed-1ba0-47c3-96f7-52f6c53e45f1")
-		(property "Reference" "#FLG033020"
+		(property "Reference" "#FLG01703"
 			(at 48.26 135.255 0)
 			(effects
 				(font
@@ -6763,7 +6763,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "22bbc84e-c2c9-4a60-92fc-e860baa64f22")
-		(property "Reference" "C33003"
+		(property "Reference" "C1703"
 			(at 212.09 71.1201 0)
 			(effects
 				(font
@@ -6781,7 +6781,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "pss:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 214.9348 66.04 0)
 			(effects
 				(font
@@ -6851,7 +6851,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23036e61-36d9-4c60-bd05-1cd206d3f643")
-		(property "Reference" "#PWR033011"
+		(property "Reference" "#PWR01719"
 			(at 63.5 71.12 0)
 			(effects
 				(font
@@ -6917,7 +6917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23c98394-bf36-4682-b888-53ef683f1c2b")
-		(property "Reference" "#PWR034001"
+		(property "Reference" "#PWR01710"
 			(at 45.72 121.92 0)
 			(effects
 				(font
@@ -6984,7 +6984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2738f53e-6e4b-4060-b780-bf2969e737b4")
-		(property "Reference" "D33001"
+		(property "Reference" "D1704"
 			(at 165.1 44.45 0)
 			(effects
 				(font
@@ -7000,7 +7000,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "pss:D_SOD-123"
 			(at 165.1 50.8 0)
 			(effects
 				(font
@@ -7088,7 +7088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d513d96-7fc7-4cef-b70b-f3e3d5ff0be9")
-		(property "Reference" "#FLG033009"
+		(property "Reference" "#FLG01706"
 			(at 48.26 158.115 0)
 			(effects
 				(font
@@ -7154,7 +7154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e33f784-75d2-47ee-901e-c201727da8b7")
-		(property "Reference" "#FLG033010"
+		(property "Reference" "#FLG01712"
 			(at 99.06 158.115 0)
 			(effects
 				(font
@@ -7220,7 +7220,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ffc3c86-6fb8-4ac7-aed0-3aa163ebc950")
-		(property "Reference" "#PWR033030"
+		(property "Reference" "#PWR01737"
 			(at 130.81 175.26 0)
 			(effects
 				(font
@@ -7285,7 +7285,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "304c4916-5e11-4aff-a4f8-10cd3fefbd06")
-		(property "Reference" "JP33001"
+		(property "Reference" "JP1710"
 			(at 91.44 113.03 0)
 			(effects
 				(font
@@ -7302,7 +7302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 86.36 114.3 0)
 			(effects
 				(font
@@ -7353,7 +7353,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "34a096ab-db2a-4584-8459-c6799146fa89")
-		(property "Reference" "TP33001"
+		(property "Reference" "TP1704"
 			(at 128.27 45.72 0)
 			(effects
 				(font
@@ -7438,7 +7438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37f2d6cc-01cd-495e-9d91-a4baedd108a6")
-		(property "Reference" "#PWR033019"
+		(property "Reference" "#PWR01706"
 			(at 34.29 160.02 0)
 			(effects
 				(font
@@ -7503,7 +7503,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a93421c-f1c9-4572-bc64-5d28f97b87bf")
-		(property "Reference" "JP34002"
+		(property "Reference" "JP1701"
 			(at 40.64 120.65 0)
 			(effects
 				(font
@@ -7520,7 +7520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 35.56 121.92 0)
 			(effects
 				(font
@@ -7572,7 +7572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3dbef7a5-048a-42df-b8a3-b54f461d302c")
-		(property "Reference" "#FLG033008"
+		(property "Reference" "#FLG01721"
 			(at 144.78 150.495 0)
 			(effects
 				(font
@@ -7638,7 +7638,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e35f01c-09f9-4df4-9e28-8ccaa004b4dd")
-		(property "Reference" "#PWR033020"
+		(property "Reference" "#PWR01721"
 			(at 85.09 160.02 0)
 			(effects
 				(font
@@ -7704,7 +7704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ec9e3e8-98b6-46e2-972a-280fc502d1fa")
-		(property "Reference" "#PWR033024"
+		(property "Reference" "#PWR01744"
 			(at 142.24 160.02 0)
 			(effects
 				(font
@@ -7771,7 +7771,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f5b0179-55b2-4143-b48e-7b0fba70cbd6")
-		(property "Reference" "#PWR033046"
+		(property "Reference" "#PWR01731"
 			(at 130.81 129.54 0)
 			(effects
 				(font
@@ -7837,7 +7837,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41fc8033-16f5-48cd-b0cd-e4a87f417b92")
-		(property "Reference" "#PWR033034"
+		(property "Reference" "#PWR01722"
 			(at 85.09 182.88 0)
 			(effects
 				(font
@@ -7903,7 +7903,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45c1d6d2-44f7-429d-8e98-0da272bb0918")
-		(property "Reference" "#FLG033007"
+		(property "Reference" "#FLG01716"
 			(at 114.3 73.025 0)
 			(effects
 				(font
@@ -7970,7 +7970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "473e1189-d148-462f-a109-9b7f99acda4e")
-		(property "Reference" "F33001"
+		(property "Reference" "F1701"
 			(at 101.6 44.45 90)
 			(effects
 				(font
@@ -8056,7 +8056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48dd09a5-b6b4-4be4-8539-4e03cee71f12")
-		(property "Reference" "#PWR033032"
+		(property "Reference" "#PWR01746"
 			(at 142.24 175.26 0)
 			(effects
 				(font
@@ -8123,7 +8123,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "499b3fc5-ad6f-4288-951d-e2a8f6f2fb9b")
-		(property "Reference" "#FLG033014"
+		(property "Reference" "#FLG01708"
 			(at 48.26 173.355 0)
 			(effects
 				(font
@@ -8189,7 +8189,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a61f685-c83e-4866-800e-5cfd7ed9b4d9")
-		(property "Reference" "#PWR033023"
+		(property "Reference" "#PWR01725"
 			(at 96.52 160.02 0)
 			(effects
 				(font
@@ -8256,7 +8256,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4aceda0e-9256-47fb-88a8-d9cd0757b6ed")
-		(property "Reference" "R33001"
+		(property "Reference" "R1701"
 			(at 218.44 55.8799 0)
 			(effects
 				(font
@@ -8274,7 +8274,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 217.678 57.15 90)
 			(effects
 				(font
@@ -8343,7 +8343,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50cbbb09-f4aa-4bed-97dc-adf8bd818d79")
-		(property "Reference" "JP33005"
+		(property "Reference" "JP1718"
 			(at 137.16 151.13 0)
 			(effects
 				(font
@@ -8360,7 +8360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 132.08 152.4 0)
 			(effects
 				(font
@@ -8412,7 +8412,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5128d2a7-1188-43cc-b0b8-870bf072160f")
-		(property "Reference" "#PWR033007"
+		(property "Reference" "#PWR01724"
 			(at 96.52 114.3 0)
 			(effects
 				(font
@@ -8479,7 +8479,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52a54934-b9c2-4959-9426-ad4bd2a2c483")
-		(property "Reference" "#PWR033003"
+		(property "Reference" "#PWR01751"
 			(at 215.9 54.61 0)
 			(effects
 				(font
@@ -8545,7 +8545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56244bb5-a3eb-4d3d-81e8-e72a86f1916c")
-		(property "Reference" "#PWR033010"
+		(property "Reference" "#PWR01728"
 			(at 114.3 52.07 0)
 			(effects
 				(font
@@ -8611,7 +8611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "596fd4f8-c152-4b96-8547-a993d640f368")
-		(property "Reference" "#PWR034005"
+		(property "Reference" "#PWR01730"
 			(at 130.81 121.92 0)
 			(effects
 				(font
@@ -8676,7 +8676,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d1cdfc5-dead-43fe-833e-9a7762c28cc3")
-		(property "Reference" "JP33002"
+		(property "Reference" "JP1704"
 			(at 40.64 143.51 0)
 			(effects
 				(font
@@ -8693,7 +8693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 35.56 144.78 0)
 			(effects
 				(font
@@ -8745,7 +8745,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ebcb4e0-027e-4328-8ee8-03b27fcc147b")
-		(property "Reference" "#PWR033022"
+		(property "Reference" "#PWR01715"
 			(at 45.72 160.02 0)
 			(effects
 				(font
@@ -8811,7 +8811,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f424e3c-6e9f-4f7e-b189-edd5194dfa52")
-		(property "Reference" "JP33016"
+		(property "Reference" "JP1713"
 			(at 91.44 189.23 0)
 			(effects
 				(font
@@ -8828,7 +8828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 86.36 190.5 0)
 			(effects
 				(font
@@ -8879,7 +8879,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6338beab-38ed-46a0-9345-df2ff65c7921")
-		(property "Reference" "JP33010"
+		(property "Reference" "JP1720"
 			(at 137.16 166.37 0)
 			(effects
 				(font
@@ -8896,7 +8896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 132.08 167.64 0)
 			(effects
 				(font
@@ -8948,7 +8948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63abe338-01d9-4ee2-949c-f2f449c1ef85")
-		(property "Reference" "#FLG033011"
+		(property "Reference" "#FLG01722"
 			(at 144.78 158.115 0)
 			(effects
 				(font
@@ -9013,7 +9013,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b9a9bd9-c822-4a08-91fb-1c8f62fce1de")
-		(property "Reference" "TP33003"
+		(property "Reference" "TP1706"
 			(at 191.77 58.42 0)
 			(effects
 				(font
@@ -9098,7 +9098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bd83eac-e93c-44cc-8134-01bb373688b4")
-		(property "Reference" "F33003"
+		(property "Reference" "F1703"
 			(at 101.6 69.85 90)
 			(effects
 				(font
@@ -9183,7 +9183,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7242eb7b-50c6-4c3c-9380-817b22adbd94")
-		(property "Reference" "JP33017"
+		(property "Reference" "JP1703"
 			(at 40.64 135.89 0)
 			(effects
 				(font
@@ -9200,7 +9200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 35.56 137.16 0)
 			(effects
 				(font
@@ -9251,7 +9251,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72753e56-722b-4231-aaea-fdc966d4b1f5")
-		(property "Reference" "#FLG033001"
+		(property "Reference" "#FLG01711"
 			(at 97.79 112.395 0)
 			(effects
 				(font
@@ -9318,7 +9318,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "739e8931-0844-4cf7-933a-50c5921aed48")
-		(property "Reference" "#PWR033025"
+		(property "Reference" "#PWR01707"
 			(at 34.29 167.64 0)
 			(effects
 				(font
@@ -9383,7 +9383,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "752909c8-fad2-455a-9f6c-eb03c39661f9")
-		(property "Reference" "JP33011"
+		(property "Reference" "JP1708"
 			(at 40.64 173.99 0)
 			(effects
 				(font
@@ -9400,7 +9400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 35.56 175.26 0)
 			(effects
 				(font
@@ -9451,7 +9451,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7549cd6d-3546-4484-9317-c59e4665dfbd")
-		(property "Reference" "JP33019"
+		(property "Reference" "JP1702"
 			(at 40.64 128.27 0)
 			(effects
 				(font
@@ -9468,7 +9468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 35.56 129.54 0)
 			(effects
 				(font
@@ -9520,7 +9520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78b0be01-9801-46f3-865e-523fc2c2182b")
-		(property "Reference" "#PWR033002"
+		(property "Reference" "#PWR01749"
 			(at 165.1 82.55 0)
 			(effects
 				(font
@@ -9585,7 +9585,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d1862ea-252e-40b7-b66b-77ae1ae073fe")
-		(property "Reference" "JP33004"
+		(property "Reference" "JP1705"
 			(at 40.64 151.13 0)
 			(effects
 				(font
@@ -9602,7 +9602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 35.56 152.4 0)
 			(effects
 				(font
@@ -9653,7 +9653,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e8604c2-0070-434f-9978-09aec230bed8")
-		(property "Reference" "#FLG033015"
+		(property "Reference" "#FLG01724"
 			(at 144.78 173.355 0)
 			(effects
 				(font
@@ -9718,7 +9718,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7ed25f4d-454b-453e-b29b-373c5c016d5c")
-		(property "Reference" "JP33009"
+		(property "Reference" "JP1707"
 			(at 40.64 166.37 0)
 			(effects
 				(font
@@ -9735,7 +9735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 35.56 167.64 0)
 			(effects
 				(font
@@ -9787,7 +9787,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f10707b-f46e-46d7-8928-458cd1093dfb")
-		(property "Reference" "#PWR033008"
+		(property "Reference" "#PWR01750"
 			(at 184.15 64.77 0)
 			(effects
 				(font
@@ -9853,7 +9853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80a65fde-3625-4651-98e0-88d159df1711")
-		(property "Reference" "#PWR033039"
+		(property "Reference" "#PWR01723"
 			(at 85.09 190.5 0)
 			(effects
 				(font
@@ -9918,7 +9918,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "81b17aa2-fb7f-492d-8aeb-863e9e287b00")
-		(property "Reference" "F33002"
+		(property "Reference" "F1702"
 			(at 101.6 54.61 90)
 			(effects
 				(font
@@ -10004,7 +10004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83bf9944-ec03-424a-a67c-9823ac62fc37")
-		(property "Reference" "#PWR033033"
+		(property "Reference" "#PWR01709"
 			(at 34.29 182.88 0)
 			(effects
 				(font
@@ -10070,7 +10070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8530cfdc-bee9-42c6-b5f7-d03a98e42852")
-		(property "Reference" "#FLG033019"
+		(property "Reference" "#FLG01714"
 			(at 99.06 188.595 0)
 			(effects
 				(font
@@ -10136,7 +10136,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a54fb6a-4f26-42d6-8687-7e59b91fa229")
-		(property "Reference" "#PWR033044"
+		(property "Reference" "#PWR01741"
 			(at 142.24 137.16 0)
 			(effects
 				(font
@@ -10203,7 +10203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ce047f5-f085-41f1-aa56-99622932288c")
-		(property "Reference" "#PWR033012"
+		(property "Reference" "#PWR01733"
 			(at 130.81 144.78 0)
 			(effects
 				(font
@@ -10269,7 +10269,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d564c02-82f2-41ea-8bbf-14abaa4e0ac2")
-		(property "Reference" "#PWR034002"
+		(property "Reference" "#PWR01739"
 			(at 142.24 121.92 0)
 			(effects
 				(font
@@ -10336,7 +10336,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94ffd084-7d8f-42c1-ba2e-226b7ad455ac")
-		(property "Reference" "U33001"
+		(property "Reference" "U1701"
 			(at 165.1 57.15 0)
 			(effects
 				(font
@@ -10352,7 +10352,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+		(property "Footprint" "pss:TO-252-2"
 			(at 165.735 67.31 0)
 			(effects
 				(font
@@ -10427,7 +10427,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96919d11-95a2-40a0-8f4b-717b06d1e88c")
-		(property "Reference" "#PWR033028"
+		(property "Reference" "#PWR01745"
 			(at 142.24 167.64 0)
 			(effects
 				(font
@@ -10493,7 +10493,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "990c1f6b-d4df-4dd8-aa7d-5941170b91d0")
-		(property "Reference" "JP33014"
+		(property "Reference" "JP1712"
 			(at 91.44 181.61 0)
 			(effects
 				(font
@@ -10510,7 +10510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 86.36 182.88 0)
 			(effects
 				(font
@@ -10562,7 +10562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a3e917f-f8fc-4f79-9d63-08f065b57db4")
-		(property "Reference" "#FLG033002"
+		(property "Reference" "#FLG01704"
 			(at 48.26 142.875 0)
 			(effects
 				(font
@@ -10627,7 +10627,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9adc67c1-94d8-4a66-9eeb-292f9d364a0a")
-		(property "Reference" "F33004"
+		(property "Reference" "F1704"
 			(at 101.6 80.01 90)
 			(effects
 				(font
@@ -10713,7 +10713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d865f9f-ed4b-425e-903b-b1f93cd194ed")
-		(property "Reference" "#PWR033043"
+		(property "Reference" "#PWR01712"
 			(at 45.72 137.16 0)
 			(effects
 				(font
@@ -10780,7 +10780,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a16992dd-891f-4a51-b9a0-acd482fc33d5")
-		(property "Reference" "TP33005"
+		(property "Reference" "TP1703"
 			(at 77.47 80.01 0)
 			(effects
 				(font
@@ -10865,7 +10865,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a93825e6-911c-4fe8-b672-76087d7caeae")
-		(property "Reference" "#PWR033018"
+		(property "Reference" "#PWR01743"
 			(at 142.24 152.4 0)
 			(effects
 				(font
@@ -10932,7 +10932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a93a9a1d-7b6e-4927-976c-c2c5523a4304")
-		(property "Reference" "#FLG034002"
+		(property "Reference" "#FLG01717"
 			(at 144.78 120.015 0)
 			(effects
 				(font
@@ -10998,7 +10998,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa15e974-6dc4-48f4-b475-5a676ebc8766")
-		(property "Reference" "#PWR033027"
+		(property "Reference" "#PWR01716"
 			(at 45.72 167.64 0)
 			(effects
 				(font
@@ -11065,7 +11065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aacea953-d1ae-4e39-a1c9-63d415f2c56f")
-		(property "Reference" "#PWR033037"
+		(property "Reference" "#PWR01726"
 			(at 96.52 182.88 0)
 			(effects
 				(font
@@ -11132,7 +11132,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aba346b2-492e-4c9b-997b-a935837d98e8")
-		(property "Reference" "#PWR033006"
+		(property "Reference" "#PWR01720"
 			(at 85.09 114.3 0)
 			(effects
 				(font
@@ -11198,7 +11198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abbd31cd-6bb7-4688-8a47-cbc98a3d749c")
-		(property "Reference" "D33003"
+		(property "Reference" "D1702"
 			(at 78.74 68.5799 90)
 			(effects
 				(font
@@ -11216,7 +11216,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "pss:D_SOD-323_HandSoldering"
 			(at 76.2 69.85 0)
 			(effects
 				(font
@@ -11286,7 +11286,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "add2c24a-5e54-454e-ab39-f29b6231ccfb")
-		(property "Reference" "#FLG034001"
+		(property "Reference" "#FLG01701"
 			(at 48.26 120.015 0)
 			(effects
 				(font
@@ -11352,7 +11352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b314d2cd-537b-46aa-939a-a94280535169")
-		(property "Reference" "#FLG033021"
+		(property "Reference" "#FLG01719"
 			(at 144.78 135.255 0)
 			(effects
 				(font
@@ -11418,7 +11418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3ab37b2-3564-44f8-9366-6d703b52d033")
-		(property "Reference" "#FLG033022"
+		(property "Reference" "#FLG01702"
 			(at 48.26 127.635 0)
 			(effects
 				(font
@@ -11483,7 +11483,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5b03c7a-8e36-4d0e-81ff-986276aa2977")
-		(property "Reference" "JP33006"
+		(property "Reference" "JP1706"
 			(at 40.64 158.75 0)
 			(effects
 				(font
@@ -11500,7 +11500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 35.56 160.02 0)
 			(effects
 				(font
@@ -11552,7 +11552,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6cfd711-a43f-4858-b246-b6d66a78bba2")
-		(property "Reference" "#FLG033013"
+		(property "Reference" "#FLG01723"
 			(at 144.78 165.735 0)
 			(effects
 				(font
@@ -11618,7 +11618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b836ff2b-1557-4f15-84e0-074d04faec48")
-		(property "Reference" "#PWR033035"
+		(property "Reference" "#PWR01738"
 			(at 130.81 182.88 0)
 			(effects
 				(font
@@ -11683,7 +11683,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b9ce2a6d-6f82-4984-a6ac-7958154262e0")
-		(property "Reference" "JP33020"
+		(property "Reference" "JP1715"
 			(at 137.16 128.27 0)
 			(effects
 				(font
@@ -11700,7 +11700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 132.08 129.54 0)
 			(effects
 				(font
@@ -11752,7 +11752,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc01e26c-8e0c-4fb3-ace7-83c5173d2c63")
-		(property "Reference" "#PWR033005"
+		(property "Reference" "#PWR01729"
 			(at 114.3 74.93 0)
 			(effects
 				(font
@@ -11818,7 +11818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdea8312-9b26-4fe5-865f-aad7eee8845c")
-		(property "Reference" "#PWR033014"
+		(property "Reference" "#PWR01742"
 			(at 142.24 144.78 0)
 			(effects
 				(font
@@ -11885,7 +11885,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be5e6f6e-60b0-404b-b1d3-da88e9cddf25")
-		(property "Reference" "#PWR033009"
+		(property "Reference" "#PWR01704"
 			(at 34.29 144.78 0)
 			(effects
 				(font
@@ -11951,7 +11951,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0aa0523-1774-4260-8c0b-9253903310b1")
-		(property "Reference" "#PWR033017"
+		(property "Reference" "#PWR01714"
 			(at 45.72 152.4 0)
 			(effects
 				(font
@@ -12018,7 +12018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c31557ec-c833-46b8-bd25-a24c81820f04")
-		(property "Reference" "#PWR033047"
+		(property "Reference" "#PWR01711"
 			(at 45.72 129.54 0)
 			(effects
 				(font
@@ -12085,7 +12085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c924f1f3-7b9a-4559-a7fd-2c521e7d57af")
-		(property "Reference" "#FLG033012"
+		(property "Reference" "#FLG01707"
 			(at 48.26 165.735 0)
 			(effects
 				(font
@@ -12151,7 +12151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd3a2850-fee2-4de3-890d-fb31a3ea2feb")
-		(property "Reference" "#PWR033045"
+		(property "Reference" "#PWR01702"
 			(at 34.29 129.54 0)
 			(effects
 				(font
@@ -12217,7 +12217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce09ef7c-de08-4748-9ace-ba16a8f83f54")
-		(property "Reference" "#FLG033004"
+		(property "Reference" "#FLG01715"
 			(at 114.3 53.975 0)
 			(effects
 				(font
@@ -12282,7 +12282,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cfd538e3-a468-4ae1-b5b8-fb711546815b")
-		(property "Reference" "JP33008"
+		(property "Reference" "JP1719"
 			(at 137.16 158.75 0)
 			(effects
 				(font
@@ -12299,7 +12299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 132.08 160.02 0)
 			(effects
 				(font
@@ -12351,7 +12351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d510580c-b1c0-4a5e-bf54-9d0de453c638")
-		(property "Reference" "#PWR033004"
+		(property "Reference" "#PWR01752"
 			(at 215.9 72.39 0)
 			(effects
 				(font
@@ -12417,7 +12417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d93d0ca1-fdde-4ed5-81f6-00f732cffdd6")
-		(property "Reference" "#FLG033003"
+		(property "Reference" "#FLG01720"
 			(at 144.78 142.875 0)
 			(effects
 				(font
@@ -12483,7 +12483,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9e62eb8-8215-46d8-9c4e-6350ae7005a2")
-		(property "Reference" "#PWR033015"
+		(property "Reference" "#PWR01705"
 			(at 34.29 152.4 0)
 			(effects
 				(font
@@ -12548,7 +12548,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da274d76-61a9-4aa9-ba38-493fc5f91e46")
-		(property "Reference" "JP34003"
+		(property "Reference" "JP1714"
 			(at 137.16 120.65 0)
 			(effects
 				(font
@@ -12565,7 +12565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 132.08 121.92 0)
 			(effects
 				(font
@@ -12617,7 +12617,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df18f039-349d-449c-b785-63ad47d93f47")
-		(property "Reference" "#FLG033005"
+		(property "Reference" "#FLG01710"
 			(at 63.5 60.325 0)
 			(effects
 				(font
@@ -12683,7 +12683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0a408a5-957c-4ae4-a1f0-e5dcf0f3e37d")
-		(property "Reference" "#PWR033029"
+		(property "Reference" "#PWR01708"
 			(at 34.29 175.26 0)
 			(effects
 				(font
@@ -12749,7 +12749,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2fe8845-db18-4120-acc8-564205e55e39")
-		(property "Reference" "#FLG033023"
+		(property "Reference" "#FLG01718"
 			(at 144.78 127.635 0)
 			(effects
 				(font
@@ -12814,7 +12814,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e4abc619-8898-44e4-8b19-50e305d33d64")
-		(property "Reference" "C33002"
+		(property "Reference" "C1702"
 			(at 180.34 69.8501 0)
 			(effects
 				(font
@@ -12832,7 +12832,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "pss:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 183.1848 64.77 0)
 			(effects
 				(font
@@ -12902,7 +12902,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4cd7916-a804-4d63-999d-84d34d91fcd7")
-		(property "Reference" "#FLG033018"
+		(property "Reference" "#FLG01725"
 			(at 144.78 180.975 0)
 			(effects
 				(font
@@ -12968,7 +12968,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8266459-71a0-4baa-893d-c810192d5d74")
-		(property "Reference" "#PWR033001"
+		(property "Reference" "#PWR01748"
 			(at 147.32 64.77 0)
 			(effects
 				(font
@@ -13034,7 +13034,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e86d0094-f531-465d-b58e-70728a313caf")
-		(property "Reference" "#PWR033048"
+		(property "Reference" "#PWR01740"
 			(at 142.24 129.54 0)
 			(effects
 				(font
@@ -13101,7 +13101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecc1eabd-d189-4107-88ae-ba067b7ac7da")
-		(property "Reference" "#FLG033016"
+		(property "Reference" "#FLG01709"
 			(at 48.26 180.975 0)
 			(effects
 				(font
@@ -13166,7 +13166,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed803eb7-bf0e-41c5-a22d-cd7017b1d7fb")
-		(property "Reference" "JP33015"
+		(property "Reference" "JP1722"
 			(at 137.16 181.61 0)
 			(effects
 				(font
@@ -13183,7 +13183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 132.08 182.88 0)
 			(effects
 				(font
@@ -13235,7 +13235,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed9683ed-c5b3-4cf8-ba18-18b60abc0428")
-		(property "Reference" "#PWR033031"
+		(property "Reference" "#PWR01717"
 			(at 45.72 175.26 0)
 			(effects
 				(font
@@ -13302,7 +13302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f062445e-140e-413f-a00a-f8d68d569bc2")
-		(property "Reference" "D33004"
+		(property "Reference" "D1703"
 			(at 91.44 62.2299 90)
 			(effects
 				(font
@@ -13320,7 +13320,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "pss:D_SOD-323_HandSoldering"
 			(at 88.9 63.5 0)
 			(effects
 				(font
@@ -13390,7 +13390,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f34363d7-a190-471d-b397-3309d0ea43ce")
-		(property "Reference" "#FLG033017"
+		(property "Reference" "#FLG01713"
 			(at 99.06 180.975 0)
 			(effects
 				(font
@@ -13455,7 +13455,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3583343-a291-4ce7-96a2-571988cf54c3")
-		(property "Reference" "JP33012"
+		(property "Reference" "JP1721"
 			(at 137.16 173.99 0)
 			(effects
 				(font
@@ -13472,7 +13472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 132.08 175.26 0)
 			(effects
 				(font
@@ -13524,7 +13524,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6402ba0-e333-43a6-8df6-1bd3da122579")
-		(property "Reference" "TP33002"
+		(property "Reference" "TP1705"
 			(at 128.27 81.28 0)
 			(effects
 				(font
@@ -13608,7 +13608,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f69acb6c-0f25-472c-a67a-c5b8ebcf2f09")
-		(property "Reference" "C33001"
+		(property "Reference" "C1701"
 			(at 143.51 69.8501 0)
 			(effects
 				(font
@@ -13626,7 +13626,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "pss:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 146.3548 64.77 0)
 			(effects
 				(font
@@ -13696,7 +13696,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f836df96-2db6-4a26-a212-c08ad69c829a")
-		(property "Reference" "#PWR033013"
+		(property "Reference" "#PWR01713"
 			(at 45.72 144.78 0)
 			(effects
 				(font
@@ -13763,7 +13763,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa5e0fbd-1814-4c4e-acb2-a991fe5eb392")
-		(property "Reference" "#PWR034003"
+		(property "Reference" "#PWR01701"
 			(at 34.29 121.92 0)
 			(effects
 				(font
@@ -13829,7 +13829,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb10cb67-b5fa-4759-90d1-ffa9cd21e5a7")
-		(property "Reference" "#PWR033040"
+		(property "Reference" "#PWR01727"
 			(at 96.52 190.5 0)
 			(effects
 				(font
@@ -13896,7 +13896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc2aa7c5-6518-46ef-8084-45891d37060f")
-		(property "Reference" "#PWR033041"
+		(property "Reference" "#PWR01703"
 			(at 34.29 137.16 0)
 			(effects
 				(font

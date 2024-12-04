@@ -3506,7 +3506,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "071b6ff1-a328-4514-b1e1-41a5d9cb7717")
-		(property "Reference" "C32006"
+		(property "Reference" "C706"
 			(at 191.77 123.1901 0)
 			(effects
 				(font
@@ -3524,7 +3524,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "pss:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 194.6148 118.11 0)
 			(effects
 				(font
@@ -3593,7 +3593,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "13044785-4832-4368-b2f4-fdf80c5138e3")
-		(property "Reference" "TP32005"
+		(property "Reference" "TP703"
 			(at 49.53 59.69 0)
 			(effects
 				(font
@@ -3677,7 +3677,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "169ee018-4eed-482d-831b-87c54531ffae")
-		(property "Reference" "D32004"
+		(property "Reference" "D705"
 			(at 110.49 90.17 0)
 			(effects
 				(font
@@ -3695,7 +3695,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+		(property "Footprint" "pss:SOT-23_Handsoldering"
 			(at 116.84 87.63 0)
 			(effects
 				(font
@@ -3767,7 +3767,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1900c861-f76f-4648-8b43-6cda905048ba")
-		(property "Reference" "TP32008"
+		(property "Reference" "TP708"
 			(at 186.69 54.61 0)
 			(effects
 				(font
@@ -3851,7 +3851,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e50dfb2-3c1e-4a48-92e1-f14d82f3d5d1")
-		(property "Reference" "#PWR032004"
+		(property "Reference" "#PWR0704"
 			(at 133.35 100.33 0)
 			(effects
 				(font
@@ -3916,7 +3916,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ff374bc-0718-4f61-ab58-348037cb6646")
-		(property "Reference" "C32002"
+		(property "Reference" "C704"
 			(at 170.18 58.4201 0)
 			(effects
 				(font
@@ -3934,7 +3934,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "pss:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 173.0248 53.34 0)
 			(effects
 				(font
@@ -4004,7 +4004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2000e548-c208-4fbe-8756-c5df750e8602")
-		(property "Reference" "#PWR032007"
+		(property "Reference" "#PWR0709"
 			(at 195.58 115.57 0)
 			(effects
 				(font
@@ -4069,7 +4069,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "21247c24-65d6-4768-8f27-6b483441de2e")
-		(property "Reference" "TP32003"
+		(property "Reference" "TP701"
 			(at 44.45 54.61 0)
 			(effects
 				(font
@@ -4154,7 +4154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27e82ec7-067d-42fc-8490-38a7dd6a7104")
-		(property "Reference" "#PWR032001"
+		(property "Reference" "#PWR0706"
 			(at 160.02 52.07 0)
 			(effects
 				(font
@@ -4219,7 +4219,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d889c53-9382-40ad-bdeb-9d1c109cfa89")
-		(property "Reference" "D32001"
+		(property "Reference" "D701"
 			(at 72.39 63.5 0)
 			(effects
 				(font
@@ -4237,7 +4237,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+		(property "Footprint" "pss:SOT-23_Handsoldering"
 			(at 73.66 57.15 0)
 			(effects
 				(font
@@ -4309,7 +4309,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32ee16cc-c95e-4980-a6e0-188aabc1478e")
-		(property "Reference" "D32002"
+		(property "Reference" "D702"
 			(at 85.09 63.5 0)
 			(effects
 				(font
@@ -4327,7 +4327,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+		(property "Footprint" "pss:SOT-23_Handsoldering"
 			(at 86.36 57.15 0)
 			(effects
 				(font
@@ -4399,7 +4399,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "352b7d55-6034-4ad9-ab44-ef8d682cbbd2")
-		(property "Reference" "C32005"
+		(property "Reference" "C705"
 			(at 176.53 123.1901 0)
 			(effects
 				(font
@@ -4417,7 +4417,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "pss:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 179.3748 118.11 0)
 			(effects
 				(font
@@ -4486,7 +4486,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4179f6a9-ee23-49bc-a9d0-220250cfb346")
-		(property "Reference" "D32004"
+		(property "Reference" "D705"
 			(at 110.49 63.5 0)
 			(effects
 				(font
@@ -4504,7 +4504,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+		(property "Footprint" "pss:SOT-23_Handsoldering"
 			(at 111.76 57.15 0)
 			(effects
 				(font
@@ -4576,7 +4576,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "42a19ec7-333c-41f0-bed4-1bd6d0711db1")
-		(property "Reference" "#PWR032008"
+		(property "Reference" "#PWR0710"
 			(at 195.58 138.43 0)
 			(effects
 				(font
@@ -4641,7 +4641,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45ea039c-4f4a-46b3-b6d0-aa7a17adc810")
-		(property "Reference" "TP32010"
+		(property "Reference" "TP710"
 			(at 191.77 59.69 0)
 			(effects
 				(font
@@ -4725,7 +4725,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5aed2a74-d6f5-4244-a8cf-abda8178ab44")
-		(property "Reference" "D32005"
+		(property "Reference" "D703"
 			(at 91.44 120.6499 90)
 			(effects
 				(font
@@ -4743,7 +4743,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+		(property "Footprint" "pss:D_SOD-323_HandSoldering"
 			(at 93.98 121.92 0)
 			(effects
 				(font
@@ -4813,7 +4813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6189f6a1-300b-4a80-9692-4c0867b33ff3")
-		(property "Reference" "#PWR032010"
+		(property "Reference" "#PWR0701"
 			(at 110.49 115.57 0)
 			(effects
 				(font
@@ -4879,7 +4879,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67aef0ca-b9aa-4079-98ff-0c7ae9712757")
-		(property "Reference" "#PWR032005"
+		(property "Reference" "#PWR0705"
 			(at 134.62 52.07 0)
 			(effects
 				(font
@@ -4944,7 +4944,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6999b56d-d946-4819-a37b-69a0e7ea2f3a")
-		(property "Reference" "#PWR032009"
+		(property "Reference" "#PWR0702"
 			(at 110.49 138.43 0)
 			(effects
 				(font
@@ -5009,7 +5009,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6a637a76-3d96-4c46-bd1a-4d5e3629c6e0")
-		(property "Reference" "TP32006"
+		(property "Reference" "TP704"
 			(at 52.07 62.23 0)
 			(effects
 				(font
@@ -5093,7 +5093,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78c6a6b4-af26-472b-ab8a-67d9aa7dd3e7")
-		(property "Reference" "C32003"
+		(property "Reference" "C701"
 			(at 106.68 123.1901 0)
 			(effects
 				(font
@@ -5111,7 +5111,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "pss:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 109.5248 118.11 0)
 			(effects
 				(font
@@ -5180,7 +5180,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8d083102-4f9f-4269-90f3-5b157e77b2db")
-		(property "Reference" "TP32009"
+		(property "Reference" "TP709"
 			(at 189.23 57.15 0)
 			(effects
 				(font
@@ -5264,7 +5264,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9331d7d2-ac84-4df4-b591-6a71bbc7f768")
-		(property "Reference" "D32002"
+		(property "Reference" "D702"
 			(at 85.09 90.17 0)
 			(effects
 				(font
@@ -5282,7 +5282,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+		(property "Footprint" "pss:SOT-23_Handsoldering"
 			(at 91.44 87.63 0)
 			(effects
 				(font
@@ -5355,7 +5355,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95e618c3-39ed-4059-a4e2-782331de02ee")
-		(property "Reference" "U32002"
+		(property "Reference" "U702"
 			(at 148.59 109.22 0)
 			(effects
 				(font
@@ -5371,7 +5371,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
+		(property "Footprint" "pss:SOIC-16W_7.5x10.3mm_P1.27mm"
 			(at 148.59 121.92 0)
 			(effects
 				(font
@@ -5482,7 +5482,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1e4c5a3-540b-454f-9072-5457fba38f59")
-		(property "Reference" "D32003"
+		(property "Reference" "D704"
 			(at 97.79 90.17 0)
 			(effects
 				(font
@@ -5500,7 +5500,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+		(property "Footprint" "pss:SOT-23_Handsoldering"
 			(at 104.14 87.63 0)
 			(effects
 				(font
@@ -5572,7 +5572,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a23be3b1-e32b-4d36-821b-1407360013ca")
-		(property "Reference" "TP32001"
+		(property "Reference" "TP705"
 			(at 95.25 113.03 0)
 			(effects
 				(font
@@ -5656,7 +5656,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a4ca1ef2-fdff-4485-a2c3-fd016752f42d")
-		(property "Reference" "#PWR032003"
+		(property "Reference" "#PWR0707"
 			(at 161.29 96.52 0)
 			(effects
 				(font
@@ -5721,7 +5721,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a606b43c-2385-4d88-9581-b432bd28c395")
-		(property "Reference" "#PWR032002"
+		(property "Reference" "#PWR0708"
 			(at 173.99 67.31 0)
 			(effects
 				(font
@@ -5786,7 +5786,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a90580ae-84cd-48df-8537-ff844d62b004")
-		(property "Reference" "TP32004"
+		(property "Reference" "TP702"
 			(at 46.99 57.15 0)
 			(effects
 				(font
@@ -5870,7 +5870,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aeb44640-b1a9-44df-b108-8c506f8b40a0")
-		(property "Reference" "C32004"
+		(property "Reference" "C702"
 			(at 121.92 123.1901 0)
 			(effects
 				(font
@@ -5888,7 +5888,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "pss:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 124.7648 118.11 0)
 			(effects
 				(font
@@ -5957,7 +5957,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b0e21c3e-71eb-4573-bb94-5afadc711d6c")
-		(property "Reference" "TP32007"
+		(property "Reference" "TP707"
 			(at 184.15 52.07 0)
 			(effects
 				(font
@@ -6042,7 +6042,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b4dfec16-a111-44d9-b457-f2530e4e6c8a")
-		(property "Reference" "TP32002"
+		(property "Reference" "TP706"
 			(at 95.25 130.81 0)
 			(effects
 				(font
@@ -6126,7 +6126,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c373f731-0013-4683-9217-b01a2efbbec7")
-		(property "Reference" "#PWR032006"
+		(property "Reference" "#PWR0703"
 			(at 128.27 67.31 0)
 			(effects
 				(font
@@ -6191,7 +6191,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce1295d5-42ff-4c82-a1f9-39154c04ebdd")
-		(property "Reference" "D32001"
+		(property "Reference" "D701"
 			(at 72.39 90.17 0)
 			(effects
 				(font
@@ -6209,7 +6209,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+		(property "Footprint" "pss:SOT-23_Handsoldering"
 			(at 78.74 87.63 0)
 			(effects
 				(font
@@ -6281,7 +6281,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e3893c43-65f4-4b2c-ba81-b223695b1c4c")
-		(property "Reference" "D32003"
+		(property "Reference" "D704"
 			(at 97.79 63.5 0)
 			(effects
 				(font
@@ -6299,7 +6299,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+		(property "Footprint" "pss:SOT-23_Handsoldering"
 			(at 99.06 57.15 0)
 			(effects
 				(font
@@ -6372,7 +6372,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3d445e5-77e1-436b-8756-6613d25648ee")
-		(property "Reference" "U32001"
+		(property "Reference" "U701"
 			(at 147.32 53.34 0)
 			(effects
 				(font
@@ -6388,7 +6388,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm"
+		(property "Footprint" "pss:SOIC-16W_7.5x10.3mm_P1.27mm"
 			(at 147.32 85.09 0)
 			(effects
 				(font
@@ -6500,7 +6500,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f2261152-1b34-44d1-a38f-563870424180")
-		(property "Reference" "C32001"
+		(property "Reference" "C703"
 			(at 124.46 58.4201 0)
 			(effects
 				(font
@@ -6518,7 +6518,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "pss:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 127.3048 53.34 0)
 			(effects
 				(font

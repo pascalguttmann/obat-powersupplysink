@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -3.5 0)
 		(layer "F.SilkS")
-		(uuid "4d6890ee-dbbc-41f3-af65-cf8811bf3207")
+		(uuid "83e5cfb4-1aed-44fa-bceb-2aaae3d3c776")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +16,10 @@
 			)
 		)
 	)
-	(property "Value" "Potentiometer_Bourns_PVG5A"
+	(property "Value" "1k"
 		(at 0 3.5 0)
 		(layer "F.Fab")
-		(uuid "a32354f1-8240-4467-af2d-235f371050fd")
+		(uuid "ecb0339c-a960-412c-b80f-b9f4354b2cd3")
 		(effects
 			(font
 				(size 1 1)
@@ -27,39 +27,65 @@
 			)
 		)
 	)
-	(property "Footprint" "Potentiometer_Bourns_PVG5A"
+	(property "Footprint" "pss:Potentiometer_Bourns_PVG5A"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2ab7f079-411e-442b-b375-0dd7b27ec875")
+		(uuid "df7adc23-7dd9-4c2c-8ec7-d97a0a758908")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://www.mouser.de/datasheet/2/54/pvg5-907351.pdf"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "67a2ca84-3ff0-4009-959f-db9cab1d2e93")
+		(uuid "03b22283-6e1a-41eb-9fa1-2e0f670bae5c")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "Bourns 11 Turn - Linear Trimmer Resistors - SMD"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "49821863-605d-48d4-a37c-06ca55989f8f")
+		(uuid "60ea4fc3-9fe2-4000-a3fb-71d9742a11fe")
 		(effects
 			(font
 				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "MPN" "PVG5A102C03B00"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a0136b4-5e43-4a1b-bda4-ad198c7f6842")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VPN" "81-PVG5A102C03B00"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c6fa682-9e4a-453a-843e-056a96cd32b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -72,7 +98,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "8d683146-b5e6-4050-9d36-d15f98bea23d")
+		(uuid "555b290c-9bda-4e72-ab7c-0f9bbf09f7c4")
 	)
 	(fp_line
 		(start -2.52 -1.87)
@@ -82,7 +108,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "2f3ea07e-d1ca-40b3-b558-7d6e120f3584")
+		(uuid "b13633be-3e46-4118-b905-dec9494a4355")
 	)
 	(fp_line
 		(start -2.52 1.87)
@@ -92,7 +118,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "3fe5eaa3-1572-4e21-983d-281dbb1fa1a2")
+		(uuid "8349ee91-b764-4b84-965e-a2d3fca97de5")
 	)
 	(fp_line
 		(start -0.36 -1.87)
@@ -102,7 +128,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "7407f609-a5f0-411e-bced-cb5df3c31cbb")
+		(uuid "45daa037-dcc3-4a07-8535-4a77279f21b7")
 	)
 	(fp_line
 		(start 1.24 1.87)
@@ -112,7 +138,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c068485e-3b20-45fc-b12b-5b1944ddb543")
+		(uuid "3e408765-cfb1-4ef4-9b3a-114bf6548380")
 	)
 	(fp_line
 		(start 2.14 -1.87)
@@ -122,7 +148,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "4155b190-1f91-45b7-b87b-b62c5c4ef69e")
+		(uuid "e9374dc7-349a-4d0d-840c-f14bef8a8d04")
 	)
 	(fp_line
 		(start 2.52 -1.87)
@@ -132,7 +158,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "3a1b57bf-d7c8-49d9-97fa-1cf9cbb33147")
+		(uuid "1be104f7-ffe6-42b8-990e-699cae79437c")
 	)
 	(fp_line
 		(start -2.65 -2.5)
@@ -142,7 +168,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "e3ab9da4-e08e-4cb0-902f-1e362d1bd065")
+		(uuid "ccddf69b-8e1a-4c2b-ae47-c3f69098e4fb")
 	)
 	(fp_line
 		(start -2.65 2.5)
@@ -152,7 +178,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "b4b6a656-d256-4882-b8a8-b7e195b1dc17")
+		(uuid "18755b51-a496-460d-976e-802d0148bb98")
 	)
 	(fp_line
 		(start 2.65 -2.5)
@@ -162,7 +188,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "81c2d668-4ca1-4650-8fae-052a11c44126")
+		(uuid "97dc4020-636e-4cb1-96b2-46f5d4bc70a7")
 	)
 	(fp_line
 		(start 2.65 2.5)
@@ -172,7 +198,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "8cfacf04-d6fa-46f2-8282-5ef15d554799")
+		(uuid "50878730-2d50-4e47-a3fe-07d2941eadfd")
 	)
 	(fp_line
 		(start -2.4 -1.75)
@@ -182,7 +208,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "72a1c90e-e939-496f-a7cb-ee67033b63d2")
+		(uuid "03a1b70a-e561-4c0a-8629-4f3d79cb455a")
 	)
 	(fp_line
 		(start -2.4 1.75)
@@ -192,7 +218,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "448e93e3-08bb-460b-ae56-b6fb56eb0e67")
+		(uuid "0df60480-0af2-4c7b-8c96-9cba8540cee8")
 	)
 	(fp_line
 		(start -1.2 1.393)
@@ -202,7 +228,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "df047639-8702-4e28-91fe-db0b91fc6e1b")
+		(uuid "3bb20021-5066-46f3-9b46-42f3b64afc22")
 	)
 	(fp_line
 		(start -1.2 1.393)
@@ -212,7 +238,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "f5323204-28b8-4595-ad09-842201cc420b")
+		(uuid "7046f370-b8c3-41a5-9c29-bfbbcc46bac0")
 	)
 	(fp_line
 		(start 2.4 -1.75)
@@ -222,7 +248,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "6d39a25a-6d26-4ff4-b293-0929b7b94a3b")
+		(uuid "682ab75d-9bcf-44f0-bd17-3307cbefbf09")
 	)
 	(fp_line
 		(start 2.4 1.75)
@@ -232,7 +258,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "383247b6-78c0-4926-a964-32c34abff87a")
+		(uuid "7ea0f8af-5885-4088-a211-f6a1bad01d78")
 	)
 	(fp_circle
 		(center -1.2 0.65)
@@ -243,12 +269,12 @@
 		)
 		(fill none)
 		(layer "F.Fab")
-		(uuid "ec98b7a2-2bfc-4550-a20d-d81be0e6c733")
+		(uuid "0691f328-6d31-45f1-bcdf-cb1fd5f1397b")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0.6 0 0)
 		(layer "F.Fab")
-		(uuid "6957e9a6-3bde-4a6b-a78f-a3cc5670307d")
+		(uuid "14addbd2-fe57-419c-9a6d-5856b2406fcf")
 		(effects
 			(font
 				(size 0.6 0.6)
@@ -260,19 +286,19 @@
 		(at 1.25 -1.45)
 		(size 1.3 1.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "cb6a4c46-8898-4e0a-816e-9ab1b22acedc")
+		(uuid "dd7f8525-c32c-49ad-8e8e-21c124eb639c")
 	)
 	(pad "2" smd rect
 		(at 0 1.45)
 		(size 2 1.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "400ebfad-0866-4aca-b877-3bdac2e12220")
+		(uuid "c8929f27-54f3-4430-ac80-5d44d2de7c6b")
 	)
 	(pad "3" smd rect
 		(at -1.25 -1.45)
 		(size 1.3 1.6)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "f5aa38a4-be49-413d-80cf-44751dcf315d")
+		(uuid "e85bc3f8-f06a-406d-896d-6b9188a29ffa")
 	)
 	(model "${KIPRJMOD}/3d_models/PVG5A102C03B00.step"
 		(offset

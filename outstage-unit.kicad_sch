@@ -1886,7 +1886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2dd21d99-efb8-423b-9dbc-659172b60eb8")
-		(property "Reference" "HS34001"
+		(property "Reference" "HS2101"
 			(at 128.27 177.1649 0)
 			(effects
 				(font
@@ -1974,7 +1974,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35319ff6-4b1f-4b51-a204-29f6674fc1ec")
-		(property "Reference" "JP34001"
+		(property "Reference" "JP2101"
 			(at 163.83 167.64 90)
 			(effects
 				(font
@@ -2046,7 +2046,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "52f04f83-ac4b-493f-b435-cb8624774760")
-		(property "Reference" "TP34003"
+		(property "Reference" "TP2103"
 			(at 78.74 172.72 0)
 			(effects
 				(font
@@ -2134,7 +2134,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7028cd68-9e4f-4ad1-a3d1-d231f7a6c34e")
-		(property "Reference" "TP34002"
+		(property "Reference" "TP2102"
 			(at 76.2 170.18 0)
 			(effects
 				(font
@@ -2222,7 +2222,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8739319c-f017-404d-a212-7ea3b10b6324")
-		(property "Reference" "TP34004"
+		(property "Reference" "TP2104"
 			(at 81.28 175.26 0)
 			(effects
 				(font
@@ -2310,7 +2310,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9ea92505-c91a-4f78-94a4-1939b9f644ac")
-		(property "Reference" "TP34006"
+		(property "Reference" "TP2106"
 			(at 86.36 180.34 0)
 			(effects
 				(font
@@ -2399,7 +2399,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa9a69da-4a24-4d7a-aa87-4957488e744d")
-		(property "Reference" "J34001"
+		(property "Reference" "J2101"
 			(at 49.53 163.83 0)
 			(effects
 				(font
@@ -2503,7 +2503,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af37d5f4-8760-4d61-9a32-567f4da7ecb7")
-		(property "Reference" "M34001"
+		(property "Reference" "M2101"
 			(at 162.56 177.7999 0)
 			(effects
 				(font
@@ -2594,7 +2594,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e231a0cc-3c63-4e76-9759-4c494aee5f29")
-		(property "Reference" "TP34005"
+		(property "Reference" "TP2105"
 			(at 83.82 177.8 0)
 			(effects
 				(font
@@ -2682,7 +2682,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f42b6628-eeb8-4e7e-b4c3-350b7429eab2")
-		(property "Reference" "TP34001"
+		(property "Reference" "TP2101"
 			(at 73.66 167.64 0)
 			(effects
 				(font

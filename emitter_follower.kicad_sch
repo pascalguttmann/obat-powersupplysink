@@ -1086,7 +1086,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "009bd3ee-0653-4c9d-9028-ed2cf1b72caa")
-		(property "Reference" "R4001"
+		(property "Reference" "R2201"
 			(at 130.81 68.58 90)
 			(effects
 				(font
@@ -1102,7 +1102,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
+		(property "Footprint" "pss:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
 			(at 130.81 76.708 90)
 			(effects
 				(font
@@ -1216,7 +1216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b456d11-d2c1-42db-8276-38846f9706f7")
-		(property "Reference" "R4002"
+		(property "Reference" "R2202"
 			(at 130.81 119.38 90)
 			(effects
 				(font
@@ -1232,7 +1232,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
+		(property "Footprint" "pss:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
 			(at 130.81 127.508 90)
 			(effects
 				(font
@@ -1346,7 +1346,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a5d823d-a098-4b0b-ad48-82500e082dd2")
-		(property "Reference" "MC4002"
+		(property "Reference" "MC2202"
 			(at 196.85 125.7299 0)
 			(effects
 				(font
@@ -1472,7 +1472,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "273299d6-c041-41f1-bbf2-159480b67a98")
-		(property "Reference" "R4004"
+		(property "Reference" "R2204"
 			(at 162.56 107.9499 0)
 			(effects
 				(font
@@ -1490,7 +1490,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
+		(property "Footprint" "pss:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
 			(at 158.242 109.22 90)
 			(effects
 				(font
@@ -1604,7 +1604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f3f31b6-1951-4d78-af9b-a37f507ddd0d")
-		(property "Reference" "R4006"
+		(property "Reference" "R2206"
 			(at 173.99 107.9499 0)
 			(effects
 				(font
@@ -1622,7 +1622,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
+		(property "Footprint" "pss:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
 			(at 169.672 109.22 90)
 			(effects
 				(font
@@ -1736,7 +1736,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8321b8a7-909c-49c5-b786-24ff9122aae5")
-		(property "Reference" "R4005"
+		(property "Reference" "R2205"
 			(at 173.99 90.1699 0)
 			(effects
 				(font
@@ -1754,7 +1754,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
+		(property "Footprint" "pss:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
 			(at 169.672 91.44 90)
 			(effects
 				(font
@@ -1867,7 +1867,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "83b2081b-8977-4b7c-b08a-b376cc52733b")
-		(property "Reference" "Q4002"
+		(property "Reference" "Q2202"
 			(at 144.78 115.5699 0)
 			(effects
 				(font
@@ -1885,7 +1885,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+		(property "Footprint" "pss:SOT-223-3_TabPin2"
 			(at 143.51 114.935 0)
 			(effects
 				(font
@@ -2005,7 +2005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8613b9e1-3eff-4f70-b465-23e736478e91")
-		(property "Reference" "Q4003"
+		(property "Reference" "Q2203"
 			(at 162.56 73.6599 0)
 			(effects
 				(font
@@ -2023,7 +2023,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "pss:TO-220-3_Vertical"
 			(at 163.83 76.835 0)
 			(effects
 				(font
@@ -2143,7 +2143,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91413b43-19ae-4537-b9ed-dc4573c45b37")
-		(property "Reference" "TI4002"
+		(property "Reference" "TI2202"
 			(at 185.42 125.7299 0)
 			(effects
 				(font
@@ -2269,7 +2269,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99d0e376-04d0-41eb-b20d-62b400ae2943")
-		(property "Reference" "Q4001"
+		(property "Reference" "Q2201"
 			(at 144.78 82.5499 0)
 			(effects
 				(font
@@ -2287,7 +2287,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+		(property "Footprint" "pss:SOT-223-3_TabPin2"
 			(at 143.51 85.725 0)
 			(effects
 				(font
@@ -2407,7 +2407,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4f33410-e287-4cac-8198-a3d34c6ce6a2")
-		(property "Reference" "TI4001"
+		(property "Reference" "TI2201"
 			(at 185.42 74.9299 0)
 			(effects
 				(font
@@ -2533,7 +2533,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8f1b4fc-db7c-4e17-b0e8-4796ee64df6d")
-		(property "Reference" "R4003"
+		(property "Reference" "R2203"
 			(at 162.56 90.1699 0)
 			(effects
 				(font
@@ -2551,7 +2551,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
+		(property "Footprint" "pss:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
 			(at 158.242 91.44 90)
 			(effects
 				(font
@@ -2666,7 +2666,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0b1b67f-3867-4953-befa-df637885d008")
-		(property "Reference" "Q4004"
+		(property "Reference" "Q2204"
 			(at 162.56 124.4599 0)
 			(effects
 				(font
@@ -2684,7 +2684,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "pss:TO-220-3_Vertical"
 			(at 163.83 123.825 0)
 			(effects
 				(font
@@ -2804,7 +2804,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9cd1dc7-fd7c-473d-a894-d8a8bf2b804b")
-		(property "Reference" "MC4001"
+		(property "Reference" "MC2201"
 			(at 196.85 74.9299 0)
 			(effects
 				(font

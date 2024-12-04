@@ -3200,7 +3200,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00c752ce-74b7-4671-af34-4d48399653e6")
-		(property "Reference" "TP21013"
+		(property "Reference" "TP915"
 			(at 223.52 63.5 0)
 			(effects
 				(font
@@ -3285,7 +3285,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a2106c3-f6a9-42a8-8d5d-d6a3a246a84e")
-		(property "Reference" "#PWR021007"
+		(property "Reference" "#PWR0913"
 			(at 196.85 40.64 0)
 			(effects
 				(font
@@ -3351,7 +3351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13c3421b-27c3-457b-95c0-aa00eb153878")
-		(property "Reference" "#PWR021005"
+		(property "Reference" "#PWR0911"
 			(at 196.85 62.23 0)
 			(effects
 				(font
@@ -3418,7 +3418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b964e3e-6799-4ae7-a91d-660a92b04116")
-		(property "Reference" "#PWR021006"
+		(property "Reference" "#PWR0914"
 			(at 208.28 36.83 0)
 			(effects
 				(font
@@ -3484,7 +3484,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f2470ec-9376-49b8-8f23-c919a1a722b3")
-		(property "Reference" "U21001"
+		(property "Reference" "U901"
 			(at 137.16 64.77 0)
 			(effects
 				(font
@@ -3500,7 +3500,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+		(property "Footprint" "pss:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 138.43 74.93 0)
 			(effects
 				(font
@@ -3605,7 +3605,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f7d9f19-3cb4-4494-84c1-40fa1481b3bf")
-		(property "Reference" "R21004"
+		(property "Reference" "R904"
 			(at 100.33 185.42 90)
 			(effects
 				(font
@@ -3623,7 +3623,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 94.742 181.61 90)
 			(effects
 				(font
@@ -3693,7 +3693,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21d463b5-f119-44bd-b1a3-490d0a5a6407")
-		(property "Reference" "#PWR021002"
+		(property "Reference" "#PWR0902"
 			(at 40.64 177.8 0)
 			(effects
 				(font
@@ -3759,7 +3759,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25caafb2-40e9-4b39-91a4-91128381fff4")
-		(property "Reference" "#PWR021008"
+		(property "Reference" "#PWR0901"
 			(at 40.64 160.02 0)
 			(effects
 				(font
@@ -3824,7 +3824,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "269966e4-6e1b-4ce1-a4af-a2bc9677cfc1")
-		(property "Reference" "TP21015"
+		(property "Reference" "TP914"
 			(at 182.88 45.72 0)
 			(effects
 				(font
@@ -3909,7 +3909,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "273e264c-86b8-43a0-927c-954bad36535c")
-		(property "Reference" "#PWR021004"
+		(property "Reference" "#PWR0910"
 			(at 154.94 190.5 0)
 			(effects
 				(font
@@ -3976,7 +3976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ee0394a-c045-4017-ae7d-0cd405962ce4")
-		(property "Reference" "U21002"
+		(property "Reference" "U902"
 			(at 210.4741 48.26 0)
 			(effects
 				(font
@@ -3994,7 +3994,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "pss:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 208.28 66.04 0)
 			(effects
 				(font
@@ -4105,7 +4105,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "331e4078-3bfd-422f-856e-26dda9b8e777")
-		(property "Reference" "TP21008"
+		(property "Reference" "TP908"
 			(at 78.74 129.54 0)
 			(effects
 				(font
@@ -4189,7 +4189,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "368bc9db-fd95-49a4-9ef3-b20d86cd1636")
-		(property "Reference" "R21002"
+		(property "Reference" "R902"
 			(at 80.01 185.42 90)
 			(effects
 				(font
@@ -4207,7 +4207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 74.422 181.61 90)
 			(effects
 				(font
@@ -4276,7 +4276,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3eb2f0df-2b8f-4bd8-b3ae-96108be17e3d")
-		(property "Reference" "D21006"
+		(property "Reference" "D906"
 			(at 120.65 168.91 0)
 			(effects
 				(font
@@ -4294,7 +4294,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "pss:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 116.84 172.72 0)
 			(effects
 				(font
@@ -4363,7 +4363,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "42b05e9d-fa25-4f21-8406-6cb44c725606")
-		(property "Reference" "C21001"
+		(property "Reference" "C901"
 			(at 26.67 170.1801 0)
 			(effects
 				(font
@@ -4381,7 +4381,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "pss:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 29.5148 165.1 0)
 			(effects
 				(font
@@ -4450,7 +4450,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "479dcf47-86ef-473e-9700-82e9dc4e5d5d")
-		(property "Reference" "TP21003"
+		(property "Reference" "TP902"
 			(at 78.74 53.34 0)
 			(effects
 				(font
@@ -4535,7 +4535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55c12ecb-de4d-4548-9941-eb8c5657851e")
-		(property "Reference" "#PWR021020"
+		(property "Reference" "#PWR0903"
 			(at 66.04 182.88 0)
 			(effects
 				(font
@@ -4601,7 +4601,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "59429a38-276f-4418-93d1-92f4b98c9829")
-		(property "Reference" "TP21016"
+		(property "Reference" "TP913"
 			(at 176.53 45.72 0)
 			(effects
 				(font
@@ -4685,7 +4685,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b86b85a-5421-4b00-95e9-8e1ba25c6dc0")
-		(property "Reference" "R21003"
+		(property "Reference" "R903"
 			(at 90.17 185.42 90)
 			(effects
 				(font
@@ -4703,7 +4703,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 84.582 181.61 90)
 			(effects
 				(font
@@ -4773,7 +4773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fd7f4bb-c536-4d46-8712-1c41b1e6921f")
-		(property "Reference" "U21001"
+		(property "Reference" "U901"
 			(at 163.83 162.56 0)
 			(effects
 				(font
@@ -4789,7 +4789,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+		(property "Footprint" "pss:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 165.1 172.72 0)
 			(effects
 				(font
@@ -4894,7 +4894,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "612eca57-cbe8-48d8-8bbe-0551f79b1575")
-		(property "Reference" "TP21011"
+		(property "Reference" "TP910"
 			(at 109.22 118.11 0)
 			(effects
 				(font
@@ -4978,7 +4978,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "61751aa0-e16c-4e7b-ae0c-14988509e0c8")
-		(property "Reference" "R21001"
+		(property "Reference" "R901"
 			(at 69.85 185.42 90)
 			(effects
 				(font
@@ -4996,7 +4996,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 64.262 181.61 90)
 			(effects
 				(font
@@ -5066,7 +5066,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "619ed022-6721-4177-87f4-4117939b74f5")
-		(property "Reference" "U21001"
+		(property "Reference" "U901"
 			(at 137.16 90.17 0)
 			(effects
 				(font
@@ -5082,7 +5082,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+		(property "Footprint" "pss:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 138.43 100.33 0)
 			(effects
 				(font
@@ -5188,7 +5188,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6325f3fa-5038-4c73-a005-54b3ac3690b0")
-		(property "Reference" "TP21002"
+		(property "Reference" "TP903"
 			(at 78.74 62.23 0)
 			(effects
 				(font
@@ -5272,7 +5272,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6897f02e-1a7e-459d-84c9-28a2da73dc32")
-		(property "Reference" "R21005"
+		(property "Reference" "R905"
 			(at 110.49 185.42 90)
 			(effects
 				(font
@@ -5290,7 +5290,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 104.902 181.61 90)
 			(effects
 				(font
@@ -5360,7 +5360,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ae0f232-3db1-4f9f-b1e3-aad1913648f0")
-		(property "Reference" "#PWR021021"
+		(property "Reference" "#PWR0904"
 			(at 76.2 185.42 0)
 			(effects
 				(font
@@ -5425,7 +5425,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70f7be59-f7a3-46f7-93ef-1d453197d92b")
-		(property "Reference" "TP21006"
+		(property "Reference" "TP906"
 			(at 78.74 104.14 0)
 			(effects
 				(font
@@ -5509,7 +5509,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72f49a09-a53b-48d7-b575-5c0a510cb970")
-		(property "Reference" "D21004"
+		(property "Reference" "D904"
 			(at 100.33 168.91 0)
 			(effects
 				(font
@@ -5527,7 +5527,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "pss:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 96.52 172.72 0)
 			(effects
 				(font
@@ -5596,7 +5596,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "75ff44cc-bfdd-4d87-8fa1-22cc4169780c")
-		(property "Reference" "U21001"
+		(property "Reference" "U901"
 			(at 41.91 158.75 0)
 			(effects
 				(font
@@ -5614,7 +5614,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+		(property "Footprint" "pss:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 41.91 168.91 0)
 			(effects
 				(font
@@ -5720,7 +5720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c60486a-dcff-4dc6-85f9-dba4ee29aeb7")
-		(property "Reference" "#PWR021022"
+		(property "Reference" "#PWR0905"
 			(at 86.36 182.88 0)
 			(effects
 				(font
@@ -5786,7 +5786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e53bf31-6567-4d09-9b96-712d5dae4996")
-		(property "Reference" "#PWR021003"
+		(property "Reference" "#PWR0909"
 			(at 154.94 172.72 0)
 			(effects
 				(font
@@ -5853,7 +5853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8852e7ba-90d3-4777-9eea-edbc555de030")
-		(property "Reference" "#PWR021025"
+		(property "Reference" "#PWR0908"
 			(at 116.84 185.42 0)
 			(effects
 				(font
@@ -5918,7 +5918,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a0d6b00-8b6e-4fbc-bb03-d091efc69d74")
-		(property "Reference" "TP21009"
+		(property "Reference" "TP909"
 			(at 109.22 92.71 0)
 			(effects
 				(font
@@ -6003,7 +6003,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a717e88-1131-45bc-9ca3-8a3b02037733")
-		(property "Reference" "TP21007"
+		(property "Reference" "TP907"
 			(at 78.74 118.11 0)
 			(effects
 				(font
@@ -6087,7 +6087,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8d8a2c26-0463-4e74-9ec6-d3ac78f171fe")
-		(property "Reference" "C21002"
+		(property "Reference" "C902"
 			(at 193.04 40.6401 0)
 			(effects
 				(font
@@ -6105,7 +6105,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "pss:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 195.8848 35.56 0)
 			(effects
 				(font
@@ -6174,7 +6174,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9144ce7b-2c4e-4bf4-9ea7-4471d8b1fdef")
-		(property "Reference" "TP21004"
+		(property "Reference" "TP904"
 			(at 78.74 78.74 0)
 			(effects
 				(font
@@ -6259,7 +6259,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9371460f-4a57-417a-85e0-100f12c9c807")
-		(property "Reference" "TP21005"
+		(property "Reference" "TP905"
 			(at 78.74 92.71 0)
 			(effects
 				(font
@@ -6343,7 +6343,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a067bc8d-f526-4175-afe8-0d5ac7c5f859")
-		(property "Reference" "TP21014"
+		(property "Reference" "TP916"
 			(at 223.52 68.58 0)
 			(effects
 				(font
@@ -6428,7 +6428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a196eeb2-533e-4c7c-9fd6-4bf1c16fd12b")
-		(property "Reference" "#PWR021023"
+		(property "Reference" "#PWR0906"
 			(at 96.52 185.42 0)
 			(effects
 				(font
@@ -6494,7 +6494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4d234b1-c51d-45ea-b48d-32f157639b9b")
-		(property "Reference" "U21001"
+		(property "Reference" "U901"
 			(at 137.16 39.37 0)
 			(effects
 				(font
@@ -6510,7 +6510,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+		(property "Footprint" "pss:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 138.43 49.53 0)
 			(effects
 				(font
@@ -6615,7 +6615,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a4d8c98c-a71e-4033-ac8b-6ca34593f416")
-		(property "Reference" "D21002"
+		(property "Reference" "D902"
 			(at 80.01 168.91 0)
 			(effects
 				(font
@@ -6633,7 +6633,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "pss:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 76.2 172.72 0)
 			(effects
 				(font
@@ -6702,7 +6702,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a89c967b-8e27-4f7e-9ab9-76ff1c590847")
-		(property "Reference" "TP21012"
+		(property "Reference" "TP912"
 			(at 149.86 121.92 0)
 			(effects
 				(font
@@ -6787,7 +6787,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af429887-a628-48f4-bcea-a174c5d6727c")
-		(property "Reference" "#PWR021001"
+		(property "Reference" "#PWR0912"
 			(at 196.85 77.47 0)
 			(effects
 				(font
@@ -6854,7 +6854,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b738f9e4-0492-4405-bd5b-c43e89f4d561")
-		(property "Reference" "U21001"
+		(property "Reference" "U901"
 			(at 137.16 115.57 0)
 			(effects
 				(font
@@ -6870,7 +6870,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+		(property "Footprint" "pss:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 138.43 125.73 0)
 			(effects
 				(font
@@ -6976,7 +6976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdb6cff6-88d6-4058-b163-99a82ca8da68")
-		(property "Reference" "#PWR021009"
+		(property "Reference" "#PWR0915"
 			(at 208.28 83.82 0)
 			(effects
 				(font
@@ -7041,7 +7041,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c039ac4d-8d3d-4cb4-a6ac-27f7b02f3c3c")
-		(property "Reference" "D21005"
+		(property "Reference" "D905"
 			(at 110.49 168.91 0)
 			(effects
 				(font
@@ -7059,7 +7059,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "pss:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 106.68 172.72 0)
 			(effects
 				(font
@@ -7129,7 +7129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c58a1299-12db-4cb2-abd9-91654f9b840d")
-		(property "Reference" "U21001"
+		(property "Reference" "U901"
 			(at 163.83 180.34 0)
 			(effects
 				(font
@@ -7145,7 +7145,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+		(property "Footprint" "pss:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 165.1 190.5 0)
 			(effects
 				(font
@@ -7251,7 +7251,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c7472ad3-cf95-45dc-a8e9-fefdfc5b1ad7")
-		(property "Reference" "TP21001"
+		(property "Reference" "TP901"
 			(at 78.74 36.83 0)
 			(effects
 				(font
@@ -7335,7 +7335,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cdda189f-8833-4476-9c1d-485617fa3a62")
-		(property "Reference" "D21001"
+		(property "Reference" "D901"
 			(at 69.85 168.91 0)
 			(effects
 				(font
@@ -7353,7 +7353,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "pss:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 66.04 172.72 0)
 			(effects
 				(font
@@ -7423,7 +7423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f34f935d-ff8d-4b94-959d-63e0fbe85ec4")
-		(property "Reference" "#PWR021024"
+		(property "Reference" "#PWR0907"
 			(at 106.68 182.88 0)
 			(effects
 				(font
@@ -7488,7 +7488,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f7c38765-a63d-4eed-bbb1-b54ee8feaff7")
-		(property "Reference" "TP21010"
+		(property "Reference" "TP911"
 			(at 149.86 96.52 0)
 			(effects
 				(font
@@ -7572,7 +7572,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f93d8118-27db-4056-8741-9612cfb682ad")
-		(property "Reference" "R21006"
+		(property "Reference" "R906"
 			(at 120.65 185.42 90)
 			(effects
 				(font
@@ -7590,7 +7590,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 115.062 181.61 90)
 			(effects
 				(font
@@ -7659,7 +7659,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f9cae012-ec1a-4889-b52c-3f53c066e1fa")
-		(property "Reference" "D21003"
+		(property "Reference" "D903"
 			(at 90.17 168.91 0)
 			(effects
 				(font
@@ -7677,7 +7677,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "pss:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 86.36 172.72 0)
 			(effects
 				(font

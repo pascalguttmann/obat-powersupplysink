@@ -4375,7 +4375,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "055e27f8-031e-4184-82f6-22cca9b49ba9")
-		(property "Reference" "JP17011"
+		(property "Reference" "JP811"
 			(at 167.64 58.42 0)
 			(effects
 				(font
@@ -4392,7 +4392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 162.56 59.69 0)
 			(effects
 				(font
@@ -4443,7 +4443,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0608f728-3df9-4692-a5ee-862de3223740")
-		(property "Reference" "C17001"
+		(property "Reference" "C801"
 			(at 86.36 143.5101 0)
 			(effects
 				(font
@@ -4461,7 +4461,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "pss:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 89.2048 138.43 0)
 			(effects
 				(font
@@ -4530,7 +4530,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ec0e862-7ec1-4937-b87c-f65e8402d8c4")
-		(property "Reference" "JP17010"
+		(property "Reference" "JP810"
 			(at 167.64 55.88 0)
 			(effects
 				(font
@@ -4547,7 +4547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 162.56 57.15 0)
 			(effects
 				(font
@@ -4599,7 +4599,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10690a9a-5bec-40e1-a99b-1dab4ef49372")
-		(property "Reference" "#PWR017018"
+		(property "Reference" "#PWR0801"
 			(at 76.2 139.7 0)
 			(effects
 				(font
@@ -4664,7 +4664,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11a0df05-0bf6-4111-8a28-40ad169d0837")
-		(property "Reference" "JP17006"
+		(property "Reference" "JP806"
 			(at 102.87 77.47 0)
 			(effects
 				(font
@@ -4681,7 +4681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 97.79 78.74 0)
 			(effects
 				(font
@@ -4732,7 +4732,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "190b263c-9dc6-443b-a4b2-b68441233d62")
-		(property "Reference" "D17001"
+		(property "Reference" "D801"
 			(at 116.84 168.91 0)
 			(effects
 				(font
@@ -4750,7 +4750,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "pss:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 113.03 172.72 0)
 			(effects
 				(font
@@ -4819,7 +4819,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19e31434-824b-4d16-a5b1-ef8cafec0404")
-		(property "Reference" "TP17006"
+		(property "Reference" "TP808"
 			(at 242.57 137.16 0)
 			(effects
 				(font
@@ -4903,7 +4903,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d4f60d9-4715-46f5-bfd5-a42e3399439b")
-		(property "Reference" "R17006"
+		(property "Reference" "R806"
 			(at 55.88 182.88 90)
 			(effects
 				(font
@@ -4921,7 +4921,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 60.198 179.07 90)
 			(effects
 				(font
@@ -4990,7 +4990,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "27409acd-4e83-4887-bb70-bcdedbd7b921")
-		(property "Reference" "R17002"
+		(property "Reference" "R802"
 			(at 35.56 182.88 90)
 			(effects
 				(font
@@ -5008,7 +5008,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 39.878 179.07 90)
 			(effects
 				(font
@@ -5077,7 +5077,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28a3d42c-c61d-44c6-b4e9-9b1be7f9981a")
-		(property "Reference" "JP17002"
+		(property "Reference" "JP802"
 			(at 102.87 64.77 0)
 			(effects
 				(font
@@ -5094,7 +5094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 97.79 66.04 0)
 			(effects
 				(font
@@ -5145,7 +5145,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2a3f3816-0844-4012-9687-1dbf5f837279")
-		(property "Reference" "D17004"
+		(property "Reference" "D804"
 			(at 147.32 168.91 0)
 			(effects
 				(font
@@ -5163,7 +5163,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "pss:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 143.51 172.72 0)
 			(effects
 				(font
@@ -5233,7 +5233,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bf72218-4f96-4370-8fcd-9cf7a84bced3")
-		(property "Reference" "U17003"
+		(property "Reference" "U803"
 			(at 219.3641 114.3 0)
 			(effects
 				(font
@@ -5251,7 +5251,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "pss:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 217.17 129.54 0)
 			(effects
 				(font
@@ -5362,7 +5362,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2cae1dda-1853-4d31-8d16-9b678128770b")
-		(property "Reference" "R17004"
+		(property "Reference" "R804"
 			(at 45.72 182.88 90)
 			(effects
 				(font
@@ -5380,7 +5380,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 50.038 179.07 90)
 			(effects
 				(font
@@ -5449,7 +5449,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2cd2c69b-e1a1-4941-b5e5-4b3f8379c3c4")
-		(property "Reference" "U17001"
+		(property "Reference" "U801"
 			(at 86.36 154.94 0)
 			(effects
 				(font
@@ -5465,7 +5465,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+		(property "Footprint" "pss:SOIC-14_3.9x8.7mm_P1.27mm"
 			(at 76.2 165.1 0)
 			(effects
 				(font
@@ -5570,7 +5570,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ea27b6d-e965-47f2-be6e-d722aa99b411")
-		(property "Reference" "D17002"
+		(property "Reference" "D802"
 			(at 127 168.91 0)
 			(effects
 				(font
@@ -5588,7 +5588,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "pss:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 123.19 172.72 0)
 			(effects
 				(font
@@ -5657,7 +5657,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2fc9f8ab-69e4-4637-a986-c703047ff5e2")
-		(property "Reference" "TP17001"
+		(property "Reference" "TP803"
 			(at 242.57 49.53 0)
 			(effects
 				(font
@@ -5741,7 +5741,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3871c0e3-fe1d-41a7-8325-6795a394c49c")
-		(property "Reference" "JP17001"
+		(property "Reference" "JP801"
 			(at 102.87 62.23 0)
 			(effects
 				(font
@@ -5758,7 +5758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 97.79 63.5 0)
 			(effects
 				(font
@@ -5809,7 +5809,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a8ec004-64ba-460f-a3f0-dc428ce626f2")
-		(property "Reference" "R17008"
+		(property "Reference" "R808"
 			(at 127 185.42 90)
 			(effects
 				(font
@@ -5827,7 +5827,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 121.412 181.61 90)
 			(effects
 				(font
@@ -5896,7 +5896,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "462e5bcf-9aa0-4f9a-a915-5c4c60963416")
-		(property "Reference" "R17005"
+		(property "Reference" "R805"
 			(at 50.8 182.88 90)
 			(effects
 				(font
@@ -5914,7 +5914,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 55.118 179.07 90)
 			(effects
 				(font
@@ -5983,7 +5983,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "51bf2983-dd0c-4b1a-9faa-44bcb41cc0dc")
-		(property "Reference" "R17012"
+		(property "Reference" "R812"
 			(at 167.64 185.42 90)
 			(effects
 				(font
@@ -6001,7 +6001,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 162.052 181.61 90)
 			(effects
 				(font
@@ -6070,7 +6070,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "57015719-4133-4ce0-9b3f-b94be44a75f7")
-		(property "Reference" "JP17018"
+		(property "Reference" "JP818"
 			(at 167.64 77.47 0)
 			(effects
 				(font
@@ -6087,7 +6087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 162.56 78.74 0)
 			(effects
 				(font
@@ -6138,7 +6138,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5897c6ad-b6eb-4785-97f7-4a1793cd75cc")
-		(property "Reference" "JP17005"
+		(property "Reference" "JP805"
 			(at 102.87 74.93 0)
 			(effects
 				(font
@@ -6155,7 +6155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 97.79 76.2 0)
 			(effects
 				(font
@@ -6206,7 +6206,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "653a6adc-e798-4b15-b45d-179f61b1ee93")
-		(property "Reference" "TP17007"
+		(property "Reference" "TP801"
 			(at 99.06 165.1 0)
 			(effects
 				(font
@@ -6291,7 +6291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b4361a3-0e41-4ff6-bfc9-09c42d30296c")
-		(property "Reference" "#PWR017003"
+		(property "Reference" "#PWR0803"
 			(at 90.17 143.51 0)
 			(effects
 				(font
@@ -6356,7 +6356,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6cfda13c-8e1d-4df3-9166-d4120f05e2d1")
-		(property "Reference" "JP17004"
+		(property "Reference" "JP804"
 			(at 102.87 71.12 0)
 			(effects
 				(font
@@ -6373,7 +6373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 97.79 72.39 0)
 			(effects
 				(font
@@ -6424,7 +6424,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f2b30a1-7397-4763-b688-a2b483a17ee1")
-		(property "Reference" "JP17009"
+		(property "Reference" "JP809"
 			(at 167.64 53.34 0)
 			(effects
 				(font
@@ -6441,7 +6441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 162.56 54.61 0)
 			(effects
 				(font
@@ -6492,7 +6492,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7106a1b8-127b-438e-bc57-e60b2e127ab8")
-		(property "Reference" "JP17014"
+		(property "Reference" "JP814"
 			(at 167.64 67.31 0)
 			(effects
 				(font
@@ -6509,7 +6509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 162.56 68.58 0)
 			(effects
 				(font
@@ -6560,7 +6560,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7116e8a6-b43f-41f2-99ec-bdcf8ce525d6")
-		(property "Reference" "TP17008"
+		(property "Reference" "TP802"
 			(at 182.88 40.64 0)
 			(effects
 				(font
@@ -6644,7 +6644,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "781ebd9b-d9ad-484f-b7e7-ca15b1d93ac5")
-		(property "Reference" "R17009"
+		(property "Reference" "R809"
 			(at 137.16 185.42 90)
 			(effects
 				(font
@@ -6662,7 +6662,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 131.572 181.61 90)
 			(effects
 				(font
@@ -6731,7 +6731,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7ddd821c-1296-4fd5-9d7a-2ae2baf24e89")
-		(property "Reference" "JP17013"
+		(property "Reference" "JP813"
 			(at 167.64 63.5 0)
 			(effects
 				(font
@@ -6748,7 +6748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 162.56 64.77 0)
 			(effects
 				(font
@@ -6800,7 +6800,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f556b51-b322-4c31-8e43-1e39384fb304")
-		(property "Reference" "#PWR017019"
+		(property "Reference" "#PWR0809"
 			(at 163.83 185.42 0)
 			(effects
 				(font
@@ -6865,7 +6865,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80de8bca-dbd4-450c-a8ae-31e6d276c41b")
-		(property "Reference" "C17003"
+		(property "Reference" "C803"
 			(at 208.28 107.9501 0)
 			(effects
 				(font
@@ -6883,7 +6883,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "pss:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 211.1248 102.87 0)
 			(effects
 				(font
@@ -6952,7 +6952,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "81b6b11f-a61c-442b-a690-adf20e8d460e")
-		(property "Reference" "R17001"
+		(property "Reference" "R801"
 			(at 30.48 182.88 90)
 			(effects
 				(font
@@ -6970,7 +6970,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 34.798 179.07 90)
 			(effects
 				(font
@@ -7039,7 +7039,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "834184e8-53e6-4bae-9203-727fc01c3c42")
-		(property "Reference" "JP17007"
+		(property "Reference" "JP807"
 			(at 167.64 44.45 0)
 			(effects
 				(font
@@ -7056,7 +7056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 162.56 45.72 0)
 			(effects
 				(font
@@ -7107,7 +7107,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8434200d-a1f7-440f-bd6f-cef20cc66d3c")
-		(property "Reference" "JP17003"
+		(property "Reference" "JP803"
 			(at 102.87 68.58 0)
 			(effects
 				(font
@@ -7124,7 +7124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 97.79 69.85 0)
 			(effects
 				(font
@@ -7175,7 +7175,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "89d5e1bf-8604-4dda-8d88-423c459988fc")
-		(property "Reference" "TP17004"
+		(property "Reference" "TP806"
 			(at 242.57 127 0)
 			(effects
 				(font
@@ -7259,7 +7259,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8bc93af2-f5d4-4f5f-b18d-13304b0c4407")
-		(property "Reference" "R17007"
+		(property "Reference" "R807"
 			(at 116.84 185.42 90)
 			(effects
 				(font
@@ -7277,7 +7277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 111.252 181.61 90)
 			(effects
 				(font
@@ -7346,7 +7346,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "903704ff-9093-433e-aa1f-4dc462d19ce4")
-		(property "Reference" "R17003"
+		(property "Reference" "R803"
 			(at 40.64 182.88 90)
 			(effects
 				(font
@@ -7364,7 +7364,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 44.958 179.07 90)
 			(effects
 				(font
@@ -7433,7 +7433,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "920e7acb-8cb6-4f25-ae2e-f62ef6f1a223")
-		(property "Reference" "#PWR017007"
+		(property "Reference" "#PWR0811"
 			(at 212.09 107.95 0)
 			(effects
 				(font
@@ -7499,7 +7499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9aea24e3-7103-43d1-80cc-13027bdbc1df")
-		(property "Reference" "#PWR017013"
+		(property "Reference" "#PWR0806"
 			(at 133.35 182.88 0)
 			(effects
 				(font
@@ -7564,7 +7564,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d0ff30c-3bf7-47d2-a419-5620ca1a55f7")
-		(property "Reference" "TP17005"
+		(property "Reference" "TP807"
 			(at 242.57 132.08 0)
 			(effects
 				(font
@@ -7648,7 +7648,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f014089-aa6d-46b2-a89d-31919bb0cdcb")
-		(property "Reference" "TP17003"
+		(property "Reference" "TP805"
 			(at 242.57 59.69 0)
 			(effects
 				(font
@@ -7733,7 +7733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4136ead-3ebf-45fc-b47e-9122531c0a59")
-		(property "Reference" "#PWR017014"
+		(property "Reference" "#PWR0807"
 			(at 143.51 185.42 0)
 			(effects
 				(font
@@ -7798,7 +7798,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa54da89-e794-4aef-ad9c-3642db80a4fe")
-		(property "Reference" "C17002"
+		(property "Reference" "C802"
 			(at 208.28 31.7501 0)
 			(effects
 				(font
@@ -7816,7 +7816,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "pss:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 211.1248 26.67 0)
 			(effects
 				(font
@@ -7885,7 +7885,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa880822-2407-4286-9405-c8ea37024911")
-		(property "Reference" "JP17016"
+		(property "Reference" "JP816"
 			(at 167.64 72.39 0)
 			(effects
 				(font
@@ -7902,7 +7902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 162.56 73.66 0)
 			(effects
 				(font
@@ -7954,7 +7954,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aeb38a39-9f90-41f3-84d9-33987fbe3fec")
-		(property "Reference" "#PWR017001"
+		(property "Reference" "#PWR0812"
 			(at 217.17 27.94 0)
 			(effects
 				(font
@@ -8019,7 +8019,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b0211de8-f82b-4d4c-a840-294665bea467")
-		(property "Reference" "JP17015"
+		(property "Reference" "JP815"
 			(at 167.64 69.85 0)
 			(effects
 				(font
@@ -8036,7 +8036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 162.56 71.12 0)
 			(effects
 				(font
@@ -8087,7 +8087,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b4a5fba6-c47f-497d-bcb9-c48307216ce1")
-		(property "Reference" "#PWR017004"
+		(property "Reference" "#PWR0810"
 			(at 212.09 31.75 0)
 			(effects
 				(font
@@ -8153,7 +8153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6f58a7e-9df5-4f65-9d98-0f75961bac44")
-		(property "Reference" "#PWR017015"
+		(property "Reference" "#PWR0808"
 			(at 153.67 182.88 0)
 			(effects
 				(font
@@ -8218,7 +8218,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bda4fc14-d828-4b12-b6e6-e29c3b60e2c5")
-		(property "Reference" "D17003"
+		(property "Reference" "D803"
 			(at 137.16 168.91 0)
 			(effects
 				(font
@@ -8236,7 +8236,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "pss:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 133.35 172.72 0)
 			(effects
 				(font
@@ -8306,7 +8306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1312f4a-8681-484d-9eba-654ac832f6bf")
-		(property "Reference" "#PWR017010"
+		(property "Reference" "#PWR0802"
 			(at 76.2 181.61 0)
 			(effects
 				(font
@@ -8372,7 +8372,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c24dabcb-51e0-4e11-b84c-d972de084ff5")
-		(property "Reference" "#PWR017009"
+		(property "Reference" "#PWR0815"
 			(at 217.17 149.86 0)
 			(effects
 				(font
@@ -8438,7 +8438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4c64d91-4419-45fa-84e0-c5131e13f1f1")
-		(property "Reference" "#PWR017012"
+		(property "Reference" "#PWR0805"
 			(at 123.19 185.42 0)
 			(effects
 				(font
@@ -8503,7 +8503,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf30af05-9856-447f-a6f0-af984a2579e9")
-		(property "Reference" "TP17002"
+		(property "Reference" "TP804"
 			(at 242.57 54.61 0)
 			(effects
 				(font
@@ -8588,7 +8588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d104f597-594d-448b-8324-f5773e59801a")
-		(property "Reference" "#PWR017005"
+		(property "Reference" "#PWR0813"
 			(at 217.17 72.39 0)
 			(effects
 				(font
@@ -8653,7 +8653,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d343285d-56d2-4f2e-b773-ae38fb2a7a84")
-		(property "Reference" "JP17019"
+		(property "Reference" "JP819"
 			(at 167.64 80.01 0)
 			(effects
 				(font
@@ -8670,7 +8670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 162.56 81.28 0)
 			(effects
 				(font
@@ -8721,7 +8721,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d59ff6d9-8e80-4f30-8c93-91a66ae3d89e")
-		(property "Reference" "R17011"
+		(property "Reference" "R811"
 			(at 157.48 185.42 90)
 			(effects
 				(font
@@ -8739,7 +8739,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 151.892 181.61 90)
 			(effects
 				(font
@@ -8809,7 +8809,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d87298b8-aea7-4689-ba79-47fb4bc0cba5")
-		(property "Reference" "U17002"
+		(property "Reference" "U802"
 			(at 219.3641 36.83 0)
 			(effects
 				(font
@@ -8827,7 +8827,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "pss:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 217.17 52.07 0)
 			(effects
 				(font
@@ -8938,7 +8938,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea3044ec-48aa-4093-8576-cb589a7d499d")
-		(property "Reference" "JP17012"
+		(property "Reference" "JP812"
 			(at 167.64 60.96 0)
 			(effects
 				(font
@@ -8955,7 +8955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 162.56 62.23 0)
 			(effects
 				(font
@@ -9007,7 +9007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea9db1ca-29ae-4dd0-857c-91d3826e58ca")
-		(property "Reference" "#PWR017008"
+		(property "Reference" "#PWR0814"
 			(at 217.17 104.14 0)
 			(effects
 				(font
@@ -9072,7 +9072,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ebbbc0c7-2906-444a-a89b-32a38f516f68")
-		(property "Reference" "D17006"
+		(property "Reference" "D806"
 			(at 167.64 168.91 0)
 			(effects
 				(font
@@ -9090,7 +9090,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "pss:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 163.83 172.72 0)
 			(effects
 				(font
@@ -9159,7 +9159,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f069099d-5742-4b73-9e9d-4d97ef3e8734")
-		(property "Reference" "D17005"
+		(property "Reference" "D805"
 			(at 157.48 168.91 0)
 			(effects
 				(font
@@ -9177,7 +9177,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "pss:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 153.67 172.72 0)
 			(effects
 				(font
@@ -9246,7 +9246,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f08285db-a16d-45c8-8272-6aae385b990b")
-		(property "Reference" "JP17008"
+		(property "Reference" "JP808"
 			(at 167.64 50.8 0)
 			(effects
 				(font
@@ -9263,7 +9263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 162.56 52.07 0)
 			(effects
 				(font
@@ -9314,7 +9314,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f86724e3-bb5d-4a2d-9e65-30a9cff2a537")
-		(property "Reference" "R17010"
+		(property "Reference" "R810"
 			(at 147.32 185.42 90)
 			(effects
 				(font
@@ -9332,7 +9332,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 141.732 181.61 90)
 			(effects
 				(font
@@ -9402,7 +9402,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f94e0d7a-ecfc-4e10-8c1b-782ff5f9de85")
-		(property "Reference" "#PWR017011"
+		(property "Reference" "#PWR0804"
 			(at 113.03 182.88 0)
 			(effects
 				(font
@@ -9467,7 +9467,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd66a9c8-3e07-4171-9a42-7008047be022")
-		(property "Reference" "JP17017"
+		(property "Reference" "JP817"
 			(at 167.64 74.93 0)
 			(effects
 				(font
@@ -9484,7 +9484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 162.56 76.2 0)
 			(effects
 				(font

@@ -2319,7 +2319,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "010968e6-9607-4bc8-9759-a5ce8237c6b7")
-		(property "Reference" "#PWR026008"
+		(property "Reference" "#PWR01510"
 			(at 220.98 123.19 0)
 			(effects
 				(font
@@ -2385,7 +2385,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b0a71c1-495c-4865-a861-6802dddc94de")
-		(property "Reference" "#PWR027004"
+		(property "Reference" "#PWR01502"
 			(at 52.07 179.07 0)
 			(effects
 				(font
@@ -2451,7 +2451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11af9700-6d81-46e8-a0d9-c27e5a84a1ed")
-		(property "Reference" "R26009"
+		(property "Reference" "R1501"
 			(at 104.14 157.4799 0)
 			(effects
 				(font
@@ -2469,7 +2469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 99.822 158.75 90)
 			(effects
 				(font
@@ -2538,7 +2538,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "125e737b-b23f-4e9b-ab9b-be12945d6d15")
-		(property "Reference" "TP27002"
+		(property "Reference" "TP1503"
 			(at 106.68 91.44 0)
 			(effects
 				(font
@@ -2622,7 +2622,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1504d6f4-34a5-4fd8-8a88-52aaeb0aa0f5")
-		(property "Reference" "#PWR026002"
+		(property "Reference" "#PWR01503"
 			(at 68.58 88.9 0)
 			(effects
 				(font
@@ -2687,7 +2687,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30ef4d26-6b8a-456b-b2d9-9e808e0a06b6")
-		(property "Reference" "C26003"
+		(property "Reference" "C1503"
 			(at 95.25 99.0599 0)
 			(effects
 				(font
@@ -2705,7 +2705,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "pss:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 92.4052 104.14 0)
 			(effects
 				(font
@@ -2774,7 +2774,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33e8db30-2603-4ccf-b130-cbcad9cd43df")
-		(property "Reference" "TP27004"
+		(property "Reference" "TP1506"
 			(at 247.65 83.82 0)
 			(effects
 				(font
@@ -2858,7 +2858,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "34b84019-5187-42c0-ab99-8595639e9403")
-		(property "Reference" "C26001"
+		(property "Reference" "C1502"
 			(at 64.77 80.0101 0)
 			(effects
 				(font
@@ -2876,7 +2876,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "pss:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 67.6148 74.93 0)
 			(effects
 				(font
@@ -2945,7 +2945,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d5fc246-ecfb-4628-9199-3886747c67e4")
-		(property "Reference" "TP27006"
+		(property "Reference" "TP1505"
 			(at 187.96 81.28 0)
 			(effects
 				(font
@@ -3030,7 +3030,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3db52494-9207-439e-9a99-826ec7caed0c")
-		(property "Reference" "R26003"
+		(property "Reference" "R1506"
 			(at 170.18 59.69 90)
 			(effects
 				(font
@@ -3046,7 +3046,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 170.18 64.262 90)
 			(effects
 				(font
@@ -3116,7 +3116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fb03e1f-23af-442b-ac9b-3c82761fde1b")
-		(property "Reference" "R26005"
+		(property "Reference" "R1507"
 			(at 201.93 78.74 90)
 			(effects
 				(font
@@ -3132,7 +3132,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 201.93 83.312 90)
 			(effects
 				(font
@@ -3202,7 +3202,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "460ba85e-faa6-4bcc-8b7a-6f799d9933d4")
-		(property "Reference" "R26006"
+		(property "Reference" "R1508"
 			(at 201.93 91.44 90)
 			(effects
 				(font
@@ -3218,7 +3218,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 201.93 96.012 90)
 			(effects
 				(font
@@ -3288,7 +3288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "464119c4-e595-4c06-a112-c354b09b3c89")
-		(property "Reference" "#PWR027007"
+		(property "Reference" "#PWR01501"
 			(at 52.07 161.29 0)
 			(effects
 				(font
@@ -3354,7 +3354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e69e973-2764-4267-b2de-63ccdeac4cd8")
-		(property "Reference" "U26001"
+		(property "Reference" "U1502"
 			(at 78.3941 82.55 0)
 			(effects
 				(font
@@ -3372,7 +3372,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "pss:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 85.09 95.25 0)
 			(effects
 				(font
@@ -3462,7 +3462,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50a022ff-b2dd-4f5e-82f7-680f60c67d36")
-		(property "Reference" "R26004"
+		(property "Reference" "R1505"
 			(at 160.02 96.5199 0)
 			(effects
 				(font
@@ -3480,7 +3480,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 155.702 97.79 90)
 			(effects
 				(font
@@ -3549,7 +3549,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50c41223-5bdd-4411-90ee-59e7d85b0c13")
-		(property "Reference" "C26002"
+		(property "Reference" "C1501"
 			(at 41.91 171.4501 0)
 			(effects
 				(font
@@ -3567,7 +3567,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "pss:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 44.7548 166.37 0)
 			(effects
 				(font
@@ -3637,7 +3637,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58208448-f231-4549-b90f-02ff26ab803b")
-		(property "Reference" "R26007"
+		(property "Reference" "R1510"
 			(at 233.68 97.79 90)
 			(effects
 				(font
@@ -3653,7 +3653,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 233.68 102.362 90)
 			(effects
 				(font
@@ -3723,7 +3723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d17568f-554d-4acd-8fa3-3cd8082f9482")
-		(property "Reference" "U26002"
+		(property "Reference" "U1501"
 			(at 233.68 77.47 0)
 			(effects
 				(font
@@ -3739,7 +3739,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "pss:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 233.68 87.63 0)
 			(effects
 				(font
@@ -3863,7 +3863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6268bf72-7188-4086-8b37-1e6aefdd0b49")
-		(property "Reference" "R26008"
+		(property "Reference" "R1509"
 			(at 223.52 109.2199 0)
 			(effects
 				(font
@@ -3881,7 +3881,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 219.202 110.49 90)
 			(effects
 				(font
@@ -3951,7 +3951,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7161972a-9458-4456-960b-93ab3418ee04")
-		(property "Reference" "TP27003"
+		(property "Reference" "TP1504"
 			(at 137.16 83.82 0)
 			(effects
 				(font
@@ -4035,7 +4035,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8804e98b-92c5-4ff1-a8d5-21be93ab7b38")
-		(property "Reference" "TP27005"
+		(property "Reference" "TP1501"
 			(at 62.23 104.14 0)
 			(effects
 				(font
@@ -4120,7 +4120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b64d02c-c63e-4525-980c-05ee7fad5912")
-		(property "Reference" "#PWR027009"
+		(property "Reference" "#PWR01507"
 			(at 101.6 157.48 0)
 			(effects
 				(font
@@ -4186,7 +4186,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f79a527-a530-473c-93f3-ce1c0cedea26")
-		(property "Reference" "R26011"
+		(property "Reference" "R1502"
 			(at 104.14 179.0699 0)
 			(effects
 				(font
@@ -4204,7 +4204,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 99.822 180.34 90)
 			(effects
 				(font
@@ -4274,7 +4274,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "995c7616-f917-4e1f-9880-e03af7e87c8c")
-		(property "Reference" "R26001"
+		(property "Reference" "R1503"
 			(at 148.59 59.69 90)
 			(effects
 				(font
@@ -4290,7 +4290,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 148.59 64.262 90)
 			(effects
 				(font
@@ -4360,7 +4360,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3aec97a-e057-4a98-b119-b84f470b710d")
-		(property "Reference" "RV26001"
+		(property "Reference" "RV1501"
 			(at 99.06 167.6399 0)
 			(effects
 				(font
@@ -4450,7 +4450,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "acb92254-f01d-4b54-91ae-9511f706bf5c")
-		(property "Reference" "#PWR026003"
+		(property "Reference" "#PWR01505"
 			(at 76.2 111.76 0)
 			(effects
 				(font
@@ -4516,7 +4516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c29cce46-de5e-445d-91fc-ba767eb507a1")
-		(property "Reference" "U26002"
+		(property "Reference" "U1501"
 			(at 53.34 168.9099 0)
 			(effects
 				(font
@@ -4534,7 +4534,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "pss:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 54.61 170.18 0)
 			(effects
 				(font
@@ -4657,7 +4657,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cac08f6a-aa0e-4ba6-b64c-6cf005213554")
-		(property "Reference" "#PWR026010"
+		(property "Reference" "#PWR01508"
 			(at 101.6 191.77 0)
 			(effects
 				(font
@@ -4722,7 +4722,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d0f121ea-d145-4e69-9033-71f02325d1d3")
-		(property "Reference" "#PWR026004"
+		(property "Reference" "#PWR01506"
 			(at 91.44 111.76 0)
 			(effects
 				(font
@@ -4787,7 +4787,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e069340a-ad8d-4100-b7f0-9f02839400b3")
-		(property "Reference" "TP27001"
+		(property "Reference" "TP1502"
 			(at 104.14 88.9 0)
 			(effects
 				(font
@@ -4871,7 +4871,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e94db29e-a99b-4007-83f9-122bbf72b9c3")
-		(property "Reference" "#PWR026007"
+		(property "Reference" "#PWR01509"
 			(at 157.48 110.49 0)
 			(effects
 				(font
@@ -4937,7 +4937,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "edb19ee2-1954-4022-98a9-cd7dc81136e9")
-		(property "Reference" "R26002"
+		(property "Reference" "R1504"
 			(at 148.59 81.28 90)
 			(effects
 				(font
@@ -4953,7 +4953,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 148.59 85.852 90)
 			(effects
 				(font
@@ -5023,7 +5023,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee12b4ac-2327-42c1-98bc-a1de530b5b4c")
-		(property "Reference" "#PWR027010"
+		(property "Reference" "#PWR01504"
 			(at 76.2 76.2 0)
 			(effects
 				(font
@@ -5089,7 +5089,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f7e8e8f5-65a8-4ab1-b6e1-38254e27d8d7")
-		(property "Reference" "U26002"
+		(property "Reference" "U1501"
 			(at 170.18 76.2 0)
 			(effects
 				(font
@@ -5105,7 +5105,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "pss:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 170.18 85.09 0)
 			(effects
 				(font

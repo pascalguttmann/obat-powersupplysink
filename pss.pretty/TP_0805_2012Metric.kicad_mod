@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 -1.65 0)
 		(layer "F.SilkS")
-		(uuid "effead60-2b17-4463-91cf-34792a2b459a")
+		(uuid "578f6e53-af4f-418c-bf9e-54a85f051d9a")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +16,10 @@
 			)
 		)
 	)
-	(property "Value" "TP_0805_2012Metric"
+	(property "Value" "~"
 		(at 0 1.65 0)
 		(layer "F.Fab")
-		(uuid "83cd9c78-75b4-4eec-9501-2ff4a6e7a26e")
+		(uuid "c2699656-eac9-42ee-989e-50dc37d81278")
 		(effects
 			(font
 				(size 1 1)
@@ -27,39 +27,65 @@
 			)
 		)
 	)
-	(property "Footprint" "TP_0805_2012Metric"
+	(property "Footprint" "pss:TP_0805_2012Metric"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3ee2e200-bbcb-4556-a56c-a1a97117943b")
+		(uuid "83cfe14a-c10f-46eb-97c3-01120d21212f")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "10e8fbff-4a7b-46b4-8e2f-6ae1745031fe")
+		(uuid "39bd66ba-6ebf-42d6-8570-5a471524c765")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "test point"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0fa36770-2fec-4d72-9ed4-680ead5632e8")
+		(uuid "12db2683-c2ca-4ad4-b4e0-534d9316bb52")
 		(effects
 			(font
 				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "MPN" "RCTCTE"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f2e2ef9-85f9-41d1-921a-779665f6b39e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VPN" "660-RCTCTE"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "04ca505f-68cc-4f16-98c4-33f71e283313")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -73,7 +99,7 @@
 		)
 		(fill none)
 		(layer "F.CrtYd")
-		(uuid "bae2f146-ac38-428c-989a-e7fb6a02750c")
+		(uuid "7342b9f8-4d25-4c7c-abdf-d5e1f83e4453")
 	)
 	(fp_line
 		(start -1 -0.625)
@@ -83,7 +109,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "e73c85cd-37bc-422b-91a3-e268ce9a1281")
+		(uuid "ead35574-8af7-40d3-bdca-826a78bb46c7")
 	)
 	(fp_line
 		(start -1 0.625)
@@ -93,7 +119,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "37f98079-19ff-4dd9-ac60-76d47722b840")
+		(uuid "e3134e48-f9ba-4bf7-a769-c93e025a3f28")
 	)
 	(fp_line
 		(start 1 -0.625)
@@ -103,7 +129,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "b1a33891-38ab-48fb-8542-eb6b9260c23c")
+		(uuid "5623a5ee-3379-416b-a03a-d3a9ddc595c0")
 	)
 	(fp_line
 		(start 1 0.625)
@@ -113,12 +139,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "b0e87530-3bac-4895-be8c-fdb50669192d")
+		(uuid "926f60f3-16b5-4e59-830d-5d977f123bbd")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "b5354c63-16aa-4898-aa0c-eeb3d035fc5f")
+		(uuid "08243759-1a3f-4454-848e-e5c8a5c14aca")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -131,7 +157,7 @@
 		(size 2.5 1.75)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.243902)
-		(uuid "9702d628-9b91-4d58-9130-9271bd872f5b")
+		(uuid "6fb5b4de-8900-4d94-bc38-6ca42b71bf65")
 	)
 	(model "${KIPRJMOD}/3d_models/RCTCTE.STEP"
 		(offset

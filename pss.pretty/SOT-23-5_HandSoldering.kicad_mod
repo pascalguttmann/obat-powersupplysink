@@ -1,0 +1,282 @@
+(footprint "SOT-23-5_HandSoldering"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "5-pin SOT23 package")
+	(tags "SOT-23-5 hand-soldering")
+	(property "Reference" "REF**"
+		(at 0 -2.9 0)
+		(layer "F.SilkS")
+		(uuid "2566e2fe-74de-4a96-b61e-287840b43c17")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SN74LVC1G04DBVR"
+		(at 0 2.9 0)
+		(layer "F.Fab")
+		(uuid "7ec59194-3caa-4178-8243-7cff5e6700b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f0e911e-a27c-402b-a32f-8fb989e6d47a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65a6cd67-616f-4314-9d82-5fa4984c0106")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Inverter"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5db11e2d-5f3c-4480-8508-10428d8056d9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "MPN" "SN74LVC1G04DBVR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "debce44b-f27d-4a74-9a9b-2965186ccc4b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VPN" "595-SN74LVC1G04DBVR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "969e87c1-55d1-4ab7-805a-779560149aa1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.9 1.61)
+		(end 0.9 1.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9ba51a15-a3e5-4663-975c-cb1cfd3f2b66")
+	)
+	(fp_line
+		(start 0.1 -1.61)
+		(end -0.7 -1.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "98feb909-b0c1-4a3b-818e-d6d54e63cba4")
+	)
+	(fp_line
+		(start 0.1 -1.61)
+		(end 0.9 -1.61)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3647e970-7e0f-4412-b436-7096af06980d")
+	)
+	(fp_poly
+		(pts
+			(xy -1.2 -1.56) (xy -1.44 -1.89) (xy -0.96 -1.89) (xy -1.2 -1.56)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "9983b13e-f2dc-4478-9043-509c860387ca")
+	)
+	(fp_line
+		(start -2.38 -1.8)
+		(end -2.38 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8e8b02ce-bcf0-4563-8bdf-85ec6bebe31c")
+	)
+	(fp_line
+		(start -2.38 -1.8)
+		(end 2.38 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a306aea3-c265-4436-b84a-9338c64052c3")
+	)
+	(fp_line
+		(start 2.38 1.8)
+		(end -2.38 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "14003d09-dbb3-49b7-9a54-f8345801a31c")
+	)
+	(fp_line
+		(start 2.38 1.8)
+		(end 2.38 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f85c0731-cb54-4678-a810-214038bb50a8")
+	)
+	(fp_line
+		(start -0.9 -0.9)
+		(end -0.9 1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "948e5acc-6ef2-431d-8494-79be94a2db5a")
+	)
+	(fp_line
+		(start -0.9 -0.9)
+		(end -0.25 -1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f696464b-6dfa-4eab-b73d-60957a922471")
+	)
+	(fp_line
+		(start 0.9 -1.55)
+		(end -0.25 -1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8c291772-c3d5-47ce-b47b-fbcf2190f250")
+	)
+	(fp_line
+		(start 0.9 -1.55)
+		(end 0.9 1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "188f3a8a-f65d-46a7-bb9f-956f2673c931")
+	)
+	(fp_line
+		(start 0.9 1.55)
+		(end -0.9 1.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "52b0820b-a2d0-4db6-b38d-c99c193c5b26")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "20ff4631-4e7b-40a9-a65c-bef4903e0ddc")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.35 -0.95)
+		(size 1.56 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "6b78393c-30aa-475d-971b-c9df456d3e2a")
+	)
+	(pad "2" smd roundrect
+		(at -1.35 0)
+		(size 1.56 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "3e83d039-b776-4a52-8a67-2faaf14bc15f")
+	)
+	(pad "3" smd roundrect
+		(at -1.35 0.95)
+		(size 1.56 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "f4e353d4-e332-4e84-ad62-aa315c4e15f8")
+	)
+	(pad "4" smd roundrect
+		(at 1.35 0.95)
+		(size 1.56 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "5290a4f2-c7f7-4655-a360-e0ad15f304ad")
+	)
+	(pad "5" smd roundrect
+		(at 1.35 -0.95)
+		(size 1.56 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "06e75fa1-31ee-4c60-833e-32febbf6de40")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
