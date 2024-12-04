@@ -3632,7 +3632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 96.52 181.61 0)
 			(effects
 				(font
@@ -4216,7 +4216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 76.2 181.61 0)
 			(effects
 				(font
@@ -4390,7 +4390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 30.48 168.91 0)
 			(effects
 				(font
@@ -4712,7 +4712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 86.36 181.61 0)
 			(effects
 				(font
@@ -5005,7 +5005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 66.04 181.61 0)
 			(effects
 				(font
@@ -5299,7 +5299,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 106.68 181.61 0)
 			(effects
 				(font
@@ -6114,7 +6114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 196.85 39.37 0)
 			(effects
 				(font
@@ -7599,7 +7599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 116.84 181.61 0)
 			(effects
 				(font

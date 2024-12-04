@@ -1373,7 +1373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fischerelektronik.de/web_fischer/en_GB/VA/THFU3/datasheet.xhtml;jsessionid=5770B526AEBA62D4497BB978A14949ED?branch=heatsinks"
+		(property "Datasheet" "./datasheet/THFU3.pdf"
 			(at 194.31 125.73 0)
 			(effects
 				(font
@@ -2831,7 +2831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://fischerelektronik.de/web_fischer/en_GB/VA/THFU3/datasheet.xhtml;jsessionid=5770B526AEBA62D4497BB978A14949ED?branch=heatsinks"
+		(property "Datasheet" "./datasheet/THFU3.pdf"
 			(at 194.31 74.93 0)
 			(effects
 				(font

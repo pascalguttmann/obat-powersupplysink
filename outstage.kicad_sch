@@ -1489,7 +1489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product-download.phoenixcontact.com/7441242?response-content-disposition=inline;%20filename%3D%221017503_00_en_01.pdf%22&Expires=1733249030&Signature=5lo3rC7~QEZ5FQDy477t0tYIjm5ZcDNSMgabZuK1jxDOtM~QKzm6Pw5Z9aVTbR6TPsDaXhCGZMbo17UCeuP1TbPOoD83aEM5~NBisu7meDmbH~SssR8B6wsaWwOzCHa1eZjmiEcfdjLDr~fOnUSZEHHCzrASM8Yq40aVv9EnYCHUrfe-Muw11jMAoiRtV-vw45KqhCyqrFgafSh8Ds1vgfQgzpyXWyk3419YnLdpecnez56QIE9jS6h7KERzbJrabWi0vOc7~eoupEZR4K7X4sKBY01ChUK~D6X4dGHKkTuLUCkJu8j5xJNqcDJl92nssBl35zZrMOgs9xZ-F0Wckw__&Key-Pair-Id=K1I2N54A7B0GD"
+		(property "Datasheet" "./datasheet/1017503_00_en_01.pdf"
 			(at 146.05 82.55 0)
 			(effects
 				(font
@@ -1720,7 +1720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product-download.phoenixcontact.com/7441242?response-content-disposition=inline;%20filename%3D%221017503_00_en_01.pdf%22&Expires=1733249030&Signature=5lo3rC7~QEZ5FQDy477t0tYIjm5ZcDNSMgabZuK1jxDOtM~QKzm6Pw5Z9aVTbR6TPsDaXhCGZMbo17UCeuP1TbPOoD83aEM5~NBisu7meDmbH~SssR8B6wsaWwOzCHa1eZjmiEcfdjLDr~fOnUSZEHHCzrASM8Yq40aVv9EnYCHUrfe-Muw11jMAoiRtV-vw45KqhCyqrFgafSh8Ds1vgfQgzpyXWyk3419YnLdpecnez56QIE9jS6h7KERzbJrabWi0vOc7~eoupEZR4K7X4sKBY01ChUK~D6X4dGHKkTuLUCkJu8j5xJNqcDJl92nssBl35zZrMOgs9xZ-F0Wckw__&Key-Pair-Id=K1I2N54A7B0GD"
+		(property "Datasheet" "./datasheet/1017503_00_en_01.pdf"
 			(at 146.05 113.03 0)
 			(effects
 				(font

@@ -8193,7 +8193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 232.41 105.41 0)
 			(effects
 				(font
@@ -8346,7 +8346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 162.56 162.56 0)
 			(effects
 				(font
@@ -9547,7 +9547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 250.19 105.41 0)
 			(effects
 				(font
@@ -9757,7 +9757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 151.13 172.72 0)
 			(effects
 				(font
@@ -10735,7 +10735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 267.97 48.26 0)
 			(effects
 				(font
@@ -11178,7 +11178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 267.97 105.41 0)
 			(effects
 				(font
@@ -11555,7 +11555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 250.19 48.26 0)
 			(effects
 				(font
@@ -12739,7 +12739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 214.63 105.41 0)
 			(effects
 				(font
@@ -13659,7 +13659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 232.41 48.26 0)
 			(effects
 				(font
@@ -13980,7 +13980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 214.63 48.26 0)
 			(effects
 				(font

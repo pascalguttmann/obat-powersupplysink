@@ -3552,7 +3552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1003_C0G_SMD-3316496.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_C0G_Kemet.pdf"
 			(at 40.64 156.21 0)
 			(effects
 				(font
@@ -4020,7 +4020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 63.5 24.13 0)
 			(effects
 				(font
@@ -4106,7 +4106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 124.46 111.76 0)
 			(effects
 				(font
@@ -4192,7 +4192,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 147.32 58.42 0)
 			(effects
 				(font
@@ -4347,7 +4347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1003_C0G_SMD-3316496.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_C0G_Kemet.pdf"
 			(at 134.62 179.07 0)
 			(effects
 				(font
@@ -4435,7 +4435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1003_C0G_SMD-3316496.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_C0G_Kemet.pdf"
 			(at 87.63 179.07 0)
 			(effects
 				(font
@@ -4674,7 +4674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 31.75 29.21 0)
 			(effects
 				(font
@@ -4762,7 +4762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 55.88 179.07 0)
 			(effects
 				(font
@@ -4850,7 +4850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 149.86 179.07 0)
 			(effects
 				(font
@@ -5068,7 +5068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1003_C0G_SMD-3316496.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_C0G_Kemet.pdf"
 			(at 63.5 100.33 0)
 			(effects
 				(font
@@ -5154,7 +5154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1003_C0G_SMD-3316496.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_C0G_Kemet.pdf"
 			(at 152.4 96.52 0)
 			(effects
 				(font
@@ -5240,7 +5240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1003_C0G_SMD-3316496.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_C0G_Kemet.pdf"
 			(at 245.11 111.76 0)
 			(effects
 				(font
@@ -5465,7 +5465,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 44.45 111.76 0)
 			(effects
 				(font
@@ -6079,7 +6079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 38.1 57.15 0)
 			(effects
 				(font
@@ -6167,7 +6167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 167.64 57.15 0)
 			(effects
 				(font
@@ -6644,7 +6644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1003_C0G_SMD-3316496.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_C0G_Kemet.pdf"
 			(at 152.4 83.82 0)
 			(effects
 				(font
@@ -6939,7 +6939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 149.86 156.21 0)
 			(effects
 				(font
@@ -7026,7 +7026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1003_C0G_SMD-3316496.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_C0G_Kemet.pdf"
 			(at 87.63 156.21 0)
 			(effects
 				(font
@@ -7713,7 +7713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 146.05 111.76 0)
 			(effects
 				(font
@@ -8005,7 +8005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 177.8 50.8 0)
 			(effects
 				(font
@@ -8092,7 +8092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1003_C0G_SMD-3316496.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_C0G_Kemet.pdf"
 			(at 31.75 38.1 0)
 			(effects
 				(font
@@ -8403,7 +8403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1003_C0G_SMD-3316496.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_C0G_Kemet.pdf"
 			(at 134.62 156.21 0)
 			(effects
 				(font
@@ -8557,7 +8557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 102.87 179.07 0)
 			(effects
 				(font
@@ -9049,7 +9049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 147.32 45.72 0)
 			(effects
 				(font
@@ -9135,7 +9135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 38.1 24.13 0)
 			(effects
 				(font
@@ -9504,7 +9504,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 50.8 64.77 0)
 			(effects
 				(font
@@ -9722,7 +9722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 226.06 124.46 0)
 			(effects
 				(font
@@ -9950,7 +9950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1003_C0G_SMD-3316496.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_C0G_Kemet.pdf"
 			(at 40.64 179.07 0)
 			(effects
 				(font
@@ -10122,7 +10122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 31.75 64.77 0)
 			(effects
 				(font
@@ -10208,7 +10208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1003_C0G_SMD-3316496.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_C0G_Kemet.pdf"
 			(at 133.35 111.76 0)
 			(effects
 				(font
@@ -10387,7 +10387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 55.88 156.21 0)
 			(effects
 				(font
@@ -10745,7 +10745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 147.32 33.02 0)
 			(effects
 				(font
@@ -10831,7 +10831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 63.5 111.76 0)
 			(effects
 				(font
@@ -11059,7 +11059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1003_C0G_SMD-3316496.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_C0G_Kemet.pdf"
 			(at 63.5 87.63 0)
 			(effects
 				(font
@@ -11213,7 +11213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 102.87 156.21 0)
 			(effects
 				(font

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head id="j_idt2"><link type="text/css" rel="stylesheet" href="/web_fischer/javax.faces.resource/theme.css.xhtml?ln=primefaces-fischertheme" /><link type="text/css" rel="stylesheet" href="RES_NOT_FOUND" /><script type="text/javascript" src="/web_fischer/javax.faces.resource/jsf.js.xhtml;jsessionid=DF9C533324356BCD9AFC2BD00808BA86?ln=javax.faces"></script><script type="text/javascript" src="/web_fischer/javax.faces.resource/jquery/jquery.js.xhtml;jsessionid=DF9C533324356BCD9AFC2BD00808BA86?ln=primefaces&amp;v=7.0"></script><script type="text/javascript" src="/web_fischer/javax.faces.resource/magnific_popup_1.1.0.min.js.xhtml;jsessionid=DF9C533324356BCD9AFC2BD00808BA86?ln=js"></script><link type="text/css" rel="stylesheet" href="/web_fischer/javax.faces.resource/css/magnific-popup.css.xhtml;jsessionid=DF9C533324356BCD9AFC2BD00808BA86?ln=de.incony.anteros.desktop" /><link type="text/css" rel="stylesheet" href="/web_fischer/javax.faces.resource/css/web.css.xhtml;jsessionid=DF9C533324356BCD9AFC2BD00808BA86?ln=de.incony.anteros.desktop" /><script type="text/javascript">if(window.PrimeFaces){PrimeFaces.settings.locale='en_GB';}</script>
+		<title>Home - Fischerelektronik - THFU 3</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="generator" content="ANTEROS" />
+		<meta name="robots" content="all" />
+		<meta name="author" content="INCONY" />
+		<meta name="distribution" content="global" />
+		<meta name="rating" content="General" />
+			<meta name="robots" content="all" />
+			<meta name="description" />
+			<meta name="keywords" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+			<link rel="shortcut icon" href="/web_fischer/javax.faces.resource/icon/favicon.svg.xhtml?ln=de.incony.anteros.desktop" type="image/svg+xml" />
+			<link rel="icon" href="/web_fischer/javax.faces.resource/icon/favicon.svg.xhtml?ln=de.incony.anteros.desktop" type="image/svg+xml" /><!--[if lt IE 9]><script>document.createElement("article");document.createElement("aside");document.createElement("footer");document.createElement("header");document.createElement("hgroup");document.createElement("nav");document.createElement("section");document.createElement("time");</script><![endif]--><script type="text/javascript" src="/web_fischer/javax.faces.resource/javascript.js.xhtml;jsessionid=DF9C533324356BCD9AFC2BD00808BA86?ln=js"></script><script type="text/javascript" src="/web_fischer/javax.faces.resource/javascript_desktop.js.xhtml;jsessionid=DF9C533324356BCD9AFC2BD00808BA86?ln=js"></script>
+		<style type="text/css">
+ 			html {width: auto; overflow: visible !important;}
+ 			body {width: auto; overflow: visible !important;}
+		</style>
+		<style type="text/css" media="print">
+			body#datasheet{ width: 100% !important; }
+			body#datasheet #content .content-wrapper { width: 100% !important; }
+			#datasheet #product { width: 100% !important; }
+			div.banner { display: none !important; }
+			div.toolbar { display: none !important; }
+			div.functions { display: none !important; }
+			.picturesCell { display: none !important; }
+			.webview { display: none !important; }
+			.printview { display: inline !important; }
+			body#datasheet #content .content-wrapper { width: 100% !important; }
+			body#datasheet #content div.page-headline h1.anteros { text-align: left !important; width: 100% !important; }
+			body#datasheet { margin: 0px !important; width: 100% !important; box-shadow: none !important; }
+			#datasheet #product { margin: 0px !important; width: 100% !important;}
+			#datasheet #product .img img {max-width: 150px; }
+			.page-break { display: block !important; page-break-inside: avoid !important; }
+			#content img {max-width: 500px;}
+		</style></head><body id="datasheet" class="datasheet">
+		<div id="wrapper" class="inputBlockerFrame">
+					<header id="datasheet_page_head"><img src="/web_fischer/javax.faces.resource/image/fischer_logo.PNG.xhtml;jsessionid=DF9C533324356BCD9AFC2BD00808BA86?ln=de.incony.anteros.desktop" alt="" />
+					</header>
+				<div id="content" class="datasheet">
+					<div class="content-wrapper">
+								<div id="product" class="datasheet">
+									<div class="page-headline">
+										<div class="datasheet-heading">
+											<h1 class="anteros">Data sheet Product THFU 3
+											</h1>
+											<div class="functions">
+												<ul>
+													<li class="print">
+														<a title="Print data sheet" href="javascript:window.print()">
+															Print data sheet
+														</a>
+													</li>
+													<li><a href="mailto:?subject=Page+recommendation&amp;body=I%0Drecommend%0Dthe%0Dfollowing%0Dpage%0Dto%0Dyou%3A%0D%2F..%2F%2Fweb_fischer%2Fen_GB%2FVA%2FTHFU3%2Fdatasheet.xhtml">Recommend page</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									
+									<div id="product_head2" class="tab-content">
+										<div class="head2_wrapper">
+											<div id="picture" class="picture">
+													<div class="img"><img src="/web_fischer/../pim/upload/fischerData/image/web/thfu3_print.jpg" alt="thfu3_print.tif" title="thfu3_print.tif" />
+													</div>
+											</div>
+											
+											<div class="descriptionWrapper">
+													<div class="categoryPaths">
+															<div class="categoryPath">Profile heatsinks and liquid coolers<span class="categoryPathSeparator">></span>Retaining springs for transistors
+															</div>
+													</div>
+												
+												<div class="description">for transistor-design TO 218/ TO 220/ TO 247/ TO 262/ TO 3 P/ SOT 199/ SOT 429
+												</div>
+											</div>
+										</div>
+									</div>
+											
+											<div class="parameters">
+												<h3 class="anteros">Features</h3>
+												<div class="tab-wrapper">
+				<div id="product_parameters" class="tab-content">
+				<table class="product_properties">
+						<tr class="table-row-odd">
+							<td class="parameter"><span class="product_properties_propertyName"><span class="name">type of mounting</span><span class="name">: </span></span>
+							</td>
+							<td class="parameter"><div class="product_properties_propertyValue">snap-in mounting</div>
+							</td>
+						</tr>
+						<tr class="table-row-even">
+							<td class="parameter"><span class="product_properties_propertyName"><span class="name">for transistor-housing</span><span class="name">: </span></span>
+							</td>
+							<td class="parameter"><div class="product_properties_propertyValue"><ul>
+								<li>TO 218
+								</li>
+								<li>TO 220
+								</li>
+								<li>TO 247
+								</li>
+								<li>TO 262
+								</li>
+								<li>TO 3 P
+								</li>
+								<li>SOT 199
+								</li>
+								<li>SOT 429
+								</li></ul></div>
+							</td>
+						</tr>
+						<tr class="table-row-odd">
+							<td class="parameter"><span class="product_properties_propertyName"><span class="name">suitable for heatsinks</span><span class="name">: </span></span>
+							</td>
+							<td class="parameter"><div class="product_properties_propertyValue"><ul>
+								<li>SK 480
+								</li>
+								<li>SK 481
+								</li>
+								<li>SK 482
+								</li>
+								<li>SK 483
+								</li>
+								<li>SK 487
+								</li>
+								<li>SK 489
+								</li>
+								<li>SK 490
+								</li>
+								<li>SK 492
+								</li>
+								<li>SK 495
+								</li>
+								<li>SK 499
+								</li>
+								<li>SK 514
+								</li>
+								<li>SK 573
+								</li>
+								<li>SK 574
+								</li>
+								<li>SK 575
+								</li>
+								<li>SK 576
+								</li>
+								<li>SK 589
+								</li>
+								<li>SK 593
+								</li>
+								<li>SK 617
+								</li>
+								<li>SK 637
+								</li>
+								<li>SK 638
+								</li>
+								<li>SK 181
+								</li>
+								<li>SK 640
+								</li>
+								<li>SK 641
+								</li>
+								<li>SK 662
+								</li>
+								<li>SK 664
+								</li>
+								<li>SK 665
+								</li>
+								<li>SK 669
+								</li>
+								<li>SK 681
+								</li>
+								<li>SK 697
+								</li>
+								<li>SK 701
+								</li>
+								<li>SK 702
+								</li>
+								<li>SK 703
+								</li>
+								<li>SK 704
+								</li>
+								<li>SK 705
+								</li>
+								<li>LAM 3 K
+								</li>
+								<li>LAM 3 D K
+								</li>
+								<li>LAM 4 K
+								</li>
+								<li>LAM 4 D K
+								</li>
+								<li>LAM 5 K
+								</li>
+								<li>LAM 5 D K
+								</li>
+								<li>LAM 6 K
+								</li>
+								<li>LAM 6 D K
+								</li>
+								<li>LAM 7 K
+								</li>
+								<li>LA 27 K
+								</li></ul></div>
+							</td>
+						</tr>
+						<tr class="table-row-even">
+							<td class="parameter"><span class="product_properties_propertyName"><span class="name">spring force</span><span class="name">: </span></span>
+							</td>
+							<td class="parameter"><div class="product_properties_propertyValue">50&nbsp;N</div>
+							</td>
+						</tr>
+						<tr class="table-row-odd">
+							<td class="parameter"><span class="product_properties_propertyName"><span class="name">material</span><span class="name">: </span></span>
+							</td>
+							<td class="parameter"><div class="product_properties_propertyValue">stainless steel</div>
+							</td>
+						</tr>
+				</table>
+				</div>
+												</div>
+											</div>
+											
+											<div class="dimensionParameters">
+												<h3 class="anteros">Technical Drawing</h3>
+												<div class="tab-wrapper">
+				<div id="product_dimensionParameters" class="tab-content">
+						<div class="pictureWrapper">
+							<a class="imagePopup dimensionParameters" href="/../pim/upload/fischerData/drawing/bigweb/thfu3.jpg" data-prefix="dimensionParameters"><img src="/web_fischer/../pim/upload/fischerData/drawing/web/thfu3.eps.jpg" alt="thfu3.eps" title="thfu3.eps" />
+							</a>
+						</div>
+						<script type="text/javascript">
+							jQuery(document).ready(function() {
+							  jQuery('.imagePopup').magnificPopup({type:'image'});
+							});
+						</script>
+					
+					<div class="clear"></div>
+					<div id="product_parameters">
+				<table class="product_properties">
+				</table>
+					</div>
+				
+				</div>
+												</div>
+											</div>
+										<div id="datasheet_page_foot"><img src="/web_fischer/javax.faces.resource/image/fischer_footer_datasheet.jpg.xhtml;jsessionid=DF9C533324356BCD9AFC2BD00808BA86?ln=de.incony.anteros.desktop" />
+										</div>
+								</div>
+					</div>
+				</div>
+		</div></body>
+</html>

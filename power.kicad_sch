@@ -6790,7 +6790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 215.9 69.85 0)
 			(effects
 				(font
@@ -7995,7 +7995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127031117?cache=1727499920&response-content-disposition=inline;filename=Littelfuse_Datasheet_287_ATOF_r4.0.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpbmFscy53ZWJkYW1kYi5jb20vMTI5NTZfMTI3MDMxMTE3P2NhY2hlPTE3Mjc0OTk5MjAmcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj1pbmxpbmU7ZmlsZW5hbWU9TGl0dGVsZnVzZV9EYXRhc2hlZXRfMjg3X0FUT0ZfcjQuMC5wZGYmcmVzcG9uc2UtY29udGVudC10eXBlPWFwcGxpY2F0aW9uL3BkZiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MjE0NzQxNDQwMH19fV19&Signature=OZSgcliniZjrEdhusFCYhIbzh91BkniS-CRg836ItrkUf5juBa~gRnMTvxjSIBGkBaQcjIXLeG5AVvvJ77b1FPWociRXtAr~tIJ1c2e7OSpBOkQCxUnSyAKhHvK2wxeIqJocHhLStOhME3OK~By47VgTTMYsulm7TzJoyGb7HNh66yE2xGRp6k2U3vuotBn9VZM46f2VSKQzfx7no5fFvPzYWYwrEgykb8T4bz-7M6kSCW5Ivi2ArENcRg~Ums3wmacb~QloIDFy1KQ6q-Rjl65Wt9iO6YndabqA-OfhuYwIGS11h4CLuMwmK~kJyf7pqQNRVCshrKOIiz61qBHs4w__&Key-Pair-Id=APKAI2ASI2IOLRFF2RHA"
+		(property "Datasheet" "./datasheet/0287030.PXCN.pdf"
 			(at 101.6 50.8 0)
 			(effects
 				(font
@@ -8283,7 +8283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 215.9 57.15 0)
 			(effects
 				(font
@@ -9123,7 +9123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn1-originals.webdamdb.com/12956_127031117?cache=1727499920&response-content-disposition=inline;filename=Littelfuse_Datasheet_287_ATOF_r4.0.pdf&response-content-type=application/pdf&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cCo6Ly9jZG4xLW9yaWdpbmFscy53ZWJkYW1kYi5jb20vMTI5NTZfMTI3MDMxMTE3P2NhY2hlPTE3Mjc0OTk5MjAmcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj1pbmxpbmU7ZmlsZW5hbWU9TGl0dGVsZnVzZV9EYXRhc2hlZXRfMjg3X0FUT0ZfcjQuMC5wZGYmcmVzcG9uc2UtY29udGVudC10eXBlPWFwcGxpY2F0aW9uL3BkZiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MjE0NzQxNDQwMH19fV19&Signature=OZSgcliniZjrEdhusFCYhIbzh91BkniS-CRg836ItrkUf5juBa~gRnMTvxjSIBGkBaQcjIXLeG5AVvvJ77b1FPWociRXtAr~tIJ1c2e7OSpBOkQCxUnSyAKhHvK2wxeIqJocHhLStOhME3OK~By47VgTTMYsulm7TzJoyGb7HNh66yE2xGRp6k2U3vuotBn9VZM46f2VSKQzfx7no5fFvPzYWYwrEgykb8T4bz-7M6kSCW5Ivi2ArENcRg~Ums3wmacb~QloIDFy1KQ6q-Rjl65Wt9iO6YndabqA-OfhuYwIGS11h4CLuMwmK~kJyf7pqQNRVCshrKOIiz61qBHs4w__&Key-Pair-Id=APKAI2ASI2IOLRFF2RHA"
+		(property "Datasheet" "./datasheet/0287030.PXCN.pdf"
 			(at 101.6 76.2 0)
 			(effects
 				(font
@@ -12841,7 +12841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 184.15 68.58 0)
 			(effects
 				(font
@@ -13635,7 +13635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 147.32 68.58 0)
 			(effects
 				(font
