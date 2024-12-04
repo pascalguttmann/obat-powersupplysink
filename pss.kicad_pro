@@ -735,52 +735,52 @@
       "outstage"
     ],
     [
-      "fc2ed052-df09-4ddc-ba2c-65813cdfdb98",
-      "emitter_follower5"
-    ],
-    [
-      "3ac5bfd4-322b-4b4e-b291-daf0eabe32b3",
-      "emitter_follower10"
-    ],
-    [
-      "e69a708c-8469-4c0f-bea8-99e69127895b",
-      "emitter_follower12"
-    ],
-    [
-      "ce06b8f9-1583-4304-8864-af0527b64382",
-      "emitter_follower4"
-    ],
-    [
-      "0dc27ff4-0252-41f5-aaba-84a82340be52",
-      "emitter_follower6"
-    ],
-    [
-      "432d4703-970a-49e3-83e4-9ff2241f6220",
-      "emitter_follower11"
-    ],
-    [
-      "04b10879-c4f7-4aa1-83c0-680d55aeab07",
-      "emitter_follower8"
-    ],
-    [
-      "7fb76cf0-9304-4e93-9191-bdb1de3a182a",
-      "emitter_follower2"
-    ],
-    [
-      "07a7a2c5-3125-42eb-b7d2-ab9e4fee9435",
+      "65d275cd-1776-46de-9021-a974013f1cd5",
       "emitter_follower1"
     ],
     [
-      "7dd50d98-f606-45de-b856-f7bc2726e6bb",
-      "emitter_follower7"
+      "246d52be-313e-4381-b5f6-eb61ecd379a8",
+      "emitter_follower2"
     ],
     [
-      "2d405ed7-d8e3-4f0a-8915-f91d206781b5",
+      "246d52be-313e-4381-b5f6-eb61ecd379a8",
+      "emitter_follower2"
+    ],
+    [
+      "16f3c13a-6ec8-4b50-85d6-53833797aeef",
       "emitter_follower3"
     ],
     [
-      "15855d7c-f960-446c-a740-04c42b6ce371",
-      "emitter_follower9"
+      "16f3c13a-6ec8-4b50-85d6-53833797aeef",
+      "emitter_follower3"
+    ],
+    [
+      "6f660f15-e342-4797-bed4-8a895ed0b86e",
+      "emitter_follower4"
+    ],
+    [
+      "e8ee3a33-c8e6-4ff9-b7a5-37d47379c8cc",
+      "outstage-unit1"
+    ],
+    [
+      "e0abf7e8-ff03-4d8a-b34c-cb99005c42c5",
+      "emitter_follower5"
+    ],
+    [
+      "65d275cd-1776-46de-9021-a974013f1cd5",
+      "emitter_follower1"
+    ],
+    [
+      "572ead79-5d7b-47a3-8027-e4277d315de4",
+      "emitter_follower6"
+    ],
+    [
+      "6f660f15-e342-4797-bed4-8a895ed0b86e",
+      "emitter_follower4"
+    ],
+    [
+      "e0abf7e8-ff03-4d8a-b34c-cb99005c42c5",
+      "emitter_follower5"
     ],
     [
       "2c843779-6372-445d-93a0-61df61e4217d",
@@ -847,12 +847,20 @@
       "conf"
     ],
     [
+      "572ead79-5d7b-47a3-8027-e4277d315de4",
+      "emitter_follower6"
+    ],
+    [
       "07c1abbb-a625-4c44-bef8-8e7c07c13d28",
       "digital-interface"
     ],
     [
       "47b904fe-7b48-475f-afcd-ec09dce08719",
       "power"
+    ],
+    [
+      "a6587f7b-5fda-4f76-b65b-50d5b619af4b",
+      "outstage-unit"
     ]
   ],
   "text_variables": {}
