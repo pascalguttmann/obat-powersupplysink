@@ -6007,7 +6007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf"
+		(property "Datasheet" "./datasheet/SN74LVC1G04DBVR.pdf"
 			(at 43.18 68.58 0)
 			(effects
 				(font
@@ -6235,7 +6235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31231.pdf"
+		(property "Datasheet" "./datasheet/DNLS350E-13.pdf"
 			(at 162.56 44.45 0)
 			(effects
 				(font
@@ -6413,7 +6413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4041ub.pdf"
+		(property "Datasheet" "./datasheet/cd4041ubm96.pdf"
 			(at 116.84 200.66 0)
 			(effects
 				(font
@@ -6667,7 +6667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 144.78 95.25 0)
 			(effects
 				(font
@@ -6838,7 +6838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 274.32 140.97 0)
 			(effects
 				(font
@@ -7095,7 +7095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/180/IN_S85CS5G_V1_0-2001033.pdf"
+		(property "Datasheet" "./datasheet/IN-S85CS5G.pdf"
 			(at 144.78 176.53 0)
 			(effects
 				(font
@@ -7250,7 +7250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 224.79 90.17 0)
 			(effects
 				(font
@@ -7619,7 +7619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 137.16 82.55 0)
 			(effects
 				(font
@@ -7703,7 +7703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 80.01 156.21 0)
 			(effects
 				(font
@@ -7786,7 +7786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4041ub.pdf"
+		(property "Datasheet" "./datasheet/cd4041ubm96.pdf"
 			(at 101.6 153.67 0)
 			(effects
 				(font
@@ -7975,7 +7975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9352.pdf"
+		(property "Datasheet" "./datasheet/TLV9352IDR.pdf"
 			(at 88.9 176.53 0)
 			(effects
 				(font
@@ -8269,7 +8269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 127 72.39 0)
 			(effects
 				(font
@@ -8700,7 +8700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4041ub.pdf"
+		(property "Datasheet" "./datasheet/cd4041ubm96.pdf"
 			(at 241.3 60.96 0)
 			(effects
 				(font
@@ -8824,7 +8824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 224.79 39.37 0)
 			(effects
 				(font
@@ -9042,7 +9042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31230.pdf"
+		(property "Datasheet" "./datasheet/DPLS350E-13.pdf"
 			(at 200.66 82.55 0)
 			(effects
 				(font
@@ -9572,7 +9572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4041ub.pdf"
+		(property "Datasheet" "./datasheet/cd4041ubm96.pdf"
 			(at 101.6 133.35 0)
 			(effects
 				(font
@@ -9850,7 +9850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31230.pdf"
+		(property "Datasheet" "./datasheet/DPLS350E-13.pdf"
 			(at 200.66 31.75 0)
 			(effects
 				(font
@@ -9940,7 +9940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 203.2 140.97 0)
 			(effects
 				(font
@@ -10245,7 +10245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 144.78 44.45 0)
 			(effects
 				(font
@@ -10394,7 +10394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/180/IN_S85CS5G_V1_0-2001033.pdf"
+		(property "Datasheet" "./datasheet/IN-S85CS5G.pdf"
 			(at 165.1 176.53 0)
 			(effects
 				(font
@@ -10655,7 +10655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ad5672r_5676r.pdf"
+		(property "Datasheet" "./datasheet/AD5672RBRUZ.pdf"
 			(at 80.01 100.33 0)
 			(effects
 				(font
@@ -10860,7 +10860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9352.pdf"
+		(property "Datasheet" "./datasheet/TLV9352IDR.pdf"
 			(at 175.26 140.97 0)
 			(effects
 				(font
@@ -11001,7 +11001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 80.01 143.51 0)
 			(effects
 				(font
@@ -11085,7 +11085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 129.54 74.93 0)
 			(effects
 				(font
@@ -11168,7 +11168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9352.pdf"
+		(property "Datasheet" "./datasheet/TLV9352IDR.pdf"
 			(at 246.38 140.97 0)
 			(effects
 				(font
@@ -11439,7 +11439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/180/IN_S85CS5G_V1_0-2001033.pdf"
+		(property "Datasheet" "./datasheet/IN-S85CS5G.pdf"
 			(at 154.94 176.53 0)
 			(effects
 				(font
@@ -11767,7 +11767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 139.7 85.09 0)
 			(effects
 				(font
@@ -12004,7 +12004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 124.46 69.85 0)
 			(effects
 				(font
@@ -12089,7 +12089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31231.pdf"
+		(property "Datasheet" "./datasheet/DNLS350E-13.pdf"
 			(at 162.56 95.25 0)
 			(effects
 				(font
@@ -12352,7 +12352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 121.92 67.31 0)
 			(effects
 				(font
@@ -12591,7 +12591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4085b.pdf"
+		(property "Datasheet" "./datasheet/cd4085bm.pdf"
 			(at 49.53 184.785 0)
 			(effects
 				(font
@@ -12714,7 +12714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 132.08 77.47 0)
 			(effects
 				(font
@@ -12798,7 +12798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 134.62 80.01 0)
 			(effects
 				(font
@@ -13915,7 +13915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4041ub.pdf"
+		(property "Datasheet" "./datasheet/cd4041ubm96.pdf"
 			(at 241.3 111.76 0)
 			(effects
 				(font

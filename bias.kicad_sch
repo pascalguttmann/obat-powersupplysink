@@ -2360,7 +2360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 135.89 139.7 0)
 			(effects
 				(font
@@ -2532,7 +2532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 166.37 127 0)
 			(effects
 				(font
@@ -2618,7 +2618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31230.pdf"
+		(property "Datasheet" "./datasheet/DPLS350E-13.pdf"
 			(at 127 63.5 0)
 			(effects
 				(font
@@ -2775,7 +2775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31231.pdf"
+		(property "Datasheet" "./datasheet/DNLS350E-13.pdf"
 			(at 73.66 101.6 0)
 			(effects
 				(font
@@ -2866,7 +2866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/2/Aavid_01112021_Board_Level_Cooling_Channel_5750-1953656.pdf"
+		(property "Datasheet" "./datasheet/575002B00000G.pdf"
 			(at 169.2148 67.31 0)
 			(effects
 				(font
@@ -2950,7 +2950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 166.37 88.9 0)
 			(effects
 				(font
@@ -3035,7 +3035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 135.89 76.2 0)
 			(effects
 				(font
@@ -3318,7 +3318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/2/Aavid_01112021_Board_Level_Cooling_Channel_5750-1953656.pdf"
+		(property "Datasheet" "./datasheet/575002B00000G.pdf"
 			(at 169.2148 151.13 0)
 			(effects
 				(font
@@ -3403,7 +3403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/54/pvg5-907351.pdf"
+		(property "Datasheet" "./datasheet/PVG5A.pdf"
 			(at 60.96 107.95 0)
 			(effects
 				(font
@@ -3496,7 +3496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=TIP42.PDF"
+		(property "Datasheet" "./datasheet/TIP42C.pdf"
 			(at 152.4 139.7 0)
 			(effects
 				(font
@@ -3588,7 +3588,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 92.71 88.9 0)
 			(effects
 				(font
@@ -3761,7 +3761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31231.pdf"
+		(property "Datasheet" "./datasheet/DNLS350E-13.pdf"
 			(at 127 152.4 0)
 			(effects
 				(font
@@ -3852,7 +3852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/987/Laird_THR_DS_Tpcm_AL52-3239798.pdf"
+		(property "Datasheet" "./datasheet/A15037106.pdf"
 			(at 168.91 139.7 0)
 			(effects
 				(font
@@ -3934,7 +3934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31231.pdf"
+		(property "Datasheet" "./datasheet/DNLS350E-13.pdf"
 			(at 127 127 0)
 			(effects
 				(font
@@ -4025,7 +4025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 49.53 127 0)
 			(effects
 				(font
@@ -4199,7 +4199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31230.pdf"
+		(property "Datasheet" "./datasheet/DPLS350E-13.pdf"
 			(at 127 88.9 0)
 			(effects
 				(font
@@ -4444,7 +4444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/987/Laird_THR_DS_Tpcm_AL52-3239798.pdf"
+		(property "Datasheet" "./datasheet/A15037106.pdf"
 			(at 168.91 55.88 0)
 			(effects
 				(font
@@ -5209,7 +5209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF"
+		(property "Datasheet" "./datasheet/TIP41C.pdf"
 			(at 152.4 76.2 0)
 			(effects
 				(font
@@ -5830,7 +5830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31230.pdf"
+		(property "Datasheet" "./datasheet/DPLS350E-13.pdf"
 			(at 73.66 63.5 0)
 			(effects
 				(font

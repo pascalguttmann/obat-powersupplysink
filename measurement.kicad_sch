@@ -2565,7 +2565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 110.49 95.25 0)
 			(effects
 				(font
@@ -2801,7 +2801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 251.46 87.63 0)
 			(effects
 				(font
@@ -2972,7 +2972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 191.77 85.09 0)
 			(effects
 				(font
@@ -3383,7 +3383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.allegromicro.com/~/media/Files/Datasheets/ACS730-Datasheet.ashx?la=en"
+		(property "Datasheet" "./datasheet/ACS730KLCTR-20AB-T.pdf"
 			(at 76.2 92.71 0)
 			(effects
 				(font
@@ -3748,7 +3748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9352.pdf"
+		(property "Datasheet" "./datasheet/TLV9352IDR.pdf"
 			(at 233.68 87.63 0)
 			(effects
 				(font
@@ -3978,7 +3978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 133.35 87.63 0)
 			(effects
 				(font
@@ -4062,7 +4062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 58.42 100.33 0)
 			(effects
 				(font
@@ -4387,7 +4387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/54/pvg5-907351.pdf"
+		(property "Datasheet" "./datasheet/PVG5A.pdf"
 			(at 101.6 168.91 0)
 			(effects
 				(font
@@ -4543,7 +4543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9352.pdf"
+		(property "Datasheet" "./datasheet/TLV9352IDR.pdf"
 			(at 54.61 170.18 0)
 			(effects
 				(font
@@ -4814,7 +4814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 107.95 92.71 0)
 			(effects
 				(font
@@ -5114,7 +5114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9352.pdf"
+		(property "Datasheet" "./datasheet/TLV9352IDR.pdf"
 			(at 170.18 85.09 0)
 			(effects
 				(font

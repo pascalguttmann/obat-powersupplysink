@@ -2611,7 +2611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9352.pdf"
+		(property "Datasheet" "./datasheet/TLV9352IDR.pdf"
 			(at 162.56 66.04 0)
 			(effects
 				(font
@@ -2843,7 +2843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/54/pvg5-907351.pdf"
+		(property "Datasheet" "./datasheet/PVG5A.pdf"
 			(at 116.84 109.22 0)
 			(effects
 				(font
@@ -2946,7 +2946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9352.pdf"
+		(property "Datasheet" "./datasheet/TLV9352IDR.pdf"
 			(at 53.34 165.1 0)
 			(effects
 				(font
@@ -3098,7 +3098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9352.pdf"
+		(property "Datasheet" "./datasheet/TLV9352IDR.pdf"
 			(at 162.56 124.46 0)
 			(effects
 				(font
@@ -3252,7 +3252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/54/pvg5-907351.pdf"
+		(property "Datasheet" "./datasheet/PVG5A.pdf"
 			(at 116.84 85.09 0)
 			(effects
 				(font

@@ -5867,7 +5867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 55.88 63.5 0)
 			(effects
 				(font
@@ -6219,7 +6219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/UDD32CXXL01_1-3003043.pdf"
+		(property "Datasheet" "./datasheet/UDD32C15L01.pdf"
 			(at 76.2 57.15 0)
 			(effects
 				(font
@@ -6640,7 +6640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 81.28 50.8 0)
 			(effects
 				(font
@@ -7009,7 +7009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/115/ds30086-3214660.pdf"
+		(property "Datasheet" "./datasheet/1N4148W-7-F.pdf"
 			(at 165.1 50.8 0)
 			(effects
 				(font
@@ -7380,7 +7380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 132.08 49.53 0)
 			(effects
 				(font
@@ -9040,7 +9040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 195.58 62.23 0)
 			(effects
 				(font
@@ -10363,7 +10363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/308/1/MC7800_D-2315963.pdf"
+		(property "Datasheet" "./datasheet/MC7805BDTG.pdf"
 			(at 165.1 64.77 0)
 			(effects
 				(font
@@ -10807,7 +10807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 81.28 76.2 0)
 			(effects
 				(font
@@ -11225,7 +11225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/UDD32CXXL01_1-3003043.pdf"
+		(property "Datasheet" "./datasheet/UDD32C15L01.pdf"
 			(at 76.2 69.85 0)
 			(effects
 				(font
@@ -13329,7 +13329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/UDD32CXXL01_1-3003043.pdf"
+		(property "Datasheet" "./datasheet/UDD32C15L01.pdf"
 			(at 88.9 63.5 0)
 			(effects
 				(font
@@ -13551,7 +13551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 132.08 77.47 0)
 			(effects
 				(font

@@ -3620,7 +3620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 53.34 63.5 0)
 			(effects
 				(font
@@ -3704,7 +3704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/NUP1301.pdf"
+		(property "Datasheet" "./datasheet/NUP1301,215.pdf"
 			(at 116.84 87.63 0)
 			(effects
 				(font
@@ -3794,7 +3794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 190.5 58.42 0)
 			(effects
 				(font
@@ -4096,7 +4096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 48.26 58.42 0)
 			(effects
 				(font
@@ -4246,7 +4246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/NUP1301.pdf"
+		(property "Datasheet" "./datasheet/NUP1301,215.pdf"
 			(at 73.66 57.15 0)
 			(effects
 				(font
@@ -4336,7 +4336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/NUP1301.pdf"
+		(property "Datasheet" "./datasheet/NUP1301,215.pdf"
 			(at 86.36 57.15 0)
 			(effects
 				(font
@@ -4513,7 +4513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/NUP1301.pdf"
+		(property "Datasheet" "./datasheet/NUP1301,215.pdf"
 			(at 111.76 57.15 0)
 			(effects
 				(font
@@ -4668,7 +4668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 195.58 63.5 0)
 			(effects
 				(font
@@ -4752,7 +4752,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PDZ-B_SER.pdf"
+		(property "Datasheet" "./datasheet/PDZ5.6B,115.pdf"
 			(at 93.98 121.92 0)
 			(effects
 				(font
@@ -5036,7 +5036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 55.88 66.04 0)
 			(effects
 				(font
@@ -5207,7 +5207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 193.04 60.96 0)
 			(effects
 				(font
@@ -5291,7 +5291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/NUP1301.pdf"
+		(property "Datasheet" "./datasheet/NUP1301,215.pdf"
 			(at 91.44 87.63 0)
 			(effects
 				(font
@@ -5380,7 +5380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://g.recomcdn.com/media/Datasheet/pdf/.fZe7-AHZ/.tce0d3579c4367bc096e6/Datasheet-514/RxxC05TExxS.pdf"
+		(property "Datasheet" "./datasheet/R05C05TE05S-R.pdf"
 			(at 148.59 121.92 0)
 			(effects
 				(font
@@ -5509,7 +5509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/NUP1301.pdf"
+		(property "Datasheet" "./datasheet/NUP1301,215.pdf"
 			(at 104.14 87.63 0)
 			(effects
 				(font
@@ -5599,7 +5599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 99.06 116.84 0)
 			(effects
 				(font
@@ -5813,7 +5813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 50.8 60.96 0)
 			(effects
 				(font
@@ -5984,7 +5984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 187.96 55.88 0)
 			(effects
 				(font
@@ -6069,7 +6069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 99.06 127 0)
 			(effects
 				(font
@@ -6218,7 +6218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/NUP1301.pdf"
+		(property "Datasheet" "./datasheet/NUP1301,215.pdf"
 			(at 78.74 87.63 0)
 			(effects
 				(font
@@ -6308,7 +6308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/NUP1301.pdf"
+		(property "Datasheet" "./datasheet/NUP1301,215.pdf"
 			(at 99.06 57.15 0)
 			(effects
 				(font
@@ -6398,7 +6398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/472/si864x_datasheet-2507790.pdf"
+		(property "Datasheet" "./datasheet/SI8641BD-B-IS2.pdf"
 			(at 147.32 60.96 0)
 			(effects
 				(font

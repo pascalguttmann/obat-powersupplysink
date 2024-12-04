@@ -2717,7 +2717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 171.45 104.14 0)
 			(effects
 				(font
@@ -2944,7 +2944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ads8665.pdf"
+		(property "Datasheet" "./datasheet/ADS8665IPWR.pdf"
 			(at 137.16 135.89 0)
 			(effects
 				(font
@@ -3395,7 +3395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 189.23 85.09 0)
 			(effects
 				(font
@@ -3552,7 +3552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 93.98 104.14 0)
 			(effects
 				(font
@@ -4237,7 +4237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/180/IN_S85CS5G_V1_0-2001033.pdf"
+		(property "Datasheet" "./datasheet/IN-S85CS5G.pdf"
 			(at 88.9 130.81 0)
 			(effects
 				(font

@@ -4759,7 +4759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/180/IN_S85CS5G_V1_0-2001033.pdf"
+		(property "Datasheet" "./datasheet/IN-S85CS5G.pdf"
 			(at 113.03 172.72 0)
 			(effects
 				(font
@@ -4846,7 +4846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 246.38 140.97 0)
 			(effects
 				(font
@@ -5172,7 +5172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/180/IN_S85CS5G_V1_0-2001033.pdf"
+		(property "Datasheet" "./datasheet/IN-S85CS5G.pdf"
 			(at 143.51 172.72 0)
 			(effects
 				(font
@@ -5260,7 +5260,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4043b.pdf"
+		(property "Datasheet" "./datasheet/cd4043bdr.pdf"
 			(at 217.17 129.54 0)
 			(effects
 				(font
@@ -5474,7 +5474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4078b.pdf"
+		(property "Datasheet" "./datasheet/cd4078bm96.pdf"
 			(at 76.2 165.1 0)
 			(effects
 				(font
@@ -5597,7 +5597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/180/IN_S85CS5G_V1_0-2001033.pdf"
+		(property "Datasheet" "./datasheet/IN-S85CS5G.pdf"
 			(at 123.19 172.72 0)
 			(effects
 				(font
@@ -5684,7 +5684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 246.38 53.34 0)
 			(effects
 				(font
@@ -6233,7 +6233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 102.87 168.91 0)
 			(effects
 				(font
@@ -6587,7 +6587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 186.69 44.45 0)
 			(effects
 				(font
@@ -7202,7 +7202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 246.38 130.81 0)
 			(effects
 				(font
@@ -7591,7 +7591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 246.38 135.89 0)
 			(effects
 				(font
@@ -7675,7 +7675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 246.38 63.5 0)
 			(effects
 				(font
@@ -8245,7 +8245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/180/IN_S85CS5G_V1_0-2001033.pdf"
+		(property "Datasheet" "./datasheet/IN-S85CS5G.pdf"
 			(at 133.35 172.72 0)
 			(effects
 				(font
@@ -8530,7 +8530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 246.38 58.42 0)
 			(effects
 				(font
@@ -8836,7 +8836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4043b.pdf"
+		(property "Datasheet" "./datasheet/cd4043bdr.pdf"
 			(at 217.17 52.07 0)
 			(effects
 				(font
@@ -9099,7 +9099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/180/IN_S85CS5G_V1_0-2001033.pdf"
+		(property "Datasheet" "./datasheet/IN-S85CS5G.pdf"
 			(at 163.83 172.72 0)
 			(effects
 				(font
@@ -9186,7 +9186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/180/IN_S85CS5G_V1_0-2001033.pdf"
+		(property "Datasheet" "./datasheet/IN-S85CS5G.pdf"
 			(at 153.67 172.72 0)
 			(effects
 				(font

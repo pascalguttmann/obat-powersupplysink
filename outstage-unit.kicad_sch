@@ -1913,7 +1913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.fischerelektronik.de/web_fischer/en_GB/PR/SK499_/datasheet.xhtml?branch=heatsinks"
+		(property "Datasheet" "./datasheet/SK499-120SA.pdf"
 			(at 124.7648 180.34 0)
 			(effects
 				(font
@@ -2073,7 +2073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 82.55 176.53 0)
 			(effects
 				(font
@@ -2161,7 +2161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 80.01 173.99 0)
 			(effects
 				(font
@@ -2249,7 +2249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 85.09 179.07 0)
 			(effects
 				(font
@@ -2337,7 +2337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 90.17 184.15 0)
 			(effects
 				(font
@@ -2530,7 +2530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/1628/cfm_50v-3508680.pdf"
+		(property "Datasheet" "./datasheet/CFM-5015V-172-381.pdf"
 			(at 157.48 178.816 0)
 			(effects
 				(font
@@ -2621,7 +2621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 87.63 181.61 0)
 			(effects
 				(font
@@ -2709,7 +2709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 77.47 171.45 0)
 			(effects
 				(font
