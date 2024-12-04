@@ -457,15 +457,15 @@
 		(remove_unused_layers no)
 		(uuid "92e8f8c3-0985-4c0d-8e38-92cbbf365409")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Heatsink.3dshapes/Heatsink_AAVID_590302B03600G.wrl"
+	(model "${KIPRJMOD}/3d_models/575002B00000G.stp"
 		(offset
-			(xyz 10.155 12.04 0)
+			(xyz 10.25 12 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz 0 0 90)
 		)
 	)
 )

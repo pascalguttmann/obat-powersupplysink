@@ -12,6 +12,108 @@
 		(comment 1 "Analog Digital Converter")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:LED"
 			(pin_numbers hide)
 			(pin_names
@@ -1398,16 +1500,22 @@
 		)
 	)
 	(junction
+		(at 168.91 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ef6d133-71b5-4a3a-a33c-ac6b82e97842")
+	)
+	(junction
 		(at 129.54 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "130a13ac-629f-45c6-86ce-3571e4674b1f")
 	)
 	(junction
-		(at 185.42 96.52)
+		(at 203.2 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "25a50a60-aac3-4824-8a68-e69379f2b491")
+		(uuid "374774dc-6663-43cc-9bc9-032c2cb9d21c")
 	)
 	(junction
 		(at 88.9 76.2)
@@ -1440,16 +1548,28 @@
 		(uuid "68068b77-60cd-40da-a0f5-26ea71e8225a")
 	)
 	(junction
-		(at 185.42 107.95)
+		(at 88.9 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "aedbfd00-975b-45ff-ac69-2850c3a6ed30")
+		(uuid "77a88480-680b-488e-bda6-111033636371")
 	)
 	(junction
 		(at 168.91 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b99a651e-9d53-43e7-abf1-2b404e17780d")
+	)
+	(junction
+		(at 203.2 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c81e2ac0-e0c5-4639-b33a-ec2280867071")
+	)
+	(junction
+		(at 184.15 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4b9dc1f-381e-4a82-9523-b44f4bacf219")
 	)
 	(junction
 		(at 129.54 62.23)
@@ -1463,17 +1583,17 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 96.52) (xy 201.93 96.52)
+			(xy 203.2 107.95) (xy 219.71 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0000fc5a-eeea-49e5-ab59-b7bd7b631f8e")
+		(uuid "04b47101-8dc4-44bc-be46-03b6f3e7bcb5")
 	)
 	(wire
 		(pts
-			(xy 201.93 107.95) (xy 201.93 106.68)
+			(xy 219.71 107.95) (xy 219.71 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1500,6 +1620,16 @@
 			(type default)
 		)
 		(uuid "0e50c7a4-f264-42b1-b459-0201b54637a3")
+	)
+	(wire
+		(pts
+			(xy 203.2 96.52) (xy 219.71 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10462f7b-3dba-45d8-9699-baa2e512e34d")
 	)
 	(wire
 		(pts
@@ -1633,7 +1763,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 99.06) (xy 201.93 96.52)
+			(xy 219.71 99.06) (xy 219.71 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1683,6 +1813,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 99.06) (xy 168.91 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7617fea2-96b4-4182-bbb9-47938fc80389")
+	)
+	(wire
+		(pts
 			(xy 88.9 86.36) (xy 118.11 86.36)
 		)
 		(stroke
@@ -1690,6 +1830,16 @@
 			(type default)
 		)
 		(uuid "8805eef0-dff4-4d8b-a170-ac00cb520549")
+	)
+	(wire
+		(pts
+			(xy 184.15 85.09) (xy 181.61 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90d5aa7f-46c3-4ed2-96eb-d0fa2f5f8a12")
 	)
 	(wire
 		(pts
@@ -1773,7 +1923,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 107.95) (xy 185.42 107.95)
+			(xy 168.91 107.95) (xy 203.2 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1783,17 +1933,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 107.95) (xy 201.93 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7c0e185-9fd2-4a37-a56a-ba4ce06a1c9f")
-	)
-	(wire
-		(pts
-			(xy 186.69 85.09) (xy 181.61 85.09)
+			(xy 186.69 85.09) (xy 184.15 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1813,7 +1953,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 106.68) (xy 185.42 107.95)
+			(xy 203.2 106.68) (xy 203.2 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1863,7 +2003,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 96.52) (xy 185.42 96.52)
+			(xy 156.21 96.52) (xy 203.2 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1893,7 +2033,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 96.52) (xy 185.42 99.06)
+			(xy 203.2 96.52) (xy 203.2 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2542,6 +2682,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 171.45 99.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d95c3d4-e92a-470a-9357-01df7151d7c4")
+		(property "Reference" "TP16003"
+			(at 176.53 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 173.4821 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "pss:TP_0805_2012Metric"
+			(at 171.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+			(at 171.45 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 171.45 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RCTCTE"
+			(at 171.45 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "660-RCTCTE"
+			(at 171.45 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f5fb762-161d-4c04-8783-e10437c7cdad")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/2c843779-6372-445d-93a0-61df61e4217d"
+					(reference "TP16003")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/fe6e657f-8cbe-4801-b8df-4392026dbf94"
+					(reference "TP18003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pss:GND")
 		(at 88.9 95.25 0)
 		(unit 1)
@@ -3132,6 +3360,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 184.15 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c342e33-1214-49ff-92ba-3e12c3a1c1a0")
+		(property "Reference" "TP16001"
+			(at 185.42 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 186.69 83.0579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "pss:TP_0805_2012Metric"
+			(at 189.23 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+			(at 189.23 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 184.15 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RCTCTE"
+			(at 184.15 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "660-RCTCTE"
+			(at 184.15 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d5fb950-f38d-4183-936f-6cf4c45936a1")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/2c843779-6372-445d-93a0-61df61e4217d"
+					(reference "TP16001")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/fe6e657f-8cbe-4801-b8df-4392026dbf94"
+					(reference "TP18001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pss:GND")
 		(at 168.91 110.49 0)
 		(unit 1)
@@ -3195,6 +3511,94 @@
 				)
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/fe6e657f-8cbe-4801-b8df-4392026dbf94"
 					(reference "#PWR018001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 88.9 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "996f402d-d5ee-4b45-94f8-767ff9bc049c")
+		(property "Reference" "TP16002"
+			(at 78.74 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 91.44 102.1079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "pss:TP_0805_2012Metric"
+			(at 93.98 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+			(at 93.98 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 88.9 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RCTCTE"
+			(at 88.9 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "660-RCTCTE"
+			(at 88.9 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b4af372-50d6-48d9-9be6-621f52fd6c45")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/2c843779-6372-445d-93a0-61df61e4217d"
+					(reference "TP16002")
+					(unit 1)
+				)
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/fe6e657f-8cbe-4801-b8df-4392026dbf94"
+					(reference "TP18002")
 					(unit 1)
 				)
 			)
@@ -3407,7 +3811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 88.9 81.28 0)
 			(effects
 				(font
@@ -3455,7 +3859,7 @@
 	)
 	(symbol
 		(lib_id "pss:C")
-		(at 201.93 102.87 180)
+		(at 219.71 102.87 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3463,7 +3867,7 @@
 		(dnp no)
 		(uuid "b8ba9810-2099-4bfe-8951-10b1e88a26a2")
 		(property "Reference" "C16007"
-			(at 198.12 104.1401 0)
+			(at 215.9 104.1401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3472,7 +3876,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 198.12 101.6001 0)
+			(at 215.9 101.6001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3481,7 +3885,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 200.9648 99.06 0)
+			(at 218.7448 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3490,7 +3894,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
-			(at 201.93 102.87 0)
+			(at 219.71 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3499,7 +3903,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 201.93 102.87 0)
+			(at 219.71 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3508,7 +3912,7 @@
 			)
 		)
 		(property "MPN" "C1210C106K3RACTU"
-			(at 201.93 102.87 0)
+			(at 219.71 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3517,7 +3921,7 @@
 			)
 		)
 		(property "VPN" "80-C1210C106K3R"
-			(at 201.93 102.87 0)
+			(at 219.71 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3637,7 +4041,7 @@
 	)
 	(symbol
 		(lib_id "pss:C")
-		(at 185.42 102.87 180)
+		(at 203.2 102.87 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3645,7 +4049,7 @@
 		(dnp no)
 		(uuid "cda3c148-193c-4f28-957c-a0747e446ef5")
 		(property "Reference" "C16006"
-			(at 181.61 104.1401 0)
+			(at 199.39 104.1401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3654,7 +4058,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 181.61 101.6001 0)
+			(at 199.39 101.6001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3663,7 +4067,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 184.4548 99.06 0)
+			(at 202.2348 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3672,7 +4076,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
-			(at 185.42 102.87 0)
+			(at 203.2 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3681,7 +4085,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 185.42 102.87 0)
+			(at 203.2 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3690,7 +4094,7 @@
 			)
 		)
 		(property "MPN" "C0603C105K4RACTU"
-			(at 185.42 102.87 0)
+			(at 203.2 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3699,7 +4103,7 @@
 			)
 		)
 		(property "VPN" "80-C0603C105K4R"
-			(at 185.42 102.87 0)
+			(at 203.2 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3984,7 +4388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Bridged-Soldermask-Paste_RoundedPad1.0x1.5mm"
 			(at 88.9 109.22 0)
 			(effects
 				(font

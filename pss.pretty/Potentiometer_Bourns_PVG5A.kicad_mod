@@ -274,7 +274,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "f5aa38a4-be49-413d-80cf-44751dcf315d")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Potentiometer_SMD.3dshapes/Potentiometer_Bourns_3224W_Vertical.wrl"
+	(model "${KIPRJMOD}/3d_models/PVG5A102C03B00.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -282,7 +282,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 0 90)
 		)
 	)
 )

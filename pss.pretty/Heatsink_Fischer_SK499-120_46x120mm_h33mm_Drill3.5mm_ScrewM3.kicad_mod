@@ -301,15 +301,15 @@
 		(remove_unused_layers no)
 		(uuid "8ec6cafb-0b0e-4a05-9616-b765777e76f6")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Heatsink.3dshapes/Heatsink_Fischer_SK104-STCB_35x13mm__2xDrill3.5mm_ScrewM3.wrl"
+	(model "${KIPRJMOD}/3d_models/sk499.stp"
 		(offset
-			(xyz 0 0 0)
+			(xyz -205.75 -0 -120.5)
 		)
 		(scale
-			(xyz 1 1 1)
+			(xyz 1 1 12)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 0 0)
 		)
 	)
 )

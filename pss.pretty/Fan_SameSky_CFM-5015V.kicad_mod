@@ -556,4 +556,15 @@
 		(remove_unused_layers no)
 		(uuid "448c0eea-d73d-4a30-80fd-bf74c7346543")
 	)
+	(model "${KIPRJMOD}/3d_models/Same_Sky_CFM-5015V-172-381.step"
+		(offset
+			(xyz 0 -7.5 25)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 -90 180)
+		)
+	)
 )

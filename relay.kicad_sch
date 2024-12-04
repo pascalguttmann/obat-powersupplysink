@@ -12,6 +12,108 @@
 		(comment 1 "Relay")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:D"
 			(pin_names
 				(offset 1.016) hide)
@@ -1684,6 +1786,12 @@
 		(uuid "37bc6043-71d4-48b7-a569-0a409e457134")
 	)
 	(junction
+		(at 154.94 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a31e2fb-1174-4271-a1f7-91891cb740e8")
+	)
+	(junction
 		(at 184.15 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1694,6 +1802,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94360afc-0af3-487c-abba-9e027cf4d090")
+	)
+	(junction
+		(at 111.76 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1df6ed8-f33f-41e4-b933-fdbfb0241ce1")
 	)
 	(junction
 		(at 196.85 127)
@@ -1739,6 +1853,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 104.14) (xy 154.94 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d8bfeb3-9c4b-4eae-b8dd-61e3972b55c4")
+	)
+	(wire
+		(pts
 			(xy 116.84 118.11) (xy 116.84 127)
 		)
 		(stroke
@@ -1756,6 +1880,16 @@
 			(type default)
 		)
 		(uuid "14083965-5ecf-4e71-aa5d-c5c38f07a4fd")
+	)
+	(wire
+		(pts
+			(xy 154.94 104.14) (xy 154.94 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14834545-aefa-43a3-8a08-6e289227573a")
 	)
 	(wire
 		(pts
@@ -1779,7 +1913,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 101.6) (xy 154.94 106.68)
+			(xy 154.94 101.6) (xy 154.94 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1846,6 +1980,16 @@
 			(type default)
 		)
 		(uuid "66a20b62-259a-47b7-9f0c-b7478f35b499")
+	)
+	(wire
+		(pts
+			(xy 111.76 82.55) (xy 116.84 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a1a0de5-3aa3-466d-9bfc-108eeba034a6")
 	)
 	(wire
 		(pts
@@ -1949,6 +2093,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 124.46) (xy 203.2 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7e8c6fa-cb49-4507-b8bc-848472c25500")
+	)
+	(wire
+		(pts
 			(xy 203.2 127) (xy 215.9 127)
 		)
 		(stroke
@@ -1969,7 +2123,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 82.55) (xy 116.84 82.55)
+			(xy 104.14 82.55) (xy 111.76 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2022,6 +2176,90 @@
 			(justify right)
 		)
 		(uuid "f1d2b651-3c79-4d70-b124-13507c6a4e3f")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 203.2 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ac7c1e9-9349-426e-b802-14f92e443a78")
+		(property "Reference" "TP28003"
+			(at 204.47 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 205.74 122.4279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "pss:TP_0805_2012Metric"
+			(at 208.28 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+			(at 208.28 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 203.2 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RCTCTE"
+			(at 203.2 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "660-RCTCTE"
+			(at 203.2 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab26647a-bc11-4ee6-ba36-9ee0f3b299cf")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/20918679-4743-4169-a60e-19637ed5d643"
+					(reference "TP28003")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "pss:+10V_relay")
@@ -2464,7 +2702,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Relay_THT:Relay_SPST_Panasonic_ALFG_FormA_CircularHoles"
+		(property "Footprint" "pss:Relay_SPST_Panasonic_ALFG_FormA_CircularHoles"
 			(at 179.578 115.062 0)
 			(effects
 				(font
@@ -2751,6 +2989,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 111.76 82.55 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90955be0-3bcb-467c-b64f-5055f86a14c8")
+		(property "Reference" "TP28001"
+			(at 110.49 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 109.22 80.5179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "pss:TP_0805_2012Metric"
+			(at 106.68 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+			(at 106.68 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 111.76 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RCTCTE"
+			(at 111.76 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "660-RCTCTE"
+			(at 111.76 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5017600-d16c-4fca-b0e7-fab3411c2a87")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/20918679-4743-4169-a60e-19637ed5d643"
+					(reference "TP28001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pss:Q_PNP_BCE")
 		(at 139.7 82.55 0)
 		(mirror x)
@@ -2867,7 +3190,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165"
+		(property "Footprint" "pss:FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165"
 			(at 190.5 125.222 90)
 			(effects
 				(font
@@ -3249,6 +3572,90 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/20918679-4743-4169-a60e-19637ed5d643"
 					(reference "R27002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 160.02 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc16cf0d-2f9c-4263-a0e7-362f25442e38")
+		(property "Reference" "TP28002"
+			(at 161.29 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 162.56 102.1079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "pss:TP_0805_2012Metric"
+			(at 165.1 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+			(at 165.1 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 160.02 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RCTCTE"
+			(at 160.02 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "660-RCTCTE"
+			(at 160.02 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1812f7c8-9f37-4620-93c2-7636d2c61648")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/20918679-4743-4169-a60e-19637ed5d643"
+					(reference "TP28002")
 					(unit 1)
 				)
 			)

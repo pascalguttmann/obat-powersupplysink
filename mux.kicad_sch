@@ -12,6 +12,108 @@
 		(comment 1 "Multiplexer")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "pss:+10V_mux"
 			(power)
 			(pin_numbers hide)
@@ -1235,6 +1337,12 @@
 		(uuid "12bb446f-8aac-42da-be17-39c1535c0c02")
 	)
 	(junction
+		(at 142.24 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1aa5ee32-0558-4d29-a713-9ecd024904e0")
+	)
+	(junction
 		(at 76.2 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1245,6 +1353,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4355bbbe-c871-471d-848e-c47c0156402b")
+	)
+	(junction
+		(at 53.34 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d84c526-932f-4304-85ae-718bd4b21092")
+	)
+	(junction
+		(at 53.34 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "507314f0-d81c-4b4c-94c0-3aae5dbe25d2")
 	)
 	(junction
 		(at 165.1 107.95)
@@ -1259,16 +1379,46 @@
 		(uuid "93bef354-d2e6-464d-8a69-28bfc61462f6")
 	)
 	(junction
+		(at 53.34 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93fc8276-24af-471b-aa32-338b4cb91637")
+	)
+	(junction
 		(at 265.43 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94ba0d61-5a38-4cc1-b969-ad6b19465e3a")
 	)
 	(junction
+		(at 53.34 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a50f4956-c0c9-46ba-8b76-f55c74f9687b")
+	)
+	(junction
 		(at 76.2 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a940dbc1-344d-4881-aed9-f3328b9096a6")
+	)
+	(junction
+		(at 142.24 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ace8dfa7-3080-4dc3-90f1-b78fc649f369")
+	)
+	(junction
+		(at 53.34 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b50a5146-8183-44fc-b480-c17836c26493")
+	)
+	(junction
+		(at 172.72 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8155366-4b0e-4cee-b942-1e538bb8c030")
 	)
 	(junction
 		(at 76.2 69.85)
@@ -1283,10 +1433,22 @@
 		(uuid "c279fd6c-1e12-4d28-b7e4-ddabada1dbda")
 	)
 	(junction
+		(at 83.82 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0f95fba-4387-4af6-8cf5-1f1ad53113fd")
+	)
+	(junction
 		(at 76.2 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8dfade5-c377-4f60-8683-de430c5df854")
+	)
+	(junction
+		(at 53.34 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fcd1d661-aed4-44e9-930b-4d775c35cf56")
 	)
 	(no_connect
 		(at 172.72 189.23)
@@ -1321,6 +1483,16 @@
 			(type default)
 		)
 		(uuid "03144bca-872f-4266-9799-839da594cf90")
+	)
+	(wire
+		(pts
+			(xy 53.34 69.85) (xy 55.88 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0759e1d8-1f54-4d18-8a13-b05a0c227e00")
 	)
 	(wire
 		(pts
@@ -1414,7 +1586,17 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 95.25) (xy 55.88 95.25)
+			(xy 53.34 120.65) (xy 55.88 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32f05413-7ba9-43bd-b17f-4cd92da6371a")
+	)
+	(wire
+		(pts
+			(xy 50.8 95.25) (xy 53.34 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1464,7 +1646,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 146.05) (xy 55.88 146.05)
+			(xy 50.8 146.05) (xy 53.34 146.05)
 		)
 		(stroke
 			(width 0)
@@ -1474,7 +1656,17 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 95.25) (xy 144.78 95.25)
+			(xy 53.34 95.25) (xy 55.88 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f925c11-6947-4429-93f5-559b4c595b11")
+	)
+	(wire
+		(pts
+			(xy 139.7 95.25) (xy 142.24 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1524,7 +1716,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 157.48) (xy 279.4 157.48)
+			(xy 257.81 157.48) (xy 271.78 157.48)
 		)
 		(stroke
 			(width 0)
@@ -1534,13 +1726,23 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 152.4) (xy 279.4 152.4)
+			(xy 257.81 152.4) (xy 271.78 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "68a70072-7dd5-4095-8fc7-c3e6c1c538d5")
+	)
+	(wire
+		(pts
+			(xy 53.34 171.45) (xy 55.88 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d003c8f-6f77-413a-be25-0e4e0b43f954")
 	)
 	(wire
 		(pts
@@ -1564,7 +1766,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 107.95) (xy 165.1 107.95)
+			(xy 177.8 107.95) (xy 172.72 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1634,6 +1836,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 146.05) (xy 144.78 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "928d889d-3efc-45c1-a4e3-2579f649158f")
+	)
+	(wire
+		(pts
 			(xy 144.78 184.15) (xy 144.78 186.69)
 		)
 		(stroke
@@ -1644,7 +1856,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 107.95) (xy 88.9 107.95)
+			(xy 76.2 107.95) (xy 83.82 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1674,13 +1886,23 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 69.85) (xy 55.88 69.85)
+			(xy 50.8 69.85) (xy 53.34 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a3432899-d041-4b60-8047-c7d97c680033")
+	)
+	(wire
+		(pts
+			(xy 172.72 107.95) (xy 165.1 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3b233c1-f406-4b1f-ab1e-6e64d8de7614")
 	)
 	(wire
 		(pts
@@ -1694,7 +1916,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 162.56) (xy 279.4 162.56)
+			(xy 257.81 162.56) (xy 271.78 162.56)
 		)
 		(stroke
 			(width 0)
@@ -1774,7 +1996,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 146.05) (xy 144.78 146.05)
+			(xy 139.7 146.05) (xy 142.24 146.05)
 		)
 		(stroke
 			(width 0)
@@ -1874,6 +2096,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 146.05) (xy 55.88 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db2faa94-6989-479b-a83e-5b3d82a8dae8")
+	)
+	(wire
+		(pts
 			(xy 240.03 81.28) (xy 240.03 82.55)
 		)
 		(stroke
@@ -1904,6 +2136,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 44.45) (xy 55.88 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deef7ba5-e571-48d0-b1ac-3de2e4958ab9")
+	)
+	(wire
+		(pts
 			(xy 144.78 189.23) (xy 144.78 191.77)
 		)
 		(stroke
@@ -1924,7 +2166,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 157.48) (xy 241.3 157.48)
+			(xy 219.71 157.48) (xy 233.68 157.48)
 		)
 		(stroke
 			(width 0)
@@ -1944,13 +2186,33 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 120.65) (xy 55.88 120.65)
+			(xy 142.24 95.25) (xy 144.78 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5074ae9-c04d-409b-8c4a-4aeb0873a6bf")
+	)
+	(wire
+		(pts
+			(xy 50.8 120.65) (xy 53.34 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f73b26e6-0373-40e5-aed6-9ff8bdd6bbd3")
+	)
+	(wire
+		(pts
+			(xy 83.82 107.95) (xy 88.9 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7c1f84c-e654-4d7e-96ce-d11865d6da40")
 	)
 	(wire
 		(pts
@@ -1964,7 +2226,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 44.45) (xy 55.88 44.45)
+			(xy 50.8 44.45) (xy 53.34 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1984,7 +2246,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 152.4) (xy 241.3 152.4)
+			(xy 219.71 152.4) (xy 233.68 152.4)
 		)
 		(stroke
 			(width 0)
@@ -2004,7 +2266,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 171.45) (xy 55.88 171.45)
+			(xy 50.8 171.45) (xy 53.34 171.45)
 		)
 		(stroke
 			(width 0)
@@ -2014,7 +2276,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 162.56) (xy 241.3 162.56)
+			(xy 219.71 162.56) (xy 233.68 162.56)
 		)
 		(stroke
 			(width 0)
@@ -2023,7 +2285,7 @@
 		(uuid "ff8740f9-721e-4455-8324-145be264d109")
 	)
 	(label "mode_uvlc"
-		(at 279.4 162.56 180)
+		(at 270.51 162.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2034,7 +2296,7 @@
 		(uuid "01b55da8-1763-4687-ac5c-3a786a99037b")
 	)
 	(label "mode_cc"
-		(at 279.4 152.4 180)
+		(at 270.51 152.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2067,7 +2329,7 @@
 		(uuid "12484738-7298-4c7b-aea7-4ca547aae281")
 	)
 	(label "mode_lclc"
-		(at 241.3 157.48 180)
+		(at 232.41 157.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2122,7 +2384,7 @@
 		(uuid "57701040-17d1-4615-ba02-85a851e9a724")
 	)
 	(label "mode_vc"
-		(at 241.3 152.4 180)
+		(at 232.41 152.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2133,7 +2395,7 @@
 		(uuid "66a2e111-9cf2-43df-8e77-1ac7826a5d31")
 	)
 	(label "mode_uclc"
-		(at 241.3 162.56 180)
+		(at 232.41 162.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2155,7 +2417,7 @@
 		(uuid "7a61e78b-855c-41ae-8910-01f2287d075e")
 	)
 	(label "mode_lvlc"
-		(at 279.4 157.48 180)
+		(at 270.51 157.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2234,7 +2496,7 @@
 	)
 	(hierarchical_label "mode_lvlc"
 		(shape input)
-		(at 266.7 157.48 180)
+		(at 257.81 157.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2246,7 +2508,7 @@
 	)
 	(hierarchical_label "mode_uvlc"
 		(shape input)
-		(at 266.7 162.56 180)
+		(at 257.81 162.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2306,7 +2568,7 @@
 	)
 	(hierarchical_label "mode_vc"
 		(shape input)
-		(at 228.6 152.4 180)
+		(at 219.71 152.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2342,7 +2604,7 @@
 	)
 	(hierarchical_label "mode_cc"
 		(shape input)
-		(at 266.7 152.4 180)
+		(at 257.81 152.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2366,7 +2628,7 @@
 	)
 	(hierarchical_label "mode_lclc"
 		(shape input)
-		(at 228.6 157.48 180)
+		(at 219.71 157.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2390,7 +2652,7 @@
 	)
 	(hierarchical_label "mode_uclc"
 		(shape input)
-		(at 228.6 162.56 180)
+		(at 219.71 162.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2473,6 +2735,175 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/edd130f8-6d8c-4786-9c45-2e5306ef5419"
 					(reference "#PWR025007")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 271.78 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07c3f586-5505-4a0c-8509-5a5e5742ad87")
+		(property "Reference" "TP25006"
+			(at 273.05 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 274.32 160.5279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "pss:TP_0805_2012Metric"
+			(at 276.86 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+			(at 276.86 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 271.78 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RCTCTE"
+			(at 271.78 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "660-RCTCTE"
+			(at 271.78 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a9a07a3-fe36-41a8-8a8c-eca69655c136")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/edd130f8-6d8c-4786-9c45-2e5306ef5419"
+					(reference "TP25006")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 142.24 95.25 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08a3c73e-b07f-49ad-80b0-19039ddd73e4")
+		(property "Reference" "TP25015"
+			(at 140.97 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 93.2179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "pss:TP_0805_2012Metric"
+			(at 137.16 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+			(at 137.16 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 142.24 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RCTCTE"
+			(at 142.24 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "660-RCTCTE"
+			(at 142.24 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa114a29-7388-4450-b526-3573d3e90794")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/edd130f8-6d8c-4786-9c45-2e5306ef5419"
+					(reference "TP25015")
 					(unit 1)
 				)
 			)
@@ -2596,6 +3027,91 @@
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/edd130f8-6d8c-4786-9c45-2e5306ef5419"
 					(reference "U24002")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 142.24 146.05 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1df6bd21-04a7-471a-aa6d-788c88939e05")
+		(property "Reference" "TP25016"
+			(at 140.97 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 144.0179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "pss:TP_0805_2012Metric"
+			(at 137.16 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+			(at 137.16 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 142.24 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RCTCTE"
+			(at 142.24 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "660-RCTCTE"
+			(at 142.24 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7855da60-8d37-4506-81dd-245d2ae6aa9c")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/edd130f8-6d8c-4786-9c45-2e5306ef5419"
+					(reference "TP25016")
+					(unit 1)
 				)
 			)
 		)
@@ -2911,6 +3427,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 53.34 95.25 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b17d659-af90-4acc-9e88-c2972a32ce43")
+		(property "Reference" "TP25011"
+			(at 52.07 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 50.8 93.2179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "pss:TP_0805_2012Metric"
+			(at 48.26 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+			(at 48.26 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 53.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RCTCTE"
+			(at 53.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "660-RCTCTE"
+			(at 53.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6941b94b-cd65-4d4e-bc8a-fe9bc6fb93a0")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/edd130f8-6d8c-4786-9c45-2e5306ef5419"
+					(reference "TP25011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pss:4075")
 		(at 139.7 127 0)
 		(unit 2)
@@ -3033,6 +3634,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 53.34 44.45 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f261887-1351-418e-baff-bc51687cd9a1")
+		(property "Reference" "TP25009"
+			(at 52.07 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 50.8 42.4179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "pss:TP_0805_2012Metric"
+			(at 48.26 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+			(at 48.26 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 53.34 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RCTCTE"
+			(at 53.34 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "660-RCTCTE"
+			(at 53.34 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9557d504-9dea-4d63-ad21-1d908817c234")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/edd130f8-6d8c-4786-9c45-2e5306ef5419"
+					(reference "TP25009")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pss:4075")
 		(at 139.7 76.2 0)
 		(unit 1)
@@ -3149,6 +3835,90 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/edd130f8-6d8c-4786-9c45-2e5306ef5419"
 					(reference "U24004")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 233.68 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f523e86-dde6-4a85-a8df-5075d09796e3")
+		(property "Reference" "TP25002"
+			(at 234.95 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 236.22 155.4479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "pss:TP_0805_2012Metric"
+			(at 238.76 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+			(at 238.76 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 233.68 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RCTCTE"
+			(at 233.68 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "660-RCTCTE"
+			(at 233.68 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a74a52dc-3046-4082-9d75-1f397561af9e")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/edd130f8-6d8c-4786-9c45-2e5306ef5419"
+					(reference "TP25002")
 					(unit 1)
 				)
 			)
@@ -3686,6 +4456,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 233.68 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7043018a-0821-4253-af27-8cad8fd00aae")
+		(property "Reference" "TP25003"
+			(at 234.95 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 236.22 160.5279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "pss:TP_0805_2012Metric"
+			(at 238.76 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+			(at 238.76 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 233.68 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RCTCTE"
+			(at 233.68 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "660-RCTCTE"
+			(at 233.68 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3aa06ae1-6349-4940-ba70-92883a91aa4f")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/edd130f8-6d8c-4786-9c45-2e5306ef5419"
+					(reference "TP25003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pss:4075")
 		(at 265.43 107.95 0)
 		(unit 4)
@@ -3804,6 +4658,91 @@
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/edd130f8-6d8c-4786-9c45-2e5306ef5419"
 					(reference "U24004")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 53.34 69.85 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71fe9465-c6f3-42f8-b233-ba10ea8615e3")
+		(property "Reference" "TP25010"
+			(at 52.07 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 50.8 67.8179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "pss:TP_0805_2012Metric"
+			(at 48.26 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+			(at 48.26 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 53.34 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RCTCTE"
+			(at 53.34 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "660-RCTCTE"
+			(at 53.34 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e80f6d4d-f939-47a6-928c-8b4bba1cbd2b")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/edd130f8-6d8c-4786-9c45-2e5306ef5419"
+					(reference "TP25010")
+					(unit 1)
 				)
 			)
 		)
@@ -4177,6 +5116,175 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 271.78 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "864c3925-26ac-47e9-aabb-3628dce6931c")
+		(property "Reference" "TP25005"
+			(at 273.05 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 274.32 155.4479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "pss:TP_0805_2012Metric"
+			(at 276.86 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+			(at 276.86 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 271.78 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RCTCTE"
+			(at 271.78 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "660-RCTCTE"
+			(at 271.78 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93439424-ed15-4d97-82ad-f09eb8697ee8")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/edd130f8-6d8c-4786-9c45-2e5306ef5419"
+					(reference "TP25005")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 53.34 146.05 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8818a6f5-a05b-4461-9c40-a72dbf8bac3a")
+		(property "Reference" "TP25013"
+			(at 52.07 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 50.8 144.0179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "pss:TP_0805_2012Metric"
+			(at 48.26 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+			(at 48.26 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 53.34 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RCTCTE"
+			(at 53.34 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "660-RCTCTE"
+			(at 53.34 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "711fdcf0-5d2a-4320-b998-79a764e95a3e")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/edd130f8-6d8c-4786-9c45-2e5306ef5419"
+					(reference "TP25013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pss:-5V_mux")
 		(at 209.55 91.44 180)
 		(unit 1)
@@ -4237,6 +5345,90 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/edd130f8-6d8c-4786-9c45-2e5306ef5419"
 					(reference "#PWR025001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 233.68 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c87c3e7-073e-4f77-b7c7-2000195ce0ae")
+		(property "Reference" "TP25001"
+			(at 234.95 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 236.22 150.3679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "pss:TP_0805_2012Metric"
+			(at 238.76 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+			(at 238.76 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 233.68 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RCTCTE"
+			(at 233.68 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "660-RCTCTE"
+			(at 233.68 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "302c8891-b46b-4f60-a823-ae650bedf6d5")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/edd130f8-6d8c-4786-9c45-2e5306ef5419"
+					(reference "TP25001")
 					(unit 1)
 				)
 			)
@@ -4584,6 +5776,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 172.72 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b2dfb7b-3349-4ac7-8a6a-9c59d5e3e04c")
+		(property "Reference" "TP25008"
+			(at 173.99 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 175.26 105.9179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "pss:TP_0805_2012Metric"
+			(at 177.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+			(at 177.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 172.72 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RCTCTE"
+			(at 172.72 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "660-RCTCTE"
+			(at 172.72 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b98a28aa-5a2e-440f-b675-263e07a6f967")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/edd130f8-6d8c-4786-9c45-2e5306ef5419"
+					(reference "TP25008")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pss:-5V_mux")
 		(at 240.03 127 180)
 		(unit 1)
@@ -4644,6 +5920,175 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/edd130f8-6d8c-4786-9c45-2e5306ef5419"
 					(reference "#PWR025014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 53.34 120.65 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a10b60da-7377-475b-8b7f-17801ae83798")
+		(property "Reference" "TP25012"
+			(at 52.07 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 50.8 118.6179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "pss:TP_0805_2012Metric"
+			(at 48.26 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+			(at 48.26 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 53.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RCTCTE"
+			(at 53.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "660-RCTCTE"
+			(at 53.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "caaed4aa-53dd-4183-be08-faf4f7a14a24")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/edd130f8-6d8c-4786-9c45-2e5306ef5419"
+					(reference "TP25012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 83.82 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bea7a2aa-6f8b-4896-b945-44f04fe347e1")
+		(property "Reference" "TP25007"
+			(at 85.09 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 86.36 105.9179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "pss:TP_0805_2012Metric"
+			(at 88.9 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+			(at 88.9 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 83.82 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RCTCTE"
+			(at 83.82 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "660-RCTCTE"
+			(at 83.82 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29fb6792-5012-4b12-abd6-4af06eaf0c2b")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/edd130f8-6d8c-4786-9c45-2e5306ef5419"
+					(reference "TP25007")
 					(unit 1)
 				)
 			)
@@ -4919,6 +6364,175 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/edd130f8-6d8c-4786-9c45-2e5306ef5419"
 					(reference "#PWR025013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 53.34 171.45 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef6c9b22-e3a2-4e34-a81d-b3979962aa74")
+		(property "Reference" "TP25014"
+			(at 52.07 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 50.8 169.4179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "pss:TP_0805_2012Metric"
+			(at 48.26 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+			(at 48.26 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 53.34 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RCTCTE"
+			(at 53.34 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "660-RCTCTE"
+			(at 53.34 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e300883-88dc-4175-a71f-335aa7ecb2ea")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/edd130f8-6d8c-4786-9c45-2e5306ef5419"
+					(reference "TP25014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 271.78 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fcba8a97-4258-4719-bbf3-39bce4bbb799")
+		(property "Reference" "TP25004"
+			(at 273.05 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 274.32 150.3679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "pss:TP_0805_2012Metric"
+			(at 276.86 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+			(at 276.86 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 271.78 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RCTCTE"
+			(at 271.78 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VPN" "660-RCTCTE"
+			(at 271.78 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e047ed38-ad4c-46b0-a360-6e5630371f07")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/edd130f8-6d8c-4786-9c45-2e5306ef5419"
+					(reference "TP25004")
 					(unit 1)
 				)
 			)
