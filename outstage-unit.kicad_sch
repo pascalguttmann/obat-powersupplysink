@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "b1820d35-0703-4ec4-be48-8667cc2d19c8")
+	(uuid "ec1c9453-60c2-4957-8c12-309aaeb84109")
 	(paper "A4")
 	(title_block
 		(title "Power Supply Sink")

@@ -444,6 +444,318 @@
 				)
 			)
 		)
+		(symbol "pss:+10V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+10V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+10V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+10V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+10V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "pss:-5V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "-5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"-5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "-5V_0_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "-5V_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+		)
+		(symbol "pss:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(no_connect
 		(at 148.59 80.01)
@@ -505,6 +817,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 158.75) (xy 199.39 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c44274f-2b87-42ec-8b9c-c406cdf1e266")
+	)
+	(wire
+		(pts
 			(xy 125.73 90.17) (xy 140.97 90.17)
 		)
 		(stroke
@@ -512,6 +834,26 @@
 			(type default)
 		)
 		(uuid "158b4bc1-cb20-4bac-988f-a1b312ecf1ec")
+	)
+	(wire
+		(pts
+			(xy 184.15 149.86) (xy 184.15 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24e567a3-0df0-4cea-bf0c-56f6927ac768")
+	)
+	(wire
+		(pts
+			(xy 191.77 149.86) (xy 191.77 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bc2b4ab-48e2-4155-8205-79864d74ca86")
 	)
 	(wire
 		(pts
@@ -525,7 +867,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 121.92) (xy 66.04 121.92)
+			(xy 248.92 158.75) (xy 257.81 158.75)
 		)
 		(stroke
 			(width 0)
@@ -555,7 +897,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 116.84) (xy 67.31 116.84)
+			(xy 219.71 158.75) (xy 228.6 158.75)
 		)
 		(stroke
 			(width 0)
@@ -635,7 +977,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 111.76) (xy 67.31 111.76)
+			(xy 219.71 153.67) (xy 228.6 153.67)
 		)
 		(stroke
 			(width 0)
@@ -644,7 +986,7 @@
 		(uuid "fccf74ea-9ab8-4fe0-8b78-2c8a9acd239d")
 	)
 	(label "v_in-"
-		(at 66.04 116.84 180)
+		(at 227.33 158.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -676,6 +1018,17 @@
 		)
 		(uuid "1c34936e-e691-4eeb-a244-8c2dfd170b2f")
 	)
+	(label "+10V"
+		(at 199.39 158.75 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "579eb839-ee4c-43a8-802a-1748a97f6056")
+	)
 	(label "v_in+"
 		(at 125.73 114.3 0)
 		(fields_autoplaced yes)
@@ -686,6 +1039,17 @@
 			(justify left bottom)
 		)
 		(uuid "79a08afb-1409-42e3-88ab-9efe41adbea9")
+	)
+	(label "GND"
+		(at 191.77 149.86 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "81e7b986-35f8-4b9f-b2f1-dd6cf6839c38")
 	)
 	(label "+10V"
 		(at 125.73 87.63 0)
@@ -699,7 +1063,7 @@
 		(uuid "83911a20-caef-4a4b-a975-c63b45d9b9f6")
 	)
 	(label "v_in+"
-		(at 66.04 111.76 180)
+		(at 227.33 153.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -710,7 +1074,7 @@
 		(uuid "87b9a5f8-27e1-405c-8f2c-b03633f16dd5")
 	)
 	(label "v_out"
-		(at 58.42 121.92 0)
+		(at 250.19 158.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -730,6 +1094,17 @@
 			(justify left bottom)
 		)
 		(uuid "99249eb0-51c1-4cb4-85c1-f892d801283f")
+	)
+	(label "-5V"
+		(at 184.15 149.86 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9b699e2f-8a8d-4d30-ba2d-493ff41383d7")
 	)
 	(label "v_in+"
 		(at 125.73 82.55 0)
@@ -810,7 +1185,7 @@
 	)
 	(hierarchical_label "v_in-"
 		(shape input)
-		(at 58.42 116.84 180)
+		(at 219.71 158.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -822,7 +1197,7 @@
 	)
 	(hierarchical_label "v_out"
 		(shape output)
-		(at 66.04 121.92 0)
+		(at 257.81 158.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -834,7 +1209,7 @@
 	)
 	(hierarchical_label "v_in+"
 		(shape input)
-		(at 58.42 111.76 180)
+		(at 219.71 153.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -846,8 +1221,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 57.15 121.92 0)
-		(mirror x)
+		(at 248.92 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -855,7 +1229,7 @@
 		(dnp no)
 		(uuid "061877e2-29ef-472d-8343-aec5cf244d5d")
 		(property "Reference" "TP3003"
-			(at 58.42 125.73 0)
+			(at 250.19 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -864,7 +1238,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 59.69 123.9521 0)
+			(at 251.46 156.7179 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -873,7 +1247,7 @@
 			)
 		)
 		(property "Footprint" "pss:TP_0805_2012Metric"
-			(at 62.23 121.92 0)
+			(at 254 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -882,7 +1256,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
-			(at 62.23 121.92 0)
+			(at 254 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -891,7 +1265,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 57.15 121.92 0)
+			(at 248.92 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -900,7 +1274,7 @@
 			)
 		)
 		(property "MPN" "RCTCTE"
-			(at 57.15 121.92 0)
+			(at 248.92 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -909,7 +1283,7 @@
 			)
 		)
 		(property "VPN" "660-RCTCTE"
-			(at 57.15 121.92 0)
+			(at 248.92 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -924,6 +1298,72 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/2f3feae7-a9ea-4cb9-8521-c9b88e99d2e7/fa72958a-5878-4cc9-a5da-a04578e325a8"
 					(reference "TP3003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pss:-5V")
+		(at 184.15 156.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fe3be44-8b5e-4d04-ab11-8758f9f3cba8")
+		(property "Reference" "#PWR03002"
+			(at 184.15 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-5V"
+			(at 184.15 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-5V\""
+			(at 184.15 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85885816-9a0e-4ff6-8168-b4809ffbaaac")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/2f3feae7-a9ea-4cb9-8521-c9b88e99d2e7/fa72958a-5878-4cc9-a5da-a04578e325a8"
+					(reference "#PWR03002")
 					(unit 1)
 				)
 			)
@@ -1030,7 +1470,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 67.31 116.84 0)
+		(at 228.6 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1038,7 +1478,7 @@
 		(dnp no)
 		(uuid "2f4dbfd1-31fe-4445-b502-3c8cfd2a1ee6")
 		(property "Reference" "TP3002"
-			(at 68.58 113.03 0)
+			(at 229.87 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1047,7 +1487,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 69.85 114.8079 0)
+			(at 231.14 156.7179 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1056,7 +1496,7 @@
 			)
 		)
 		(property "Footprint" "pss:TP_0805_2012Metric"
-			(at 72.39 116.84 0)
+			(at 233.68 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1065,7 +1505,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
-			(at 72.39 116.84 0)
+			(at 233.68 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1074,7 +1514,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 67.31 116.84 0)
+			(at 228.6 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1083,7 +1523,7 @@
 			)
 		)
 		(property "MPN" "RCTCTE"
-			(at 67.31 116.84 0)
+			(at 228.6 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1092,7 +1532,7 @@
 			)
 		)
 		(property "VPN" "660-RCTCTE"
-			(at 67.31 116.84 0)
+			(at 228.6 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1212,8 +1652,140 @@
 		)
 	)
 	(symbol
+		(lib_id "pss:+10V")
+		(at 199.39 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65c76dd2-9472-4d5f-b6ba-491c0231cc20")
+		(property "Reference" "#PWR03003"
+			(at 199.39 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+10V"
+			(at 199.39 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+10V\""
+			(at 199.39 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89873fc0-f196-4aa0-988e-536c0804ffa3")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/2f3feae7-a9ea-4cb9-8521-c9b88e99d2e7/fa72958a-5878-4cc9-a5da-a04578e325a8"
+					(reference "#PWR03003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pss:GND")
+		(at 191.77 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be6354a7-40cd-4684-b6e2-0f97adcfee5f")
+		(property "Reference" "#PWR03001"
+			(at 191.77 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.77 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6920c274-7665-4aa3-92a3-0df0d80d0f32")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/2f3feae7-a9ea-4cb9-8521-c9b88e99d2e7/fa72958a-5878-4cc9-a5da-a04578e325a8"
+					(reference "#PWR03001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 67.31 111.76 0)
+		(at 228.6 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1221,7 +1793,7 @@
 		(dnp no)
 		(uuid "f5fef36d-4a4c-4d8a-96bb-d282393c85eb")
 		(property "Reference" "TP3001"
-			(at 68.58 107.95 0)
+			(at 229.87 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1230,7 +1802,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 69.85 109.7279 0)
+			(at 231.14 151.6379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1239,7 +1811,7 @@
 			)
 		)
 		(property "Footprint" "pss:TP_0805_2012Metric"
-			(at 72.39 111.76 0)
+			(at 233.68 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1248,7 +1820,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
-			(at 72.39 111.76 0)
+			(at 233.68 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1257,7 +1829,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 67.31 111.76 0)
+			(at 228.6 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1266,7 +1838,7 @@
 			)
 		)
 		(property "MPN" "RCTCTE"
-			(at 67.31 111.76 0)
+			(at 228.6 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1275,7 +1847,7 @@
 			)
 		)
 		(property "VPN" "660-RCTCTE"
-			(at 67.31 111.76 0)
+			(at 228.6 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
