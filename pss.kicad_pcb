@@ -434,6 +434,10 @@
 	(net 352 "Net-(JP31001-B)")
 	(net 353 "Net-(JP31002-B)")
 	(net 354 "+10V_relay")
+	(net 355 "unconnected-(U17001-NC-Pad6)")
+	(net 356 "unconnected-(U17001-NC-Pad8)")
+	(net 357 "unconnected-(U17002-NC-Pad13)")
+	(net 358 "unconnected-(U17003-NC-Pad13)")
 	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 		(layer "F.Cu")
 		(uuid "0033908e-8cdf-4570-97ea-faba0f0708a9")
@@ -19361,6 +19365,9 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
+			(net 358 "unconnected-(U17003-NC-Pad13)")
+			(pinfunction "NC")
+			(pintype "no_connect")
 			(uuid "2c6f5f92-eafb-4abc-b76f-92de5f354264")
 		)
 		(pad "14" smd roundrect
@@ -83852,6 +83859,9 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
+			(net 357 "unconnected-(U17002-NC-Pad13)")
+			(pinfunction "NC")
+			(pintype "no_connect")
 			(uuid "fec379c9-5609-40a8-a8cc-77a203e2eb64")
 		)
 		(pad "14" smd roundrect
@@ -156080,6 +156090,9 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
+			(net 355 "unconnected-(U17001-NC-Pad6)")
+			(pinfunction "NC")
+			(pintype "no_connect")
 			(uuid "a6b178cc-eeca-4cbc-978f-a7f88da646ee")
 		)
 		(pad "7" smd roundrect
@@ -156097,6 +156110,9 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
+			(net 356 "unconnected-(U17001-NC-Pad8)")
+			(pinfunction "NC")
+			(pintype "no_connect")
 			(uuid "dfd41f5c-fcf2-4807-bfcb-19094700f9a2")
 		)
 		(pad "9" smd roundrect

@@ -979,6 +979,24 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at 0 -5.08 90)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -12.7 -17.78 0)
 					(length 7.62)
@@ -1319,6 +1337,44 @@
 						)
 					)
 					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4078_1_0"
+				(pin no_connect line
+					(at 1.905 1.905 90)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 4.445 1.905 90)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5285,6 +5341,9 @@
 		(pin "7"
 			(uuid "b6ed806c-0603-4cbb-b7b5-76d47a134dd6")
 		)
+		(pin "13"
+			(uuid "eb1dee1c-1ccd-4d89-bb49-4ae3338b54db")
+		)
 		(instances
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/50b9fa8c-588a-4f7c-8a85-883889c8b2d1"
@@ -5486,6 +5545,12 @@
 		)
 		(pin "1"
 			(uuid "eb2db206-4b87-43d8-964e-e7039457e5b9")
+		)
+		(pin "8"
+			(uuid "f7e279a8-315c-47e0-ac05-a52eb638f818")
+		)
+		(pin "6"
+			(uuid "b23acc71-92e8-41c1-8047-bfce294e4876")
 		)
 		(instances
 			(project "pss"
@@ -8851,6 +8916,9 @@
 		)
 		(pin "7"
 			(uuid "f3d72e27-a074-4e51-b47c-0a8ea71743b6")
+		)
+		(pin "13"
+			(uuid "b0207945-8246-4412-a7ce-13645a148eb4")
 		)
 		(instances
 			(project "pss"
