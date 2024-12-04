@@ -12,7 +12,7 @@
 		(comment 1 "Overview")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x02_Socket"
+		(symbol "pss:Conn_01x02_Socket"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -174,7 +174,7 @@
 				)
 			)
 		)
-		(symbol "Connector:Conn_01x06_Socket"
+		(symbol "pss:Conn_01x06_Socket"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -504,7 +504,199 @@
 				)
 			)
 		)
-		(symbol "Jumper:SolderJumper_2_Bridged"
+		(symbol "pss:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "pss:GNDI"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDI"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDI\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDI_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDI_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "pss:SolderJumper_2_Bridged"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0) hide)
@@ -696,7 +888,7 @@
 				)
 			)
 		)
-		(symbol "Jumper:SolderJumper_2_Open"
+		(symbol "pss:SolderJumper_2_Open"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0) hide)
@@ -877,7 +1069,7 @@
 				)
 			)
 		)
-		(symbol "Jumper:SolderJumper_3_Bridged12"
+		(symbol "pss:SolderJumper_3_Bridged12"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim yes)
@@ -1124,198 +1316,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "pss:GND"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "pss:GNDI"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GNDI"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDI\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GNDI_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GNDI_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3980,7 +3980,7 @@
 		(uuid "fed1518d-d123-4b07-b188-f3295a83ab24")
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
+		(lib_id "pss:SolderJumper_2_Open")
 		(at 190.5 123.19 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -4048,7 +4048,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
+		(lib_id "pss:SolderJumper_2_Open")
 		(at 168.91 27.94 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -4116,7 +4116,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
+		(lib_id "pss:SolderJumper_2_Open")
 		(at 74.93 144.78 90)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -4184,7 +4184,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
+		(lib_id "pss:SolderJumper_2_Open")
 		(at 68.58 144.78 90)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -4252,7 +4252,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
+		(lib_id "pss:Conn_01x02_Socket")
 		(at 260.35 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4471,7 +4471,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
+		(lib_id "pss:SolderJumper_2_Open")
 		(at 168.91 30.48 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -4539,7 +4539,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
+		(lib_id "pss:SolderJumper_2_Open")
 		(at 168.91 48.26 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -4607,7 +4607,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
+		(lib_id "pss:SolderJumper_2_Open")
 		(at 190.5 125.73 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -4675,7 +4675,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
+		(lib_id "pss:SolderJumper_2_Open")
 		(at 77.47 144.78 90)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -4810,7 +4810,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
+		(lib_id "pss:Conn_01x02_Socket")
 		(at 38.1 63.5 0)
 		(mirror y)
 		(unit 1)
@@ -4898,7 +4898,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
+		(lib_id "pss:SolderJumper_2_Open")
 		(at 63.5 144.78 90)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -4966,7 +4966,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
+		(lib_id "pss:SolderJumper_2_Open")
 		(at 93.98 27.94 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -5034,7 +5034,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
+		(lib_id "pss:SolderJumper_2_Open")
 		(at 93.98 33.02 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -5102,7 +5102,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
+		(lib_id "pss:SolderJumper_2_Open")
 		(at 168.91 45.72 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -5170,7 +5170,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
+		(lib_id "pss:SolderJumper_2_Open")
 		(at 72.39 144.78 90)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -5238,7 +5238,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
+		(lib_id "pss:SolderJumper_2_Open")
 		(at 168.91 39.37 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -5306,7 +5306,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
+		(lib_id "pss:SolderJumper_2_Open")
 		(at 154.94 120.65 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -5374,7 +5374,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
+		(lib_id "pss:SolderJumper_2_Open")
 		(at 125.73 120.65 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -5442,7 +5442,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x06_Socket")
+		(lib_id "pss:Conn_01x06_Socket")
 		(at 38.1 30.48 0)
 		(mirror y)
 		(unit 1)
@@ -5542,7 +5542,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
+		(lib_id "pss:SolderJumper_2_Open")
 		(at 168.91 33.02 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -5610,7 +5610,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
+		(lib_id "pss:SolderJumper_2_Open")
 		(at 168.91 52.07 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -5678,7 +5678,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_3_Bridged12")
+		(lib_id "pss:SolderJumper_3_Bridged12")
 		(at 139.7 40.64 90)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -5751,7 +5751,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
+		(lib_id "pss:Conn_01x02_Socket")
 		(at 38.1 50.8 0)
 		(mirror y)
 		(unit 1)
@@ -5839,7 +5839,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
+		(lib_id "pss:SolderJumper_2_Open")
 		(at 168.91 41.91 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -5974,7 +5974,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
+		(lib_id "pss:SolderJumper_2_Open")
 		(at 96.52 119.38 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -6042,7 +6042,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
+		(lib_id "pss:SolderJumper_2_Open")
 		(at 96.52 121.92 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -6110,7 +6110,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
+		(lib_id "pss:SolderJumper_2_Open")
 		(at 93.98 30.48 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -6178,7 +6178,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
+		(lib_id "pss:SolderJumper_2_Open")
 		(at 168.91 36.83 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -6246,7 +6246,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
+		(lib_id "pss:SolderJumper_2_Open")
 		(at 93.98 35.56 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -6314,7 +6314,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
+		(lib_id "pss:SolderJumper_2_Open")
 		(at 66.04 144.78 90)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -6382,7 +6382,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
+		(lib_id "pss:SolderJumper_2_Open")
 		(at 168.91 54.61 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -6450,7 +6450,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
+		(lib_id "pss:SolderJumper_2_Open")
 		(at 190.5 120.65 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -6518,7 +6518,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(lib_id "pss:SolderJumper_2_Bridged")
 		(at 134.62 88.9 180)
 		(unit 1)
 		(exclude_from_sim yes)
