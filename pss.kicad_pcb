@@ -89539,7 +89539,7 @@
 	(footprint "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 		(layer "F.Cu")
 		(uuid "7d533522-207a-41fc-ac25-d5ade4d34e1a")
-		(at 243.19 101.6)
+		(at 242.966 102.616)
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP504"
@@ -103244,7 +103244,7 @@
 				(xy 148.3 45.43) (xy 148.295 20.03)
 			)
 			(height -8.217373)
-			(gr_text "25.4000 mm"
+			(gr_text "1000.0000 mils"
 				(at 141.230127 32.731392 -89.9887213)
 				(layer "Cmts.User")
 				(uuid "4aad7311-5a59-47a7-b256-e6f1c7c6f88b")
@@ -103277,7 +103277,7 @@
 				(xy 148.3 45.43) (xy 161 45.43)
 			)
 			(height 12.7)
-			(gr_text "12.7000 mm"
+			(gr_text "500.0000 mils"
 				(at 154.65 56.98 0)
 				(layer "Cmts.User")
 				(uuid "98e2dc30-e9db-4013-8d88-77dadf6cbb95")
@@ -142184,7 +142184,7 @@
 				(xy 134.045 45.43) (xy 134.04 20.03)
 			)
 			(height -8.217373)
-			(gr_text "25.4000 mm"
+			(gr_text "1000.0000 mils"
 				(at 126.975127 32.731392 -89.9887213)
 				(layer "Cmts.User")
 				(uuid "53f265a0-f8c7-43ec-985e-5d055b9beb8e")
@@ -142217,7 +142217,7 @@
 				(xy 134.045 45.43) (xy 146.745 45.43)
 			)
 			(height 12.7)
-			(gr_text "12.7000 mm"
+			(gr_text "500.0000 mils"
 				(at 140.395 56.98 0)
 				(layer "Cmts.User")
 				(uuid "78bb9263-310b-402d-9fc2-457795f1e438")
