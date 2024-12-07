@@ -4453,7 +4453,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 144.78) (xy 146.05 144.78)
+			(xy 144.78 144.78) (xy 151.13 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4463,7 +4463,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 160.02) (xy 146.05 160.02)
+			(xy 144.78 160.02) (xy 151.13 160.02)
 		)
 		(stroke
 			(width 0)
@@ -4593,7 +4593,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 121.92) (xy 146.05 121.92)
+			(xy 144.78 121.92) (xy 151.13 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4643,7 +4643,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 152.4) (xy 49.53 152.4)
+			(xy 48.26 152.4) (xy 54.61 152.4)
 		)
 		(stroke
 			(width 0)
@@ -4683,7 +4683,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 182.88) (xy 100.33 182.88)
+			(xy 99.06 182.88) (xy 105.41 182.88)
 		)
 		(stroke
 			(width 0)
@@ -4713,7 +4713,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 137.16) (xy 146.05 137.16)
+			(xy 144.78 137.16) (xy 151.13 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4783,7 +4783,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 175.26) (xy 146.05 175.26)
+			(xy 144.78 175.26) (xy 151.13 175.26)
 		)
 		(stroke
 			(width 0)
@@ -4863,7 +4863,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 114.3) (xy 100.33 114.3)
+			(xy 97.79 114.3) (xy 105.41 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4883,7 +4883,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 167.64) (xy 49.53 167.64)
+			(xy 48.26 167.64) (xy 54.61 167.64)
 		)
 		(stroke
 			(width 0)
@@ -4963,7 +4963,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 121.92) (xy 49.53 121.92)
+			(xy 48.26 121.92) (xy 54.61 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5113,7 +5113,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 182.88) (xy 49.53 182.88)
+			(xy 48.26 182.88) (xy 54.61 182.88)
 		)
 		(stroke
 			(width 0)
@@ -5143,7 +5143,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 182.88) (xy 146.05 182.88)
+			(xy 144.78 182.88) (xy 151.13 182.88)
 		)
 		(stroke
 			(width 0)
@@ -5213,7 +5213,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 144.78) (xy 49.53 144.78)
+			(xy 48.26 144.78) (xy 54.61 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5223,7 +5223,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 190.5) (xy 100.33 190.5)
+			(xy 99.06 190.5) (xy 105.41 190.5)
 		)
 		(stroke
 			(width 0)
@@ -5263,7 +5263,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 160.02) (xy 49.53 160.02)
+			(xy 48.26 160.02) (xy 54.61 160.02)
 		)
 		(stroke
 			(width 0)
@@ -5383,7 +5383,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 129.54) (xy 49.53 129.54)
+			(xy 48.26 129.54) (xy 54.61 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5393,7 +5393,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 160.02) (xy 99.06 160.02)
+			(xy 105.41 160.02) (xy 99.06 160.02)
 		)
 		(stroke
 			(width 0)
@@ -5403,7 +5403,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 137.16) (xy 49.53 137.16)
+			(xy 48.26 137.16) (xy 54.61 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5423,7 +5423,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 129.54) (xy 146.05 129.54)
+			(xy 144.78 129.54) (xy 151.13 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5463,7 +5463,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 167.64) (xy 146.05 167.64)
+			(xy 144.78 167.64) (xy 151.13 167.64)
 		)
 		(stroke
 			(width 0)
@@ -5493,7 +5493,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 175.26) (xy 49.53 175.26)
+			(xy 48.26 175.26) (xy 54.61 175.26)
 		)
 		(stroke
 			(width 0)
@@ -5563,7 +5563,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 152.4) (xy 146.05 152.4)
+			(xy 144.78 152.4) (xy 151.13 152.4)
 		)
 		(stroke
 			(width 0)
@@ -5696,6 +5696,650 @@
 			(justify right)
 		)
 		(uuid "e342b54b-cd8e-43ed-8925-7b19b515908e")
+	)
+	(netclass_flag ""
+		(length 1.905)
+		(shape rectangle)
+		(at 148.59 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0cd99529-8b78-4ed1-ae8c-ad2a2fdd5556")
+		(property "Netclass" "pwr"
+			(at 149.7965 173.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.905)
+		(shape rectangle)
+		(at 52.07 182.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2435d2d3-75e1-4886-960c-f2ee28db3c33")
+		(property "Netclass" "pwr"
+			(at 53.2765 180.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.905)
+		(shape rectangle)
+		(at 52.07 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ef2a91c-ad02-4c31-a3be-540919ee1de1")
+		(property "Netclass" "pwr"
+			(at 53.2765 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.905)
+		(shape rectangle)
+		(at 148.59 182.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "36aa1c22-be4a-401e-9bbf-3c7306559b93")
+		(property "Netclass" "pwr"
+			(at 149.7965 180.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.905)
+		(shape rectangle)
+		(at 52.07 160.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "376d0fc7-78c1-41a4-aa1a-be40b95faee4")
+		(property "Netclass" "pwr"
+			(at 53.2765 158.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.905)
+		(shape rectangle)
+		(at 148.59 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3947c056-ac28-478d-8982-03b4c4d1a4ca")
+		(property "Netclass" "pwr"
+			(at 149.7965 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.905)
+		(shape rectangle)
+		(at 52.07 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "47e6a611-4370-4723-b8c0-8606424c03cf")
+		(property "Netclass" "pwr"
+			(at 53.2765 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.905)
+		(shape rectangle)
+		(at 102.87 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f302e0a-c84a-40f4-b5a2-d4e08f86572d")
+		(property "Netclass" "pwr"
+			(at 104.0765 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.905)
+		(shape rectangle)
+		(at 52.07 167.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d5d6fc7-8a28-48c8-b1a6-fe8d571ce8d6")
+		(property "Netclass" "pwr"
+			(at 53.2765 165.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 67.31 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "710b215c-1386-426d-890b-122bf881f69b")
+		(property "Netclass" "25A"
+			(at 68.5165 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.905)
+		(shape rectangle)
+		(at 52.07 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "731556cf-3bb5-4bd4-b11c-1d2cdd80cce8")
+		(property "Netclass" "pwr"
+			(at 53.2765 173.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.905)
+		(shape rectangle)
+		(at 102.87 182.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "735c5850-c48f-4d65-b68a-649cfa477de4")
+		(property "Netclass" "pwr"
+			(at 104.0765 180.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.905)
+		(shape rectangle)
+		(at 148.59 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "77f2d3e3-372a-4a27-baf7-50a7d837e0c7")
+		(property "Netclass" "pwr"
+			(at 149.7965 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.905)
+		(shape rectangle)
+		(at 52.07 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7f9cb62c-e341-4fd6-bfb6-0194eb532e03")
+		(property "Netclass" "pwr"
+			(at 53.2765 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.905)
+		(shape rectangle)
+		(at 190.5 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8c947acc-043e-42c7-8806-cbd1191f54db")
+		(property "Netclass" "pwr"
+			(at 191.7065 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.905)
+		(shape rectangle)
+		(at 148.59 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "92cb8e35-0b0e-47f7-8fb4-343ffb0bebd4")
+		(property "Netclass" "pwr"
+			(at 149.7965 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.905)
+		(shape rectangle)
+		(at 52.07 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "93fac263-c7cd-4b65-a08f-765d10549f62")
+		(property "Netclass" "pwr"
+			(at 53.2765 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.905)
+		(shape rectangle)
+		(at 148.59 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f9edeca-e953-4b7e-915a-59303dda19f9")
+		(property "Netclass" "pwr"
+			(at 149.7965 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape dot)
+		(at 148.59 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0a857aa-793a-4e97-a58b-a963f77e7c86")
+		(property "Netclass" "3A"
+			(at 149.2885 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 67.31 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "baee5960-439a-4915-90e7-83e2b12ccf46")
+		(property "Netclass" "25A"
+			(at 68.5165 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 127 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c4b6f2fc-7b96-49fe-ba80-4df6a0e5359f")
+		(property "Netclass" "25A"
+			(at 128.2065 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.905)
+		(shape rectangle)
+		(at 102.87 160.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7b69794-44c7-4eba-9f1b-f41f73dbb4d3")
+		(property "Netclass" "pwr"
+			(at 104.0765 158.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape dot)
+		(at 52.07 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea69da3c-f4d6-43a2-bf5a-d24af47252c6")
+		(property "Netclass" "3A"
+			(at 52.7685 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.905)
+		(shape rectangle)
+		(at 148.59 160.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea829f30-7fb1-4bd8-aad4-6eb1b6a54ba6")
+		(property "Netclass" "pwr"
+			(at 149.7965 158.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.905)
+		(shape rectangle)
+		(at 148.59 167.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2e6d395-6dc8-4354-b11e-99c2905480e7")
+		(property "Netclass" "pwr"
+			(at 149.7965 165.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 127 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f4ed308a-e8e6-4669-98b8-2198e4bda894")
+		(property "Netclass" "25A"
+			(at 128.2065 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.905)
+		(shape rectangle)
+		(at 102.87 190.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6d97cfc-5ddb-4368-a2ac-afe074a222f2")
+		(property "Netclass" "pwr"
+			(at 104.0765 188.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 67.31 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "faf18758-479e-4d36-9c9d-c57cd817eb39")
+		(property "Netclass" "25A"
+			(at 68.5165 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "pss:-5V")
@@ -6051,16 +6695,15 @@
 	)
 	(symbol
 		(lib_id "pss:+10V_conf")
-		(at 49.53 182.88 270)
+		(at 54.61 182.88 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "07614112-50c3-4380-a385-2a3dc992cc66")
 		(property "Reference" "#PWR01718"
-			(at 45.72 182.88 0)
+			(at 50.8 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6069,7 +6712,7 @@
 			)
 		)
 		(property "Value" "+10V_conf"
-			(at 53.34 182.8799 90)
+			(at 58.42 182.8799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6078,7 +6721,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 182.88 0)
+			(at 54.61 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6087,7 +6730,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 182.88 0)
+			(at 54.61 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6096,7 +6739,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 182.88 0)
+			(at 54.61 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6340,7 +6983,7 @@
 	)
 	(symbol
 		(lib_id "pss:-5V_conf")
-		(at 146.05 182.88 270)
+		(at 151.13 182.88 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6349,7 +6992,7 @@
 		(fields_autoplaced yes)
 		(uuid "1135a9c6-0052-47a4-9268-aabfb807457e")
 		(property "Reference" "#PWR01747"
-			(at 142.24 182.88 0)
+			(at 147.32 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6358,7 +7001,7 @@
 			)
 		)
 		(property "Value" "-5V_conf"
-			(at 149.86 182.8799 90)
+			(at 154.94 182.8799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6367,7 +7010,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 182.88 0)
+			(at 151.13 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6376,7 +7019,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 182.88 0)
+			(at 151.13 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6385,7 +7028,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 182.88 0)
+			(at 151.13 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6909,16 +7552,15 @@
 	)
 	(symbol
 		(lib_id "pss:+10V_bias")
-		(at 49.53 121.92 270)
+		(at 54.61 121.92 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "23c98394-bf36-4682-b888-53ef683f1c2b")
 		(property "Reference" "#PWR01710"
-			(at 45.72 121.92 0)
+			(at 50.8 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6927,7 +7569,7 @@
 			)
 		)
 		(property "Value" "+10V_bias"
-			(at 53.34 121.9199 90)
+			(at 58.42 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6936,7 +7578,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 121.92 0)
+			(at 54.61 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6945,7 +7587,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 121.92 0)
+			(at 54.61 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6954,7 +7596,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 121.92 0)
+			(at 54.61 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7696,7 +8338,7 @@
 	)
 	(symbol
 		(lib_id "pss:-5V_meas")
-		(at 146.05 160.02 270)
+		(at 151.13 160.02 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7705,7 +8347,7 @@
 		(fields_autoplaced yes)
 		(uuid "3ec9e3e8-98b6-46e2-972a-280fc502d1fa")
 		(property "Reference" "#PWR01744"
-			(at 142.24 160.02 0)
+			(at 147.32 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7714,7 +8356,7 @@
 			)
 		)
 		(property "Value" "-5V_meas"
-			(at 149.86 160.0199 90)
+			(at 154.94 160.0199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7723,7 +8365,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 160.02 0)
+			(at 151.13 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7732,7 +8374,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 160.02 0)
+			(at 151.13 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7741,7 +8383,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 160.02 0)
+			(at 151.13 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7894,73 +8536,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:PWR_FLAG")
-		(at 114.3 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "45c1d6d2-44f7-429d-8e98-0da272bb0918")
-		(property "Reference" "#FLG01716"
-			(at 114.3 73.025 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 116.84 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 114.3 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6571ccf0-1622-4f82-a5e4-a50b197a8bac")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/f49135f8-6951-492d-90df-5960b4866d04"
-					(reference "#FLG01716")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pss:Fuse")
 		(at 101.6 50.8 90)
 		(unit 1)
@@ -8048,7 +8623,7 @@
 	)
 	(symbol
 		(lib_id "pss:-5V_control")
-		(at 146.05 175.26 270)
+		(at 151.13 175.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8057,7 +8632,7 @@
 		(fields_autoplaced yes)
 		(uuid "48dd09a5-b6b4-4be4-8539-4e03cee71f12")
 		(property "Reference" "#PWR01746"
-			(at 142.24 175.26 0)
+			(at 147.32 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8066,7 +8641,7 @@
 			)
 		)
 		(property "Value" "-5V_control"
-			(at 149.86 175.2599 90)
+			(at 154.94 175.2599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8075,7 +8650,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 175.26 0)
+			(at 151.13 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8084,7 +8659,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 175.26 0)
+			(at 151.13 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8093,7 +8668,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 175.26 0)
+			(at 151.13 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8181,7 +8756,7 @@
 	)
 	(symbol
 		(lib_id "pss:+5VA_meas")
-		(at 100.33 160.02 270)
+		(at 105.41 160.02 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8190,7 +8765,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a61f685-c83e-4866-800e-5cfd7ed9b4d9")
 		(property "Reference" "#PWR01725"
-			(at 96.52 160.02 0)
+			(at 101.6 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8199,7 +8774,7 @@
 			)
 		)
 		(property "Value" "+5VA_meas"
-			(at 104.14 160.0199 90)
+			(at 109.22 160.0199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8208,7 +8783,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 160.02 0)
+			(at 105.41 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8217,7 +8792,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 160.02 0)
+			(at 105.41 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8226,7 +8801,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.33 160.02 0)
+			(at 105.41 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8404,7 +8979,7 @@
 	)
 	(symbol
 		(lib_id "pss:+5VA_adc")
-		(at 100.33 114.3 270)
+		(at 105.41 114.3 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8413,7 +8988,7 @@
 		(fields_autoplaced yes)
 		(uuid "5128d2a7-1188-43cc-b0b8-870bf072160f")
 		(property "Reference" "#PWR01724"
-			(at 96.52 114.3 0)
+			(at 101.6 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8422,7 +8997,7 @@
 			)
 		)
 		(property "Value" "+5VA_adc"
-			(at 104.14 114.2999 90)
+			(at 109.22 114.2999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8431,7 +9006,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 114.3 0)
+			(at 105.41 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8440,7 +9015,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 114.3 0)
+			(at 105.41 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8449,7 +9024,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.33 114.3 0)
+			(at 105.41 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8737,16 +9312,15 @@
 	)
 	(symbol
 		(lib_id "pss:+10V_meas")
-		(at 49.53 160.02 270)
+		(at 54.61 160.02 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5ebcb4e0-027e-4328-8ee8-03b27fcc147b")
 		(property "Reference" "#PWR01715"
-			(at 45.72 160.02 0)
+			(at 50.8 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8755,7 +9329,7 @@
 			)
 		)
 		(property "Value" "+10V_meas"
-			(at 53.34 160.0199 90)
+			(at 58.42 160.0199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8764,7 +9338,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 160.02 0)
+			(at 54.61 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8773,7 +9347,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 160.02 0)
+			(at 54.61 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8782,7 +9356,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 160.02 0)
+			(at 54.61 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10127,8 +10701,74 @@
 		)
 	)
 	(symbol
+		(lib_id "pss:PWR_FLAG")
+		(at 114.3 74.93 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86136ad8-57e7-48db-8e8e-783aba4ebab0")
+		(property "Reference" "#FLG01716"
+			(at 114.3 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 114.3 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 114.3 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86360a3d-a090-4e13-9829-91b9bfeb5a79")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/f49135f8-6951-492d-90df-5960b4866d04"
+					(reference "#FLG01716")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pss:-5V_mode-transition")
-		(at 146.05 137.16 270)
+		(at 151.13 137.16 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10137,7 +10777,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a54fb6a-4f26-42d6-8687-7e59b91fa229")
 		(property "Reference" "#PWR01741"
-			(at 142.24 137.16 0)
+			(at 147.32 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10146,7 +10786,7 @@
 			)
 		)
 		(property "Value" "-5V_mode-transition"
-			(at 149.86 137.1599 90)
+			(at 154.94 137.1599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10155,7 +10795,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 137.16 0)
+			(at 151.13 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10164,7 +10804,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 137.16 0)
+			(at 151.13 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10173,7 +10813,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 137.16 0)
+			(at 151.13 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10261,7 +10901,7 @@
 	)
 	(symbol
 		(lib_id "pss:-5V_bias")
-		(at 146.05 121.92 270)
+		(at 151.13 121.92 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10270,7 +10910,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d564c02-82f2-41ea-8bbf-14abaa4e0ac2")
 		(property "Reference" "#PWR01739"
-			(at 142.24 121.92 0)
+			(at 147.32 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10279,7 +10919,7 @@
 			)
 		)
 		(property "Value" "-5V_bias"
-			(at 149.86 121.9199 90)
+			(at 154.94 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10288,7 +10928,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 121.92 0)
+			(at 151.13 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10297,7 +10937,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 121.92 0)
+			(at 151.13 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10306,7 +10946,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 121.92 0)
+			(at 151.13 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10419,7 +11059,7 @@
 	)
 	(symbol
 		(lib_id "pss:-5V_relay")
-		(at 146.05 167.64 270)
+		(at 151.13 167.64 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10428,7 +11068,7 @@
 		(fields_autoplaced yes)
 		(uuid "96919d11-95a2-40a0-8f4b-717b06d1e88c")
 		(property "Reference" "#PWR01745"
-			(at 142.24 167.64 0)
+			(at 147.32 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10437,7 +11077,7 @@
 			)
 		)
 		(property "Value" "-5V_relay"
-			(at 149.86 167.6399 90)
+			(at 154.94 167.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10446,7 +11086,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 167.64 0)
+			(at 151.13 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10455,7 +11095,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 167.64 0)
+			(at 151.13 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10464,7 +11104,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 167.64 0)
+			(at 151.13 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10705,16 +11345,15 @@
 	)
 	(symbol
 		(lib_id "pss:+10V_mode-transition")
-		(at 49.53 137.16 270)
+		(at 54.61 137.16 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9d865f9f-ed4b-425e-903b-b1f93cd194ed")
 		(property "Reference" "#PWR01712"
-			(at 45.72 137.16 0)
+			(at 50.8 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10723,7 +11362,7 @@
 			)
 		)
 		(property "Value" "+10V_mode-transition"
-			(at 53.34 137.1599 90)
+			(at 58.42 137.1599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10732,7 +11371,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 137.16 0)
+			(at 54.61 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10741,7 +11380,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 137.16 0)
+			(at 54.61 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10750,7 +11389,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 137.16 0)
+			(at 54.61 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10857,7 +11496,7 @@
 	)
 	(symbol
 		(lib_id "pss:-5V_mux")
-		(at 146.05 152.4 270)
+		(at 151.13 152.4 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10866,7 +11505,7 @@
 		(fields_autoplaced yes)
 		(uuid "a93825e6-911c-4fe8-b672-76087d7caeae")
 		(property "Reference" "#PWR01743"
-			(at 142.24 152.4 0)
+			(at 147.32 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10875,7 +11514,7 @@
 			)
 		)
 		(property "Value" "-5V_mux"
-			(at 149.86 152.3999 90)
+			(at 154.94 152.3999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10884,7 +11523,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 152.4 0)
+			(at 151.13 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10893,7 +11532,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 152.4 0)
+			(at 151.13 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10902,7 +11541,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 152.4 0)
+			(at 151.13 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10990,16 +11629,15 @@
 	)
 	(symbol
 		(lib_id "pss:+10V_relay")
-		(at 49.53 167.64 270)
+		(at 54.61 167.64 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "aa15e974-6dc4-48f4-b475-5a676ebc8766")
 		(property "Reference" "#PWR01716"
-			(at 45.72 167.64 0)
+			(at 50.8 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11008,7 +11646,7 @@
 			)
 		)
 		(property "Value" "+10V_relay"
-			(at 53.34 167.6399 90)
+			(at 58.42 167.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11017,7 +11655,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 167.64 0)
+			(at 54.61 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11026,7 +11664,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 167.64 0)
+			(at 54.61 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11035,7 +11673,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 167.64 0)
+			(at 54.61 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11057,7 +11695,7 @@
 	)
 	(symbol
 		(lib_id "pss:+5VA_conf")
-		(at 100.33 182.88 270)
+		(at 105.41 182.88 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11066,7 +11704,7 @@
 		(fields_autoplaced yes)
 		(uuid "aacea953-d1ae-4e39-a1c9-63d415f2c56f")
 		(property "Reference" "#PWR01726"
-			(at 96.52 182.88 0)
+			(at 101.6 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11075,7 +11713,7 @@
 			)
 		)
 		(property "Value" "+5VA_conf"
-			(at 104.14 182.8799 90)
+			(at 109.22 182.8799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11084,7 +11722,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 182.88 0)
+			(at 105.41 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11093,7 +11731,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 182.88 0)
+			(at 105.41 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11102,7 +11740,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.33 182.88 0)
+			(at 105.41 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11810,7 +12448,7 @@
 	)
 	(symbol
 		(lib_id "pss:-5V_limit-logic")
-		(at 146.05 144.78 270)
+		(at 151.13 144.78 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11819,7 +12457,7 @@
 		(fields_autoplaced yes)
 		(uuid "bdea8312-9b26-4fe5-865f-aad7eee8845c")
 		(property "Reference" "#PWR01742"
-			(at 142.24 144.78 0)
+			(at 147.32 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11828,7 +12466,7 @@
 			)
 		)
 		(property "Value" "-5V_limit-logic"
-			(at 149.86 144.7799 90)
+			(at 154.94 144.7799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11837,7 +12475,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 144.78 0)
+			(at 151.13 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11846,7 +12484,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 144.78 0)
+			(at 151.13 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11855,7 +12493,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 144.78 0)
+			(at 151.13 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11943,16 +12581,15 @@
 	)
 	(symbol
 		(lib_id "pss:+10V_mux")
-		(at 49.53 152.4 270)
+		(at 54.61 152.4 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c0aa0523-1774-4260-8c0b-9253903310b1")
 		(property "Reference" "#PWR01714"
-			(at 45.72 152.4 0)
+			(at 50.8 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11961,7 +12598,7 @@
 			)
 		)
 		(property "Value" "+10V_mux"
-			(at 53.34 152.3999 90)
+			(at 58.42 152.3999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11970,7 +12607,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 152.4 0)
+			(at 54.61 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11979,7 +12616,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 152.4 0)
+			(at 54.61 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11988,7 +12625,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 152.4 0)
+			(at 54.61 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12010,16 +12647,15 @@
 	)
 	(symbol
 		(lib_id "pss:+10V_compare-logic")
-		(at 49.53 129.54 270)
+		(at 54.61 129.54 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c31557ec-c833-46b8-bd25-a24c81820f04")
 		(property "Reference" "#PWR01711"
-			(at 45.72 129.54 0)
+			(at 50.8 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12028,7 +12664,7 @@
 			)
 		)
 		(property "Value" "+10V_compare-logic"
-			(at 53.34 129.5399 90)
+			(at 58.42 129.5399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12037,7 +12673,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 129.54 0)
+			(at 54.61 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12046,7 +12682,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 129.54 0)
+			(at 54.61 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12055,7 +12691,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 129.54 0)
+			(at 54.61 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13026,7 +13662,7 @@
 	)
 	(symbol
 		(lib_id "pss:-5V_compare-logic")
-		(at 146.05 129.54 270)
+		(at 151.13 129.54 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13035,7 +13671,7 @@
 		(fields_autoplaced yes)
 		(uuid "e86d0094-f531-465d-b58e-70728a313caf")
 		(property "Reference" "#PWR01740"
-			(at 142.24 129.54 0)
+			(at 147.32 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13044,7 +13680,7 @@
 			)
 		)
 		(property "Value" "-5V_compare-logic"
-			(at 149.86 129.5399 90)
+			(at 154.94 129.5399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13053,7 +13689,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 129.54 0)
+			(at 151.13 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13062,7 +13698,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 129.54 0)
+			(at 151.13 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13071,7 +13707,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 129.54 0)
+			(at 151.13 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13227,16 +13863,15 @@
 	)
 	(symbol
 		(lib_id "pss:+10V_control")
-		(at 49.53 175.26 270)
+		(at 54.61 175.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ed9683ed-c5b3-4cf8-ba18-18b60abc0428")
 		(property "Reference" "#PWR01717"
-			(at 45.72 175.26 0)
+			(at 50.8 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13245,7 +13880,7 @@
 			)
 		)
 		(property "Value" "+10V_control"
-			(at 53.34 175.2599 90)
+			(at 58.42 175.2599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13254,7 +13889,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 175.26 0)
+			(at 54.61 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13263,7 +13898,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 175.26 0)
+			(at 54.61 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13272,7 +13907,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 175.26 0)
+			(at 54.61 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13688,16 +14323,15 @@
 	)
 	(symbol
 		(lib_id "pss:+10V_limit-logic")
-		(at 49.53 144.78 270)
+		(at 54.61 144.78 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f836df96-2db6-4a26-a212-c08ad69c829a")
 		(property "Reference" "#PWR01713"
-			(at 45.72 144.78 0)
+			(at 50.8 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13706,7 +14340,7 @@
 			)
 		)
 		(property "Value" "+10V_limit-logic"
-			(at 53.34 144.7799 90)
+			(at 58.42 144.7799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13715,7 +14349,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 144.78 0)
+			(at 54.61 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13724,7 +14358,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 144.78 0)
+			(at 54.61 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13733,7 +14367,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 144.78 0)
+			(at 54.61 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13821,7 +14455,7 @@
 	)
 	(symbol
 		(lib_id "pss:+5VA_digital-interface")
-		(at 100.33 190.5 270)
+		(at 105.41 190.5 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13830,7 +14464,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb10cb67-b5fa-4759-90d1-ffa9cd21e5a7")
 		(property "Reference" "#PWR01727"
-			(at 96.52 190.5 0)
+			(at 101.6 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13839,7 +14473,7 @@
 			)
 		)
 		(property "Value" "+5VA_digital-interface"
-			(at 104.14 190.4999 90)
+			(at 109.22 190.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13848,7 +14482,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 190.5 0)
+			(at 105.41 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13857,7 +14491,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 190.5 0)
+			(at 105.41 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13866,7 +14500,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.33 190.5 0)
+			(at 105.41 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)

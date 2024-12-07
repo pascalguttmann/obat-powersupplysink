@@ -2310,6 +2310,52 @@
 		)
 		(uuid "a9812660-b426-4984-9130-7066a4102ed9")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 54.61 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a6010cb-ccd2-4954-95fe-f0cbc14572e4")
+		(property "Netclass" "25A"
+			(at 55.8165 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape diamond)
+		(at 54.61 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b36cf235-66ff-44b7-93cd-e6ee1b0baad9")
+		(property "Netclass" "25A"
+			(at 55.8165 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "pss:GND")
 		(at 220.98 116.84 0)

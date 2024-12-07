@@ -1076,6 +1076,52 @@
 		)
 		(uuid "ebaae723-e7c7-4a5c-a84c-054ac3eba64a")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape dot)
+		(at 171.45 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6f3b688b-08b2-4ea9-9a22-0b143d6206c2")
+		(property "Netclass" "3A"
+			(at 172.1485 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape dot)
+		(at 171.45 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb3480a3-6b75-4535-8f37-ba24c5905464")
+		(property "Netclass" "3A"
+			(at 172.1485 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "pss:R")
 		(at 130.81 74.93 90)

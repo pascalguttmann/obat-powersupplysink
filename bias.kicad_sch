@@ -2323,6 +2323,98 @@
 		)
 		(uuid "d7346d2d-0fff-4a83-b614-c9f043fec7df")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape dot)
+		(at 154.94 69.85 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6661097d-9254-44da-8582-bafbac806ec4")
+		(property "Netclass" "3A"
+			(at 152.4 69.1515 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape dot)
+		(at 154.94 153.67 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b838342-ffa1-411e-9aa4-4812093f9f6d")
+		(property "Netclass" "3A"
+			(at 152.4 152.9715 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape dot)
+		(at 161.29 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9d317b1d-14cd-48b0-aab7-6dcababc6ff8")
+		(property "Netclass" "3A"
+			(at 161.9885 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape dot)
+		(at 161.29 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "abe0032d-200e-494d-8efd-a658b0e97830")
+		(property "Netclass" "3A"
+			(at 161.9885 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "pss:TestPoint")
 		(at 140.97 139.7 0)
