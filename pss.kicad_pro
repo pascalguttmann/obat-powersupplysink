@@ -568,7 +568,6 @@
       "/power-electronics/outstage/v_in+": "3A",
       "/power-electronics/outstage/v_in-": "3A",
       "/power-electronics/outstage/v_out": "25A",
-      "/power-electronics/v_out": "25A",
       "/relay/in": "25A",
       "/relay/out": "25A",
       "GND": "25A",
@@ -596,14 +595,7 @@
       "Net-(Q3301-B)": "3A",
       "Net-(Q3302-B)": "3A",
       "Net-(Q3401-B)": "3A",
-      "Net-(Q3402-B)": "3A",
-      "unconnected-(J104-Pin_2-Pad2)": "25A",
-      "unconnected-(JP113-A-Pad1)": "25A",
-      "unconnected-(JP113-B-Pad2)": "25A",
-      "unconnected-(JP116-A-Pad1)": "25A",
-      "unconnected-(JP116-B-Pad2)": "25A",
-      "unconnected-(JP127-A-Pad1)": "25A",
-      "unconnected-(JP127-B-Pad2)": "25A"
+      "Net-(Q3402-B)": "3A"
     },
     "netclass_patterns": []
   },

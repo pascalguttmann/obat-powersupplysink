@@ -452,6 +452,7 @@
 	(net 370 "Net-(U1601-Pad6)")
 	(net 371 "Net-(U1602-Pad6)")
 	(net 372 "unconnected-(U1603-Pad10)")
+	(net 373 "Net-(JP504-A)")
 	(footprint "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "0088b18e-face-4c29-a5e0-3d73646c0d11")
@@ -492,7 +493,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -728,7 +729,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -907,7 +908,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1143,7 +1144,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1589,7 +1590,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1768,7 +1769,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/opa2810"
+		(property "Datasheet" "./datasheet/OPA2810IDR.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2042,7 +2043,7 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 26 "/control-var/diode-network/1")
+			(net 373 "Net-(JP504-A)")
 			(pinfunction "-")
 			(pintype "input")
 			(uuid "868379d6-d033-4e74-971f-19dd2b06c3c3")
@@ -2158,7 +2159,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2337,7 +2338,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31231.pdf"
+		(property "Datasheet" "./datasheet/DNLS350E-13.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2903,7 +2904,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/180/IN_S85CS5G_V1_0-2001033.pdf"
+		(property "Datasheet" "./datasheet/IN-S85CS5G.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3161,7 +3162,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734389.pdf"
+		(property "Datasheet" "./datasheet/RR03J22RTB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3459,7 +3460,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3638,7 +3639,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/115/ds30086-3214660.pdf"
+		(property "Datasheet" "./datasheet/1N4148W-7-F.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4249,7 +4250,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4428,7 +4429,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4085b.pdf"
+		(property "Datasheet" "./datasheet/cd4085bm.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4827,7 +4828,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5006,7 +5007,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5242,7 +5243,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/180/IN_S85CS5G_V1_0-2001033.pdf"
+		(property "Datasheet" "./datasheet/IN-S85CS5G.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5500,7 +5501,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734389.pdf"
+		(property "Datasheet" "./datasheet/RR03J22RTB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5798,7 +5799,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6034,7 +6035,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6270,7 +6271,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/NUP1301.pdf"
+		(property "Datasheet" "./datasheet/NUP1301,215.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6569,7 +6570,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6748,7 +6749,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6984,7 +6985,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7220,7 +7221,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7399,7 +7400,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7578,7 +7579,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7876,7 +7877,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8322,7 +8323,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8558,7 +8559,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31231.pdf"
+		(property "Datasheet" "./datasheet/DNLS350E-13.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8858,7 +8859,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/180/IN_S85CS5G_V1_0-2001033.pdf"
+		(property "Datasheet" "./datasheet/IN-S85CS5G.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9116,7 +9117,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/54/pvg5-907351.pdf"
+		(property "Datasheet" "./datasheet/PVG5A.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9442,7 +9443,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/180/IN_S85CS5G_V1_0-2001033.pdf"
+		(property "Datasheet" "./datasheet/IN-S85CS5G.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9700,7 +9701,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9936,7 +9937,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10234,7 +10235,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10680,7 +10681,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10859,7 +10860,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11038,7 +11039,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/180/IN_S85CS5G_V1_0-2001033.pdf"
+		(property "Datasheet" "./datasheet/IN-S85CS5G.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11296,7 +11297,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31230.pdf"
+		(property "Datasheet" "./datasheet/DPLS350E-13.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11596,7 +11597,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11832,7 +11833,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12130,7 +12131,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4075b.pdf"
+		(property "Datasheet" "./datasheet/cd4075bm96.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12517,7 +12518,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12753,7 +12754,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+		(property "Datasheet" "./datasheet/cd4066bm96.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13141,7 +13142,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13377,7 +13378,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9352.pdf"
+		(property "Datasheet" "./datasheet/TLV9352IDR.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13767,7 +13768,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13946,7 +13947,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14182,7 +14183,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/54/pvg5-907351.pdf"
+		(property "Datasheet" "./datasheet/PVG5A.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14509,7 +14510,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://product-download.phoenixcontact.com/7441242?response-content-disposition=inline;%20filename%3D%221017503_00_en_01.pdf%22&Expires=1733249030&Signature=5lo3rC7~QEZ5FQDy477t0tYIjm5ZcDNSMgabZuK1jxDOtM~QKzm6Pw5Z9aVTbR6TPsDaXhCGZMbo17UCeuP1TbPOoD83aEM5~NBisu7meDmbH~SssR8B6wsaWwOzCHa1eZjmiEcfdjLDr~fOnUSZEHHCzrASM8Yq40aVv9EnYCHUrfe-Muw11jMAoiRtV-vw45KqhCyqrFgafSh8Ds1vgfQgzpyXWyk3419YnLdpecnez56QIE9jS6h7KERzbJrabWi0vOc7~eoupEZR4K7X4sKBY01ChUK~D6X4dGHKkTuLUCkJu8j5xJNqcDJl92nssBl35zZrMOgs9xZ-F0Wckw__&Key-Pair-Id=K1I2N54A7B0GD"
+		(property "Datasheet" "./datasheet/1017503_00_en_01.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15104,7 +15105,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15340,7 +15341,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734389.pdf"
+		(property "Datasheet" "./datasheet/RR03J22RTB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15638,7 +15639,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15936,7 +15937,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16115,7 +16116,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16295,7 +16296,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.fischerelektronik.de/web_fischer/en_GB/PR/SK499_/datasheet.xhtml?branch=heatsinks"
+		(property "Datasheet" "./datasheet/SK499-120SA.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16650,7 +16651,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16886,7 +16887,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17122,7 +17123,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/NUP1301.pdf"
+		(property "Datasheet" "./datasheet/NUP1301,215.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17421,7 +17422,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17657,7 +17658,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17893,7 +17894,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18072,7 +18073,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734389.pdf"
+		(property "Datasheet" "./datasheet/RR03J22RTB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18370,7 +18371,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31231.pdf"
+		(property "Datasheet" "./datasheet/DNLS350E-13.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18936,7 +18937,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19115,7 +19116,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4075b.pdf"
+		(property "Datasheet" "./datasheet/cd4075bm96.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19502,7 +19503,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/180/IN_S85CS5G_V1_0-2001033.pdf"
+		(property "Datasheet" "./datasheet/IN-S85CS5G.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19760,7 +19761,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19996,7 +19997,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/NUP1301.pdf"
+		(property "Datasheet" "./datasheet/NUP1301,215.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20295,7 +20296,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20531,7 +20532,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20767,7 +20768,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9352.pdf"
+		(property "Datasheet" "./datasheet/TLV9352IDR.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21157,7 +21158,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21336,7 +21337,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31230.pdf"
+		(property "Datasheet" "./datasheet/DPLS350E-13.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21636,7 +21637,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31231.pdf"
+		(property "Datasheet" "./datasheet/DNLS350E-13.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21936,7 +21937,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9352.pdf"
+		(property "Datasheet" "./datasheet/TLV9352IDR.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22593,7 +22594,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/54/pvg5-907351.pdf"
+		(property "Datasheet" "./datasheet/PVG5A.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22919,7 +22920,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23098,7 +23099,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23334,7 +23335,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23570,7 +23571,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/115/ds30086-3214660.pdf"
+		(property "Datasheet" "./datasheet/1N4148W-7-F.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23914,7 +23915,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=TIP42.PDF"
+		(property "Datasheet" "./datasheet/TIP42C.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24245,7 +24246,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24691,7 +24692,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24927,7 +24928,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/180/IN_S85CS5G_V1_0-2001033.pdf"
+		(property "Datasheet" "./datasheet/IN-S85CS5G.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25185,7 +25186,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25421,7 +25422,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4073b.pdf"
+		(property "Datasheet" "./datasheet/cd4073bm96.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25808,7 +25809,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26044,7 +26045,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26223,7 +26224,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734389.pdf"
+		(property "Datasheet" "./datasheet/RR03J22RTB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26521,7 +26522,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/180/IN_S85CS5G_V1_0-2001033.pdf"
+		(property "Datasheet" "./datasheet/IN-S85CS5G.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27047,7 +27048,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://product-download.phoenixcontact.com/7441242?response-content-disposition=inline;%20filename%3D%221017503_00_en_01.pdf%22&Expires=1733249030&Signature=5lo3rC7~QEZ5FQDy477t0tYIjm5ZcDNSMgabZuK1jxDOtM~QKzm6Pw5Z9aVTbR6TPsDaXhCGZMbo17UCeuP1TbPOoD83aEM5~NBisu7meDmbH~SssR8B6wsaWwOzCHa1eZjmiEcfdjLDr~fOnUSZEHHCzrASM8Yq40aVv9EnYCHUrfe-Muw11jMAoiRtV-vw45KqhCyqrFgafSh8Ds1vgfQgzpyXWyk3419YnLdpecnez56QIE9jS6h7KERzbJrabWi0vOc7~eoupEZR4K7X4sKBY01ChUK~D6X4dGHKkTuLUCkJu8j5xJNqcDJl92nssBl35zZrMOgs9xZ-F0Wckw__&Key-Pair-Id=K1I2N54A7B0GD"
+		(property "Datasheet" "./datasheet/1017503_00_en_01.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27643,7 +27644,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://product-download.phoenixcontact.com/7441242?response-content-disposition=inline;%20filename%3D%221017503_00_en_01.pdf%22&Expires=1733249030&Signature=5lo3rC7~QEZ5FQDy477t0tYIjm5ZcDNSMgabZuK1jxDOtM~QKzm6Pw5Z9aVTbR6TPsDaXhCGZMbo17UCeuP1TbPOoD83aEM5~NBisu7meDmbH~SssR8B6wsaWwOzCHa1eZjmiEcfdjLDr~fOnUSZEHHCzrASM8Yq40aVv9EnYCHUrfe-Muw11jMAoiRtV-vw45KqhCyqrFgafSh8Ds1vgfQgzpyXWyk3419YnLdpecnez56QIE9jS6h7KERzbJrabWi0vOc7~eoupEZR4K7X4sKBY01ChUK~D6X4dGHKkTuLUCkJu8j5xJNqcDJl92nssBl35zZrMOgs9xZ-F0Wckw__&Key-Pair-Id=K1I2N54A7B0GD"
+		(property "Datasheet" "./datasheet/1017503_00_en_01.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28238,7 +28239,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28417,7 +28418,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28715,7 +28716,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28894,7 +28895,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29340,7 +29341,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29519,7 +29520,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29755,7 +29756,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30053,7 +30054,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30556,7 +30557,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30735,7 +30736,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30971,7 +30972,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31207,7 +31208,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31443,7 +31444,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31622,7 +31623,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31858,7 +31859,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/115/ds30086-3214660.pdf"
+		(property "Datasheet" "./datasheet/1N4148W-7-F.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32202,7 +32203,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1003_C0G_SMD-3316496.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_C0G_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32438,7 +32439,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32736,7 +32737,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32972,7 +32973,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33151,7 +33152,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1003_C0G_SMD-3316496.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_C0G_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33322,7 +33323,7 @@
 			(size 1.175 1.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.212766)
-			(net 26 "/control-var/diode-network/1")
+			(net 373 "Net-(JP504-A)")
 			(pintype "passive")
 			(uuid "5bfe42cf-489a-47f5-bf5b-f44c0cff2148")
 		)
@@ -33654,7 +33655,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33833,7 +33834,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34069,7 +34070,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34515,7 +34516,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34694,7 +34695,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34873,7 +34874,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/54/pvg5-907351.pdf"
+		(property "Datasheet" "./datasheet/PVG5A.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36000,7 +36001,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PDZ-B_SER.pdf"
+		(property "Datasheet" "./datasheet/PDZ5.6B,115.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36308,7 +36309,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36754,7 +36755,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37200,7 +37201,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/UDD32CXXL01_1-3003043.pdf"
+		(property "Datasheet" "./datasheet/UDD32C15L01.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37508,7 +37509,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734389.pdf"
+		(property "Datasheet" "./datasheet/RR03J22RTB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37806,7 +37807,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734389.pdf"
+		(property "Datasheet" "./datasheet/RR03J22RTB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38104,7 +38105,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38340,7 +38341,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38519,7 +38520,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31230.pdf"
+		(property "Datasheet" "./datasheet/DPLS350E-13.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38819,7 +38820,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://product-download.phoenixcontact.com/7441242?response-content-disposition=inline;%20filename%3D%221017503_00_en_01.pdf%22&Expires=1733249030&Signature=5lo3rC7~QEZ5FQDy477t0tYIjm5ZcDNSMgabZuK1jxDOtM~QKzm6Pw5Z9aVTbR6TPsDaXhCGZMbo17UCeuP1TbPOoD83aEM5~NBisu7meDmbH~SssR8B6wsaWwOzCHa1eZjmiEcfdjLDr~fOnUSZEHHCzrASM8Yq40aVv9EnYCHUrfe-Muw11jMAoiRtV-vw45KqhCyqrFgafSh8Ds1vgfQgzpyXWyk3419YnLdpecnez56QIE9jS6h7KERzbJrabWi0vOc7~eoupEZR4K7X4sKBY01ChUK~D6X4dGHKkTuLUCkJu8j5xJNqcDJl92nssBl35zZrMOgs9xZ-F0Wckw__&Key-Pair-Id=K1I2N54A7B0GD"
+		(property "Datasheet" "./datasheet/1017503_00_en_01.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39166,7 +39167,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31231.pdf"
+		(property "Datasheet" "./datasheet/DNLS350E-13.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39733,7 +39734,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31230.pdf"
+		(property "Datasheet" "./datasheet/DPLS350E-13.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40033,7 +40034,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40269,7 +40270,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40505,7 +40506,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1003_C0G_SMD-3316496.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_C0G_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41008,7 +41009,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41244,7 +41245,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/115/ds30086-3214660.pdf"
+		(property "Datasheet" "./datasheet/1N4148W-7-F.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41855,7 +41856,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42034,7 +42035,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734389.pdf"
+		(property "Datasheet" "./datasheet/RR03J22RTB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42332,7 +42333,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42511,7 +42512,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42809,7 +42810,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF"
+		(property "Datasheet" "./datasheet/TIP41C.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43140,7 +43141,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43319,7 +43320,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43498,7 +43499,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF"
+		(property "Datasheet" "./datasheet/TIP41C.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43829,7 +43830,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ads8665.pdf"
+		(property "Datasheet" "./datasheet/ADS8665IPWR.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44249,7 +44250,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44485,7 +44486,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/180/IN_S85CS5G_V1_0-2001033.pdf"
+		(property "Datasheet" "./datasheet/IN-S85CS5G.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44743,7 +44744,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734389.pdf"
+		(property "Datasheet" "./datasheet/RR03J22RTB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45332,7 +45333,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45568,7 +45569,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45804,7 +45805,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -46040,7 +46041,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/115/ds30086-3214660.pdf"
+		(property "Datasheet" "./datasheet/1N4148W-7-F.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -46384,7 +46385,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -46887,7 +46888,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -47123,7 +47124,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=TIP42.PDF"
+		(property "Datasheet" "./datasheet/TIP42C.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -47454,7 +47455,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -47633,7 +47634,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -47812,7 +47813,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ad5672r_5676r.pdf"
+		(property "Datasheet" "./datasheet/AD5672RBRUZ.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -48539,7 +48540,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -48775,7 +48776,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -49278,7 +49279,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -49781,7 +49782,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -49960,7 +49961,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31230.pdf"
+		(property "Datasheet" "./datasheet/DPLS350E-13.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -50259,7 +50260,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1003_C0G_SMD-3316496.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_C0G_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -50495,7 +50496,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/opa2810"
+		(property "Datasheet" "./datasheet/OPA2810IDR.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -50885,7 +50886,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=TIP42.PDF"
+		(property "Datasheet" "./datasheet/TIP42C.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -51216,7 +51217,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31230.pdf"
+		(property "Datasheet" "./datasheet/DPLS350E-13.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -51515,7 +51516,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -51751,7 +51752,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4071b.pdf"
+		(property "Datasheet" "./datasheet/cd4071bm96.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -52138,7 +52139,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/308/1/MC7800_D-2315963.pdf"
+		(property "Datasheet" "./datasheet/MC7805BDTG.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -52557,7 +52558,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -52793,7 +52794,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -53091,7 +53092,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -53270,7 +53271,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -53773,7 +53774,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31230.pdf"
+		(property "Datasheet" "./datasheet/DPLS350E-13.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -54072,7 +54073,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -54370,7 +54371,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -54873,7 +54874,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -55109,7 +55110,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF"
+		(property "Datasheet" "./datasheet/TIP41C.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -55440,7 +55441,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -55619,7 +55620,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -55855,7 +55856,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31231.pdf"
+		(property "Datasheet" "./datasheet/DNLS350E-13.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -56155,7 +56156,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/54/pvg5-907351.pdf"
+		(property "Datasheet" "./datasheet/PVG5A.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -56481,7 +56482,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/54/pvg5-907351.pdf"
+		(property "Datasheet" "./datasheet/PVG5A.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -56807,7 +56808,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -56986,7 +56987,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -57165,7 +57166,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=TIP42.PDF"
+		(property "Datasheet" "./datasheet/TIP42C.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -57763,7 +57764,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -57999,7 +58000,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -58178,7 +58179,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1003_C0G_SMD-3316496.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_C0G_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -58414,7 +58415,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -58650,7 +58651,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/180/IN_S85CS5G_V1_0-2001033.pdf"
+		(property "Datasheet" "./datasheet/IN-S85CS5G.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -58908,7 +58909,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -59206,7 +59207,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734389.pdf"
+		(property "Datasheet" "./datasheet/RR03J22RTB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -59504,7 +59505,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -59802,7 +59803,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -59981,7 +59982,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=TIP42.PDF"
+		(property "Datasheet" "./datasheet/TIP42C.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -60603,7 +60604,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -60839,7 +60840,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -61018,7 +61019,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/UDD32CXXL01_1-3003043.pdf"
+		(property "Datasheet" "./datasheet/UDD32C15L01.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -61326,7 +61327,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -61562,7 +61563,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9352.pdf"
+		(property "Datasheet" "./datasheet/TLV9352IDR.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -61952,7 +61953,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -62188,7 +62189,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -62424,7 +62425,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -62595,7 +62596,7 @@
 			(size 1.3 2.65)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.192308)
-			(net 26 "/control-var/diode-network/1")
+			(net 373 "Net-(JP504-A)")
 			(pintype "passive")
 			(uuid "2e375059-b2c5-441e-9173-576672d9620e")
 		)
@@ -62660,7 +62661,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -62958,7 +62959,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -63256,7 +63257,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -63435,7 +63436,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/NUP1301.pdf"
+		(property "Datasheet" "./datasheet/NUP1301,215.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -63734,7 +63735,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -63970,7 +63971,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=TIP42.PDF"
+		(property "Datasheet" "./datasheet/TIP42C.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -64301,7 +64302,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/54/pvg5-907351.pdf"
+		(property "Datasheet" "./datasheet/PVG5A.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -64627,7 +64628,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734389.pdf"
+		(property "Datasheet" "./datasheet/RR03J22RTB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -64925,7 +64926,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ads8665.pdf"
+		(property "Datasheet" "./datasheet/ADS8665IPWR.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -65612,7 +65613,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -65910,7 +65911,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734389.pdf"
+		(property "Datasheet" "./datasheet/RR03J22RTB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66208,7 +66209,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66444,7 +66445,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/180/IN_S85CS5G_V1_0-2001033.pdf"
+		(property "Datasheet" "./datasheet/IN-S85CS5G.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66702,7 +66703,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734389.pdf"
+		(property "Datasheet" "./datasheet/RR03J22RTB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -67000,7 +67001,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -67236,7 +67237,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -67415,7 +67416,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/115/ds30086-3214660.pdf"
+		(property "Datasheet" "./datasheet/1N4148W-7-F.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -67759,7 +67760,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -67996,7 +67997,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/1628/cfm_50v-3508680.pdf"
+		(property "Datasheet" "./datasheet/CFM-5015V-172-381.pdf"
 			(at 0 20 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -68600,7 +68601,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/UDD32CXXL01_1-3003043.pdf"
+		(property "Datasheet" "./datasheet/UDD32C15L01.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -68908,7 +68909,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -69470,7 +69471,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/180/IN_S85CS5G_V1_0-2001033.pdf"
+		(property "Datasheet" "./datasheet/IN-S85CS5G.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -69728,7 +69729,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1003_C0G_SMD-3316496.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_C0G_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -69964,7 +69965,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -70143,7 +70144,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -70589,7 +70590,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -71092,7 +71093,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF"
+		(property "Datasheet" "./datasheet/TIP41C.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -71423,7 +71424,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -71926,7 +71927,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF"
+		(property "Datasheet" "./datasheet/TIP41C.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -72257,7 +72258,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/115/ds30086-3214660.pdf"
+		(property "Datasheet" "./datasheet/1N4148W-7-F.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -72601,7 +72602,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -72780,7 +72781,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -73016,7 +73017,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -73195,7 +73196,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31231.pdf"
+		(property "Datasheet" "./datasheet/DNLS350E-13.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -73494,7 +73495,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1003_C0G_SMD-3316496.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_C0G_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -73730,7 +73731,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1003_C0G_SMD-3316496.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_C0G_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -73966,7 +73967,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -74202,7 +74203,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -74438,7 +74439,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -74675,7 +74676,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://product-download.phoenixcontact.com/7441242?response-content-disposition=inline;%20filename%3D%221017503_00_en_01.pdf%22&Expires=1733249030&Signature=5lo3rC7~QEZ5FQDy477t0tYIjm5ZcDNSMgabZuK1jxDOtM~QKzm6Pw5Z9aVTbR6TPsDaXhCGZMbo17UCeuP1TbPOoD83aEM5~NBisu7meDmbH~SssR8B6wsaWwOzCHa1eZjmiEcfdjLDr~fOnUSZEHHCzrASM8Yq40aVv9EnYCHUrfe-Muw11jMAoiRtV-vw45KqhCyqrFgafSh8Ds1vgfQgzpyXWyk3419YnLdpecnez56QIE9jS6h7KERzbJrabWi0vOc7~eoupEZR4K7X4sKBY01ChUK~D6X4dGHKkTuLUCkJu8j5xJNqcDJl92nssBl35zZrMOgs9xZ-F0Wckw__&Key-Pair-Id=K1I2N54A7B0GD"
+		(property "Datasheet" "./datasheet/1017503_00_en_01.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -75022,7 +75023,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4043b.pdf"
+		(property "Datasheet" "./datasheet/cd4043bdr.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -75429,7 +75430,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -75665,7 +75666,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4073b.pdf"
+		(property "Datasheet" "./datasheet/cd4073bm96.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -76378,7 +76379,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf"
+		(property "Datasheet" "./datasheet/SN74LVC1G04DBVR.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -76677,7 +76678,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -76913,7 +76914,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9352.pdf"
+		(property "Datasheet" "./datasheet/TLV9352IDR.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -77303,7 +77304,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -77482,7 +77483,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -77780,7 +77781,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31231.pdf"
+		(property "Datasheet" "./datasheet/DNLS350E-13.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -78079,7 +78080,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -78315,7 +78316,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -78494,7 +78495,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -78730,7 +78731,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -78909,7 +78910,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31231.pdf"
+		(property "Datasheet" "./datasheet/DNLS350E-13.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -79476,7 +79477,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -79712,7 +79713,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -79948,7 +79949,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -80394,7 +80395,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -80630,7 +80631,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF"
+		(property "Datasheet" "./datasheet/TIP41C.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -80961,7 +80962,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -81140,7 +81141,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -81376,7 +81377,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -82233,7 +82234,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -82679,7 +82680,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -82915,7 +82916,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9352.pdf"
+		(property "Datasheet" "./datasheet/TLV9352IDR.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -83305,7 +83306,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -83541,7 +83542,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -83720,7 +83721,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -83899,7 +83900,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -84135,7 +84136,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=TIP42.PDF"
+		(property "Datasheet" "./datasheet/TIP42C.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -84466,7 +84467,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -84702,7 +84703,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/54/pvg5-907351.pdf"
+		(property "Datasheet" "./datasheet/PVG5A.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -85028,7 +85029,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -85326,7 +85327,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -85891,7 +85892,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -86127,7 +86128,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -86425,7 +86426,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -87014,7 +87015,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -87312,7 +87313,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -87610,7 +87611,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -87846,7 +87847,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -88144,7 +88145,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4069ub.pdf"
+		(property "Datasheet" "./datasheet/cd4069ubm96.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -88531,7 +88532,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=TIP42.PDF"
+		(property "Datasheet" "./datasheet/TIP42C.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -88862,7 +88863,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -89041,7 +89042,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -89339,7 +89340,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -89535,6 +89536,273 @@
 			)
 		)
 	)
+	(footprint "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(layer "F.Cu")
+		(uuid "7d533522-207a-41fc-ac25-d5ade4d34e1a")
+		(at 243.19 101.6)
+		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
+		(tags "solder jumper open")
+		(property "Reference" "JP504"
+			(at 0 -1.8 0)
+			(layer "F.SilkS")
+			(uuid "38a9294e-931f-46d5-9e3a-80cb848083f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 0 1.9 0)
+			(layer "F.Fab")
+			(uuid "562b53dc-9c14-47d7-a2bd-059178554e0b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1715dfa4-e2f9-4e34-a447-de7f5a286dda")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3efc9bd0-18eb-4b25-ba58-2840ea741b71")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1cf1068c-e0e7-4edc-8d10-f4e7fb846828")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "SolderJumper*Open*")
+		(path "/1611c2b5-63ec-415e-a14c-63497e80a84d/236c0c31-3d20-4e16-acad-ad19090c0a0e")
+		(sheetname "control-var")
+		(sheetfile "control-var.kicad_sch")
+		(zone_connect 1)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_line
+			(start -1.4 0.3)
+			(end -1.4 -0.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d587b996-d6b9-49a1-97fa-4c35519fea07")
+		)
+		(fp_line
+			(start -0.7 -1)
+			(end 0.7 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "afeb5967-e810-4e24-a5f8-277740593638")
+		)
+		(fp_line
+			(start 0.7 1)
+			(end -0.7 1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3dffc7f0-b1f8-426e-8b92-3692456e9b42")
+		)
+		(fp_line
+			(start 1.4 -0.3)
+			(end 1.4 0.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "eb04689e-0990-4df7-b9ce-43e0d081f7e8")
+		)
+		(fp_arc
+			(start -1.4 -0.3)
+			(mid -1.194975 -0.794975)
+			(end -0.7 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "066290c5-d46b-433b-9ae6-4f674bcf473a")
+		)
+		(fp_arc
+			(start -0.7 1)
+			(mid -1.194975 0.794975)
+			(end -1.4 0.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cb6a14bb-be6b-4b33-a459-7636251f9474")
+		)
+		(fp_arc
+			(start 0.7 -1)
+			(mid 1.194975 -0.794975)
+			(end 1.4 -0.3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d74003f0-c00e-4834-b42a-14f2d4f2d749")
+		)
+		(fp_arc
+			(start 1.4 0.3)
+			(mid 1.194975 0.794975)
+			(end 0.7 1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6f906924-1cd2-4638-b4bc-8b77a25a9e29")
+		)
+		(fp_line
+			(start -1.65 -1.25)
+			(end -1.65 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1f37e486-9818-46af-a5d4-f84039da5e8f")
+		)
+		(fp_line
+			(start -1.65 -1.25)
+			(end 1.65 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ff8a13fc-78ac-4aee-9508-fc90242addb7")
+		)
+		(fp_line
+			(start 1.65 1.25)
+			(end -1.65 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3820496e-c5d7-4a94-bce7-9183c6d280e4")
+		)
+		(fp_line
+			(start 1.65 1.25)
+			(end 1.65 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "10b50795-81f5-4088-a0ee-e148d8126b64")
+		)
+		(pad "1" smd custom
+			(at -0.65 0)
+			(size 1 0.5)
+			(layers "F.Cu" "F.Mask")
+			(net 373 "Net-(JP504-A)")
+			(pinfunction "A")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_circle
+					(center 0 0.25)
+					(end 0.5 0.25)
+					(width 0)
+					(fill yes)
+				)
+				(gr_circle
+					(center 0 -0.25)
+					(end 0.5 -0.25)
+					(width 0)
+					(fill yes)
+				)
+				(gr_poly
+					(pts
+						(xy 0.5 0.75) (xy 0 0.75) (xy 0 -0.75) (xy 0.5 -0.75)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "582720ce-aa2c-4859-8c0a-ebea4d0a9b4e")
+		)
+		(pad "2" smd custom
+			(at 0.65 0)
+			(size 1 0.5)
+			(layers "F.Cu" "F.Mask")
+			(net 26 "/control-var/diode-network/1")
+			(pinfunction "B")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_circle
+					(center 0 0.25)
+					(end 0.5 0.25)
+					(width 0)
+					(fill yes)
+				)
+				(gr_circle
+					(center 0 -0.25)
+					(end 0.5 -0.25)
+					(width 0)
+					(fill yes)
+				)
+				(gr_poly
+					(pts
+						(xy 0 0.75) (xy -0.5 0.75) (xy -0.5 -0.75) (xy 0 -0.75)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "f93ce5a6-9307-4751-8a35-b02c31b1128e")
+		)
+	)
 	(footprint "pss:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "7dd2b7a0-da8a-412d-a91f-4217571cc139")
@@ -89575,7 +89843,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -89873,7 +90141,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1003_C0G_SMD-3316496.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_C0G_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -90109,7 +90377,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -90345,7 +90613,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -90581,7 +90849,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -90760,7 +91028,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -91206,7 +91474,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -91442,7 +91710,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -91678,7 +91946,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -91857,7 +92125,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -92036,7 +92304,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -92215,7 +92483,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734389.pdf"
+		(property "Datasheet" "./datasheet/RR03J22RTB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -92780,7 +93048,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+		(property "Datasheet" "./datasheet/cd4066bm96.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -93436,7 +93704,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/1628/cfm_50v-3508680.pdf"
+		(property "Datasheet" "./datasheet/CFM-5015V-172-381.pdf"
 			(at 0 20 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -94307,7 +94575,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -94543,7 +94811,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -95108,7 +95376,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -95344,7 +95612,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -95523,7 +95791,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4019b.pdf"
+		(property "Datasheet" "./datasheet/cd4019bm96.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -95942,7 +96210,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -96121,7 +96389,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -96419,7 +96687,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -96655,7 +96923,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734389.pdf"
+		(property "Datasheet" "./datasheet/RR03J22RTB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -96953,7 +97221,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -97189,7 +97457,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -97692,7 +97960,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734389.pdf"
+		(property "Datasheet" "./datasheet/RR03J22RTB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -97990,7 +98258,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -98226,7 +98494,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -98462,7 +98730,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -98641,7 +98909,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -99087,7 +99355,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -99533,7 +99801,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -100303,7 +100571,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1003_C0G_SMD-3316496.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_C0G_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -100539,7 +100807,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/180/IN_S85CS5G_V1_0-2001033.pdf"
+		(property "Datasheet" "./datasheet/IN-S85CS5G.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -100797,7 +101065,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1003_C0G_SMD-3316496.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_C0G_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -101033,7 +101301,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -101212,7 +101480,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -101448,7 +101716,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -101684,7 +101952,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -101863,7 +102131,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -102099,7 +102367,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -102602,7 +102870,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/2/Aavid_01112021_Board_Level_Cooling_Channel_5750-1953656.pdf"
+		(property "Datasheet" "./datasheet/575002B00000G.pdf"
 			(at 10.155 -12.04 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -103373,7 +103641,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1003_C0G_SMD-3316496.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_C0G_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -103609,7 +103877,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -103845,7 +104113,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -104024,7 +104292,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1003_C0G_SMD-3316496.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_C0G_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -104818,7 +105086,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -105116,7 +105384,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/115/ds30086-3214660.pdf"
+		(property "Datasheet" "./datasheet/1N4148W-7-F.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -105460,7 +105728,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -105639,7 +105907,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -105875,7 +106143,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -106111,7 +106379,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -106347,7 +106615,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31230.pdf"
+		(property "Datasheet" "./datasheet/DPLS350E-13.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -106647,7 +106915,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -106883,7 +107151,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -107119,7 +107387,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF"
+		(property "Datasheet" "./datasheet/TIP41C.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -107450,7 +107718,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -107686,7 +107954,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -107922,7 +108190,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -108101,7 +108369,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4081b.pdf"
+		(property "Datasheet" "./datasheet/cd4081bm96.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -108488,7 +108756,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -108668,7 +108936,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://product-download.phoenixcontact.com/7441242?response-content-disposition=inline;%20filename%3D%221017503_00_en_01.pdf%22&Expires=1733249030&Signature=5lo3rC7~QEZ5FQDy477t0tYIjm5ZcDNSMgabZuK1jxDOtM~QKzm6Pw5Z9aVTbR6TPsDaXhCGZMbo17UCeuP1TbPOoD83aEM5~NBisu7meDmbH~SssR8B6wsaWwOzCHa1eZjmiEcfdjLDr~fOnUSZEHHCzrASM8Yq40aVv9EnYCHUrfe-Muw11jMAoiRtV-vw45KqhCyqrFgafSh8Ds1vgfQgzpyXWyk3419YnLdpecnez56QIE9jS6h7KERzbJrabWi0vOc7~eoupEZR4K7X4sKBY01ChUK~D6X4dGHKkTuLUCkJu8j5xJNqcDJl92nssBl35zZrMOgs9xZ-F0Wckw__&Key-Pair-Id=K1I2N54A7B0GD"
+		(property "Datasheet" "./datasheet/1017503_00_en_01.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -109263,7 +109531,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -109499,7 +109767,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/180/IN_S85CS5G_V1_0-2001033.pdf"
+		(property "Datasheet" "./datasheet/IN-S85CS5G.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -109757,7 +110025,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -110227,7 +110495,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=TIP42.PDF"
+		(property "Datasheet" "./datasheet/TIP42C.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -110888,7 +111156,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -111124,7 +111392,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -111360,7 +111628,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/115/ds30086-3214660.pdf"
+		(property "Datasheet" "./datasheet/1N4148W-7-F.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -111704,7 +111972,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -112209,7 +112477,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/UDD32CXXL01_1-3003043.pdf"
+		(property "Datasheet" "./datasheet/UDD32C15L01.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -112784,7 +113052,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/54/pvg5-907351.pdf"
+		(property "Datasheet" "./datasheet/PVG5A.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -113111,7 +113379,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://product-download.phoenixcontact.com/7441242?response-content-disposition=inline;%20filename%3D%221017503_00_en_01.pdf%22&Expires=1733249030&Signature=5lo3rC7~QEZ5FQDy477t0tYIjm5ZcDNSMgabZuK1jxDOtM~QKzm6Pw5Z9aVTbR6TPsDaXhCGZMbo17UCeuP1TbPOoD83aEM5~NBisu7meDmbH~SssR8B6wsaWwOzCHa1eZjmiEcfdjLDr~fOnUSZEHHCzrASM8Yq40aVv9EnYCHUrfe-Muw11jMAoiRtV-vw45KqhCyqrFgafSh8Ds1vgfQgzpyXWyk3419YnLdpecnez56QIE9jS6h7KERzbJrabWi0vOc7~eoupEZR4K7X4sKBY01ChUK~D6X4dGHKkTuLUCkJu8j5xJNqcDJl92nssBl35zZrMOgs9xZ-F0Wckw__&Key-Pair-Id=K1I2N54A7B0GD"
+		(property "Datasheet" "./datasheet/1017503_00_en_01.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -113706,7 +113974,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -114004,7 +114272,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -114183,7 +114451,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=TIP42.PDF"
+		(property "Datasheet" "./datasheet/TIP42C.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -114514,7 +114782,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -114693,7 +114961,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -114991,7 +115259,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31230.pdf"
+		(property "Datasheet" "./datasheet/DPLS350E-13.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -115291,7 +115559,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -115470,7 +115738,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -115649,7 +115917,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31231.pdf"
+		(property "Datasheet" "./datasheet/DNLS350E-13.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -115949,7 +116217,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734389.pdf"
+		(property "Datasheet" "./datasheet/RR03J22RTB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -116247,7 +116515,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -116545,7 +116813,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -116781,7 +117049,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -117284,7 +117552,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/180/IN_S85CS5G_V1_0-2001033.pdf"
+		(property "Datasheet" "./datasheet/IN-S85CS5G.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -117542,7 +117810,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -117721,7 +117989,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -117900,7 +118168,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -118136,7 +118404,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -118315,7 +118583,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -118494,7 +118762,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31231.pdf"
+		(property "Datasheet" "./datasheet/DNLS350E-13.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -118794,7 +119062,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -119030,7 +119298,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -119209,7 +119477,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -119388,7 +119656,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -119624,7 +119892,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -119860,7 +120128,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -120096,7 +120364,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -120599,7 +120867,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -120835,7 +121103,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -121133,7 +121401,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -121369,7 +121637,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -121958,7 +122226,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -122137,7 +122405,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -122316,7 +122584,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -122552,7 +122820,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -122851,7 +123119,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.fischerelektronik.de/web_fischer/en_GB/PR/SK499_/datasheet.xhtml?branch=heatsinks"
+		(property "Datasheet" "./datasheet/SK499-120SA.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -123740,7 +124008,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -124038,7 +124306,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -124217,7 +124485,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -124396,7 +124664,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -124575,7 +124843,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -124754,7 +125022,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31231.pdf"
+		(property "Datasheet" "./datasheet/DNLS350E-13.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -125054,7 +125322,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -125290,7 +125558,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/180/IN_S85CS5G_V1_0-2001033.pdf"
+		(property "Datasheet" "./datasheet/IN-S85CS5G.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -125548,7 +125816,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -125727,7 +125995,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -125963,7 +126231,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -126199,7 +126467,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4081b.pdf"
+		(property "Datasheet" "./datasheet/cd4081bm96.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -126586,7 +126854,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -126822,7 +127090,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -127058,7 +127326,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -127237,7 +127505,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/54/pvg5-907351.pdf"
+		(property "Datasheet" "./datasheet/PVG5A.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -127563,7 +127831,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -127742,7 +128010,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=TIP42.PDF"
+		(property "Datasheet" "./datasheet/TIP42C.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -128073,7 +128341,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -128309,7 +128577,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -128545,7 +128813,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -128843,7 +129111,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/115/ds30086-3214660.pdf"
+		(property "Datasheet" "./datasheet/1N4148W-7-F.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -129187,7 +129455,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -129423,7 +129691,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/54/pvg5-907351.pdf"
+		(property "Datasheet" "./datasheet/PVG5A.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -130079,7 +130347,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31230.pdf"
+		(property "Datasheet" "./datasheet/DPLS350E-13.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -130379,7 +130647,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -130615,7 +130883,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -130851,7 +131119,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -131030,7 +131298,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31231.pdf"
+		(property "Datasheet" "./datasheet/DNLS350E-13.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -131329,7 +131597,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -131565,7 +131833,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -131801,7 +132069,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -132037,7 +132305,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -132273,7 +132541,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -132452,7 +132720,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -132688,7 +132956,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -132924,7 +133192,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4069ub.pdf"
+		(property "Datasheet" "./datasheet/cd4069ubm96.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -133311,7 +133579,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF"
+		(property "Datasheet" "./datasheet/TIP41C.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -133642,7 +133910,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -133821,7 +134089,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -134000,7 +134268,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31230.pdf"
+		(property "Datasheet" "./datasheet/DPLS350E-13.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -134834,7 +135102,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/180/IN_S85CS5G_V1_0-2001033.pdf"
+		(property "Datasheet" "./datasheet/IN-S85CS5G.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -135092,7 +135360,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -135271,7 +135539,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1003_C0G_SMD-3316496.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_C0G_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -135507,7 +135775,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31231.pdf"
+		(property "Datasheet" "./datasheet/DNLS350E-13.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -135807,7 +136075,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -136105,7 +136373,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF"
+		(property "Datasheet" "./datasheet/TIP41C.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -136703,7 +136971,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -137473,7 +137741,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -137976,7 +138244,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -138274,7 +138542,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31231.pdf"
+		(property "Datasheet" "./datasheet/DNLS350E-13.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -138574,7 +138842,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://product-download.phoenixcontact.com/7441242?response-content-disposition=inline;%20filename%3D%221017503_00_en_01.pdf%22&Expires=1733249030&Signature=5lo3rC7~QEZ5FQDy477t0tYIjm5ZcDNSMgabZuK1jxDOtM~QKzm6Pw5Z9aVTbR6TPsDaXhCGZMbo17UCeuP1TbPOoD83aEM5~NBisu7meDmbH~SssR8B6wsaWwOzCHa1eZjmiEcfdjLDr~fOnUSZEHHCzrASM8Yq40aVv9EnYCHUrfe-Muw11jMAoiRtV-vw45KqhCyqrFgafSh8Ds1vgfQgzpyXWyk3419YnLdpecnez56QIE9jS6h7KERzbJrabWi0vOc7~eoupEZR4K7X4sKBY01ChUK~D6X4dGHKkTuLUCkJu8j5xJNqcDJl92nssBl35zZrMOgs9xZ-F0Wckw__&Key-Pair-Id=K1I2N54A7B0GD"
+		(property "Datasheet" "./datasheet/1017503_00_en_01.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -138921,7 +139189,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -139100,7 +139368,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734389.pdf"
+		(property "Datasheet" "./datasheet/RR03J22RTB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -139398,7 +139666,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4041ub.pdf"
+		(property "Datasheet" "./datasheet/cd4041ubm96.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -139448,7 +139716,7 @@
 				)
 			)
 		)
-		(path "/03989f8f-37de-40e6-939d-a431b6f0f75b/7772fb75-66d5-4fd2-ae58-df868093ec72")
+		(path "/03989f8f-37de-40e6-939d-a431b6f0f75b/2da919f6-ec0e-464e-bd43-90af157d9798")
 		(sheetname "conf")
 		(sheetfile "conf.kicad_sch")
 		(attr smd)
@@ -139785,7 +140053,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734389.pdf"
+		(property "Datasheet" "./datasheet/RR03J22RTB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -140083,7 +140351,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734389.pdf"
+		(property "Datasheet" "./datasheet/RR03J22RTB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -140381,7 +140649,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -140560,7 +140828,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -140739,7 +141007,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31230.pdf"
+		(property "Datasheet" "./datasheet/DPLS350E-13.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -141306,7 +141574,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1003_C0G_SMD-3316496.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_C0G_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -141542,7 +141810,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/2/Aavid_01112021_Board_Level_Cooling_Channel_5750-1953656.pdf"
+		(property "Datasheet" "./datasheet/575002B00000G.pdf"
 			(at 10.155 -12.04 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -142046,7 +142314,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -142344,7 +142612,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -142523,7 +142791,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/472/si864x_datasheet-2507790.pdf"
+		(property "Datasheet" "./datasheet/SI8641BD-B-IS2.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -142983,7 +143251,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/54/pvg5-907351.pdf"
+		(property "Datasheet" "./datasheet/PVG5A.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -143309,7 +143577,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734389.pdf"
+		(property "Datasheet" "./datasheet/RR03J22RTB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -143607,7 +143875,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -143786,7 +144054,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -144084,7 +144352,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -144263,7 +144531,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=TIP42.PDF"
+		(property "Datasheet" "./datasheet/TIP42C.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -144594,7 +144862,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -144773,7 +145041,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -145009,7 +145277,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -145245,7 +145513,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -145424,7 +145692,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/180/IN_S85CS5G_V1_0-2001033.pdf"
+		(property "Datasheet" "./datasheet/IN-S85CS5G.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -145682,7 +145950,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -145861,7 +146129,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -146097,7 +146365,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF"
+		(property "Datasheet" "./datasheet/TIP41C.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -146428,7 +146696,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=TIP42.PDF"
+		(property "Datasheet" "./datasheet/TIP42C.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -146759,7 +147027,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -146995,7 +147263,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -147231,7 +147499,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -147797,7 +148065,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -147976,7 +148244,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -148155,7 +148423,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -148391,7 +148659,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/opa2810"
+		(property "Datasheet" "./datasheet/OPA2810IDR.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -148781,7 +149049,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -149079,7 +149347,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -149315,7 +149583,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -149613,7 +149881,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -149911,7 +150179,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -150681,7 +150949,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -150917,7 +151185,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -151711,7 +151979,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -151890,7 +152158,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31231.pdf"
+		(property "Datasheet" "./datasheet/DNLS350E-13.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -152190,7 +152458,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -152369,7 +152637,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -152605,7 +152873,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -152841,7 +153109,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31230.pdf"
+		(property "Datasheet" "./datasheet/DPLS350E-13.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -153140,7 +153408,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31230.pdf"
+		(property "Datasheet" "./datasheet/DPLS350E-13.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -153440,7 +153708,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -153619,7 +153887,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734389.pdf"
+		(property "Datasheet" "./datasheet/RR03J22RTB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -153917,7 +154185,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -154363,7 +154631,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -154542,7 +154810,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -155069,7 +155337,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -155248,7 +155516,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4075b.pdf"
+		(property "Datasheet" "./datasheet/cd4075bm96.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -155902,7 +156170,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31231.pdf"
+		(property "Datasheet" "./datasheet/DNLS350E-13.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -156469,7 +156737,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -156648,7 +156916,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -156884,7 +157152,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -157387,7 +157655,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4043b.pdf"
+		(property "Datasheet" "./datasheet/cd4043bdr.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -157794,7 +158062,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -158303,7 +158571,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -158482,7 +158750,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -158985,7 +159253,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31230.pdf"
+		(property "Datasheet" "./datasheet/DPLS350E-13.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -159284,7 +159552,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -159520,7 +159788,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -159756,7 +160024,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -159992,7 +160260,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -160228,7 +160496,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.allegromicro.com/~/media/Files/Datasheets/ACS730-Datasheet.ashx?la=en"
+		(property "Datasheet" "./datasheet/ACS730KLCTR-20AB-T.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -161102,7 +161370,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -161338,7 +161606,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31231.pdf"
+		(property "Datasheet" "./datasheet/DNLS350E-13.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -161638,7 +161906,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -161874,7 +162142,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -162053,7 +162321,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -162232,7 +162500,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://g.recomcdn.com/media/Datasheet/pdf/.fZe7-AHZ/.tce0d3579c4367bc096e6/Datasheet-514/RxxC05TExxS.pdf"
+		(property "Datasheet" "./datasheet/R05C05TE05S-R.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -162691,7 +162959,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -162870,7 +163138,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31230.pdf"
+		(property "Datasheet" "./datasheet/DPLS350E-13.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -163170,7 +163438,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31230.pdf"
+		(property "Datasheet" "./datasheet/DPLS350E-13.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -163470,7 +163738,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1003_C0G_SMD-3316496.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_C0G_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -163973,7 +164241,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -164209,7 +164477,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -164507,7 +164775,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -164805,7 +165073,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -165041,7 +165309,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -165220,7 +165488,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -165518,7 +165786,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -165697,7 +165965,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF"
+		(property "Datasheet" "./datasheet/TIP41C.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -166028,7 +166296,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -166474,7 +166742,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -166653,7 +166921,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/54/pvg5-907351.pdf"
+		(property "Datasheet" "./datasheet/PVG5A.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -166979,7 +167247,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF"
+		(property "Datasheet" "./datasheet/TIP41C.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -167310,7 +167578,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -167489,7 +167757,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -167725,7 +167993,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -167904,7 +168172,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -168140,7 +168408,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734389.pdf"
+		(property "Datasheet" "./datasheet/RR03J22RTB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -168438,7 +168706,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=tip41.PDF"
+		(property "Datasheet" "./datasheet/TIP41C.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -168769,7 +169037,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -169005,7 +169273,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -169241,7 +169509,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -170124,7 +170392,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734389.pdf"
+		(property "Datasheet" "./datasheet/RR03J22RTB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -170422,7 +170690,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31230.pdf"
+		(property "Datasheet" "./datasheet/DPLS350E-13.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -171256,7 +171524,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -171492,7 +171760,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/KEM_C1002_X7R_SMD-3316098.pdf"
+		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -171728,7 +171996,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/418/8/NG_DS_3_1773449_2_E-734312.pdf"
+		(property "Datasheet" "./datasheet/RR02JR68TB.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -172026,7 +172294,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.koaspeer.com/pdfs/RC.pdf"
+		(property "Datasheet" "./datasheet/RCTCTE.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -172205,7 +172473,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -172441,7 +172709,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -172677,7 +172945,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
+		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -172913,7 +173181,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4078b.pdf"
+		(property "Datasheet" "./datasheet/cd4078bm96.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
