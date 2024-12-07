@@ -6,7 +6,7 @@
 	(descr "Heatsink, Extruded, 46mm x 120mm, 33mm height, M3 Screw, 2K/W")
 	(tags "Heatsink fischer TO-220")
 	(property "Reference" "REF**"
-		(at -22 -2 0)
+		(at 0 -2 0)
 		(layer "F.SilkS")
 		(uuid "5691ad4a-5fe2-47ad-9257-c57920df2988")
 		(effects
@@ -28,7 +28,7 @@
 			)
 		)
 	)
-	(property "Footprint" "pss:Heatsink_Fischer_SK499-120_46x120mm_h33mm_Drill3.5mm_ScrewM3"
+	(property "Footprint" "Heatsink_Fischer_SK499-120_46x120mm_h33mm_Drill3.5mm_ScrewM3"
 		(at 0 -9 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -91,16 +91,65 @@
 		)
 	)
 	(attr through_hole)
-	(fp_rect
+	(fp_line
 		(start -24 -1)
-		(end 24 121)
+		(end -24 4)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
 		(layer "F.SilkS")
-		(uuid "fa920280-4e26-4c24-9589-8ca8a92b07de")
+		(uuid "2e225664-33d1-4b9a-b0aa-fdbe9e96bafa")
+	)
+	(fp_line
+		(start -24 121)
+		(end -24 116)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ec53f03f-4925-4480-8a7f-cc8845970926")
+	)
+	(fp_line
+		(start -15 -1)
+		(end 15 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2b6537f3-7998-4213-b35e-9993db5afdf3")
+	)
+	(fp_line
+		(start 15 121)
+		(end -15 121)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e78e8b78-745d-4463-829d-b7d67a0a1c2b")
+	)
+	(fp_line
+		(start 24 -1)
+		(end 24 4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e5fe9b70-bdaa-473f-b435-9039c99a5cd3")
+	)
+	(fp_line
+		(start 24 121)
+		(end 24 116)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a66e32bf-b0f7-43cc-a856-c8e72a6e4136")
 	)
 	(fp_circle
 		(center -17.8 10)
