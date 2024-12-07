@@ -7,7 +7,7 @@
 	(title_block
 		(title "Power Supply Sink")
 		(date "2024-12-07")
-		(rev "0.13.3")
+		(rev "0.13.4")
 		(company "Open Battery Tester")
 		(comment 1 "Control with variable parameters")
 	)
@@ -3954,7 +3954,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "pss:Potentiometer_Bourns_PVG5A"
+		(property "Footprint" "pss:Potentiometer_Bourns_PVG5H"
 			(at 213.36 124.46 0)
 			(effects
 				(font
@@ -3981,7 +3981,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PVG5A104C03B00"
+		(property "MPN" "PVG5H104C03R00"
 			(at 213.36 124.46 0)
 			(effects
 				(font
@@ -3990,7 +3990,7 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" "81-PVG5A104C03B00"
+		(property "VPN" "81-PVG5H104C03R00"
 			(at 213.36 124.46 0)
 			(effects
 				(font
@@ -6589,7 +6589,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "pss:Potentiometer_Bourns_PVG5A"
+		(property "Footprint" "pss:Potentiometer_Bourns_PVG5H"
 			(at 158.75 111.76 0)
 			(effects
 				(font
@@ -6616,7 +6616,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PVG5A103C03B00"
+		(property "MPN" "PVG5H103C03R00"
 			(at 158.75 111.76 0)
 			(effects
 				(font
@@ -6625,7 +6625,7 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" "81-PVG5A103C03B00"
+		(property "VPN" "81-PVG5H103C03R00"
 			(at 158.75 111.76 0)
 			(effects
 				(font
@@ -10546,7 +10546,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "pss:Potentiometer_Bourns_PVG5A"
+		(property "Footprint" "pss:Potentiometer_Bourns_PVG5H"
 			(at 191.77 41.91 0)
 			(effects
 				(font
@@ -10573,7 +10573,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PVG5A103C03B00"
+		(property "MPN" "PVG5H103C03R00"
 			(at 191.77 41.91 0)
 			(effects
 				(font
@@ -10582,7 +10582,7 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" "81-PVG5A103C03B00"
+		(property "VPN" "81-PVG5H103C03R00"
 			(at 191.77 41.91 0)
 			(effects
 				(font

@@ -1,0 +1,255 @@
+(footprint "Potentiometer_Bourns_PVG5H"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Potentiometer, vertical, Bourns 3224W, https://www.bourns.com/docs/Product-Datasheets/3224.pdf")
+	(tags "Potentiometer vertical Bourns 3224W")
+	(property "Reference" "REF**"
+		(at 0 -3.5 0)
+		(layer "F.SilkS")
+		(uuid "83e5cfb4-1aed-44fa-bceb-2aaae3d3c776")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "1k"
+		(at 0 3.5 0)
+		(layer "F.Fab")
+		(uuid "ecb0339c-a960-412c-b80f-b9f4354b2cd3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Potentiometer_Bourns_PVG5H"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "df7adc23-7dd9-4c2c-8ec7-d97a0a758908")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.de/datasheet/2/54/pvg5-907351.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "03b22283-6e1a-41eb-9fa1-2e0f670bae5c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Bourns 11 Turn - Linear Trimmer Resistors - SMD"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60ea4fc3-9fe2-4000-a3fb-71d9742a11fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "MPN" "PVG5A102C03B00"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a0136b4-5e43-4a1b-bda4-ad198c7f6842")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VPN" "81-PVG5A102C03B00"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c6fa682-9e4a-453a-843e-056a96cd32b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.5 -2.4)
+		(end -1.4 -2.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "98cac2a4-1770-4c58-be7c-eb668667ec0a")
+	)
+	(fp_line
+		(start -2.5 2.4)
+		(end -2.5 -2.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "dabcaf4d-a3e0-4217-8016-285d489df466")
+	)
+	(fp_line
+		(start -2.2 2.4)
+		(end -2.5 2.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c201c816-4e5f-49c3-9a2a-c581422b0108")
+	)
+	(fp_line
+		(start 1.4 -2.4)
+		(end 2.5 -2.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8428149f-c87e-4234-9204-0af925d5b57a")
+	)
+	(fp_line
+		(start 2.5 -2.4)
+		(end 2.5 2.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5347cefa-5945-4e39-a10f-f580d8148ef5")
+	)
+	(fp_line
+		(start 2.5 2.4)
+		(end 2.2 2.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "00511a95-3931-4603-9f46-3e318949e532")
+	)
+	(fp_line
+		(start -2.65 -2.5)
+		(end -2.65 2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ccddf69b-8e1a-4c2b-ae47-c3f69098e4fb")
+	)
+	(fp_line
+		(start -2.65 2.5)
+		(end 2.65 2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "18755b51-a496-460d-976e-802d0148bb98")
+	)
+	(fp_line
+		(start 2.65 -2.5)
+		(end -2.65 -2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "97dc4020-636e-4cb1-96b2-46f5d4bc70a7")
+	)
+	(fp_line
+		(start 2.65 2.5)
+		(end 2.65 -2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "50878730-2d50-4e47-a3fe-07d2941eadfd")
+	)
+	(fp_rect
+		(start -2.4 -2.3)
+		(end 2.4 2.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "b2655a5c-27a5-40c5-aaf4-1d1503eb860b")
+	)
+	(fp_rect
+		(start -1.95 -2.3)
+		(end -0.45 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "8a9bca99-0057-4165-a3ac-51e01cc3f79c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.6 0 0)
+		(layer "F.Fab")
+		(uuid "14addbd2-fe57-419c-9a6d-5856b2406fcf")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.15 2)
+		(size 1.3 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "dd7f8525-c32c-49ad-8e8e-21c124eb639c")
+	)
+	(pad "2" smd rect
+		(at 0 -2)
+		(size 2 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c8929f27-54f3-4430-ac80-5d44d2de7c6b")
+	)
+	(pad "3" smd rect
+		(at -1.15 2)
+		(size 1.3 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e85bc3f8-f06a-406d-896d-6b9188a29ffa")
+	)
+	(model "${KIPRJMOD}/3d_models/PVG5H102C03R00.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
