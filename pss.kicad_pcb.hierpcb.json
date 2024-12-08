@@ -1,5 +1,8 @@
 {
   "subpcb": {
+    "outstage-unit.kicad_pcb": {
+      "anchor": "HS101"
+    },
     "pss.kicad_pcb": {
       "anchor": "HS2101"
     },
@@ -54,46 +57,46 @@
       "checked": false
     },
     "/777b1eda-6785-4110-8355-6bbe24d3f5d7/fa72958a-5878-4cc9-a5da-a04578e325a8/a6587f7b-5fda-4f76-b65b-50d5b619af4b": {
-      "checked": false
+      "checked": true
     },
     "/777b1eda-6785-4110-8355-6bbe24d3f5d7/fa72958a-5878-4cc9-a5da-a04578e325a8/a6587f7b-5fda-4f76-b65b-50d5b619af4b/1707e1d9-a56b-4e53-948a-2b134d467dda": {
-      "checked": true
-    },
-    "/777b1eda-6785-4110-8355-6bbe24d3f5d7/fa72958a-5878-4cc9-a5da-a04578e325a8/a6587f7b-5fda-4f76-b65b-50d5b619af4b/1a10ebd3-bc3e-4aba-90c2-ab7305f40dae": {
-      "checked": true
-    },
-    "/777b1eda-6785-4110-8355-6bbe24d3f5d7/fa72958a-5878-4cc9-a5da-a04578e325a8/a6587f7b-5fda-4f76-b65b-50d5b619af4b/2b5c68f7-5d54-4f1f-a61c-9377f8fa336d": {
-      "checked": true
-    },
-    "/777b1eda-6785-4110-8355-6bbe24d3f5d7/fa72958a-5878-4cc9-a5da-a04578e325a8/a6587f7b-5fda-4f76-b65b-50d5b619af4b/65d275cd-1776-46de-9021-a974013f1cd5": {
-      "checked": true
-    },
-    "/777b1eda-6785-4110-8355-6bbe24d3f5d7/fa72958a-5878-4cc9-a5da-a04578e325a8/a6587f7b-5fda-4f76-b65b-50d5b619af4b/b596e946-0963-4582-b9e2-ba9e412ce456": {
-      "checked": true
-    },
-    "/777b1eda-6785-4110-8355-6bbe24d3f5d7/fa72958a-5878-4cc9-a5da-a04578e325a8/a6587f7b-5fda-4f76-b65b-50d5b619af4b/fa92f95d-8885-4b2e-8bef-1a00236c21d3": {
-      "checked": true
-    },
-    "/777b1eda-6785-4110-8355-6bbe24d3f5d7/fa72958a-5878-4cc9-a5da-a04578e325a8/b0be2a0f-2315-4f26-8d28-b2e635d0451b": {
       "checked": false
     },
-    "/777b1eda-6785-4110-8355-6bbe24d3f5d7/fa72958a-5878-4cc9-a5da-a04578e325a8/b0be2a0f-2315-4f26-8d28-b2e635d0451b/1707e1d9-a56b-4e53-948a-2b134d467dda": {
+    "/777b1eda-6785-4110-8355-6bbe24d3f5d7/fa72958a-5878-4cc9-a5da-a04578e325a8/a6587f7b-5fda-4f76-b65b-50d5b619af4b/1a10ebd3-bc3e-4aba-90c2-ab7305f40dae": {
+      "checked": false
+    },
+    "/777b1eda-6785-4110-8355-6bbe24d3f5d7/fa72958a-5878-4cc9-a5da-a04578e325a8/a6587f7b-5fda-4f76-b65b-50d5b619af4b/2b5c68f7-5d54-4f1f-a61c-9377f8fa336d": {
+      "checked": false
+    },
+    "/777b1eda-6785-4110-8355-6bbe24d3f5d7/fa72958a-5878-4cc9-a5da-a04578e325a8/a6587f7b-5fda-4f76-b65b-50d5b619af4b/65d275cd-1776-46de-9021-a974013f1cd5": {
+      "checked": false
+    },
+    "/777b1eda-6785-4110-8355-6bbe24d3f5d7/fa72958a-5878-4cc9-a5da-a04578e325a8/a6587f7b-5fda-4f76-b65b-50d5b619af4b/b596e946-0963-4582-b9e2-ba9e412ce456": {
+      "checked": false
+    },
+    "/777b1eda-6785-4110-8355-6bbe24d3f5d7/fa72958a-5878-4cc9-a5da-a04578e325a8/a6587f7b-5fda-4f76-b65b-50d5b619af4b/fa92f95d-8885-4b2e-8bef-1a00236c21d3": {
+      "checked": false
+    },
+    "/777b1eda-6785-4110-8355-6bbe24d3f5d7/fa72958a-5878-4cc9-a5da-a04578e325a8/b0be2a0f-2315-4f26-8d28-b2e635d0451b": {
       "checked": true
+    },
+    "/777b1eda-6785-4110-8355-6bbe24d3f5d7/fa72958a-5878-4cc9-a5da-a04578e325a8/b0be2a0f-2315-4f26-8d28-b2e635d0451b/1707e1d9-a56b-4e53-948a-2b134d467dda": {
+      "checked": false
     },
     "/777b1eda-6785-4110-8355-6bbe24d3f5d7/fa72958a-5878-4cc9-a5da-a04578e325a8/b0be2a0f-2315-4f26-8d28-b2e635d0451b/1a10ebd3-bc3e-4aba-90c2-ab7305f40dae": {
-      "checked": true
+      "checked": false
     },
     "/777b1eda-6785-4110-8355-6bbe24d3f5d7/fa72958a-5878-4cc9-a5da-a04578e325a8/b0be2a0f-2315-4f26-8d28-b2e635d0451b/2b5c68f7-5d54-4f1f-a61c-9377f8fa336d": {
-      "checked": true
+      "checked": false
     },
     "/777b1eda-6785-4110-8355-6bbe24d3f5d7/fa72958a-5878-4cc9-a5da-a04578e325a8/b0be2a0f-2315-4f26-8d28-b2e635d0451b/65d275cd-1776-46de-9021-a974013f1cd5": {
-      "checked": true
+      "checked": false
     },
     "/777b1eda-6785-4110-8355-6bbe24d3f5d7/fa72958a-5878-4cc9-a5da-a04578e325a8/b0be2a0f-2315-4f26-8d28-b2e635d0451b/b596e946-0963-4582-b9e2-ba9e412ce456": {
-      "checked": true
+      "checked": false
     },
     "/777b1eda-6785-4110-8355-6bbe24d3f5d7/fa72958a-5878-4cc9-a5da-a04578e325a8/b0be2a0f-2315-4f26-8d28-b2e635d0451b/fa92f95d-8885-4b2e-8bef-1a00236c21d3": {
-      "checked": true
+      "checked": false
     },
     "/824acf38-a6d9-4c56-90d6-ef0b90fa5251": {
       "checked": false
