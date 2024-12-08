@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Power Supply Sink")
-		(date "2024-12-08")
-		(rev "0.13.6")
+		(date "2024-12-09")
+		(rev "0.13.7")
 		(company "Open Battery Tester")
 		(comment 1 "Overview")
 	)
@@ -2559,7 +2559,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 120.65) (xy 186.69 120.65)
+			(xy 185.42 120.65) (xy 215.9 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3069,16 +3069,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 120.65) (xy 166.37 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca46bdb7-2736-454a-88d1-f93774a8eef7")
-	)
-	(wire
-		(pts
 			(xy 200.66 116.84) (xy 215.9 116.84)
 		)
 		(stroke
@@ -3096,16 +3086,6 @@
 			(type default)
 		)
 		(uuid "cd06e399-3a50-4b57-9f7b-62d466f5e156")
-	)
-	(wire
-		(pts
-			(xy 194.31 120.65) (xy 215.9 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdb416db-7f5b-4b3d-972e-7809df46a4d5")
 	)
 	(wire
 		(pts
@@ -3149,7 +3129,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 120.65) (xy 151.13 120.65)
+			(xy 149.86 120.65) (xy 166.37 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4005,29 +3985,6 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape diamond)
-		(at 186.69 120.65 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3c4898bb-f59e-4f9e-b1b1-bcf47ff4cff1")
-		(property "Netclass" "25A"
-			(at 187.8965 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
 		(at 44.45 50.8 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4062,29 +4019,6 @@
 		(uuid "74a1b4e0-6844-419a-bf2b-a3666a918acd")
 		(property "Netclass" "25A"
 			(at 45.6565 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape diamond)
-		(at 151.13 120.65 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8f584448-f91e-4890-8f20-e2d4c0eada2c")
-		(property "Netclass" "25A"
-			(at 152.3365 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5537,74 +5471,6 @@
 	)
 	(symbol
 		(lib_id "pss:SolderJumper_2_Open")
-		(at 154.94 120.65 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "a0bb55d0-6be3-47e4-abdb-2d0749b50dc5")
-		(property "Reference" "JP116"
-			(at 160.02 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 129.54 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 154.94 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 154.94 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a2529167-fa29-4c56-b8ee-95aa535644b0")
-		)
-		(pin "2"
-			(uuid "c69eade2-f85d-4d95-986b-2a0e83e5b95f")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176"
-					(reference "JP116")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pss:SolderJumper_2_Open")
 		(at 125.73 120.65 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -6674,74 +6540,6 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176"
 					(reference "JP126")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pss:SolderJumper_2_Open")
-		(at 190.5 120.65 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "ed8129ba-d7da-4f7b-8b45-2b547bed9d7d")
-		(property "Reference" "JP127"
-			(at 195.58 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 165.1 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "pss:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 190.5 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 190.5 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ced1ebdf-4ef8-4910-a192-a3544fe939a8")
-		)
-		(pin "2"
-			(uuid "a71a6768-41f0-4697-893f-130dfc9507c2")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176"
-					(reference "JP127")
 					(unit 1)
 				)
 			)
