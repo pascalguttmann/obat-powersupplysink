@@ -6,7 +6,7 @@
 	(descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
 	(tags "TO-220-3 Vertical RM 2.54mm")
 	(property "Reference" "REF**"
-		(at 2.54 -4.27 0)
+		(at 2.5 2.5 0)
 		(layer "F.SilkS")
 		(uuid "cc027515-e6f5-42e4-ae19-f5969b8e5b71")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "TIP41C"
-		(at 2.54 2.5 0)
+		(at 2.5 -4 0)
 		(layer "F.Fab")
 		(uuid "4e6b3d9e-85f1-45ef-bdf4-fdc495e8988a")
 		(effects
@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+	(property "Footprint" "TO-220-3_Vertical"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -91,7 +91,7 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -2.58 -3.27)
+		(start -2.58 -3)
 		(end -2.58 1.371)
 		(stroke
 			(width 0.12)
@@ -101,8 +101,8 @@
 		(uuid "2b08f32d-7f55-46f6-886c-832c7c459d0c")
 	)
 	(fp_line
-		(start -2.58 -3.27)
-		(end 7.66 -3.27)
+		(start -2.58 -3)
+		(end 7.66 -3)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -131,7 +131,7 @@
 		(uuid "97e735b0-e388-43d1-8152-5ec2e9525cd3")
 	)
 	(fp_line
-		(start 0.69 -3.27)
+		(start 0.69 -3)
 		(end 0.69 -1.76)
 		(stroke
 			(width 0.12)
@@ -141,7 +141,7 @@
 		(uuid "8e9bcbff-8156-40fa-ab1d-94dadb71149e")
 	)
 	(fp_line
-		(start 4.391 -3.27)
+		(start 4.391 -3)
 		(end 4.391 -1.76)
 		(stroke
 			(width 0.12)
@@ -151,7 +151,7 @@
 		(uuid "a7374d6f-001a-4cc0-89ee-7d6fa812e864")
 	)
 	(fp_line
-		(start 7.66 -3.27)
+		(start 7.66 -3)
 		(end 7.66 1.371)
 		(stroke
 			(width 0.12)
@@ -161,7 +161,7 @@
 		(uuid "7cb9a155-35f6-4769-a212-6e9b44dd68f0")
 	)
 	(fp_line
-		(start -2.71 -3.4)
+		(start -2.71 -3)
 		(end -2.71 1.51)
 		(stroke
 			(width 0.05)
@@ -181,8 +181,8 @@
 		(uuid "0809dfdd-970a-4673-be6e-640c3cac40cf")
 	)
 	(fp_line
-		(start 7.79 -3.4)
-		(end -2.71 -3.4)
+		(start 7.79 -3)
+		(end -2.71 -3)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -192,7 +192,7 @@
 	)
 	(fp_line
 		(start 7.79 1.51)
-		(end 7.79 -3.4)
+		(end 7.79 -3)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -201,7 +201,7 @@
 		(uuid "43229a66-9a24-47d0-b32b-da9cd3daae7f")
 	)
 	(fp_line
-		(start -2.46 -3.15)
+		(start -2.46 -3)
 		(end -2.46 1.25)
 		(stroke
 			(width 0.1)
@@ -231,7 +231,7 @@
 		(uuid "d893efc3-c8aa-4f1c-9690-eac09de33029")
 	)
 	(fp_line
-		(start 0.69 -3.15)
+		(start 0.69 -3)
 		(end 0.69 -1.88)
 		(stroke
 			(width 0.1)
@@ -241,7 +241,7 @@
 		(uuid "8b9e9c80-e441-40da-a39e-f5c5d0007788")
 	)
 	(fp_line
-		(start 4.39 -3.15)
+		(start 4.39 -3)
 		(end 4.39 -1.88)
 		(stroke
 			(width 0.1)
@@ -251,8 +251,8 @@
 		(uuid "baee0955-5ab3-4692-9965-772316de226d")
 	)
 	(fp_line
-		(start 7.54 -3.15)
-		(end -2.46 -3.15)
+		(start 7.54 -3)
+		(end -2.46 -3)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -262,7 +262,7 @@
 	)
 	(fp_line
 		(start 7.54 1.25)
-		(end 7.54 -3.15)
+		(end 7.54 -3)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -271,7 +271,7 @@
 		(uuid "77c8a211-8bfb-4bb0-b046-64f1e797a311")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 2.54 -4.27 0)
+		(at 2.5 2.5 0)
 		(layer "F.Fab")
 		(uuid "c66b4467-c77b-4be2-99c2-1dd84c764947")
 		(effects
