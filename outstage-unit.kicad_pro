@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.254
+          "min_clearance": 0.508
         }
       },
       "diff_pair_dimensions": [
@@ -179,6 +179,7 @@
       "track_widths": [
         0.0,
         0.2032,
+        0.254,
         0.635,
         1.27,
         2.54,
@@ -454,7 +455,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "emitter_follower.kicad_pro",
+    "filename": "outstage-unit.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -549,14 +550,33 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/+10V": "12A5",
+      "/-5V": "12A5",
+      "/GND": "12A5",
+      "/v_in+": "3A",
+      "/v_in-": "3A",
+      "/v_out": "12A5",
+      "Net-(Q201-B)": "3A",
+      "Net-(Q202-B)": "3A",
+      "Net-(Q301-B)": "3A",
+      "Net-(Q302-B)": "3A",
+      "Net-(Q401-B)": "3A",
+      "Net-(Q402-B)": "3A",
+      "Net-(Q501-B)": "3A",
+      "Net-(Q502-B)": "3A",
+      "Net-(Q601-B)": "3A",
+      "Net-(Q602-B)": "3A",
+      "Net-(Q701-B)": "3A",
+      "Net-(Q702-B)": "3A"
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "emitter_follower.net",
+      "netlist": "",
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",

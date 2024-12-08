@@ -1,0 +1,33 @@
+{
+  "subpcb": {
+    "emitter_follower.kicad_pcb": {
+      "anchor": "Q2203"
+    },
+    "outstage-unit.kicad_pcb": {
+      "anchor": "HS101"
+    }
+  },
+  "sheet": {
+    "": {
+      "checked": false
+    },
+    "/1707e1d9-a56b-4e53-948a-2b134d467dda": {
+      "checked": true
+    },
+    "/1a10ebd3-bc3e-4aba-90c2-ab7305f40dae": {
+      "checked": true
+    },
+    "/2b5c68f7-5d54-4f1f-a61c-9377f8fa336d": {
+      "checked": true
+    },
+    "/65d275cd-1776-46de-9021-a974013f1cd5": {
+      "checked": true
+    },
+    "/b596e946-0963-4582-b9e2-ba9e412ce456": {
+      "checked": true
+    },
+    "/fa92f95d-8885-4b2e-8bef-1a00236c21d3": {
+      "checked": true
+    }
+  }
+}
