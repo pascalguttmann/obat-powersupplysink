@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Power Supply Sink")
-		(date "2024-12-07")
-		(rev "0.13.4")
+		(date "2024-12-08")
+		(rev "0.13.5")
 		(company "Open Battery Tester")
 		(comment 1 "Outstage Unit")
 	)
@@ -1708,7 +1708,7 @@
 		(uuid "68f601ab-bd3d-45d6-9ac7-33ad5af78333")
 	)
 	(label "-5V"
-		(at 66.04 184.15 180)
+		(at 66.04 176.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1774,7 +1774,7 @@
 		(uuid "840fd7f6-bb1b-46b5-8b3b-e4cd86a67288")
 	)
 	(label "v_in+"
-		(at 66.04 176.53 180)
+		(at 66.04 184.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1807,7 +1807,7 @@
 		(uuid "9d92f629-f4fa-4410-93fd-064e7432e590")
 	)
 	(label "+10V"
-		(at 66.04 181.61 180)
+		(at 66.04 179.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1939,7 +1939,7 @@
 		(uuid "e620638a-afc2-419f-8252-edb5cd821c15")
 	)
 	(label "v_in-"
-		(at 66.04 179.07 180)
+		(at 66.04 181.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1962,7 +1962,7 @@
 	)
 	(hierarchical_label "-5V"
 		(shape input)
-		(at 45.72 184.15 180)
+		(at 45.72 176.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1986,7 +1986,7 @@
 	)
 	(hierarchical_label "v_in+"
 		(shape input)
-		(at 45.72 176.53 180)
+		(at 45.72 184.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1998,7 +1998,7 @@
 	)
 	(hierarchical_label "+10V"
 		(shape input)
-		(at 45.72 181.61 180)
+		(at 45.72 179.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2010,7 +2010,7 @@
 	)
 	(hierarchical_label "v_in-"
 		(shape input)
-		(at 45.72 179.07 180)
+		(at 45.72 181.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2035,7 +2035,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape dot)
-		(at 78.74 160.02 0)
+		(at 83.82 165.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2045,7 +2045,7 @@
 		)
 		(uuid "2799f487-7848-4dac-9cc3-2e09aa9b5c46")
 		(property "Netclass" "3A"
-			(at 79.4385 157.48 0)
+			(at 84.5185 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2081,7 +2081,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape dot)
-		(at 76.2 157.48 0)
+		(at 81.28 162.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2091,7 +2091,7 @@
 		)
 		(uuid "7aa92352-38a4-4d39-ac33-224e324e7338")
 		(property "Netclass" "3A"
-			(at 76.8985 154.94 0)
+			(at 81.9785 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2104,7 +2104,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 81.28 162.56 0)
+		(at 76.2 157.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2114,7 +2114,7 @@
 		)
 		(uuid "8579dbb9-fb92-4df0-96ec-7b9319cb7193")
 		(property "Netclass" "12A5"
-			(at 81.9785 160.02 0)
+			(at 76.8985 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2150,7 +2150,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 83.82 165.1 0)
+		(at 78.74 160.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2160,7 +2160,7 @@
 		)
 		(uuid "a81ace61-3ea0-49b3-87fd-94f8ebd5fa42")
 		(property "Netclass" "12A5"
-			(at 84.5185 162.56 0)
+			(at 79.4385 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)

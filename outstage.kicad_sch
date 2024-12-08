@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Power Supply Sink")
-		(date "2024-12-07")
-		(rev "0.13.4")
+		(date "2024-12-08")
+		(rev "0.13.5")
 		(company "Open Battery Tester")
 		(comment 1 "Outstage")
 	)
@@ -997,7 +997,7 @@
 		(uuid "03bb3d62-b8bc-44dd-ac8c-8b4081d60332")
 	)
 	(label "v_in-"
-		(at 125.73 85.09 0)
+		(at 125.73 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1008,7 +1008,7 @@
 		(uuid "1c34936e-e691-4eeb-a244-8c2dfd170b2f")
 	)
 	(label "GND"
-		(at 125.73 107.95 0)
+		(at 125.73 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1019,7 +1019,7 @@
 		(uuid "1d1bc203-1587-49d7-9eb9-f516e813a6d9")
 	)
 	(label "v_out"
-		(at 125.73 110.49 0)
+		(at 125.73 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1052,7 +1052,7 @@
 		(uuid "81e7b986-35f8-4b9f-b2f1-dd6cf6839c38")
 	)
 	(label "+10V"
-		(at 125.73 87.63 0)
+		(at 125.73 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1085,7 +1085,7 @@
 		(uuid "925bca7d-4dfb-44a1-a66f-ebfb999ef0ae")
 	)
 	(label "+10V"
-		(at 125.73 118.11 0)
+		(at 125.73 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1107,7 +1107,7 @@
 		(uuid "9b699e2f-8a8d-4d30-ba2d-493ff41383d7")
 	)
 	(label "v_in-"
-		(at 125.73 115.57 0)
+		(at 125.73 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1118,7 +1118,7 @@
 		(uuid "a3e019b7-8b84-4d96-af6d-8bcb407d301b")
 	)
 	(label "v_in+"
-		(at 125.73 82.55 0)
+		(at 125.73 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1129,7 +1129,7 @@
 		(uuid "ab03c0ae-7727-475f-8669-e3926e733e88")
 	)
 	(label "v_in+"
-		(at 125.73 113.03 0)
+		(at 125.73 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1140,7 +1140,7 @@
 		(uuid "aebdf6e4-e6ac-41da-b543-bd517b5a9460")
 	)
 	(label "-5V"
-		(at 125.73 90.17 0)
+		(at 125.73 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1151,7 +1151,7 @@
 		(uuid "b097a513-45de-47e2-b2d4-5488f23242f7")
 	)
 	(label "-5V"
-		(at 125.73 120.65 0)
+		(at 125.73 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2046,7 +2046,7 @@
 			(uuid "1fb7a262-9d5e-4cae-b801-8410134448ff")
 		)
 		(pin "-5V" input
-			(at 148.59 90.17 180)
+			(at 148.59 82.55 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2066,7 +2066,7 @@
 			(uuid "a70f611a-3f3a-450d-8ded-3de86cdaf315")
 		)
 		(pin "v_in-" input
-			(at 148.59 85.09 180)
+			(at 148.59 87.63 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2076,7 +2076,7 @@
 			(uuid "5fa9033c-0bf0-47a4-baf7-9299b0e636d2")
 		)
 		(pin "v_in+" input
-			(at 148.59 82.55 180)
+			(at 148.59 90.17 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2086,7 +2086,7 @@
 			(uuid "664dcede-e0bb-4f72-a3a5-0d97554ca78e")
 		)
 		(pin "+10V" input
-			(at 148.59 87.63 180)
+			(at 148.59 85.09 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2134,7 +2134,7 @@
 			)
 		)
 		(pin "GND" input
-			(at 148.59 107.95 180)
+			(at 148.59 120.65 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2144,7 +2144,7 @@
 			(uuid "8b228f8a-ffeb-43dc-81b8-4eabad2f4f55")
 		)
 		(pin "-5V" input
-			(at 148.59 120.65 180)
+			(at 148.59 115.57 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2154,7 +2154,7 @@
 			(uuid "2896692d-fa29-4155-83fd-7b136b101d10")
 		)
 		(pin "v_out" output
-			(at 148.59 110.49 180)
+			(at 148.59 118.11 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2164,7 +2164,7 @@
 			(uuid "f98fe717-c241-48df-b1dd-f01d5a3fd958")
 		)
 		(pin "v_in-" input
-			(at 148.59 115.57 180)
+			(at 148.59 110.49 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2174,7 +2174,7 @@
 			(uuid "f9dfa339-d449-42fa-ace4-0231e59eb6a6")
 		)
 		(pin "v_in+" input
-			(at 148.59 113.03 180)
+			(at 148.59 107.95 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2184,7 +2184,7 @@
 			(uuid "278d5234-2c33-42c4-b3f8-842247a092d1")
 		)
 		(pin "+10V" input
-			(at 148.59 118.11 180)
+			(at 148.59 113.03 180)
 			(effects
 				(font
 					(size 1.27 1.27)
