@@ -9049,7 +9049,7 @@
 		(uuid "6f563840-1e09-42a5-a58b-ed35c0b96d3d")
 		(at 97.7 43.94 180)
 		(property "Reference" "J101"
-			(at -1.27 17.145 180)
+			(at -4.3 -1.06 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "e94f57c8-5778-4b27-b2ac-10713c779c48")
@@ -22501,6 +22501,17 @@
 			(justify bottom)
 		)
 	)
+	(gr_text "FAN"
+		(at 128 224 90)
+		(layer "F.SilkS")
+		(uuid "27e7a4ab-e40d-4311-ac3d-b28b512191c3")
+		(effects
+			(font
+				(size 1.5494 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
 	(gr_text "VCC"
 		(at 55 145 90)
 		(layer "F.SilkS")
@@ -22537,6 +22548,18 @@
 			(justify bottom)
 		)
 	)
+	(gr_text "GND\n\nOUT\n\n-5V\n\n+10V\n\nv_in-\n\nv_in+"
+		(at 85 27 270)
+		(layer "F.SilkS")
+		(uuid "727b0393-111a-4f03-a903-786144d3f976")
+		(effects
+			(font
+				(size 1.5494 1.27)
+				(thickness 0.15)
+			)
+			(justify right)
+		)
+	)
 	(gr_text "VSS"
 		(at 55 205 90)
 		(layer "F.SilkS")
@@ -22561,6 +22584,18 @@
 			(justify bottom)
 		)
 	)
+	(gr_text "v_in+\n\nv_in-\n\n+10V"
+		(at 56 35 180)
+		(layer "F.SilkS")
+		(uuid "a0fa8840-8927-4054-94b1-6c35a90ebcd6")
+		(effects
+			(font
+				(size 1.5494 1.27)
+				(thickness 0.15)
+			)
+			(justify right)
+		)
+	)
 	(gr_text "VCC"
 		(at 115 165 -90)
 		(layer "F.SilkS")
@@ -22583,6 +22618,18 @@
 				(thickness 0.15)
 			)
 			(justify bottom)
+		)
+	)
+	(gr_text "GND\n\nOUT\n\n-5V"
+		(at 108 35 180)
+		(layer "F.SilkS")
+		(uuid "c7ab2771-05ae-4012-8b81-87b2c60833ec")
+		(effects
+			(font
+				(size 1.5494 1.27)
+				(thickness 0.15)
+			)
+			(justify right)
 		)
 	)
 	(gr_text "VSS"
@@ -22642,7 +22689,7 @@
 			(xy 129.45 236.43) (xy 40.55 236.43)
 		)
 		(height -8.57)
-		(gr_text "88.9000 mm"
+		(gr_text "3500.0000 mils"
 			(locked yes)
 			(at 85 243.85 0)
 			(layer "F.Fab")
@@ -22678,7 +22725,7 @@
 		)
 		(height -5)
 		(orientation 1)
-		(gr_text "3.5700 mm"
+		(gr_text "140.5512 mils"
 			(locked yes)
 			(at 28 238 90)
 			(layer "F.Fab")
