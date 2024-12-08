@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Footprint" "pss:Heatsink_AAVID_575002B00000G"
+	(property "Footprint" "Heatsink_AAVID_575002B00000G"
 		(at 18.415 -9.525 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -400,72 +400,6 @@
 				(thickness 0.15)
 			)
 		)
-	)
-	(dimension
-		(type aligned)
-		(layer "Cmts.User")
-		(uuid "7e3991df-6af0-451c-af7a-e82ee9aedfa5")
-		(pts
-			(xy 134.045 45.43) (xy 134.04 20.03)
-		)
-		(height -8.217373)
-		(gr_text "25.4000 mm"
-			(at 126.975127 32.731392 -89.9887213)
-			(layer "Cmts.User")
-			(uuid "7e3991df-6af0-451c-af7a-e82ee9aedfa5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "Cmts.User")
-		(uuid "82b745ef-15d6-44a6-974b-976a8584b6dd")
-		(pts
-			(xy 134.045 45.43) (xy 146.745 45.43)
-		)
-		(height 12.7)
-		(gr_text "12.7000 mm"
-			(at 140.395 56.98 0)
-			(layer "Cmts.User")
-			(uuid "82b745ef-15d6-44a6-974b-976a8584b6dd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 1)
-			(precision 4)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
 	)
 	(pad "1" thru_hole oval
 		(at 10.155 -12.04)

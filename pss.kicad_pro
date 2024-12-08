@@ -116,7 +116,7 @@
       "rules": {
         "max_error": 0.005,
         "min_clearance": 0.2032,
-        "min_connection": 0.2032,
+        "min_connection": 0.254,
         "min_copper_edge_clearance": 0.5,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.3048,
@@ -127,7 +127,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2032,
+        "min_track_width": 0.254,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -178,14 +178,11 @@
       ],
       "track_widths": [
         0.0,
-        0.2032,
         0.254,
         0.635,
         1.27,
         2.54,
-        4.8768,
-        10.16,
-        20.32
+        4.8768
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -472,7 +469,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2032,
+        "track_width": 0.254,
         "via_diameter": 0.5,
         "via_drill": 0.3,
         "wire_width": 6
