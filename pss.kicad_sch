@@ -7,7 +7,7 @@
 	(title_block
 		(title "Power Supply Sink")
 		(date "2024-12-08")
-		(rev "0.13.5")
+		(rev "0.13.6")
 		(company "Open Battery Tester")
 		(comment 1 "Overview")
 	)
@@ -8015,17 +8015,7 @@
 			)
 			(uuid "6cb4a3c1-4814-4312-b8c5-a2db91d0021a")
 		)
-		(pin "+10V" input
-			(at 63.5 53.34 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "96d770bf-b0b2-457f-ad78-6c5494c2790a")
-		)
-		(pin "-5V" input
+		(pin "-5V_supply" input
 			(at 63.5 66.04 180)
 			(effects
 				(font
@@ -8033,7 +8023,17 @@
 				)
 				(justify left)
 			)
-			(uuid "3c40b9f5-a129-43b5-aa14-36bf44fd0c51")
+			(uuid "4bb5e13a-5f07-47f2-9416-aebf23fe69b6")
+		)
+		(pin "+10V_supply" input
+			(at 63.5 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8dcc38c3-11aa-493d-a099-1bd5ff23d21b")
 		)
 		(instances
 			(project "pss"

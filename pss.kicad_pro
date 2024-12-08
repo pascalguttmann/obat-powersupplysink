@@ -593,6 +593,8 @@
       "/power-electronics/outstage/v_in+": "3A",
       "/power-electronics/outstage/v_in-": "3A",
       "/power-electronics/outstage/v_out": "25A",
+      "/power/+10V_supply": "25A",
+      "/power/-5V_supply": "25A",
       "/relay/in": "25A",
       "/relay/out": "25A",
       "GND": "25A",

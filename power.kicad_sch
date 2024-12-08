@@ -7,11 +7,144 @@
 	(title_block
 		(title "Power Supply Sink")
 		(date "2024-12-08")
-		(rev "0.13.5")
+		(rev "0.13.6")
 		(company "Open Battery Tester")
 		(comment 1 "Power")
 	)
 	(lib_symbols
+		(symbol "Fuse_Socket_1"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at -0.508 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fuse_Socket"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at -2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuse"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fuse socket"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Fuse*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fuse_Socket_1_0_1"
+				(arc
+					(start -1.27 -4.445)
+					(mid 0 -4.9711)
+					(end 1.27 -4.445)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 4.4448)
+					(mid 0 4.9709)
+					(end -1.27 4.4448)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fuse_Socket_1_1_1"
+				(pin passive line
+					(at 0 6.35 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -6.35 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "pss:+10V"
 			(power)
 			(pin_numbers hide)
@@ -3349,7 +3482,6 @@
 			)
 		)
 		(symbol "pss:Fuse_Socket"
-			(pin_numbers hide)
 			(pin_names
 				(offset 0)
 			)
@@ -5661,7 +5793,7 @@
 		)
 		(uuid "ffb3c2b8-882b-4c59-93a2-460fc7f41b8d")
 	)
-	(hierarchical_label "-5V"
+	(hierarchical_label "-5V_supply"
 		(shape input)
 		(at 63.5 76.2 180)
 		(fields_autoplaced yes)
@@ -5685,7 +5817,7 @@
 		)
 		(uuid "bda619a5-06a1-4fa5-b887-d58576498b09")
 	)
-	(hierarchical_label "+10V"
+	(hierarchical_label "+10V_supply"
 		(shape input)
 		(at 63.5 50.8 180)
 		(fields_autoplaced yes)
@@ -10484,6 +10616,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Fuse_Socket_1")
 		(lib_id "pss:Fuse_Socket")
 		(at 101.6 50.8 270)
 		(unit 1)

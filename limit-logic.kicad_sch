@@ -7,7 +7,7 @@
 	(title_block
 		(title "Power Supply Sink")
 		(date "2024-12-08")
-		(rev "0.13.5")
+		(rev "0.13.6")
 		(company "Open Battery Tester")
 		(comment 1 "Limit-Logic")
 	)
