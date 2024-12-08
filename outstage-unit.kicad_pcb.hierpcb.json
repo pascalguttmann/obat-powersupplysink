@@ -1,10 +1,10 @@
 {
   "subpcb": {
-    "outstage-unit.kicad_pcb": {
-      "anchor": "HS101"
-    },
     "emitter_follower.kicad_pcb": {
       "anchor": "Q2203"
+    },
+    "outstage-unit.kicad_pcb": {
+      "anchor": "HS101"
     }
   },
   "sheet": {
