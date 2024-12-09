@@ -3,11 +3,11 @@
     "outstage-unit.kicad_pcb": {
       "anchor": "HS101"
     },
-    "pss.kicad_pcb": {
-      "anchor": "HS2101"
-    },
     "emitter_follower.kicad_pcb": {
       "anchor": "Q2203"
+    },
+    "pss.kicad_pcb": {
+      "anchor": "HS2101"
     }
   },
   "sheet": {
