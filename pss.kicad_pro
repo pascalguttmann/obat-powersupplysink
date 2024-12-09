@@ -636,7 +636,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "board/brd-0.1.1",
+      "plot": "board/brd-0.2.0",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
