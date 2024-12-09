@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Power Supply Sink")
-		(date "2024-12-09")
-		(rev "0.13.8")
+		(date "2024-12-10")
+		(rev "0.13.9")
 		(company "Open Battery Tester")
 		(comment 1 "Outstage Unit")
 	)
@@ -548,23 +548,23 @@
 				)
 			)
 		)
-		(symbol "pss:Heatsink_Pad"
+		(symbol "pss:Heatsink"
 			(pin_names
-				(offset 0)
+				(offset 1.016)
 			)
 			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "HS"
-				(at 0 5.715 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Heatsink_Pad"
-				(at 0 3.81 0)
+			(property "Value" "Heatsink"
+				(at 0 -1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -572,7 +572,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0.3048 -1.27 0)
+				(at 0.3048 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -581,7 +581,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0.3048 -1.27 0)
+				(at 0.3048 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -589,7 +589,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Heatsink with electrical connection, 1 pin"
+			(property "Description" "Heatsink"
 				(at 0 0 0)
 				(effects
 					(font
@@ -616,11 +616,11 @@
 					(hide yes)
 				)
 			)
-			(symbol "Heatsink_Pad_0_1"
+			(symbol "Heatsink_0_1"
 				(polyline
 					(pts
-						(xy -0.3302 0) (xy -0.9652 0) (xy -0.9652 2.54) (xy -1.6002 2.54) (xy -1.6002 0) (xy -2.2352 0)
-						(xy -2.2352 2.54) (xy -2.8702 2.54) (xy -2.8702 -1.27) (xy -0.9652 -1.27)
+						(xy -0.3302 1.27) (xy -0.9652 1.27) (xy -0.9652 3.81) (xy -1.6002 3.81) (xy -1.6002 1.27) (xy -2.2352 1.27)
+						(xy -2.2352 3.81) (xy -2.8702 3.81) (xy -2.8702 0) (xy -0.9652 0)
 					)
 					(stroke
 						(width 0.254)
@@ -632,9 +632,9 @@
 				)
 				(polyline
 					(pts
-						(xy -0.3302 0) (xy -0.3302 2.54) (xy 0.3048 2.54) (xy 0.3048 0) (xy 0.9398 0) (xy 0.9398 2.54)
-						(xy 1.5748 2.54) (xy 1.5748 0) (xy 2.2098 0) (xy 2.2098 2.54) (xy 2.8448 2.54) (xy 2.8448 -1.27)
-						(xy -0.9652 -1.27)
+						(xy -0.3302 1.27) (xy -0.3302 3.81) (xy 0.3048 3.81) (xy 0.3048 1.27) (xy 0.9398 1.27) (xy 0.9398 3.81)
+						(xy 1.5748 3.81) (xy 1.5748 1.27) (xy 2.2098 1.27) (xy 2.2098 3.81) (xy 2.8448 3.81) (xy 2.8448 0)
+						(xy -0.9652 0)
 					)
 					(stroke
 						(width 0.254)
@@ -642,26 +642,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-			)
-			(symbol "Heatsink_Pad_1_1"
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
 					)
 				)
 			)
@@ -1070,16 +1050,6 @@
 			(type default)
 		)
 		(uuid "221b5167-1767-48d1-8e99-ec576f3dc4d8")
-	)
-	(wire
-		(pts
-			(xy 124.46 189.23) (xy 124.46 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22d42b6c-9fcb-496d-a696-e9e933ee2fc9")
 	)
 	(wire
 		(pts
@@ -1530,17 +1500,6 @@
 			(type default)
 		)
 		(uuid "fd7b5fc6-49da-42cb-98ea-d055afcd970f")
-	)
-	(label "GND"
-		(at 124.46 189.23 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "08bad84d-5436-4d17-9e29-7e13b3c737bb")
 	)
 	(label "v_out"
 		(at 218.44 110.49 180)
@@ -2171,7 +2130,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:Heatsink_Pad")
+		(lib_id "pss:Heatsink")
 		(at 124.46 179.07 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -2181,7 +2140,7 @@
 		(fields_autoplaced yes)
 		(uuid "2dd21d99-efb8-423b-9dbc-659172b60eb8")
 		(property "Reference" "HS2101"
-			(at 128.27 177.1649 0)
+			(at 128.27 175.8949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2190,7 +2149,7 @@
 			)
 		)
 		(property "Value" "SK499-120 SA"
-			(at 128.27 179.7049 0)
+			(at 128.27 178.4349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2216,7 +2175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Heatsink with electrical connection, 1 pin"
+		(property "Description" "Heatsink"
 			(at 124.46 179.07 0)
 			(effects
 				(font
@@ -2242,9 +2201,6 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "672c965e-bd1a-4385-b261-04808e20e9dc")
 		)
 		(instances
 			(project "pss"
