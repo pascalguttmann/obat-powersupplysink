@@ -7,7 +7,7 @@
 	(title_block
 		(title "Power Supply Sink")
 		(date "2024-12-09")
-		(rev "0.13.7")
+		(rev "0.13.8")
 		(company "Open Battery Tester")
 		(comment 1 "Measurement")
 	)
@@ -1497,12 +1497,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21d84bce-fc1e-4e3f-8832-5939fc7c38cb")
-	)
-	(junction
-		(at 63.5 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "29ef9501-9e5d-42f4-824a-a52899f8a7ca")
 	)
 	(junction
 		(at 63.5 95.25)
@@ -4067,90 +4061,6 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/930a3603-b5c1-4234-96f5-716c518f6fe1"
 					(reference "TP1504")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pss:TestPoint")
-		(at 63.5 100.33 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8804e98b-92c5-4ff1-a8d5-21be93ab7b38")
-		(property "Reference" "TP1501"
-			(at 62.23 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 60.96 102.3621 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "pss:TP_0805_2012Metric"
-			(at 58.42 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "./datasheet/RCTCTE.pdf"
-			(at 58.42 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 63.5 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RCTCTE"
-			(at 63.5 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VPN" "660-RCTCTE"
-			(at 63.5 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d9bc154-6e07-48a8-a33e-ce01ee4e6ac5")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/930a3603-b5c1-4234-96f5-716c518f6fe1"
-					(reference "TP1501")
 					(unit 1)
 				)
 			)
