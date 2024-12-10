@@ -3971,7 +3971,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "51513510900F"
+		(property "MPN" "51513510188F"
 			(at 77.47 114.3 0)
 			(effects
 				(font
@@ -3980,7 +3980,7 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" "645-51513510900F"
+		(property "VPN" "645-51513510188F"
 			(at 77.47 114.3 0)
 			(effects
 				(font

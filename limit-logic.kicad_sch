@@ -4650,7 +4650,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "51513510900F"
+		(property "MPN" "51513510188F"
 			(at 163.83 151.13 0)
 			(effects
 				(font
@@ -4659,7 +4659,7 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" "645-51513510900F"
+		(property "VPN" "645-51513510188F"
 			(at 163.83 151.13 0)
 			(effects
 				(font
@@ -6098,7 +6098,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "51513510900F"
+		(property "MPN" "51513510188F"
 			(at 113.03 151.13 0)
 			(effects
 				(font
@@ -6107,7 +6107,7 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" "645-51513510900F"
+		(property "VPN" "645-51513510188F"
 			(at 113.03 151.13 0)
 			(effects
 				(font
@@ -6490,7 +6490,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "51513510900F"
+		(property "MPN" "51513510188F"
 			(at 153.67 151.13 0)
 			(effects
 				(font
@@ -6499,7 +6499,7 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" "645-51513510900F"
+		(property "VPN" "645-51513510188F"
 			(at 153.67 151.13 0)
 			(effects
 				(font
@@ -7541,7 +7541,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "51513510900F"
+		(property "MPN" "51513510188F"
 			(at 123.19 151.13 0)
 			(effects
 				(font
@@ -7550,7 +7550,7 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" "645-51513510900F"
+		(property "VPN" "645-51513510188F"
 			(at 123.19 151.13 0)
 			(effects
 				(font
@@ -8753,7 +8753,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "51513510900F"
+		(property "MPN" "51513510188F"
 			(at 133.35 151.13 0)
 			(effects
 				(font
@@ -8762,7 +8762,7 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" "645-51513510900F"
+		(property "VPN" "645-51513510188F"
 			(at 133.35 151.13 0)
 			(effects
 				(font
@@ -9251,7 +9251,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "51513510900F"
+		(property "MPN" "51513510188F"
 			(at 143.51 151.13 0)
 			(effects
 				(font
@@ -9260,7 +9260,7 @@
 				(hide yes)
 			)
 		)
-		(property "VPN" "645-51513510900F"
+		(property "VPN" "645-51513510188F"
 			(at 143.51 151.13 0)
 			(effects
 				(font
