@@ -7,7 +7,7 @@
 	(title_block
 		(title "Power Supply Sink")
 		(date "2024-12-10")
-		(rev "0.14.0")
+		(rev "0.14.2")
 		(company "Open Battery Tester")
 		(comment 1 "Bias Stage")
 	)
@@ -1606,12 +1606,6 @@
 		(uuid "77a00ee8-87c0-4d2f-a004-b409d896a5db")
 	)
 	(junction
-		(at 154.94 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91162946-3405-4f9c-9dd8-052bf970b933")
-	)
-	(junction
 		(at 60.96 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1630,12 +1624,6 @@
 		(uuid "d5f6ebc3-65eb-4267-8833-0d7977dd0052")
 	)
 	(junction
-		(at 154.94 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d74bbe1e-6983-4427-8803-06017083957d")
-	)
-	(junction
 		(at 129.54 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1646,6 +1634,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5dc1375-32c3-4c3e-80ea-bd0a07eecad2")
+	)
+	(no_connect
+		(at 168.91 69.85)
+		(uuid "24cbcc81-efca-4db6-aa39-82b894cd4779")
+	)
+	(no_connect
+		(at 168.91 153.67)
+		(uuid "66b3367a-1683-4098-b035-be9b3bc373f9")
 	)
 	(wire
 		(pts
@@ -1709,7 +1705,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 144.78) (xy 154.94 153.67)
+			(xy 154.94 144.78) (xy 154.94 177.8)
 		)
 		(stroke
 			(width 0)
@@ -1949,16 +1945,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 153.67) (xy 154.94 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79c36a49-628a-48de-b3e5-8f5d2d887e3d")
-	)
-	(wire
-		(pts
 			(xy 161.29 127) (xy 154.94 127)
 		)
 		(stroke
@@ -2039,7 +2025,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 69.85) (xy 154.94 71.12)
+			(xy 154.94 38.1) (xy 154.94 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2059,26 +2045,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 69.85) (xy 168.91 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aeff468f-b983-4da0-960b-77808adf7378")
-	)
-	(wire
-		(pts
-			(xy 154.94 38.1) (xy 154.94 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1f81a73-acff-45de-8221-94c939b44906")
-	)
-	(wire
-		(pts
 			(xy 60.96 101.6) (xy 68.58 101.6)
 		)
 		(stroke
@@ -2086,16 +2052,6 @@
 			(type default)
 		)
 		(uuid "b96b1889-2a00-4809-81fb-fd9e79983df7")
-	)
-	(wire
-		(pts
-			(xy 154.94 153.67) (xy 154.94 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb1e393f-85d1-4055-9ff5-32402fbfbd4a")
 	)
 	(wire
 		(pts
