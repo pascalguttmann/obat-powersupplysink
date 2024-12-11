@@ -7,7 +7,7 @@
 	(title_block
 		(title "Power Supply Sink")
 		(date "2024-12-11")
-		(rev "0.14.5")
+		(rev "0.14.6")
 		(company "Open Battery Tester")
 		(comment 1 "Configuration")
 	)
@@ -2162,7 +2162,7 @@
 				)
 			)
 		)
-		(symbol "pss:Lightguide_D4mm_L22.86mm_Dout5mm"
+		(symbol "pss:Lightguide_D4mm_L4.78mm_Dout5mm"
 			(exclude_from_sim yes)
 			(in_bom yes)
 			(on_board no)
@@ -2200,7 +2200,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Panel Mount 5mm Lightpipe, Mountinghole 4mm, Length 22.86mm"
+			(property "Description" "Panel Mount 5mm Lightpipe, Mountinghole 4mm, Length 4.78mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2209,7 +2209,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Lightguide_D4mm_L22.86mm_Dout5mm_0_1"
+			(symbol "Lightguide_D4mm_L4.78mm_Dout5mm_0_1"
 				(polyline
 					(pts
 						(xy -1.27 1.27) (xy -0.635 1.27) (xy -0.635 -2.54) (xy 0.635 -2.54) (xy 0.635 1.27) (xy 1.27 1.27)
@@ -6273,7 +6273,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:Lightguide_D4mm_L22.86mm_Dout5mm")
+		(lib_id "pss:Lightguide_D4mm_L4.78mm_Dout5mm")
 		(at 165.1 149.86 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -8944,7 +8944,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:Lightguide_D4mm_L22.86mm_Dout5mm")
+		(lib_id "pss:Lightguide_D4mm_L4.78mm_Dout5mm")
 		(at 144.78 149.86 0)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -9177,7 +9177,7 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:Lightguide_D4mm_L22.86mm_Dout5mm")
+		(lib_id "pss:Lightguide_D4mm_L4.78mm_Dout5mm")
 		(at 154.94 149.86 0)
 		(unit 1)
 		(exclude_from_sim yes)

@@ -7,7 +7,7 @@
 	(title_block
 		(title "Power Supply Sink")
 		(date "2024-12-11")
-		(rev "0.14.5")
+		(rev "0.14.6")
 		(company "Open Battery Tester")
 		(comment 1 "Outstage Unit")
 	)
