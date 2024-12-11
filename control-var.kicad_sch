@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Power Supply Sink")
-		(date "2024-12-10")
-		(rev "0.14.3")
+		(date "2024-12-11")
+		(rev "0.14.4")
 		(company "Open Battery Tester")
 		(comment 1 "Control with variable parameters")
 	)
@@ -2066,16 +2066,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 111.76) (xy 170.18 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26960f8a-d1f1-4880-8b23-e42e8e5d34fa")
-	)
-	(wire
-		(pts
 			(xy 128.27 111.76) (xy 129.54 111.76)
 		)
 		(stroke
@@ -2603,16 +2593,6 @@
 			(type default)
 		)
 		(uuid "74d10565-a395-46c2-ad3b-a5674a2538b8")
-	)
-	(wire
-		(pts
-			(xy 165.1 111.76) (xy 170.18 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7602d2b4-dd3f-4716-97bc-39aaba7a4210")
 	)
 	(wire
 		(pts
@@ -5553,13 +5533,13 @@
 	(symbol
 		(lib_id "pss:Opamp_Dual")
 		(at 180.34 35.56 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "40114347-7a35-4be0-baff-4d53544a2b3a")
-		(property "Reference" "U501"
+		(property "Reference" "U503"
 			(at 180.34 27.94 0)
 			(effects
 				(font
@@ -5683,8 +5663,8 @@
 		(instances
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/1611c2b5-63ec-415e-a14c-63497e80a84d"
-					(reference "U501")
-					(unit 2)
+					(reference "U503")
+					(unit 1)
 				)
 			)
 		)
@@ -6129,90 +6109,6 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/1611c2b5-63ec-415e-a14c-63497e80a84d"
 					(reference "TP510")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pss:TestPoint")
-		(at 179.07 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4d544db8-5ab2-430b-ba37-6b75e07332e8")
-		(property "Reference" "TP508"
-			(at 180.34 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 181.61 124.9679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "pss:TP_0805_2012Metric"
-			(at 184.15 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "./datasheet/RCTCTE.pdf"
-			(at 184.15 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 179.07 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RCTCTE"
-			(at 179.07 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VPN" "660-RCTCTE"
-			(at 179.07 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c7d20a50-aa22-4155-ba5d-1ec28c62cdbb")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/1611c2b5-63ec-415e-a14c-63497e80a84d"
-					(reference "TP508")
 					(unit 1)
 				)
 			)
@@ -7536,92 +7432,7 @@
 	)
 	(symbol
 		(lib_id "pss:TestPoint")
-		(at 201.93 124.46 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8023d861-6f8b-4ae6-89d0-1b699f167932")
-		(property "Reference" "TP511"
-			(at 200.66 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 199.39 122.4279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "pss:TP_0805_2012Metric"
-			(at 196.85 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "./datasheet/RCTCTE.pdf"
-			(at 196.85 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 201.93 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RCTCTE"
-			(at 201.93 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VPN" "660-RCTCTE"
-			(at 201.93 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "68f0b935-6689-405b-a72d-9b1ac6332f68")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/1611c2b5-63ec-415e-a14c-63497e80a84d"
-					(reference "TP511")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pss:TestPoint")
-		(at 170.18 105.41 0)
+		(at 179.07 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7629,7 +7440,7 @@
 		(dnp no)
 		(uuid "8cf4d2cc-10ce-4e8c-89e6-0b1a197f0b3a")
 		(property "Reference" "TP507"
-			(at 171.45 101.6 0)
+			(at 180.34 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7638,7 +7449,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 172.72 103.3779 0)
+			(at 181.61 124.9679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7647,7 +7458,7 @@
 			)
 		)
 		(property "Footprint" "pss:TP_0805_2012Metric"
-			(at 175.26 105.41 0)
+			(at 184.15 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7656,7 +7467,7 @@
 			)
 		)
 		(property "Datasheet" "./datasheet/RCTCTE.pdf"
-			(at 175.26 105.41 0)
+			(at 184.15 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7665,7 +7476,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 170.18 105.41 0)
+			(at 179.07 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7674,7 +7485,7 @@
 			)
 		)
 		(property "MPN" "RCTCTE"
-			(at 170.18 105.41 0)
+			(at 179.07 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7683,7 +7494,7 @@
 			)
 		)
 		(property "VPN" "660-RCTCTE"
-			(at 170.18 105.41 0)
+			(at 179.07 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8099,7 +7910,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a40736cd-409a-4798-b4ed-870328cb4dd0")
-		(property "Reference" "U502"
+		(property "Reference" "U501"
 			(at 63.5 119.38 0)
 			(effects
 				(font
@@ -8223,7 +8034,7 @@
 		(instances
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/1611c2b5-63ec-415e-a14c-63497e80a84d"
-					(reference "U502")
+					(reference "U501")
 					(unit 1)
 				)
 			)
@@ -8944,7 +8755,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b68df982-6524-447a-92de-5b60cf014aef")
-		(property "Reference" "U503"
+		(property "Reference" "U502"
 			(at 245.11 119.38 0)
 			(effects
 				(font
@@ -9068,7 +8879,7 @@
 		(instances
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/1611c2b5-63ec-415e-a14c-63497e80a84d"
-					(reference "U503")
+					(reference "U502")
 					(unit 1)
 				)
 			)
@@ -10036,7 +9847,7 @@
 		(lib_id "pss:Opamp_Dual")
 		(at 63.5 54.61 0)
 		(mirror x)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -10167,7 +9978,7 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/1611c2b5-63ec-415e-a14c-63497e80a84d"
 					(reference "U501")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
