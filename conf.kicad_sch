@@ -3766,6 +3766,12 @@
 		(uuid "7b7c96a3-a35d-4307-8746-cb351e605b82")
 	)
 	(junction
+		(at 78.74 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81138b5c-7cfc-405e-8abb-472401c760b4")
+	)
+	(junction
 		(at 219.71 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3806,12 +3812,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0c11a35-1007-4673-ab68-6e5c368f3542")
-	)
-	(junction
-		(at 52.07 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e78015b9-995e-4884-8033-8968e4c13f05")
 	)
 	(junction
 		(at 165.1 38.1)
@@ -3914,16 +3914,6 @@
 			(type default)
 		)
 		(uuid "05a38b14-16cb-46ac-b04e-2149630d30eb")
-	)
-	(wire
-		(pts
-			(xy 52.07 31.75) (xy 52.07 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "071bcf70-51d7-42f4-b918-85244ebb27df")
 	)
 	(wire
 		(pts
@@ -4047,7 +4037,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 31.75) (xy 78.74 57.15)
+			(xy 78.74 31.75) (xy 78.74 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4094,6 +4084,16 @@
 			(type default)
 		)
 		(uuid "20310e76-ebc7-43c5-9a00-4f2286aa5d81")
+	)
+	(wire
+		(pts
+			(xy 78.74 45.72) (xy 78.74 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22ebe31c-86a7-44d9-9b49-eb58ef0bdbf6")
 	)
 	(wire
 		(pts
@@ -4627,6 +4627,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 45.72) (xy 78.74 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87d7ba78-73a1-4e6d-b506-4687eaeab157")
+	)
+	(wire
+		(pts
 			(xy 80.01 172.72) (xy 80.01 166.37)
 		)
 		(stroke
@@ -4917,16 +4927,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 33.02) (xy 71.12 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3239efe-47dc-40f5-8a99-8adbaef95852")
-	)
-	(wire
-		(pts
 			(xy 236.22 161.29) (xy 218.44 161.29)
 		)
 		(stroke
@@ -4954,16 +4954,6 @@
 			(type default)
 		)
 		(uuid "c6c806cd-ff4f-4849-a0eb-634820e68783")
-	)
-	(wire
-		(pts
-			(xy 52.07 31.75) (xy 71.12 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c88ee630-65f6-4ee6-800f-7f9c28b66bcf")
 	)
 	(wire
 		(pts
@@ -5044,16 +5034,6 @@
 			(type default)
 		)
 		(uuid "d06a0a6f-814d-462a-aa47-cf7596c0c74c")
-	)
-	(wire
-		(pts
-			(xy 52.07 45.72) (xy 52.07 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d167e496-4436-4501-bd3e-fb2aade958ac")
 	)
 	(wire
 		(pts
@@ -5294,16 +5274,6 @@
 			(type default)
 		)
 		(uuid "e9a3c79d-0dca-4464-ab2b-00fdd6b7ba97")
-	)
-	(wire
-		(pts
-			(xy 74.93 45.72) (xy 52.07 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef76b23d-6661-41da-aaad-a75993292986")
 	)
 	(wire
 		(pts
@@ -6657,72 +6627,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:+5VA_conf")
-		(at 52.07 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "119ef2a5-ef47-46c7-840b-40d13bd4c99a")
-		(property "Reference" "#PWR0411"
-			(at 52.07 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5VA_conf"
-			(at 52.07 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 52.07 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8a3a588b-eb17-464b-9eb1-276c892744f8")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/03989f8f-37de-40e6-939d-a431b6f0f75b"
-					(reference "#PWR0411")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pss:GND")
 		(at 110.49 166.37 0)
 		(unit 1)
@@ -6782,90 +6686,6 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/03989f8f-37de-40e6-939d-a431b6f0f75b"
 					(reference "#PWR0425")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pss:TestPoint")
-		(at 139.7 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1618e4eb-54d2-4f61-b084-41811b03263e")
-		(property "Reference" "TP412"
-			(at 140.97 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 142.24 93.2179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "pss:TP_0805_2012Metric"
-			(at 144.78 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "./datasheet/RCTCTE.pdf"
-			(at 144.78 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 139.7 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RCTCTE"
-			(at 139.7 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VPN" "660-RCTCTE"
-			(at 139.7 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c0abf15-2421-4c9a-89a7-7e69b1c8a8c0")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/03989f8f-37de-40e6-939d-a431b6f0f75b"
-					(reference "TP412")
 					(unit 1)
 				)
 			)
@@ -8297,93 +8117,6 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/03989f8f-37de-40e6-939d-a431b6f0f75b"
 					(reference "#PWR0431")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pss:C")
-		(at 71.12 36.83 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "34882a85-f6d8-4394-9bd5-8b7c9a030a99")
-		(property "Reference" "C403"
-			(at 67.31 38.1001 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 67.31 35.5601 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "pss:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 70.1548 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "./datasheet/C_SMD_X7R_Kemet.pdf"
-			(at 71.12 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 71.12 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0805C104K3RACTU"
-			(at 71.12 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VPN" "80-C0805C104K3R"
-			(at 71.12 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7ce4487e-ab3a-4cd8-8bed-937391ba6252")
-		)
-		(pin "2"
-			(uuid "da979fab-1320-4b49-a423-436c028f2c37")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/03989f8f-37de-40e6-939d-a431b6f0f75b"
-					(reference "C403")
 					(unit 1)
 				)
 			)
@@ -10530,90 +10263,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:TestPoint")
-		(at 139.7 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8475bff3-9ca6-40e5-9d1d-a5585e665483")
-		(property "Reference" "TP411"
-			(at 140.97 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 142.24 42.4179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "pss:TP_0805_2012Metric"
-			(at 144.78 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "./datasheet/RCTCTE.pdf"
-			(at 144.78 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 139.7 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RCTCTE"
-			(at 139.7 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VPN" "660-RCTCTE"
-			(at 139.7 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d108ac59-fca0-4ede-befd-7828f830418c")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/03989f8f-37de-40e6-939d-a431b6f0f75b"
-					(reference "TP411")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pss:GND")
 		(at 78.74 90.17 0)
 		(unit 1)
@@ -11075,71 +10724,6 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/03989f8f-37de-40e6-939d-a431b6f0f75b"
 					(reference "U403")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pss:GND")
-		(at 71.12 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "91ffc059-5ab5-4c4c-bc9b-40ff476e9e1e")
-		(property "Reference" "#PWR0415"
-			(at 71.12 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 67.31 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2d242211-d32c-4130-99ea-24ff93f552f0")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/03989f8f-37de-40e6-939d-a431b6f0f75b"
-					(reference "#PWR0415")
 					(unit 1)
 				)
 			)
