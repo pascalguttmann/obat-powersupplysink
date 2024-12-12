@@ -2579,7 +2579,7 @@
 	(symbol
 		(lib_id "pss:Opamp_Dual")
 		(at 162.56 66.04 0)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2711,7 +2711,7 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166/854e83c3-d665-4da7-a2c9-4ae5fb1019c9/e65c3b78-3b2b-4f8a-bb92-3808512b49dd"
 					(reference "U1001")
-					(unit 1)
+					(unit 2)
 				)
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166/854e83c3-d665-4da7-a2c9-4ae5fb1019c9/ff334853-ab60-485c-bb6b-fcb0e80d61f1"
 					(reference "U1101")
@@ -3066,7 +3066,7 @@
 	(symbol
 		(lib_id "pss:Opamp_Dual")
 		(at 162.56 124.46 0)
-		(unit 2)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3198,7 +3198,7 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166/854e83c3-d665-4da7-a2c9-4ae5fb1019c9/e65c3b78-3b2b-4f8a-bb92-3808512b49dd"
 					(reference "U1001")
-					(unit 2)
+					(unit 1)
 				)
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166/854e83c3-d665-4da7-a2c9-4ae5fb1019c9/ff334853-ab60-485c-bb6b-fcb0e80d61f1"
 					(reference "U1101")
