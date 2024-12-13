@@ -7,7 +7,7 @@
 	(title_block
 		(title "Power Supply Sink")
 		(date "2024-12-13")
-		(rev "0.14.9")
+		(rev "0.14.10")
 		(company "Open Battery Tester")
 		(comment 1 "Limit-Logic")
 	)
@@ -128,102 +128,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-		)
-		(symbol "pss:-5V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "-5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"-5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "-5V_0_0"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "-5V_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 			)
@@ -1899,6 +1803,12 @@
 		)
 	)
 	(junction
+		(at 53.34 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0677ccd0-842e-4e49-a9cb-4aa0dac64dea")
+	)
+	(junction
 		(at 212.09 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1908,7 +1818,13 @@
 		(at 62.23 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2ddc56d6-a8e4-4546-978d-d801a74f0c1d")
+		(uuid "1019a266-8ffc-478c-b635-883a65542384")
+	)
+	(junction
+		(at 38.1 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25d55be5-51c6-4d86-9713-1a0e4f18f112")
 	)
 	(junction
 		(at 217.17 25.4)
@@ -1923,12 +1839,6 @@
 		(uuid "5ab6b2b2-3852-42a9-8c24-1fce93105219")
 	)
 	(junction
-		(at 38.1 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e67ec5b-f5ee-462d-8328-00c66c8ddcfb")
-	)
-	(junction
 		(at 60.96 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1939,12 +1849,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "696f5d5e-4620-4fb1-bba8-2cd04ad71a1b")
-	)
-	(junction
-		(at 48.26 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6e1c1978-f441-48bb-a0f2-58657b41afe5")
 	)
 	(junction
 		(at 76.2 184.15)
@@ -1965,16 +1869,16 @@
 		(uuid "8744914e-6be5-4515-892f-defdd83d0766")
 	)
 	(junction
-		(at 62.23 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "88be8591-837f-4d8d-80ca-5b5382881898")
-	)
-	(junction
 		(at 58.42 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ac59907-6454-492d-bd06-e6c5c9cc11be")
+	)
+	(junction
+		(at 58.42 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8eb0edae-ae9f-4147-9b82-6c2b438b88c6")
 	)
 	(junction
 		(at 199.39 67.31)
@@ -1983,34 +1887,28 @@
 		(uuid "9777def3-9958-481e-bae7-d25b6114b936")
 	)
 	(junction
-		(at 33.02 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "982227dd-00d2-4f8f-ace6-09de5262ae00")
-	)
-	(junction
 		(at 217.17 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "adeacf36-2bd9-4c86-9aec-aa26dc881c1d")
 	)
 	(junction
-		(at 53.34 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c05b786c-1191-4879-8be5-424a4e7facee")
-	)
-	(junction
-		(at 43.18 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c428fafa-b883-44c2-a3ec-d059ca1757b2")
-	)
-	(junction
 		(at 212.09 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "caf73d27-7efb-4e55-b878-fee5be848d2c")
+	)
+	(junction
+		(at 43.18 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf80ae57-87e7-4d17-9dee-86e714efe335")
+	)
+	(junction
+		(at 62.23 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc81e5e7-d251-484a-9829-42001ead3940")
 	)
 	(junction
 		(at 48.26 184.15)
@@ -2031,16 +1929,22 @@
 		(uuid "eeebff64-f938-4a2a-b827-b3a3cdb23a32")
 	)
 	(junction
+		(at 48.26 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0687cc0-f3d3-4a8a-ad2a-fcfad72fcb3d")
+	)
+	(junction
+		(at 33.02 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f27120ea-36e5-40ab-8962-c8d5b08a8281")
+	)
+	(junction
 		(at 76.2 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f96db36c-cb11-42b3-a637-929c6e358906")
-	)
-	(junction
-		(at 58.42 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff41a7e9-fac4-4668-b6e6-35609764a87c")
 	)
 	(no_connect
 		(at 229.87 146.05)
@@ -2083,6 +1987,16 @@
 			(type default)
 		)
 		(uuid "07893df7-76f6-46b6-a540-c60587c4c991")
+	)
+	(wire
+		(pts
+			(xy 48.26 166.37) (xy 63.5 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08abb568-ff37-41a2-8e07-7030f3e3eb21")
 	)
 	(wire
 		(pts
@@ -2176,16 +2090,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 156.21) (xy 58.42 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1199d421-d0fb-49f5-b503-cf75590c4a41")
-	)
-	(wire
-		(pts
 			(xy 181.61 45.72) (xy 204.47 45.72)
 		)
 		(stroke
@@ -2226,7 +2130,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 156.21) (xy 63.5 156.21)
+			(xy 22.86 161.29) (xy 58.42 161.29)
 		)
 		(stroke
 			(width 0)
@@ -2236,7 +2140,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 161.29) (xy 48.26 161.29)
+			(xy 22.86 166.37) (xy 48.26 166.37)
 		)
 		(stroke
 			(width 0)
@@ -2276,16 +2180,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 166.37) (xy 63.5 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c0b064c-4d0e-4ae1-80a8-ebbadf4208e3")
-	)
-	(wire
-		(pts
 			(xy 212.09 101.6) (xy 199.39 101.6)
 		)
 		(stroke
@@ -2293,16 +2187,6 @@
 			(type default)
 		)
 		(uuid "1d0b7698-dfb7-4875-b124-795009e24bfe")
-	)
-	(wire
-		(pts
-			(xy 33.02 171.45) (xy 63.5 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1deff9e6-58c2-48df-a96d-4f9eced62a9e")
 	)
 	(wire
 		(pts
@@ -2366,7 +2250,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 168.91) (xy 38.1 168.91)
+			(xy 22.86 171.45) (xy 38.1 171.45)
 		)
 		(stroke
 			(width 0)
@@ -2386,7 +2270,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 171.45) (xy 33.02 171.45)
+			(xy 22.86 173.99) (xy 33.02 173.99)
 		)
 		(stroke
 			(width 0)
@@ -2416,26 +2300,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 163.83) (xy 62.23 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b809dfe-20a2-44d0-8b1b-f517a4325c2f")
-	)
-	(wire
-		(pts
-			(xy 63.5 163.83) (xy 62.23 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cbadf56-7c9f-4a2c-b133-030707f6402c")
-	)
-	(wire
-		(pts
 			(xy 217.17 101.6) (xy 217.17 114.3)
 		)
 		(stroke
@@ -2453,6 +2317,26 @@
 			(type default)
 		)
 		(uuid "2ff16171-9fac-4e30-a93f-eea0eb2cb7c2")
+	)
+	(wire
+		(pts
+			(xy 53.34 163.83) (xy 63.5 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3164c8e4-ea7f-4251-a3f7-bae9cf2351a6")
+	)
+	(wire
+		(pts
+			(xy 53.34 163.83) (xy 53.34 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "317fafa1-7706-44cb-a893-216410c06df7")
 	)
 	(wire
 		(pts
@@ -2483,6 +2367,16 @@
 			(type default)
 		)
 		(uuid "34ba7a91-19da-410a-95ea-15b0550778af")
+	)
+	(wire
+		(pts
+			(xy 43.18 168.91) (xy 43.18 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36628d46-5455-4aea-901f-ccf8951e5f1f")
 	)
 	(wire
 		(pts
@@ -2556,16 +2450,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 166.37) (xy 43.18 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f10b2fb-fdc6-4344-8f5a-26248b2b8ee2")
-	)
-	(wire
-		(pts
 			(xy 57.15 41.91) (xy 60.96 41.91)
 		)
 		(stroke
@@ -2626,6 +2510,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 171.45) (xy 38.1 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c4108d0-8f69-41be-b2fe-f4d15e66aac1")
+	)
+	(wire
+		(pts
 			(xy 212.09 25.4) (xy 217.17 25.4)
 		)
 		(stroke
@@ -2633,6 +2527,16 @@
 			(type default)
 		)
 		(uuid "4eac576e-0c56-46da-b166-f1466e2eb202")
+	)
+	(wire
+		(pts
+			(xy 43.18 168.91) (xy 63.5 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "509e6b4b-8f2a-46f0-a18f-6fc6dbc39a20")
 	)
 	(wire
 		(pts
@@ -2686,6 +2590,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 161.29) (xy 58.42 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a889dad-d8ce-48b6-9b6d-37c21f5893fb")
+	)
+	(wire
+		(pts
 			(xy 101.6 78.74) (xy 123.19 78.74)
 		)
 		(stroke
@@ -2726,16 +2640,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 184.15) (xy 76.2 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60ac07b2-5f55-4c7c-b795-6208c6e783c3")
-	)
-	(wire
-		(pts
 			(xy 123.19 157.48) (xy 123.19 168.91)
 		)
 		(stroke
@@ -2766,7 +2670,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 158.75) (xy 53.34 158.75)
+			(xy 22.86 163.83) (xy 53.34 163.83)
 		)
 		(stroke
 			(width 0)
@@ -2836,6 +2740,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 184.15) (xy 76.2 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d7758d0-e3f6-4984-8e20-99f1d2b04de1")
+	)
+	(wire
+		(pts
 			(xy 118.11 45.72) (xy 123.19 45.72)
 		)
 		(stroke
@@ -2883,16 +2797,6 @@
 			(type default)
 		)
 		(uuid "73b4c4de-f446-4679-8daf-68fa4d56e470")
-	)
-	(wire
-		(pts
-			(xy 33.02 171.45) (xy 33.02 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7431a12c-cddc-4f73-bb8e-a7c5ef8a1b5a")
 	)
 	(wire
 		(pts
@@ -2996,16 +2900,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 158.75) (xy 53.34 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89cd69a9-8e81-4cee-b74e-2f6bfc3e3e9d")
-	)
-	(wire
-		(pts
 			(xy 166.37 81.28) (xy 173.99 81.28)
 		)
 		(stroke
@@ -3013,16 +2907,6 @@
 			(type default)
 		)
 		(uuid "8ab1bbd2-23b3-43df-ac08-57baf91d9d58")
-	)
-	(wire
-		(pts
-			(xy 48.26 161.29) (xy 63.5 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d7cb9a1-42b5-4091-af72-bee86bfdd53a")
 	)
 	(wire
 		(pts
@@ -3156,16 +3040,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 173.99) (xy 63.5 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a26b1582-977b-4b56-a2ce-616dfea983c3")
-	)
-	(wire
-		(pts
 			(xy 166.37 76.2) (xy 176.53 76.2)
 		)
 		(stroke
@@ -3246,6 +3120,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 158.75) (xy 63.5 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af3b37d6-7ff0-4911-836a-dba83ef41ae3")
+	)
+	(wire
+		(pts
 			(xy 113.03 157.48) (xy 113.03 168.91)
 		)
 		(stroke
@@ -3253,6 +3137,16 @@
 			(type default)
 		)
 		(uuid "af62d69b-ef18-464d-b529-1ae162e6c6c7")
+	)
+	(wire
+		(pts
+			(xy 62.23 184.15) (xy 62.23 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afac73eb-382a-4559-a98a-b7fec4142766")
 	)
 	(wire
 		(pts
@@ -3306,16 +3200,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 156.21) (xy 58.42 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5e5140c-ea22-43ed-9573-e0e39661dbd6")
-	)
-	(wire
-		(pts
 			(xy 91.44 72.39) (xy 93.98 72.39)
 		)
 		(stroke
@@ -3366,16 +3250,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 158.75) (xy 63.5 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb4fbad4-6c3f-4a00-a938-138613f6183b")
-	)
-	(wire
-		(pts
 			(xy 57.15 60.96) (xy 62.23 60.96)
 		)
 		(stroke
@@ -3396,13 +3270,23 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 166.37) (xy 43.18 166.37)
+			(xy 22.86 168.91) (xy 43.18 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bef5cad2-42f7-4b9c-a116-9dcf77ad74ab")
+	)
+	(wire
+		(pts
+			(xy 62.23 156.21) (xy 62.23 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1c31e5f-e01a-449b-9dc9-d6265207cf74")
 	)
 	(wire
 		(pts
@@ -3476,6 +3360,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 171.45) (xy 63.5 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0abcbe9-05bd-4ad6-8dec-7030d9ead51a")
+	)
+	(wire
+		(pts
 			(xy 157.48 54.61) (xy 158.75 54.61)
 		)
 		(stroke
@@ -3493,16 +3387,6 @@
 			(type default)
 		)
 		(uuid "d2867ea7-8062-4da8-bd55-286ed4370ca0")
-	)
-	(wire
-		(pts
-			(xy 48.26 161.29) (xy 48.26 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d482f6ad-de2c-4a95-922c-1d498ccc296b")
 	)
 	(wire
 		(pts
@@ -3586,13 +3470,13 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 173.99) (xy 62.23 184.15)
+			(xy 33.02 173.99) (xy 33.02 175.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dfd90b56-2174-470a-b2ac-23daa4a179b8")
+		(uuid "df3e7b98-0581-4a7a-bd28-373648c9d3d5")
 	)
 	(wire
 		(pts
@@ -3603,6 +3487,16 @@
 			(type default)
 		)
 		(uuid "e0e33a37-364d-47eb-b5f7-f8c24e47fe7f")
+	)
+	(wire
+		(pts
+			(xy 58.42 161.29) (xy 63.5 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3e1e454-416a-4eb5-aa0b-3a14c2ef4640")
 	)
 	(wire
 		(pts
@@ -3646,16 +3540,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 168.91) (xy 38.1 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e968924e-63be-42b5-bd04-eb2e633e8965")
-	)
-	(wire
-		(pts
 			(xy 91.44 78.74) (xy 93.98 78.74)
 		)
 		(stroke
@@ -3686,6 +3570,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 173.99) (xy 63.5 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0227d6c-b94e-444a-a2ff-d5cee3de2ca0")
+	)
+	(wire
+		(pts
 			(xy 204.47 147.32) (xy 199.39 147.32)
 		)
 		(stroke
@@ -3713,6 +3607,16 @@
 			(type default)
 		)
 		(uuid "f24c045a-7ccb-44e8-9766-d16802d3b241")
+	)
+	(wire
+		(pts
+			(xy 63.5 156.21) (xy 62.23 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f41feda3-bbda-4cb9-8f22-f7c6b4d195a0")
 	)
 	(wire
 		(pts
@@ -3756,13 +3660,13 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 168.91) (xy 63.5 168.91)
+			(xy 48.26 166.37) (xy 48.26 175.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fd21a120-5ce5-4dd3-8834-debbed0452a7")
+		(uuid "fc938a76-9245-45c7-96d6-b2e8099fc8a5")
 	)
 	(wire
 		(pts
@@ -4005,7 +3909,7 @@
 		(uuid "4d4ecd5b-8813-4dea-9356-b717980a13da")
 	)
 	(label "mode_uvlc"
-		(at 22.86 171.45 0)
+		(at 22.86 166.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4049,7 +3953,7 @@
 		(uuid "58f866da-5ba9-4fc1-8cae-a849da3a4ad8")
 	)
 	(label "mode_uclc"
-		(at 22.86 161.29 0)
+		(at 22.86 168.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4071,7 +3975,7 @@
 		(uuid "62f6f943-1ce3-4955-a8d8-805b37c95af3")
 	)
 	(label "mode_lclc"
-		(at 22.86 158.75 0)
+		(at 22.86 163.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4104,7 +4008,7 @@
 		(uuid "6799c189-7207-4b54-b9c2-de8d128afdea")
 	)
 	(label "mode_lvlc"
-		(at 22.86 168.91 0)
+		(at 22.86 173.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4181,7 +4085,7 @@
 		(uuid "b5a8728a-20be-48ec-b36c-07298b754691")
 	)
 	(label "mode_cc"
-		(at 22.86 166.37 0)
+		(at 22.86 171.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4203,7 +4107,7 @@
 		(uuid "d62adb7a-533b-451c-bdff-c82e9a2d7a54")
 	)
 	(label "mode_vc"
-		(at 22.86 156.21 0)
+		(at 22.86 161.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4881,7 +4785,7 @@
 	)
 	(symbol
 		(lib_id "pss:LED")
-		(at 113.03 172.72 90)
+		(at 113.03 181.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4889,7 +4793,7 @@
 		(dnp no)
 		(uuid "190b263c-9dc6-443b-a4b2-b68441233d62")
 		(property "Reference" "D801"
-			(at 116.84 168.91 0)
+			(at 116.84 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4898,7 +4802,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 119.38 172.72 0)
+			(at 119.38 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4907,7 +4811,7 @@
 			)
 		)
 		(property "Footprint" "pss:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 113.03 172.72 0)
+			(at 113.03 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4916,7 +4820,7 @@
 			)
 		)
 		(property "Datasheet" "./datasheet/IN-S85CS5G.pdf"
-			(at 113.03 172.72 0)
+			(at 113.03 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4925,7 +4829,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 113.03 172.72 0)
+			(at 113.03 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4934,7 +4838,7 @@
 			)
 		)
 		(property "MPN" "IN-S85CS5G"
-			(at 113.03 172.72 0)
+			(at 113.03 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4943,7 +4847,7 @@
 			)
 		)
 		(property "VPN" "743-IN-S85CS5G"
-			(at 113.03 172.72 0)
+			(at 113.03 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4961,90 +4865,6 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166"
 					(reference "D801")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pss:TestPoint")
-		(at 241.3 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "19e31434-824b-4d16-a5b1-ef8cafec0404")
-		(property "Reference" "TP808"
-			(at 242.57 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 243.84 138.9379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "pss:TP_0805_2012Metric"
-			(at 246.38 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "./datasheet/RCTCTE.pdf"
-			(at 246.38 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 241.3 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RCTCTE"
-			(at 241.3 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VPN" "660-RCTCTE"
-			(at 241.3 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0298200c-adfd-415e-9c10-09dc0828d412")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166"
-					(reference "TP808")
 					(unit 1)
 				)
 			)
@@ -5294,7 +5114,7 @@
 	)
 	(symbol
 		(lib_id "pss:LED")
-		(at 143.51 172.72 90)
+		(at 143.51 181.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5302,7 +5122,7 @@
 		(dnp no)
 		(uuid "2a3f3816-0844-4012-9687-1dbf5f837279")
 		(property "Reference" "D804"
-			(at 147.32 168.91 0)
+			(at 147.32 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5311,7 +5131,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 149.86 172.72 0)
+			(at 149.86 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5320,7 +5140,7 @@
 			)
 		)
 		(property "Footprint" "pss:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 143.51 172.72 0)
+			(at 143.51 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5329,7 +5149,7 @@
 			)
 		)
 		(property "Datasheet" "./datasheet/IN-S85CS5G.pdf"
-			(at 143.51 172.72 0)
+			(at 143.51 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5338,7 +5158,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 143.51 172.72 0)
+			(at 143.51 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5347,7 +5167,7 @@
 			)
 		)
 		(property "MPN" "IN-S85CS5G"
-			(at 143.51 172.72 0)
+			(at 143.51 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5356,7 +5176,7 @@
 			)
 		)
 		(property "VPN" "743-IN-S85CS5G"
-			(at 143.51 172.72 0)
+			(at 143.51 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5719,7 +5539,7 @@
 	)
 	(symbol
 		(lib_id "pss:LED")
-		(at 123.19 172.72 90)
+		(at 123.19 181.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5727,7 +5547,7 @@
 		(dnp no)
 		(uuid "2ea27b6d-e965-47f2-be6e-d722aa99b411")
 		(property "Reference" "D802"
-			(at 127 168.91 0)
+			(at 127 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5736,7 +5556,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 129.54 172.72 0)
+			(at 129.54 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5745,7 +5565,7 @@
 			)
 		)
 		(property "Footprint" "pss:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 123.19 172.72 0)
+			(at 123.19 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5754,7 +5574,7 @@
 			)
 		)
 		(property "Datasheet" "./datasheet/IN-S85CS5G.pdf"
-			(at 123.19 172.72 0)
+			(at 123.19 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5763,7 +5583,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 123.19 172.72 0)
+			(at 123.19 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5772,7 +5592,7 @@
 			)
 		)
 		(property "MPN" "IN-S85CS5G"
-			(at 123.19 172.72 0)
+			(at 123.19 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5781,7 +5601,7 @@
 			)
 		)
 		(property "VPN" "743-IN-S85CS5G"
-			(at 123.19 172.72 0)
+			(at 123.19 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5799,90 +5619,6 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166"
 					(reference "D802")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pss:TestPoint")
-		(at 241.3 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2fc9f8ab-69e4-4637-a986-c703047ff5e2")
-		(property "Reference" "TP803"
-			(at 242.57 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 243.84 51.3079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "pss:TP_0805_2012Metric"
-			(at 246.38 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "./datasheet/RCTCTE.pdf"
-			(at 246.38 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 241.3 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RCTCTE"
-			(at 241.3 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VPN" "660-RCTCTE"
-			(at 241.3 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a1ce14a9-3439-4cde-ad73-50c07e72fd60")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166"
-					(reference "TP803")
 					(unit 1)
 				)
 			)
@@ -5958,7 +5694,7 @@
 	)
 	(symbol
 		(lib_id "pss:R")
-		(at 123.19 181.61 0)
+		(at 123.19 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5966,7 +5702,7 @@
 		(dnp no)
 		(uuid "3a8ec004-64ba-460f-a3f0-dc428ce626f2")
 		(property "Reference" "R808"
-			(at 127 185.42 90)
+			(at 127 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5975,7 +5711,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 129.54 185.42 90)
+			(at 129.54 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5984,7 +5720,7 @@
 			)
 		)
 		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 121.412 181.61 90)
+			(at 121.412 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5993,7 +5729,7 @@
 			)
 		)
 		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
-			(at 123.19 181.61 0)
+			(at 123.19 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6002,7 +5738,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 123.19 181.61 0)
+			(at 123.19 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6011,7 +5747,7 @@
 			)
 		)
 		(property "MPN" "RC1210FR-0710KL"
-			(at 123.19 181.61 0)
+			(at 123.19 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6020,7 +5756,7 @@
 			)
 		)
 		(property "VPN" "603-RC1210FR-0710KL"
-			(at 123.19 181.61 0)
+			(at 123.19 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6214,7 +5950,7 @@
 	)
 	(symbol
 		(lib_id "pss:R")
-		(at 163.83 181.61 0)
+		(at 163.83 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6222,7 +5958,7 @@
 		(dnp no)
 		(uuid "51bf2983-dd0c-4b1a-9faa-44bcb41cc0dc")
 		(property "Reference" "R812"
-			(at 167.64 185.42 90)
+			(at 167.64 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6231,7 +5967,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 170.18 185.42 90)
+			(at 170.18 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6240,7 +5976,7 @@
 			)
 		)
 		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 162.052 181.61 90)
+			(at 162.052 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6249,7 +5985,7 @@
 			)
 		)
 		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
-			(at 163.83 181.61 0)
+			(at 163.83 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6258,7 +5994,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 163.83 181.61 0)
+			(at 163.83 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6267,7 +6003,7 @@
 			)
 		)
 		(property "MPN" "RC1210FR-0710KL"
-			(at 163.83 181.61 0)
+			(at 163.83 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6276,7 +6012,7 @@
 			)
 		)
 		(property "VPN" "603-RC1210FR-0710KL"
-			(at 163.83 181.61 0)
+			(at 163.83 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6512,156 +6248,6 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166"
 					(reference "M805")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pss:TestPoint")
-		(at 97.79 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "653a6adc-e798-4b15-b45d-179f61b1ee93")
-		(property "Reference" "TP801"
-			(at 99.06 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 100.33 166.8779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "pss:TP_0805_2012Metric"
-			(at 102.87 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "./datasheet/RCTCTE.pdf"
-			(at 102.87 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 97.79 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RCTCTE"
-			(at 97.79 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VPN" "660-RCTCTE"
-			(at 97.79 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "20dfd463-2a67-4279-b657-14e17d575528")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166"
-					(reference "TP801")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pss:-5V")
-		(at 90.17 147.32 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b4361a3-0e41-4ff6-bfc9-09c42d30296c")
-		(property "Reference" "#PWR0803"
-			(at 90.17 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-5V"
-			(at 90.17 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-5V\""
-			(at 90.17 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "109a6299-306e-41a7-8f33-92f2f0a2e708")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166"
-					(reference "#PWR0803")
 					(unit 1)
 				)
 			)
@@ -6957,7 +6543,7 @@
 	)
 	(symbol
 		(lib_id "pss:R")
-		(at 133.35 181.61 0)
+		(at 133.35 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6965,7 +6551,7 @@
 		(dnp no)
 		(uuid "781ebd9b-d9ad-484f-b7e7-ca15b1d93ac5")
 		(property "Reference" "R809"
-			(at 137.16 185.42 90)
+			(at 137.16 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6974,7 +6560,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 139.7 185.42 90)
+			(at 139.7 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6983,7 +6569,7 @@
 			)
 		)
 		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 131.572 181.61 90)
+			(at 131.572 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6992,7 +6578,7 @@
 			)
 		)
 		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
-			(at 133.35 181.61 0)
+			(at 133.35 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7001,7 +6587,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 133.35 181.61 0)
+			(at 133.35 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7010,7 +6596,7 @@
 			)
 		)
 		(property "MPN" "RC1210FR-0710KL"
-			(at 133.35 181.61 0)
+			(at 133.35 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7019,7 +6605,7 @@
 			)
 		)
 		(property "VPN" "603-RC1210FR-0710KL"
-			(at 133.35 181.61 0)
+			(at 133.35 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7569,92 +7155,8 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:TestPoint")
-		(at 241.3 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "89d5e1bf-8604-4dda-8d88-423c459988fc")
-		(property "Reference" "TP806"
-			(at 242.57 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 243.84 128.7779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "pss:TP_0805_2012Metric"
-			(at 246.38 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "./datasheet/RCTCTE.pdf"
-			(at 246.38 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 241.3 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RCTCTE"
-			(at 241.3 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VPN" "660-RCTCTE"
-			(at 241.3 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0009dc04-e0d2-4890-971d-ec9cc7a86503")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166"
-					(reference "TP806")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pss:R")
-		(at 113.03 181.61 0)
+		(at 113.03 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7662,7 +7164,7 @@
 		(dnp no)
 		(uuid "8bc93af2-f5d4-4f5f-b18d-13304b0c4407")
 		(property "Reference" "R807"
-			(at 116.84 185.42 90)
+			(at 116.84 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7671,7 +7173,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 119.38 185.42 90)
+			(at 119.38 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7680,7 +7182,7 @@
 			)
 		)
 		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 111.252 181.61 90)
+			(at 111.252 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7689,7 +7191,7 @@
 			)
 		)
 		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
-			(at 113.03 181.61 0)
+			(at 113.03 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7698,7 +7200,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 113.03 181.61 0)
+			(at 113.03 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7707,7 +7209,7 @@
 			)
 		)
 		(property "MPN" "RC1210FR-0710KL"
-			(at 113.03 181.61 0)
+			(at 113.03 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7716,7 +7218,7 @@
 			)
 		)
 		(property "VPN" "603-RC1210FR-0710KL"
-			(at 113.03 181.61 0)
+			(at 113.03 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7952,174 +7454,6 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166"
 					(reference "#PWR0806")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pss:TestPoint")
-		(at 241.3 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9d0ff30c-3bf7-47d2-a419-5620ca1a55f7")
-		(property "Reference" "TP807"
-			(at 242.57 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 243.84 133.8579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "pss:TP_0805_2012Metric"
-			(at 246.38 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "./datasheet/RCTCTE.pdf"
-			(at 246.38 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 241.3 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RCTCTE"
-			(at 241.3 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VPN" "660-RCTCTE"
-			(at 241.3 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d608ba08-68ef-4ba7-ad44-28996e96534c")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166"
-					(reference "TP807")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pss:TestPoint")
-		(at 241.3 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9f014089-aa6d-46b2-a89d-31919bb0cdcb")
-		(property "Reference" "TP805"
-			(at 242.57 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 243.84 61.4679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "pss:TP_0805_2012Metric"
-			(at 246.38 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "./datasheet/RCTCTE.pdf"
-			(at 246.38 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 241.3 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RCTCTE"
-			(at 241.3 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VPN" "660-RCTCTE"
-			(at 241.3 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "92800edb-2788-460e-8f0b-e10bc8769fa4")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166"
-					(reference "TP805")
 					(unit 1)
 				)
 			)
@@ -8612,8 +7946,74 @@
 		)
 	)
 	(symbol
+		(lib_id "pss:-5V_limit-logic")
+		(at 90.17 147.32 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9e58bf1-30ef-4f76-a703-039a154f61b9")
+		(property "Reference" "#PWR0803"
+			(at 90.17 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-5V_limit-logic"
+			(at 90.17 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b281662-af9a-42ad-8c2c-53861cb8fcf7")
+		)
+		(instances
+			(project "pss"
+				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166"
+					(reference "#PWR0803")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pss:LED")
-		(at 133.35 172.72 90)
+		(at 133.35 181.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8621,7 +8021,7 @@
 		(dnp no)
 		(uuid "bda4fc14-d828-4b12-b6e6-e29c3b60e2c5")
 		(property "Reference" "D803"
-			(at 137.16 168.91 0)
+			(at 137.16 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8630,7 +8030,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 139.7 172.72 0)
+			(at 139.7 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8639,7 +8039,7 @@
 			)
 		)
 		(property "Footprint" "pss:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 133.35 172.72 0)
+			(at 133.35 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8648,7 +8048,7 @@
 			)
 		)
 		(property "Datasheet" "./datasheet/IN-S85CS5G.pdf"
-			(at 133.35 172.72 0)
+			(at 133.35 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8657,7 +8057,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 133.35 172.72 0)
+			(at 133.35 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8666,7 +8066,7 @@
 			)
 		)
 		(property "MPN" "IN-S85CS5G"
-			(at 133.35 172.72 0)
+			(at 133.35 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8675,7 +8075,7 @@
 			)
 		)
 		(property "VPN" "743-IN-S85CS5G"
-			(at 133.35 172.72 0)
+			(at 133.35 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8979,90 +8379,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:TestPoint")
-		(at 241.3 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cf30af05-9856-447f-a6f0-af984a2579e9")
-		(property "Reference" "TP804"
-			(at 242.57 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 243.84 56.3879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "pss:TP_0805_2012Metric"
-			(at 246.38 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "./datasheet/RCTCTE.pdf"
-			(at 246.38 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 241.3 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RCTCTE"
-			(at 241.3 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VPN" "660-RCTCTE"
-			(at 241.3 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "09a5f89e-12ca-4e3f-9515-02f6e007fafc")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166"
-					(reference "TP804")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pss:-5V_limit-logic")
 		(at 217.17 76.2 180)
 		(unit 1)
@@ -9280,7 +8596,7 @@
 	)
 	(symbol
 		(lib_id "pss:R")
-		(at 153.67 181.61 0)
+		(at 153.67 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9288,7 +8604,7 @@
 		(dnp no)
 		(uuid "d59ff6d9-8e80-4f30-8c93-91a66ae3d89e")
 		(property "Reference" "R811"
-			(at 157.48 185.42 90)
+			(at 157.48 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9297,7 +8613,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 160.02 185.42 90)
+			(at 160.02 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9306,7 +8622,7 @@
 			)
 		)
 		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 151.892 181.61 90)
+			(at 151.892 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9315,7 +8631,7 @@
 			)
 		)
 		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
-			(at 153.67 181.61 0)
+			(at 153.67 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9324,7 +8640,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 153.67 181.61 0)
+			(at 153.67 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9333,7 +8649,7 @@
 			)
 		)
 		(property "MPN" "RC1210FR-0710KL"
-			(at 153.67 181.61 0)
+			(at 153.67 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9342,7 +8658,7 @@
 			)
 		)
 		(property "VPN" "603-RC1210FR-0710KL"
-			(at 153.67 181.61 0)
+			(at 153.67 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9631,7 +8947,7 @@
 	)
 	(symbol
 		(lib_id "pss:LED")
-		(at 163.83 172.72 90)
+		(at 163.83 181.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9639,7 +8955,7 @@
 		(dnp no)
 		(uuid "ebbbc0c7-2906-444a-a89b-32a38f516f68")
 		(property "Reference" "D806"
-			(at 167.64 168.91 0)
+			(at 167.64 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9648,7 +8964,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 170.18 172.72 0)
+			(at 170.18 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9657,7 +8973,7 @@
 			)
 		)
 		(property "Footprint" "pss:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 163.83 172.72 0)
+			(at 163.83 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9666,7 +8982,7 @@
 			)
 		)
 		(property "Datasheet" "./datasheet/IN-S85CS5G.pdf"
-			(at 163.83 172.72 0)
+			(at 163.83 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9675,7 +8991,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 163.83 172.72 0)
+			(at 163.83 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9684,7 +9000,7 @@
 			)
 		)
 		(property "MPN" "IN-S85CS5G"
-			(at 163.83 172.72 0)
+			(at 163.83 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9693,7 +9009,7 @@
 			)
 		)
 		(property "VPN" "743-IN-S85CS5G"
-			(at 163.83 172.72 0)
+			(at 163.83 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9718,7 +9034,7 @@
 	)
 	(symbol
 		(lib_id "pss:LED")
-		(at 153.67 172.72 90)
+		(at 153.67 181.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9726,7 +9042,7 @@
 		(dnp no)
 		(uuid "f069099d-5742-4b73-9e9d-4d97ef3e8734")
 		(property "Reference" "D805"
-			(at 157.48 168.91 0)
+			(at 157.48 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9735,7 +9051,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 160.02 172.72 0)
+			(at 160.02 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9744,7 +9060,7 @@
 			)
 		)
 		(property "Footprint" "pss:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 153.67 172.72 0)
+			(at 153.67 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9753,7 +9069,7 @@
 			)
 		)
 		(property "Datasheet" "./datasheet/IN-S85CS5G.pdf"
-			(at 153.67 172.72 0)
+			(at 153.67 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9762,7 +9078,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 153.67 172.72 0)
+			(at 153.67 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9771,7 +9087,7 @@
 			)
 		)
 		(property "MPN" "IN-S85CS5G"
-			(at 153.67 172.72 0)
+			(at 153.67 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9780,7 +9096,7 @@
 			)
 		)
 		(property "VPN" "743-IN-S85CS5G"
-			(at 153.67 172.72 0)
+			(at 153.67 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9873,7 +9189,7 @@
 	)
 	(symbol
 		(lib_id "pss:R")
-		(at 143.51 181.61 0)
+		(at 143.51 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9881,7 +9197,7 @@
 		(dnp no)
 		(uuid "f86724e3-bb5d-4a2d-9e65-30a9cff2a537")
 		(property "Reference" "R810"
-			(at 147.32 185.42 90)
+			(at 147.32 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9890,7 +9206,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 149.86 185.42 90)
+			(at 149.86 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9899,7 +9215,7 @@
 			)
 		)
 		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 141.732 181.61 90)
+			(at 141.732 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9908,7 +9224,7 @@
 			)
 		)
 		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
-			(at 143.51 181.61 0)
+			(at 143.51 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9917,7 +9233,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 143.51 181.61 0)
+			(at 143.51 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9926,7 +9242,7 @@
 			)
 		)
 		(property "MPN" "RC1210FR-0710KL"
-			(at 143.51 181.61 0)
+			(at 143.51 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9935,7 +9251,7 @@
 			)
 		)
 		(property "VPN" "603-RC1210FR-0710KL"
-			(at 143.51 181.61 0)
+			(at 143.51 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
