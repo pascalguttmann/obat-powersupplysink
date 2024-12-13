@@ -6,11 +6,11 @@
     "emitter_follower.kicad_pcb": {
       "anchor": "Q2203"
     },
-    "pss.kicad_pcb": {
-      "anchor": "HS2101"
-    },
     "window-comparator.kicad_pcb": {
       "anchor": "U1001"
+    },
+    "pss.kicad_pcb": {
+      "anchor": "HS2101"
     },
     "adc.kicad_pcb": {
       "anchor": "U201"

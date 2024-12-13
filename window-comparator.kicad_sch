@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Power Supply Sink")
-		(date "2024-12-12")
-		(rev "0.14.7")
+		(date "2024-12-13")
+		(rev "0.14.8")
 		(company "Open Battery Tester")
 		(comment 1 "Window-Comparator")
 	)
@@ -1469,6 +1469,72 @@
 		)
 		(uuid "ffd746e0-0b5a-4bea-9c97-686d3d85c2af")
 	)
+	(label "u-"
+		(at 152.4 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ec63ea1-a6f2-4e33-b45d-ed205cff05b9")
+	)
+	(label "l-"
+		(at 152.4 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2fedd478-e6fb-4cbb-8c7d-329719727bc8")
+	)
+	(label "lpot"
+		(at 116.84 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8627a911-d833-47b4-9f04-facc0003a5e3")
+	)
+	(label "l+"
+		(at 152.4 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aae77603-b1c4-4e4d-b967-d82fbd9156e9")
+	)
+	(label "upot"
+		(at 116.84 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d56b5d56-3b45-4d82-9bc0-f9679ca550ed")
+	)
+	(label "u+"
+		(at 152.4 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e33be554-4006-4866-8b1d-37f3251d63aa")
+	)
 	(hierarchical_label "ll"
 		(shape input)
 		(at 104.14 102.87 180)
@@ -2715,15 +2781,15 @@
 				)
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166/854e83c3-d665-4da7-a2c9-4ae5fb1019c9/ff334853-ab60-485c-bb6b-fcb0e80d61f1"
 					(reference "U1101")
-					(unit 1)
+					(unit 2)
 				)
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166/854e83c3-d665-4da7-a2c9-4ae5fb1019c9/1d2742ec-3d10-4ff5-8813-6f202bc18ef7"
 					(reference "U1201")
-					(unit 1)
+					(unit 2)
 				)
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166/854e83c3-d665-4da7-a2c9-4ae5fb1019c9/67b5cc40-0404-44cb-9368-386617de868f"
 					(reference "U1301")
-					(unit 1)
+					(unit 2)
 				)
 			)
 		)
@@ -3202,15 +3268,15 @@
 				)
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166/854e83c3-d665-4da7-a2c9-4ae5fb1019c9/ff334853-ab60-485c-bb6b-fcb0e80d61f1"
 					(reference "U1101")
-					(unit 2)
+					(unit 1)
 				)
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166/854e83c3-d665-4da7-a2c9-4ae5fb1019c9/1d2742ec-3d10-4ff5-8813-6f202bc18ef7"
 					(reference "U1201")
-					(unit 2)
+					(unit 1)
 				)
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166/854e83c3-d665-4da7-a2c9-4ae5fb1019c9/67b5cc40-0404-44cb-9368-386617de868f"
 					(reference "U1301")
-					(unit 2)
+					(unit 1)
 				)
 			)
 		)
