@@ -7,7 +7,7 @@
 	(title_block
 		(title "Power Supply Sink")
 		(date "2024-12-13")
-		(rev "0.14.8")
+		(rev "0.14.9")
 		(company "Open Battery Tester")
 		(comment 1 "Compare Logic")
 	)
@@ -1108,296 +1108,6 @@
 				)
 			)
 		)
-		(symbol "pss:LED"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "pss:R"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "pss:TestPoint"
 			(pin_numbers hide)
 			(pin_names
@@ -1544,12 +1254,6 @@
 		(uuid "49be794f-72e4-4699-a3ee-f733b5ebc934")
 	)
 	(junction
-		(at 80.01 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4f228357-26e3-4805-8ab0-0c0858c8c12b")
-	)
-	(junction
 		(at 40.64 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1560,12 +1264,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "684df723-1e6d-40e2-8371-90434125e92c")
-	)
-	(junction
-		(at 80.01 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6cc2ee77-96a6-4621-bafe-5e9e2f4f3dfe")
 	)
 	(junction
 		(at 80.01 100.33)
@@ -1602,12 +1300,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bde22d28-43ee-4ee6-a265-5d08fe8ab8d9")
-	)
-	(junction
-		(at 195.58 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c59a1eaa-bffc-418f-96ce-a22c80e54df5")
 	)
 	(junction
 		(at 80.01 121.92)
@@ -1657,16 +1349,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 80.01) (xy 195.58 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00f3ab5e-09ed-4fac-bebd-48e01cb89423")
-	)
-	(wire
-		(pts
 			(xy 198.12 72.39) (xy 148.59 72.39)
 		)
 		(stroke
@@ -1704,16 +1386,6 @@
 			(type default)
 		)
 		(uuid "08af1e3a-b534-43bf-96cd-1da2d45f1877")
-	)
-	(wire
-		(pts
-			(xy 86.36 176.53) (xy 86.36 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09a537d0-4c0b-4ae1-9b41-585a43dd99d1")
 	)
 	(wire
 		(pts
@@ -1787,6 +1459,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 80.01) (xy 198.12 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d55061b-d07c-494c-a4eb-4e4f1828f0f5")
+	)
+	(wire
+		(pts
 			(xy 148.59 72.39) (xy 148.59 49.53)
 		)
 		(stroke
@@ -1814,16 +1496,6 @@
 			(type default)
 		)
 		(uuid "277f49b9-2b16-4e35-89e0-d24fc7a77e83")
-	)
-	(wire
-		(pts
-			(xy 116.84 156.21) (xy 116.84 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b5d1cf7-7472-42f4-9f20-b92834172ad2")
 	)
 	(wire
 		(pts
@@ -1887,7 +1559,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 77.47) (xy 195.58 77.47)
+			(xy 193.04 77.47) (xy 198.12 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1904,16 +1576,6 @@
 			(type default)
 		)
 		(uuid "3147af7f-42db-4faf-8ec8-7621aff84e92")
-	)
-	(wire
-		(pts
-			(xy 66.04 176.53) (xy 66.04 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31b28864-d4ae-4e0c-a330-604fe8b2ff98")
 	)
 	(wire
 		(pts
@@ -1934,16 +1596,6 @@
 			(type default)
 		)
 		(uuid "39c3ea13-5890-4618-8568-f11beaccbd90")
-	)
-	(wire
-		(pts
-			(xy 66.04 156.21) (xy 66.04 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ff2ad05-53d8-4fee-9926-81167abc098f")
 	)
 	(wire
 		(pts
@@ -1994,16 +1646,6 @@
 			(type default)
 		)
 		(uuid "4bcd2adf-4b0c-4f8e-90e3-58fdf6385091")
-	)
-	(wire
-		(pts
-			(xy 76.2 176.53) (xy 76.2 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51922e7e-906f-4bde-a532-2843a6be07af")
 	)
 	(wire
 		(pts
@@ -2077,16 +1719,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 185.42) (xy 96.52 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d8b6bc4-43c8-4f26-8548-6d6a2876a714")
-	)
-	(wire
-		(pts
 			(xy 195.58 64.77) (xy 195.58 62.23)
 		)
 		(stroke
@@ -2117,7 +1749,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 40.64) (xy 82.55 40.64)
+			(xy 67.31 40.64) (xy 82.55 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2154,36 +1786,6 @@
 			(type default)
 		)
 		(uuid "72793c46-87c4-4447-a68e-9180334e0597")
-	)
-	(wire
-		(pts
-			(xy 195.58 80.01) (xy 195.58 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7296549c-58ac-4d7e-8601-0e243bf44f23")
-	)
-	(wire
-		(pts
-			(xy 116.84 185.42) (xy 116.84 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77af7772-dcea-4243-bf8b-49fefefbd768")
-	)
-	(wire
-		(pts
-			(xy 106.68 156.21) (xy 106.68 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a5bac52-7e33-4f68-8057-3510b0043e35")
 	)
 	(wire
 		(pts
@@ -2224,16 +1826,6 @@
 			(type default)
 		)
 		(uuid "8c30af40-1655-46a2-a581-19401df54ead")
-	)
-	(wire
-		(pts
-			(xy 86.36 156.21) (xy 86.36 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f96dd52-19ce-4cf9-bf2b-69e44bc50c8c")
 	)
 	(wire
 		(pts
@@ -2327,36 +1919,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 185.42) (xy 86.36 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a50e3675-f687-4f2d-891e-099377eea462")
-	)
-	(wire
-		(pts
-			(xy 96.52 156.21) (xy 96.52 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6d87648-fbfc-4efe-9d0f-96434916a406")
-	)
-	(wire
-		(pts
-			(xy 106.68 176.53) (xy 106.68 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abb2656b-f54c-44d9-a87d-37cfbed27405")
-	)
-	(wire
-		(pts
 			(xy 107.95 96.52) (xy 110.49 96.52)
 		)
 		(stroke
@@ -2364,16 +1926,6 @@
 			(type default)
 		)
 		(uuid "ad8dbc92-3d51-4619-94f8-3031f50ee7d4")
-	)
-	(wire
-		(pts
-			(xy 67.31 40.64) (xy 80.01 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "add6b5cc-7e72-4a54-a8fa-368a20eaad1e")
 	)
 	(wire
 		(pts
@@ -2387,7 +1939,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 66.04) (xy 82.55 66.04)
+			(xy 67.31 66.04) (xy 82.55 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2407,16 +1959,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 176.53) (xy 116.84 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2054a10-1e9a-49a0-b97e-8ab400b6ac45")
-	)
-	(wire
-		(pts
 			(xy 146.05 125.73) (xy 148.59 125.73)
 		)
 		(stroke
@@ -2424,16 +1966,6 @@
 			(type default)
 		)
 		(uuid "b2ab1796-0a56-4bab-a26f-c72901915995")
-	)
-	(wire
-		(pts
-			(xy 76.2 185.42) (xy 76.2 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4cbb79a-60ea-4f8f-82d8-2371013d3035")
 	)
 	(wire
 		(pts
@@ -2454,16 +1986,6 @@
 			(type default)
 		)
 		(uuid "b8f4d125-6f25-4da7-a260-1b26ae736d0b")
-	)
-	(wire
-		(pts
-			(xy 76.2 156.21) (xy 76.2 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "baf4e9fd-d88f-40df-a0e3-3a97b3d82556")
 	)
 	(wire
 		(pts
@@ -2547,16 +2069,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 185.42) (xy 66.04 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3ba37d2-e8c9-409e-9386-4844b147e9c9")
-	)
-	(wire
-		(pts
 			(xy 196.85 43.18) (xy 196.85 44.45)
 		)
 		(stroke
@@ -2564,16 +2076,6 @@
 			(type default)
 		)
 		(uuid "d774d4f9-1ba8-4651-b617-6d3326af89f4")
-	)
-	(wire
-		(pts
-			(xy 67.31 66.04) (xy 80.01 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7967a98-72d7-4660-9fb7-cdca7f4608fa")
 	)
 	(wire
 		(pts
@@ -2594,16 +2096,6 @@
 			(type default)
 		)
 		(uuid "dbc3da48-d0e0-48c2-a671-c805da0d4daf")
-	)
-	(wire
-		(pts
-			(xy 195.58 77.47) (xy 198.12 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de59451b-1820-4d66-9ac7-804ea8282a38")
 	)
 	(wire
 		(pts
@@ -2634,16 +2126,6 @@
 			(type default)
 		)
 		(uuid "e1174564-6731-44b5-8930-f3f24c6e02f1")
-	)
-	(wire
-		(pts
-			(xy 96.52 176.53) (xy 96.52 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8cec5ea-5c41-4d9b-a3c3-9f69e3bd267c")
 	)
 	(wire
 		(pts
@@ -2697,16 +2179,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 185.42) (xy 106.68 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "feaa28d3-5db6-46e5-99af-bde953628eea")
-	)
-	(wire
-		(pts
 			(xy 80.01 121.92) (xy 82.55 121.92)
 		)
 		(stroke
@@ -2735,17 +2207,6 @@
 		)
 		(uuid "ff7412d3-f25c-4eff-81be-184005972567")
 	)
-	(label "comp_lcle"
-		(at 106.68 156.21 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "27d0f111-a2e0-41b5-8f2c-b5547119fbf2")
-	)
 	(label "comp_mgtt"
 		(at 203.2 160.02 0)
 		(fields_autoplaced yes)
@@ -2756,17 +2217,6 @@
 			(justify left bottom)
 		)
 		(uuid "294ad69c-0535-4d95-b5d8-22b60d6dd008")
-	)
-	(label "comp_mstt"
-		(at 76.2 156.21 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "31cb0ab3-1cfd-493c-9267-dea6ae9e3f07")
 	)
 	(label "meas_out_v"
 		(at 200.66 160.02 180)
@@ -2822,28 +2272,6 @@
 			(justify left bottom)
 		)
 		(uuid "7b065796-8ca4-41b5-9bc9-94018e3e2550")
-	)
-	(label "comp_ucle"
-		(at 116.84 156.21 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9b9986cd-b1a5-4583-8838-73affaea6f9e")
-	)
-	(label "comp_mgtt"
-		(at 66.04 156.21 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9ccf0d66-d173-4c3c-af03-31a07401bcfd")
 	)
 	(label "comp_uvle"
 		(at 231.14 160.02 0)
@@ -2912,17 +2340,6 @@
 		(uuid "aea4da64-5549-48d7-b518-8235320112cd")
 	)
 	(label "comp_lvle"
-		(at 86.36 156.21 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "aec41ddd-55ea-469f-b57c-1109921438f3")
-	)
-	(label "comp_lvle"
 		(at 152.4 100.33 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2943,17 +2360,6 @@
 			(justify left bottom)
 		)
 		(uuid "c6438c73-5fd7-407e-9929-856e7db7298f")
-	)
-	(label "comp_uvle"
-		(at 96.52 156.21 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cad9bdb2-b07a-45b0-abd0-e5ab0d92e2ca")
 	)
 	(label "comp_lcle"
 		(at 152.4 125.73 0)
@@ -3597,93 +3003,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:R")
-		(at 96.52 181.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1f7d9f19-3cb4-4494-84c1-40fa1481b3bf")
-		(property "Reference" "R904"
-			(at 100.33 185.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 102.87 185.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 94.742 181.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
-			(at 96.52 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 96.52 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC1210FR-0710KL"
-			(at 96.52 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VPN" "603-RC1210FR-0710KL"
-			(at 96.52 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5393f16b-7e67-4f98-bfed-5e6909f13469")
-		)
-		(pin "2"
-			(uuid "75fbd1ea-af93-4bc4-b04d-73cc3a34d57c")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
-					(reference "R904")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pss:-5V_compare-logic")
 		(at 40.64 181.61 180)
 		(unit 1)
@@ -4181,180 +3500,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:R")
-		(at 76.2 181.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "368bc9db-fd95-49a4-9ef3-b20d86cd1636")
-		(property "Reference" "R902"
-			(at 80.01 185.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 82.55 185.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 74.422 181.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
-			(at 76.2 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 76.2 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC1210FR-0710KL"
-			(at 76.2 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VPN" "603-RC1210FR-0710KL"
-			(at 76.2 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "545493de-7681-4464-9878-f359d9c7335a")
-		)
-		(pin "2"
-			(uuid "42d7f584-a194-4f7e-a204-ced86b1d9395")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
-					(reference "R902")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pss:LED")
-		(at 116.84 172.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3eb2f0df-2b8f-4bd8-b3ae-96108be17e3d")
-		(property "Reference" "D906"
-			(at 120.65 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 123.19 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "pss:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 116.84 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "./datasheet/IN-S85CS5G.pdf"
-			(at 116.84 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 116.84 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "IN-S85CS5G"
-			(at 116.84 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VPN" "743-IN-S85CS5G"
-			(at 116.84 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f92d0404-ed42-44c3-876e-dfa58811cb7b")
-		)
-		(pin "1"
-			(uuid "c66cdf73-7a8a-4329-b205-2d58c0f7e4e2")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
-					(reference "D906")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pss:C")
 		(at 30.48 168.91 180)
 		(unit 1)
@@ -4526,72 +3671,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:-5V_compare-logic")
-		(at 66.04 186.69 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "55c12ecb-de4d-4548-9941-eb8c5657851e")
-		(property "Reference" "#PWR0903"
-			(at 66.04 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-5V_compare-logic"
-			(at 66.04 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 66.04 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2e029a2c-6e3c-4b1e-8fc5-a4408b2fa8e0")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
-					(reference "#PWR0903")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pss:TestPoint")
 		(at 177.8 49.53 0)
 		(mirror y)
@@ -4671,93 +3750,6 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
 					(reference "TP913")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pss:R")
-		(at 86.36 181.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5b86b85a-5421-4b00-95e9-8e1ba25c6dc0")
-		(property "Reference" "R903"
-			(at 90.17 185.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 92.71 185.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 84.582 181.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
-			(at 86.36 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 86.36 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC1210FR-0710KL"
-			(at 86.36 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VPN" "603-RC1210FR-0710KL"
-			(at 86.36 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f01b784-c341-4c98-9fbe-29d52b05ed1c")
-		)
-		(pin "2"
-			(uuid "964102da-3282-4e2c-973c-3d1486b0b66c")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
-					(reference "R903")
 					(unit 1)
 				)
 			)
@@ -4970,93 +3962,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:R")
-		(at 66.04 181.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "61751aa0-e16c-4e7b-ae0c-14988509e0c8")
-		(property "Reference" "R901"
-			(at 69.85 185.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 72.39 185.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 64.262 181.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
-			(at 66.04 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 66.04 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC1210FR-0710KL"
-			(at 66.04 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VPN" "603-RC1210FR-0710KL"
-			(at 66.04 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0fb34e9c-eebb-4619-a1c0-28ac98c92b4d")
-		)
-		(pin "2"
-			(uuid "0450f5ba-db34-4bb3-b3d3-da86d558b3e6")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
-					(reference "R901")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pss:4069")
 		(at 137.16 100.33 0)
 		(unit 3)
@@ -5180,244 +4085,6 @@
 	)
 	(symbol
 		(lib_id "pss:TestPoint")
-		(at 80.01 66.04 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6325f3fa-5038-4c73-a005-54b3ac3690b0")
-		(property "Reference" "TP903"
-			(at 78.74 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 77.47 64.0079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "pss:TP_0805_2012Metric"
-			(at 74.93 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "./datasheet/RCTCTE.pdf"
-			(at 74.93 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 80.01 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RCTCTE"
-			(at 80.01 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VPN" "660-RCTCTE"
-			(at 80.01 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "535a60ed-9a4c-405f-8686-f59307ba07b3")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
-					(reference "TP903")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pss:R")
-		(at 106.68 181.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6897f02e-1a7e-459d-84c9-28a2da73dc32")
-		(property "Reference" "R905"
-			(at 110.49 185.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 113.03 185.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 104.902 181.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
-			(at 106.68 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 106.68 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC1210FR-0710KL"
-			(at 106.68 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VPN" "603-RC1210FR-0710KL"
-			(at 106.68 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5eac12c2-55ee-4b4f-b017-b20553b48ef6")
-		)
-		(pin "2"
-			(uuid "99da7eb8-1c84-4bdb-ae5d-4d3df2afe29c")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
-					(reference "R905")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pss:-5V_compare-logic")
-		(at 76.2 189.23 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ae0f232-3db1-4f9f-b1e3-aad1913648f0")
-		(property "Reference" "#PWR0904"
-			(at 76.2 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-5V_compare-logic"
-			(at 76.2 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 76.2 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a5e97a67-861c-4c1c-9e58-13e3de7a32e1")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
-					(reference "#PWR0904")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pss:TestPoint")
 		(at 80.01 100.33 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5495,93 +4162,6 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
 					(reference "TP906")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pss:LED")
-		(at 96.52 172.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "72f49a09-a53b-48d7-b575-5c0a510cb970")
-		(property "Reference" "D904"
-			(at 100.33 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 102.87 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "pss:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 96.52 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "./datasheet/IN-S85CS5G.pdf"
-			(at 96.52 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 96.52 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "IN-S85CS5G"
-			(at 96.52 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VPN" "743-IN-S85CS5G"
-			(at 96.52 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "28251c60-3e33-42c3-86c4-8ca2e4a66f44")
-		)
-		(pin "1"
-			(uuid "2b158e8e-7f24-4ca0-90e8-493bfcf7c9d9")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
-					(reference "D904")
 					(unit 1)
 				)
 			)
@@ -5711,72 +4291,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:-5V_compare-logic")
-		(at 86.36 186.69 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7c60486a-dcff-4dc6-85f9-dba4ee29aeb7")
-		(property "Reference" "#PWR0905"
-			(at 86.36 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-5V_compare-logic"
-			(at 86.36 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 86.36 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "488f42c2-8514-4c0b-8033-421178585260")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
-					(reference "#PWR0905")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pss:+10V_compare-logic")
 		(at 151.13 172.72 90)
 		(unit 1)
@@ -5838,72 +4352,6 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
 					(reference "#PWR0909")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pss:-5V_compare-logic")
-		(at 116.84 189.23 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8852e7ba-90d3-4777-9eea-edbc555de030")
-		(property "Reference" "#PWR0908"
-			(at 116.84 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-5V_compare-logic"
-			(at 116.84 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 116.84 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c83701af-9073-4415-8f06-f3ff27d82609")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
-					(reference "#PWR0908")
 					(unit 1)
 				)
 			)
@@ -6419,72 +4867,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:-5V_compare-logic")
-		(at 96.52 189.23 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a196eeb2-533e-4c7c-9fd6-4bf1c16fd12b")
-		(property "Reference" "#PWR0906"
-			(at 96.52 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-5V_compare-logic"
-			(at 96.52 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 96.52 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ac6b5d27-db11-40f0-b235-cd96100e56e7")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
-					(reference "#PWR0906")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pss:4069")
 		(at 137.16 49.53 0)
 		(unit 1)
@@ -6601,93 +4983,6 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
 					(reference "U901")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pss:LED")
-		(at 76.2 172.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a4d8c98c-a71e-4033-ac8b-6ca34593f416")
-		(property "Reference" "D902"
-			(at 80.01 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 82.55 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "pss:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 76.2 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "./datasheet/IN-S85CS5G.pdf"
-			(at 76.2 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 76.2 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "IN-S85CS5G"
-			(at 76.2 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VPN" "743-IN-S85CS5G"
-			(at 76.2 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "60de61ab-8f75-488c-9a37-882d1d912804")
-		)
-		(pin "1"
-			(uuid "175c2f09-540c-4eef-9641-9cb245382f57")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
-					(reference "D902")
 					(unit 1)
 				)
 			)
@@ -7033,93 +5328,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:LED")
-		(at 106.68 172.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c039ac4d-8d3d-4cb4-a6ac-27f7b02f3c3c")
-		(property "Reference" "D905"
-			(at 110.49 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 113.03 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "pss:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 106.68 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "./datasheet/IN-S85CS5G.pdf"
-			(at 106.68 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 106.68 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "IN-S85CS5G"
-			(at 106.68 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VPN" "743-IN-S85CS5G"
-			(at 106.68 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "40f4545c-9acc-4ea1-8838-372c3eb7cc75")
-		)
-		(pin "1"
-			(uuid "8824dfac-d379-44e1-8eec-ec498b4e9647")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
-					(reference "D905")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pss:4069")
 		(at 163.83 190.5 0)
 		(unit 6)
@@ -7242,189 +5450,17 @@
 		)
 	)
 	(symbol
-		(lib_id "pss:TestPoint")
-		(at 80.01 40.64 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c7472ad3-cf95-45dc-a8e9-fefdfc5b1ad7")
-		(property "Reference" "TP901"
-			(at 78.74 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 77.47 38.6079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "pss:TP_0805_2012Metric"
-			(at 74.93 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "./datasheet/RCTCTE.pdf"
-			(at 74.93 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 80.01 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RCTCTE"
-			(at 80.01 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VPN" "660-RCTCTE"
-			(at 80.01 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d51e3097-7f72-40b7-9886-1c1c2e10a365")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
-					(reference "TP901")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pss:LED")
-		(at 66.04 172.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cdda189f-8833-4476-9c1d-485617fa3a62")
-		(property "Reference" "D901"
-			(at 69.85 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 72.39 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "pss:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 66.04 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "./datasheet/IN-S85CS5G.pdf"
-			(at 66.04 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 66.04 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "IN-S85CS5G"
-			(at 66.04 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VPN" "743-IN-S85CS5G"
-			(at 66.04 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5b8be4fb-39cb-4f7a-8985-884eb13b076e")
-		)
-		(pin "1"
-			(uuid "4e62c79a-02ae-431b-a1a5-c252e5d3ba9e")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
-					(reference "D901")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pss:-5V_compare-logic")
-		(at 106.68 186.69 180)
+		(at 193.04 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f34f935d-ff8d-4b94-959d-63e0fbe85ec4")
-		(property "Reference" "#PWR0907"
-			(at 106.68 182.88 0)
+		(uuid "f1f747a4-f66f-49cc-aad1-df78cf3fc9ab")
+		(property "Reference" "#PWR0916"
+			(at 196.85 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7433,15 +5469,16 @@
 			)
 		)
 		(property "Value" "-5V_compare-logic"
-			(at 106.68 191.77 0)
+			(at 189.23 80.0099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 186.69 0)
+			(at 193.04 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7450,7 +5487,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 186.69 0)
+			(at 193.04 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7459,7 +5496,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 186.69 0)
+			(at 193.04 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7468,12 +5505,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "44aff23f-a4e9-4d08-a145-522f3ed66a8e")
+			(uuid "86f41493-1bdb-4d36-ab1d-2218f2bf7256")
 		)
 		(instances
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
-					(reference "#PWR0907")
+					(reference "#PWR0916")
 					(unit 1)
 				)
 			)
@@ -7558,180 +5595,6 @@
 			(project "pss"
 				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
 					(reference "TP911")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pss:R")
-		(at 116.84 181.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f93d8118-27db-4056-8741-9612cfb682ad")
-		(property "Reference" "R906"
-			(at 120.65 185.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 123.19 185.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "pss:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 115.062 181.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "./datasheet/R_SMD_Yageo.pdf"
-			(at 116.84 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 116.84 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC1210FR-0710KL"
-			(at 116.84 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VPN" "603-RC1210FR-0710KL"
-			(at 116.84 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c31b39f-c14e-4b0e-bca1-63dd9af7a3e7")
-		)
-		(pin "2"
-			(uuid "fb0c5483-21c7-418c-8667-84b1bd9188a1")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
-					(reference "R906")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pss:LED")
-		(at 86.36 172.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f9cae012-ec1a-4889-b52c-3f53c066e1fa")
-		(property "Reference" "D903"
-			(at 90.17 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 92.71 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "pss:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 86.36 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "./datasheet/IN-S85CS5G.pdf"
-			(at 86.36 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 86.36 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "IN-S85CS5G"
-			(at 86.36 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VPN" "743-IN-S85CS5G"
-			(at 86.36 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f52b0877-6028-4ecb-85e7-1fa69d06b846")
-		)
-		(pin "1"
-			(uuid "5a0e3b9e-cca8-470e-81c8-1d440640d3b4")
-		)
-		(instances
-			(project "pss"
-				(path "/3c438cf7-9350-4e9f-8115-1deba8984176/6d7b7ab4-65f8-454e-98e1-8374f6b5e166/854e83c3-d665-4da7-a2c9-4ae5fb1019c9"
-					(reference "D903")
 					(unit 1)
 				)
 			)
