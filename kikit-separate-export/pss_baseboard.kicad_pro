@@ -1821,7 +1821,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../gerber/baseboard/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
