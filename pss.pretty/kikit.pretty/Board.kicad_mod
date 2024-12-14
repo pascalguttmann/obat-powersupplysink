@@ -1,0 +1,107 @@
+(footprint "Board"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Mark board for extraction")
+	(property "Reference" "B?"
+		(at -4.5 -5 0)
+		(layer "Dwgs.User")
+		(uuid "17a112ea-d5b7-4870-bebd-3684043e054d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "Board"
+		(at -7.25 -5 0)
+		(layer "Dwgs.User")
+		(uuid "a24a0565-2d68-4291-aa92-25add5960dfb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Board"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9250c86-805d-4bd9-8224-78201257c2fc")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d1507124-ad65-480f-b5e3-bd90ba5b4904")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d33e11e-9c47-4a82-91b9-01afe707e191")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.25 -4)
+		(end -9.25 -4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "4ab13735-ca45-4864-a12e-301848a639f6")
+	)
+	(fp_line
+		(start 0 0)
+		(end -1.25 -4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "fd1f2441-2164-4d7d-8791-d13968e5e141")
+	)
+	(fp_line
+		(start 0 0)
+		(end -1 -0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "94ddfa2d-cc58-41ce-bf9c-6a21b59513ea")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0.5 -1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "1c4d7b70-f77a-41c1-8ab2-ad98e4dee7c6")
+	)
+)
