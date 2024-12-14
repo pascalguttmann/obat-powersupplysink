@@ -105,7 +105,7 @@
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
-        "track_dangling": "warning",
+        "track_dangling": "ignore",
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",
@@ -128,8 +128,8 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.254,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_annular_width": 0.07493,
+        "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -474,7 +474,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.254,
-        "via_diameter": 0.5,
+        "via_diameter": 0.45,
         "via_drill": 0.3,
         "wire_width": 6
       },
@@ -491,7 +491,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 10.16,
-        "via_diameter": 0.5,
+        "via_diameter": 0.45,
         "via_drill": 0.3,
         "wire_width": 6
       },
@@ -508,7 +508,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 20.32,
-        "via_diameter": 0.5,
+        "via_diameter": 0.45,
         "via_drill": 0.3,
         "wire_width": 6
       },
@@ -525,7 +525,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.27,
-        "via_diameter": 0.5,
+        "via_diameter": 0.45,
         "via_drill": 0.3,
         "wire_width": 6
       },
@@ -542,7 +542,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.27,
-        "via_diameter": 0.5,
+        "via_diameter": 0.45,
         "via_drill": 0.3,
         "wire_width": 6
       }
@@ -640,7 +640,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "board/brd-0.13.0",
+      "plot": "board/brd-0.14.0",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
