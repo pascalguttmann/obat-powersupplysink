@@ -640,7 +640,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "board/brd-0.14.0",
+      "plot": "board/brd-1.0.0",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -1038,5 +1038,7 @@
       "relay"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "sch_rev": "1.0.0"
+  }
 }
